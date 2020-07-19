@@ -8890,7 +8890,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <attribute name="MFR" value="Kemet"/>
 <attribute name="MPN" value="C0603C103M5RACTU"/>
 </part>
-<part name="C12" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="10n">
+<part name="C12" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="10n">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="399-7842-1-ND"/>
 <attribute name="MFR" value="Kemet"/>
@@ -8902,7 +8902,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <attribute name="MFR" value="Kemet"/>
 <attribute name="MPN" value="C0805C104Z5VACTU"/>
 </part>
-<part name="C14" library="oresat-rcl" deviceset="C-EU" device="0805-C-NOSILK" value="100n">
+<part name="C14" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="399-1177-1-ND"/>
 <attribute name="MFR" value="Kemet"/>
@@ -8974,7 +8974,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <attribute name="MFR" value="Murata"/>
 <attribute name="MPN" value="GRM155R71H102KA01J"/>
 </part>
-<part name="C25" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="10n">
+<part name="C25" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="10n">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="399-7842-1-ND"/>
 <attribute name="MFR" value="Kemet"/>
@@ -9010,7 +9010,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <attribute name="MFR" value="Kemet"/>
 <attribute name="MPN" value="C0603C103M5RACTU"/>
 </part>
-<part name="C31" library="oresat-rcl" deviceset="C-EU" device="0805-C-NOSILK" value="100n">
+<part name="C31" library="oresat-rcl" deviceset="R-US_" device="0402-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="399-1177-1-ND"/>
 <attribute name="MFR" value="Kemet"/>
@@ -9121,7 +9121,6 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 be roughly 50mm to approximate length on 
 OreSat card</text>
 <text x="182.88" y="231.14" size="1.778" layer="97">Place jumper to determine which connected dev board powers the 3.3V rail</text>
-<text x="193.04" y="132.08" size="1.778" layer="94">TODO:Ask about this</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -9434,7 +9433,7 @@ OreSat card</text>
 <attribute name="DIS" x="347.98" y="205.74" size="1.778" layer="96" display="off"/>
 <attribute name="MFR" x="347.98" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C31" gate="CE" x="271.78" y="205.74" smashed="yes">
+<instance part="C31" gate="R" x="271.78" y="205.74" smashed="yes">
 <attribute name="NAME" x="273.304" y="206.121" size="1.778" layer="95"/>
 <attribute name="VALUE" x="273.304" y="201.041" size="1.778" layer="96"/>
 <attribute name="MPN" x="271.78" y="205.74" size="1.778" layer="96" display="off"/>
@@ -9812,8 +9811,8 @@ OreSat card</text>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C31" gate="CE" pin="2"/>
-<wire x1="271.78" y1="200.66" x2="271.78" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="C31" gate="R" pin="2"/>
+<wire x1="276.86" y1="205.74" x2="271.78" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="198.12" x2="279.4" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="C25" gate="CE" pin="2"/>
 <wire x1="279.4" y1="198.12" x2="279.4" y2="200.66" width="0.1524" layer="91"/>
@@ -10230,8 +10229,8 @@ OreSat card</text>
 <pinref part="C25" gate="CE" pin="1"/>
 <wire x1="279.4" y1="208.28" x2="287.02" y2="208.28" width="0.1524" layer="91"/>
 <junction x="287.02" y="208.28"/>
-<pinref part="C31" gate="CE" pin="1"/>
-<wire x1="271.78" y1="208.28" x2="279.4" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="C31" gate="R" pin="1"/>
+<wire x1="266.7" y1="205.74" x2="279.4" y2="208.28" width="0.1524" layer="91"/>
 <junction x="279.4" y="208.28"/>
 <pinref part="U2" gate="A" pin="VCC"/>
 <pinref part="3.3V7" gate="G$1" pin="3.3V"/>
