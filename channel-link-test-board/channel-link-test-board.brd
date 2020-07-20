@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -186,10 +186,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="116" y2="0" width="0" layer="20"/>
-<wire x1="116" y1="0" x2="116" y2="83" width="0" layer="20"/>
-<wire x1="116" y1="83" x2="0" y2="83" width="0" layer="20"/>
-<wire x1="0" y1="83" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="82" x2="0" y2="1" width="0" layer="20"/>
+<wire x1="0" y1="1" x2="1" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="1" y1="0" x2="115" y2="0" width="0" layer="20"/>
+<wire x1="115" y1="0" x2="116" y2="1" width="0" layer="20" curve="90"/>
+<wire x1="116" y1="1" x2="116" y2="82" width="0" layer="20"/>
+<wire x1="116" y1="82" x2="115" y2="83" width="0" layer="20" curve="90"/>
+<wire x1="115" y1="83" x2="1" y2="83" width="0" layer="20"/>
+<wire x1="1" y1="83" x2="0" y2="82" width="0" layer="20" curve="90"/>
 <text x="53.7" y="60.2" size="1" layer="25">VccTX</text>
 <text x="61.2" y="60.2" size="1" layer="25">VccRx</text>
 <text x="41" y="6" size="1.778" layer="21" font="vector" ratio="10">OreSat Channel Link Test Board V1.0
@@ -4748,22 +4752,34 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="JP1" pad="59"/>
 <contactref element="JP1" pad="46"/>
 <polygon width="0.1" layer="2" isolate="0.2">
-<vertex x="0" y="83"/>
-<vertex x="0" y="0"/>
-<vertex x="116" y="0"/>
-<vertex x="116" y="83"/>
+<vertex x="0" y="82"/>
+<vertex x="0" y="1" curve="90"/>
+<vertex x="1" y="0"/>
+<vertex x="115" y="0" curve="90"/>
+<vertex x="116" y="1"/>
+<vertex x="116" y="82" curve="90"/>
+<vertex x="115" y="83"/>
+<vertex x="1" y="83" curve="90"/>
 </polygon>
 <polygon width="0.1" layer="16" isolate="0.2" rank="6">
-<vertex x="0" y="82.8"/>
-<vertex x="0" y="0"/>
-<vertex x="116" y="0"/>
-<vertex x="116" y="82.8"/>
+<vertex x="0" y="82"/>
+<vertex x="0" y="1" curve="90"/>
+<vertex x="1" y="0"/>
+<vertex x="115" y="0" curve="90"/>
+<vertex x="116" y="1"/>
+<vertex x="116" y="82" curve="90"/>
+<vertex x="115" y="83"/>
+<vertex x="1" y="83" curve="90"/>
 </polygon>
 <polygon width="0.1" layer="1" isolate="0.2" rank="6">
-<vertex x="0" y="82.8"/>
-<vertex x="0" y="0"/>
-<vertex x="116" y="0"/>
-<vertex x="116" y="82.8"/>
+<vertex x="0" y="82"/>
+<vertex x="0" y="1" curve="90"/>
+<vertex x="1" y="0"/>
+<vertex x="115" y="0" curve="90"/>
+<vertex x="116" y="1"/>
+<vertex x="116" y="82" curve="90"/>
+<vertex x="115" y="83"/>
+<vertex x="1" y="83" curve="90"/>
 </polygon>
 <contactref element="JP2" pad="51"/>
 <contactref element="JP2" pad="53"/>
@@ -4875,10 +4891,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="22.5" y="37.8" extent="1-16" drill="0.254"/>
 <via x="22.4" y="40.8" extent="1-16" drill="0.254"/>
 <polygon width="0.1" layer="15" isolate="0.2" rank="6">
-<vertex x="0" y="83"/>
-<vertex x="0" y="0"/>
-<vertex x="116" y="0"/>
-<vertex x="116" y="83"/>
+<vertex x="0" y="82"/>
+<vertex x="0" y="1" curve="90"/>
+<vertex x="1" y="0"/>
+<vertex x="115" y="0" curve="90"/>
+<vertex x="116" y="1"/>
+<vertex x="116" y="82" curve="90"/>
+<vertex x="115" y="83"/>
+<vertex x="1" y="83" curve="90"/>
 </polygon>
 <contactref element="JP2" pad="1"/>
 <contactref element="JP2" pad="3"/>
