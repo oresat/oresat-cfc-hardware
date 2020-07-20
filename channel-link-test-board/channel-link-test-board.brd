@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -4566,7 +4566,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="29.4" y1="41.7498" x2="30.021409375" y2="41.7498" width="0.35" layer="1"/>
 <wire x1="30.021409375" y1="41.7498" x2="30.595584375" y2="42.323975" width="0.35" layer="1"/>
 <wire x1="85.6" y1="41.752390625" x2="84.859290625" y2="41.752390625" width="0.35" layer="1"/>
-<wire x1="83.734778125" y1="42.3250625" x2="83.734515625" y2="42.325325" width="0.3" layer="1"/>
 <wire x1="83.734778125" y1="42.3250625" x2="83.733690625" y2="42.323975" width="0.35" layer="1"/>
 <wire x1="83.733690625" y1="42.323975" x2="30.595584375" y2="42.323975" width="0.35" layer="1"/>
 <wire x1="84.28661875" y1="42.3250625" x2="83.734778125" y2="42.3250625" width="0.35" layer="1"/>
@@ -4579,25 +4578,20 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U2" pad="10"/>
 <contactref element="R3" pad="1"/>
 <wire x1="29.4" y1="41.2498" x2="30.323865625" y2="41.2498" width="0.35" layer="1"/>
-<wire x1="30.75519375" y1="41.681128125" x2="30.323865625" y2="41.2498" width="0.35" layer="1"/>
-<wire x1="83.73544375" y1="41.681128125" x2="30.75519375" y2="41.681128125" width="0.35" layer="1"/>
+<wire x1="30.323865625" y1="41.2498" x2="30.75519375" y2="41.681128125" width="0.35" layer="1"/>
 <wire x1="85.6" y1="41.252390625" x2="84.604278125" y2="41.252390625" width="0.35" layer="1"/>
-<wire x1="84.178296875" y1="41.678371875" x2="83.8289875" y2="41.678371875" width="0.35" layer="1"/>
-<wire x1="84.604278125" y1="41.252390625" x2="84.178296875" y2="41.678371875" width="0.35" layer="1"/>
-<wire x1="84.178296875" y1="41.678371875" x2="84.175540625" y2="41.681128125" width="0.1524" layer="1"/>
-<wire x1="84.175540625" y1="41.681128125" x2="83.80134375" y2="41.681128125" width="0.1524" layer="1"/>
-<wire x1="83.734778125" y1="41.6804625" x2="83.73544375" y2="41.681128125" width="0.1524" layer="1"/>
+<wire x1="84.604278125" y1="41.252390625" x2="84.17620625" y2="41.6804625" width="0.35" layer="1"/>
 <wire x1="86.378859375" y1="41.252390625" x2="85.6" y2="41.252390625" width="0.2" layer="1"/>
 <wire x1="28.621409375" y1="41.2498" x2="29.4" y2="41.2498" width="0.2" layer="1"/>
-<wire x1="83.734778125" y1="41.6804625" x2="83.80134375" y2="41.681128125" width="0" layer="19" extent="1-1"/>
+<wire x1="83.7341125" y1="41.681128125" x2="83.734778125" y2="41.6804625" width="0.35" layer="1"/>
+<wire x1="30.75519375" y1="41.681128125" x2="83.7341125" y2="41.681128125" width="0.35" layer="1"/>
+<wire x1="83.734778125" y1="41.6804625" x2="84.17620625" y2="41.6804625" width="0.35" layer="1"/>
 </signal>
 <signal name="LVDS1+">
 <contactref element="U1" pad="38"/>
 <contactref element="U2" pad="11"/>
 <contactref element="R3" pad="2"/>
 <wire x1="29.4" y1="40.7498" x2="30.723865625" y2="40.7498" width="0.35" layer="1"/>
-<wire x1="83.73335" y1="41.081890625" x2="83.734778125" y2="41.0804625" width="0.3" layer="1"/>
-<wire x1="83.734778125" y1="41.0804625" x2="83.73406875" y2="41.081171875" width="0.3" layer="1"/>
 <wire x1="30.723865625" y1="40.7498" x2="31.05426875" y2="41.080203125" width="0.35" layer="1"/>
 <wire x1="83.734778125" y1="41.0804625" x2="83.73451875" y2="41.080203125" width="0.35" layer="1"/>
 <wire x1="83.73451875" y1="41.080203125" x2="31.05426875" y2="41.080203125" width="0.35" layer="1"/>
@@ -4612,17 +4606,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U1" pad="35"/>
 <contactref element="U2" pad="14"/>
 <contactref element="R2" pad="1"/>
-<wire x1="83.734778125" y1="38.956165625" x2="83.734896875" y2="38.956046875" width="0.3" layer="1"/>
 <wire x1="30.5502" y1="39.2498" x2="30.8508625" y2="38.9491375" width="0.35" layer="1"/>
 <wire x1="29.4" y1="39.2498" x2="30.5502" y2="39.2498" width="0.35" layer="1"/>
 <wire x1="85.6" y1="39.252390625" x2="84.352390625" y2="39.252390625" width="0.35" layer="1"/>
 <wire x1="83.734778125" y1="38.956165625" x2="83.72775" y2="38.9491375" width="0.35" layer="1"/>
 <wire x1="83.72775" y1="38.9491375" x2="30.8508625" y2="38.9491375" width="0.35" layer="1"/>
-<wire x1="84.0491375" y1="38.9491375" x2="83.74180625" y2="38.9491375" width="0.35" layer="1"/>
-<wire x1="83.734778125" y1="38.956165625" x2="83.74180625" y2="38.9491375" width="0.35" layer="1"/>
+<wire x1="83.74180625" y1="38.9491375" x2="84.0491375" y2="38.9491375" width="0.35" layer="1"/>
 <wire x1="84.352390625" y1="39.252390625" x2="84.0491375" y2="38.9491375" width="0.35" layer="1"/>
 <wire x1="86.378859375" y1="39.252390625" x2="85.6" y2="39.252390625" width="0.2" layer="1"/>
 <wire x1="28.621409375" y1="39.2498" x2="29.4" y2="39.2498" width="0.2" layer="1"/>
+<wire x1="83.734778125" y1="38.956165625" x2="83.74180625" y2="38.9491375" width="0.1524" layer="1"/>
 </signal>
 <signal name="LVDS2+">
 <contactref element="U2" pad="15"/>
@@ -5836,6 +5829,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <errors>
 <approved hash="7,39,d34bcef84ef8534b"/>
 <approved hash="7,39,12ea067e867e92ea"/>
+<approved hash="7,39,17c92ca66feb5106"/>
+<approved hash="7,39,27d22ca66fe56493"/>
+<approved hash="7,39,028d11389138828d"/>
+<approved hash="7,39,17c71f115fd65106"/>
+<approved hash="7,39,4c6f4092c092cc6f"/>
+<approved hash="23,1,29462b474754f8c8"/>
 </errors>
 </board>
 </drawing>
