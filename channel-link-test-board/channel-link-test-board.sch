@@ -10167,21 +10167,36 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MPN" value="RC0603FR-07100RL"/>
 </part>
 <part name="TP1" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X30" device="" package3d_urn="urn:adsk.eagle:package:22463/2"/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X30" device="" package3d_urn="urn:adsk.eagle:package:22463/2">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="609-3528-ND"/>
+<attribute name="MFR" value="Amphenol"/>
+<attribute name="MPN" value="71918-160LF"/>
+</part>
 <part name="3.3V13" library="oresat-supplies" deviceset="3.3V" device=""/>
 <part name="TP3" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP4" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP5" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP6" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="GND15" library="oresat-supplies" deviceset="GND" device=""/>
-<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X30" device="" package3d_urn="urn:adsk.eagle:package:22463/2"/>
+<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X30" device="" package3d_urn="urn:adsk.eagle:package:22463/2">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="609-3528-ND"/>
+<attribute name="MFR" value="Amphenol"/>
+<attribute name="MPN" value="71918-160LF"/>
+</part>
 <part name="GND16" library="oresat-supplies" deviceset="GND" device=""/>
 <part name="TP10" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP11" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP12" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP13" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP14" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
-<part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="732-5316-ND"/>
+<attribute name="MFR" value="Wurth"/>
+<attribute name="MPN" value="61300311121"/>
+</part>
 <part name="C37" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="10u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="490-14372-1-ND"/>
@@ -10649,6 +10664,10 @@ OreSat card</text>
 <instance part="JP1" gate="A" x="22.86" y="147.32" smashed="yes">
 <attribute name="NAME" x="16.51" y="186.055" size="1.778" layer="95"/>
 <attribute name="VALUE" x="16.51" y="104.14" size="1.778" layer="96"/>
+<attribute name="DPN" x="22.86" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="22.86" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="22.86" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="22.86" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="3.3V13" gate="G$1" x="220.98" y="256.54" smashed="yes">
 <attribute name="VALUE" x="218.44" y="256.54" size="1.778" layer="96"/>
@@ -10671,6 +10690,10 @@ OreSat card</text>
 <instance part="JP2" gate="A" x="373.38" y="149.86" smashed="yes" rot="MR0">
 <attribute name="NAME" x="379.73" y="188.595" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="379.73" y="106.68" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DPN" x="373.38" y="149.86" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="373.38" y="149.86" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFR" x="373.38" y="149.86" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DIS" x="373.38" y="149.86" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND16" gate="1" x="391.16" y="101.6" smashed="yes">
 <attribute name="VALUE" x="388.62" y="99.06" size="1.778" layer="96"/>
@@ -10693,6 +10716,10 @@ OreSat card</text>
 <instance part="JP3" gate="A" x="220.98" y="236.22" smashed="yes" rot="R270">
 <attribute name="NAME" x="226.695" y="242.57" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="213.36" y="242.57" size="1.778" layer="96" rot="R270"/>
+<attribute name="MPN" x="220.98" y="236.22" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="220.98" y="236.22" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="220.98" y="236.22" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIS" x="220.98" y="236.22" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C37" gate="CE" x="134.62" y="254" smashed="yes">
 <attribute name="NAME" x="136.144" y="254.381" size="1.778" layer="95"/>

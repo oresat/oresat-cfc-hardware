@@ -4443,9 +4443,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X30" package3d_urn="urn:adsk.eagle:package:22463/2" value="" x="5.701640625" y="39.860653125" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="5.701640625" y="39.860653125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="A33174-ND" x="5.701640625" y="39.860653125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="TE" x="5.701640625" y="39.860653125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="1-5103308-2" x="5.701640625" y="39.860653125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="609-3528-ND" x="5.701640625" y="39.860653125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Amphenol" x="5.701640625" y="39.860653125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="71918-160LF" x="5.701640625" y="39.860653125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="4.369346875" y="79.576640625" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="0" x="5.701640625" y="39.860653125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="1.256640625" y="79.230653125" size="1.27" layer="27" rot="R270"/>
@@ -4468,9 +4468,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X30" package3d_urn="urn:adsk.eagle:package:22463/2" value="" x="110.59991875" y="42.400653125" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="110.59991875" y="42.400653125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="A33174-ND" x="110.59991875" y="42.400653125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="TE" x="110.59991875" y="42.400653125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="1-5103308-2" x="110.59991875" y="42.400653125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="609-3528-ND" x="110.59991875" y="42.400653125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Amphenol" x="110.59991875" y="42.400653125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="71918-160LF" x="110.59991875" y="42.400653125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="111.969346875" y="2.42491875" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="0" x="110.59991875" y="42.400653125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="115.04491875" y="3.030653125" size="1.27" layer="27" rot="R90"/>
@@ -4499,7 +4499,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIS" value="Digi-Key" x="59.9" y="58.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DPN" value="732-5316-ND" x="59.9" y="58.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Wurth" x="59.9" y="58.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="61300311121 " x="59.9" y="58.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="61300311121" x="59.9" y="58.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="61.8862" y="52.4712" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="92" x="59.9" y="58.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="63.71" y="61.675" size="1.27" layer="27" rot="R180"/>
