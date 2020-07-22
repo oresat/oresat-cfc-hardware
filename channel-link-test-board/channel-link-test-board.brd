@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -186,10 +186,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="116" y2="0" width="0" layer="20"/>
-<wire x1="116" y1="0" x2="116" y2="83" width="0" layer="20"/>
-<wire x1="116" y1="83" x2="0" y2="83" width="0" layer="20"/>
-<wire x1="0" y1="83" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="82" x2="0" y2="1" width="0" layer="20"/>
+<wire x1="0" y1="1" x2="1" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="1" y1="0" x2="115" y2="0" width="0" layer="20"/>
+<wire x1="115" y1="0" x2="116" y2="1" width="0" layer="20" curve="90"/>
+<wire x1="116" y1="1" x2="116" y2="82" width="0" layer="20"/>
+<wire x1="116" y1="82" x2="115" y2="83" width="0" layer="20" curve="90"/>
+<wire x1="115" y1="83" x2="1" y2="83" width="0" layer="20"/>
+<wire x1="1" y1="83" x2="0" y2="82" width="0" layer="20" curve="90"/>
 <text x="53.7" y="60.2" size="1" layer="25">VccTX</text>
 <text x="61.2" y="60.2" size="1" layer="25">VccRx</text>
 <text x="41" y="6" size="1.778" layer="21" font="vector" ratio="10">OreSat Channel Link Test Board V1.0
@@ -4566,7 +4570,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="29.4" y1="41.7498" x2="30.021409375" y2="41.7498" width="0.35" layer="1"/>
 <wire x1="30.021409375" y1="41.7498" x2="30.595584375" y2="42.323975" width="0.35" layer="1"/>
 <wire x1="85.6" y1="41.752390625" x2="84.859290625" y2="41.752390625" width="0.35" layer="1"/>
-<wire x1="83.734778125" y1="42.3250625" x2="83.734515625" y2="42.325325" width="0.3" layer="1"/>
 <wire x1="83.734778125" y1="42.3250625" x2="83.733690625" y2="42.323975" width="0.35" layer="1"/>
 <wire x1="83.733690625" y1="42.323975" x2="30.595584375" y2="42.323975" width="0.35" layer="1"/>
 <wire x1="84.28661875" y1="42.3250625" x2="83.734778125" y2="42.3250625" width="0.35" layer="1"/>
@@ -4579,25 +4582,20 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U2" pad="10"/>
 <contactref element="R3" pad="1"/>
 <wire x1="29.4" y1="41.2498" x2="30.323865625" y2="41.2498" width="0.35" layer="1"/>
-<wire x1="30.75519375" y1="41.681128125" x2="30.323865625" y2="41.2498" width="0.35" layer="1"/>
-<wire x1="83.73544375" y1="41.681128125" x2="30.75519375" y2="41.681128125" width="0.35" layer="1"/>
+<wire x1="30.323865625" y1="41.2498" x2="30.75519375" y2="41.681128125" width="0.35" layer="1"/>
 <wire x1="85.6" y1="41.252390625" x2="84.604278125" y2="41.252390625" width="0.35" layer="1"/>
-<wire x1="84.178296875" y1="41.678371875" x2="83.8289875" y2="41.678371875" width="0.35" layer="1"/>
-<wire x1="84.604278125" y1="41.252390625" x2="84.178296875" y2="41.678371875" width="0.35" layer="1"/>
-<wire x1="84.178296875" y1="41.678371875" x2="84.175540625" y2="41.681128125" width="0.1524" layer="1"/>
-<wire x1="84.175540625" y1="41.681128125" x2="83.80134375" y2="41.681128125" width="0.1524" layer="1"/>
-<wire x1="83.734778125" y1="41.6804625" x2="83.73544375" y2="41.681128125" width="0.1524" layer="1"/>
+<wire x1="84.604278125" y1="41.252390625" x2="84.17620625" y2="41.6804625" width="0.35" layer="1"/>
 <wire x1="86.378859375" y1="41.252390625" x2="85.6" y2="41.252390625" width="0.2" layer="1"/>
 <wire x1="28.621409375" y1="41.2498" x2="29.4" y2="41.2498" width="0.2" layer="1"/>
-<wire x1="83.734778125" y1="41.6804625" x2="83.80134375" y2="41.681128125" width="0" layer="19" extent="1-1"/>
+<wire x1="83.7341125" y1="41.681128125" x2="83.734778125" y2="41.6804625" width="0.35" layer="1"/>
+<wire x1="30.75519375" y1="41.681128125" x2="83.7341125" y2="41.681128125" width="0.35" layer="1"/>
+<wire x1="83.734778125" y1="41.6804625" x2="84.17620625" y2="41.6804625" width="0.35" layer="1"/>
 </signal>
 <signal name="LVDS1+">
 <contactref element="U1" pad="38"/>
 <contactref element="U2" pad="11"/>
 <contactref element="R3" pad="2"/>
 <wire x1="29.4" y1="40.7498" x2="30.723865625" y2="40.7498" width="0.35" layer="1"/>
-<wire x1="83.73335" y1="41.081890625" x2="83.734778125" y2="41.0804625" width="0.3" layer="1"/>
-<wire x1="83.734778125" y1="41.0804625" x2="83.73406875" y2="41.081171875" width="0.3" layer="1"/>
 <wire x1="30.723865625" y1="40.7498" x2="31.05426875" y2="41.080203125" width="0.35" layer="1"/>
 <wire x1="83.734778125" y1="41.0804625" x2="83.73451875" y2="41.080203125" width="0.35" layer="1"/>
 <wire x1="83.73451875" y1="41.080203125" x2="31.05426875" y2="41.080203125" width="0.35" layer="1"/>
@@ -4612,17 +4610,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U1" pad="35"/>
 <contactref element="U2" pad="14"/>
 <contactref element="R2" pad="1"/>
-<wire x1="83.734778125" y1="38.956165625" x2="83.734896875" y2="38.956046875" width="0.3" layer="1"/>
 <wire x1="30.5502" y1="39.2498" x2="30.8508625" y2="38.9491375" width="0.35" layer="1"/>
 <wire x1="29.4" y1="39.2498" x2="30.5502" y2="39.2498" width="0.35" layer="1"/>
 <wire x1="85.6" y1="39.252390625" x2="84.352390625" y2="39.252390625" width="0.35" layer="1"/>
 <wire x1="83.734778125" y1="38.956165625" x2="83.72775" y2="38.9491375" width="0.35" layer="1"/>
 <wire x1="83.72775" y1="38.9491375" x2="30.8508625" y2="38.9491375" width="0.35" layer="1"/>
-<wire x1="84.0491375" y1="38.9491375" x2="83.74180625" y2="38.9491375" width="0.35" layer="1"/>
-<wire x1="83.734778125" y1="38.956165625" x2="83.74180625" y2="38.9491375" width="0.35" layer="1"/>
+<wire x1="83.74180625" y1="38.9491375" x2="84.0491375" y2="38.9491375" width="0.35" layer="1"/>
 <wire x1="84.352390625" y1="39.252390625" x2="84.0491375" y2="38.9491375" width="0.35" layer="1"/>
 <wire x1="86.378859375" y1="39.252390625" x2="85.6" y2="39.252390625" width="0.2" layer="1"/>
 <wire x1="28.621409375" y1="39.2498" x2="29.4" y2="39.2498" width="0.2" layer="1"/>
+<wire x1="83.734778125" y1="38.956165625" x2="83.74180625" y2="38.9491375" width="0.1524" layer="1"/>
 </signal>
 <signal name="LVDS2+">
 <contactref element="U2" pad="15"/>
@@ -4755,22 +4752,34 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="JP1" pad="59"/>
 <contactref element="JP1" pad="46"/>
 <polygon width="0.1" layer="2" isolate="0.2">
-<vertex x="0" y="83"/>
-<vertex x="0" y="0"/>
-<vertex x="116" y="0"/>
-<vertex x="116" y="83"/>
+<vertex x="0" y="82"/>
+<vertex x="0" y="1" curve="90"/>
+<vertex x="1" y="0"/>
+<vertex x="115" y="0" curve="90"/>
+<vertex x="116" y="1"/>
+<vertex x="116" y="82" curve="90"/>
+<vertex x="115" y="83"/>
+<vertex x="1" y="83" curve="90"/>
 </polygon>
 <polygon width="0.1" layer="16" isolate="0.2" rank="6">
-<vertex x="0" y="82.8"/>
-<vertex x="0" y="0"/>
-<vertex x="116" y="0"/>
-<vertex x="116" y="82.8"/>
+<vertex x="0" y="82"/>
+<vertex x="0" y="1" curve="90"/>
+<vertex x="1" y="0"/>
+<vertex x="115" y="0" curve="90"/>
+<vertex x="116" y="1"/>
+<vertex x="116" y="82" curve="90"/>
+<vertex x="115" y="83"/>
+<vertex x="1" y="83" curve="90"/>
 </polygon>
 <polygon width="0.1" layer="1" isolate="0.2" rank="6">
-<vertex x="0" y="82.8"/>
-<vertex x="0" y="0"/>
-<vertex x="116" y="0"/>
-<vertex x="116" y="82.8"/>
+<vertex x="0" y="82"/>
+<vertex x="0" y="1" curve="90"/>
+<vertex x="1" y="0"/>
+<vertex x="115" y="0" curve="90"/>
+<vertex x="116" y="1"/>
+<vertex x="116" y="82" curve="90"/>
+<vertex x="115" y="83"/>
+<vertex x="1" y="83" curve="90"/>
 </polygon>
 <contactref element="JP2" pad="51"/>
 <contactref element="JP2" pad="53"/>
@@ -4882,10 +4891,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="22.5" y="37.8" extent="1-16" drill="0.254"/>
 <via x="22.4" y="40.8" extent="1-16" drill="0.254"/>
 <polygon width="0.1" layer="15" isolate="0.2" rank="6">
-<vertex x="0" y="83"/>
-<vertex x="0" y="0"/>
-<vertex x="116" y="0"/>
-<vertex x="116" y="83"/>
+<vertex x="0" y="82"/>
+<vertex x="0" y="1" curve="90"/>
+<vertex x="1" y="0"/>
+<vertex x="115" y="0" curve="90"/>
+<vertex x="116" y="1"/>
+<vertex x="116" y="82" curve="90"/>
+<vertex x="115" y="83"/>
+<vertex x="1" y="83" curve="90"/>
 </polygon>
 <contactref element="JP2" pad="1"/>
 <contactref element="JP2" pad="3"/>
@@ -5836,6 +5849,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <errors>
 <approved hash="7,39,d34bcef84ef8534b"/>
 <approved hash="7,39,12ea067e867e92ea"/>
+<approved hash="7,39,17c92ca66feb5106"/>
+<approved hash="7,39,27d22ca66fe56493"/>
+<approved hash="7,39,028d11389138828d"/>
+<approved hash="7,39,17c71f115fd65106"/>
+<approved hash="7,39,4c6f4092c092cc6f"/>
+<approved hash="23,1,29462b474754f8c8"/>
 </errors>
 </board>
 </drawing>
