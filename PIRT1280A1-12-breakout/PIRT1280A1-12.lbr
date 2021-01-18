@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -57,7 +57,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
@@ -289,56 +289,56 @@
 <wire x1="23.114" y1="8.4455" x2="23.114" y2="8.0645" width="0" layer="50"/>
 <wire x1="-23.368" y1="13.5255" x2="-23.1775" y2="13.1445" width="0" layer="50"/>
 <wire x1="-23.368" y1="13.1445" x2="-23.1775" y2="13.5255" width="0" layer="50"/>
-<pad name="P$1" x="-23.241" y="13.335" drill="0.762" shape="long"/>
+<pad name="1" x="-23.241" y="13.335" drill="0.762" shape="long"/>
 <wire x1="-20.193" y1="12.2555" x2="-20.0025" y2="11.8745" width="0" layer="50"/>
 <wire x1="-20.193" y1="11.8745" x2="-20.0025" y2="12.2555" width="0" layer="50"/>
-<pad name="P$2" x="-20.066" y="12.065" drill="0.762" shape="long"/>
-<pad name="P$3" x="-23.241" y="10.795" drill="0.762" shape="long"/>
-<pad name="P$4" x="-20.066" y="9.525" drill="0.762" shape="long"/>
-<pad name="P$5" x="-23.241" y="8.255" drill="0.762" shape="long"/>
-<pad name="P$6" x="-20.066" y="6.985" drill="0.762" shape="long"/>
-<pad name="P$7" x="-23.241" y="5.715" drill="0.762" shape="long"/>
-<pad name="P$8" x="-20.066" y="4.445" drill="0.762" shape="long"/>
-<pad name="P$9" x="-23.241" y="3.175" drill="0.762" shape="long"/>
-<pad name="P$10" x="-20.066" y="1.905" drill="0.762" shape="long"/>
-<pad name="P$11" x="-23.241" y="0.635" drill="0.762" shape="long"/>
-<pad name="P$12" x="-20.066" y="-0.635" drill="0.762" shape="long"/>
-<pad name="P$13" x="-23.241" y="-1.905" drill="0.762" shape="long"/>
-<pad name="P$14" x="-20.066" y="-3.175" drill="0.762" shape="long"/>
-<pad name="P$15" x="-23.241" y="-4.445" drill="0.762" shape="long"/>
-<pad name="P$16" x="-20.066" y="-5.715" drill="0.762" shape="long"/>
-<pad name="P$17" x="-23.241" y="-6.985" drill="0.762" shape="long"/>
-<pad name="P$18" x="-20.066" y="-8.255" drill="0.762" shape="long"/>
-<pad name="P$19" x="-23.241" y="-9.525" drill="0.762" shape="long"/>
-<pad name="P$20" x="-20.066" y="-10.795" drill="0.762" shape="long"/>
-<pad name="P$21" x="-23.241" y="-12.065" drill="0.762" shape="long"/>
-<pad name="P$22" x="-20.066" y="-13.335" drill="0.762" shape="long"/>
+<pad name="2" x="-20.066" y="12.065" drill="0.762" shape="long"/>
+<pad name="3" x="-23.241" y="10.795" drill="0.762" shape="long"/>
+<pad name="4" x="-20.066" y="9.525" drill="0.762" shape="long"/>
+<pad name="5" x="-23.241" y="8.255" drill="0.762" shape="long"/>
+<pad name="6" x="-20.066" y="6.985" drill="0.762" shape="long"/>
+<pad name="7" x="-23.241" y="5.715" drill="0.762" shape="long"/>
+<pad name="8" x="-20.066" y="4.445" drill="0.762" shape="long"/>
+<pad name="9" x="-23.241" y="3.175" drill="0.762" shape="long"/>
+<pad name="10" x="-20.066" y="1.905" drill="0.762" shape="long"/>
+<pad name="11" x="-23.241" y="0.635" drill="0.762" shape="long"/>
+<pad name="12" x="-20.066" y="-0.635" drill="0.762" shape="long"/>
+<pad name="13" x="-23.241" y="-1.905" drill="0.762" shape="long"/>
+<pad name="14" x="-20.066" y="-3.175" drill="0.762" shape="long"/>
+<pad name="15" x="-23.241" y="-4.445" drill="0.762" shape="long"/>
+<pad name="16" x="-20.066" y="-5.715" drill="0.762" shape="long"/>
+<pad name="17" x="-23.241" y="-6.985" drill="0.762" shape="long"/>
+<pad name="18" x="-20.066" y="-8.255" drill="0.762" shape="long"/>
+<pad name="19" x="-23.241" y="-9.525" drill="0.762" shape="long"/>
+<pad name="20" x="-20.066" y="-10.795" drill="0.762" shape="long"/>
+<pad name="21" x="-23.241" y="-12.065" drill="0.762" shape="long"/>
+<pad name="22" x="-20.066" y="-13.335" drill="0.762" shape="long"/>
 <wire x1="19.939" y1="-13.5255" x2="20.193" y2="-13.1445" width="0" layer="50"/>
 <wire x1="19.939" y1="-13.1445" x2="20.193" y2="-13.5255" width="0" layer="50"/>
 <wire x1="23.114" y1="-11.8745" x2="23.368" y2="-12.2555" width="0" layer="50"/>
 <wire x1="23.114" y1="-12.2555" x2="23.368" y2="-11.8745" width="0" layer="50"/>
-<pad name="P$23" x="20.066" y="-13.335" drill="0.762" shape="long"/>
-<pad name="P$24" x="23.241" y="-12.065" drill="0.762" shape="long"/>
-<pad name="P$25" x="20.066" y="-10.795" drill="0.762" shape="long"/>
-<pad name="P$26" x="23.241" y="-9.525" drill="0.762" shape="long"/>
-<pad name="P$27" x="20.066" y="-8.255" drill="0.762" shape="long"/>
-<pad name="P$28" x="23.241" y="-6.985" drill="0.762" shape="long"/>
-<pad name="P$29" x="20.066" y="-5.715" drill="0.762" shape="long"/>
-<pad name="P$30" x="23.241" y="-4.445" drill="0.762" shape="long"/>
-<pad name="P$31" x="20.066" y="-3.175" drill="0.762" shape="long"/>
-<pad name="P$32" x="23.241" y="-1.905" drill="0.762" shape="long"/>
-<pad name="P$33" x="20.066" y="-0.635" drill="0.762" shape="long"/>
-<pad name="P$34" x="23.241" y="0.635" drill="0.762" shape="long"/>
-<pad name="P$35" x="20.066" y="1.905" drill="0.762" shape="long"/>
-<pad name="P$36" x="23.241" y="3.175" drill="0.762" shape="long"/>
-<pad name="P$37" x="20.066" y="4.445" drill="0.762" shape="long"/>
-<pad name="P$38" x="23.241" y="5.715" drill="0.762" shape="long"/>
-<pad name="P$39" x="20.066" y="6.985" drill="0.762" shape="long"/>
-<pad name="P$40" x="23.241" y="8.255" drill="0.762" shape="long"/>
-<pad name="P$41" x="20.066" y="9.525" drill="0.762" shape="long"/>
-<pad name="P$42" x="23.241" y="10.795" drill="0.762" shape="long"/>
-<pad name="P$43" x="20.066" y="12.065" drill="0.762" shape="long"/>
-<pad name="P$44" x="23.241" y="13.335" drill="0.762" shape="long"/>
+<pad name="23" x="20.066" y="-13.335" drill="0.762" shape="long"/>
+<pad name="24" x="23.241" y="-12.065" drill="0.762" shape="long"/>
+<pad name="25" x="20.066" y="-10.795" drill="0.762" shape="long"/>
+<pad name="26" x="23.241" y="-9.525" drill="0.762" shape="long"/>
+<pad name="27" x="20.066" y="-8.255" drill="0.762" shape="long"/>
+<pad name="28" x="23.241" y="-6.985" drill="0.762" shape="long"/>
+<pad name="29" x="20.066" y="-5.715" drill="0.762" shape="long"/>
+<pad name="30" x="23.241" y="-4.445" drill="0.762" shape="long"/>
+<pad name="31" x="20.066" y="-3.175" drill="0.762" shape="long"/>
+<pad name="32" x="23.241" y="-1.905" drill="0.762" shape="long"/>
+<pad name="33" x="20.066" y="-0.635" drill="0.762" shape="long"/>
+<pad name="34" x="23.241" y="0.635" drill="0.762" shape="long"/>
+<pad name="35" x="20.066" y="1.905" drill="0.762" shape="long"/>
+<pad name="36" x="23.241" y="3.175" drill="0.762" shape="long"/>
+<pad name="37" x="20.066" y="4.445" drill="0.762" shape="long"/>
+<pad name="38" x="23.241" y="5.715" drill="0.762" shape="long"/>
+<pad name="39" x="20.066" y="6.985" drill="0.762" shape="long"/>
+<pad name="40" x="23.241" y="8.255" drill="0.762" shape="long"/>
+<pad name="41" x="20.066" y="9.525" drill="0.762" shape="long"/>
+<pad name="42" x="23.241" y="10.795" drill="0.762" shape="long"/>
+<pad name="43" x="20.066" y="12.065" drill="0.762" shape="long"/>
+<pad name="44" x="23.241" y="13.335" drill="0.762" shape="long"/>
 <wire x1="-14.605" y1="24.765" x2="-17.78" y2="21.59" width="0.127" layer="21" curve="90"/>
 <wire x1="-11.2905" y1="24.003" x2="-12.0525" y2="24.765" width="0.127" layer="21" curve="90"/>
 <wire x1="-11.2905" y1="22.479" x2="-9.0295" y2="22.479" width="0.127" layer="21" curve="180"/>
@@ -490,50 +490,50 @@
 <devices>
 <device name="" package="PIRT1280A1-12">
 <connects>
-<connect gate="G$1" pin="ABITOUT" pad="P$24"/>
-<connect gate="G$1" pin="JAMSYNC" pad="P$21"/>
-<connect gate="G$1" pin="OUT1N" pad="P$14"/>
-<connect gate="G$1" pin="OUT1P" pad="P$13"/>
-<connect gate="G$1" pin="OUT2N" pad="P$12"/>
-<connect gate="G$1" pin="OUT2P" pad="P$11"/>
-<connect gate="G$1" pin="OUT3N" pad="P$10"/>
-<connect gate="G$1" pin="OUT3P" pad="P$9"/>
-<connect gate="G$1" pin="OUT4N" pad="P$8"/>
-<connect gate="G$1" pin="OUT4P" pad="P$7"/>
-<connect gate="G$1" pin="REFCLK" pad="P$20"/>
-<connect gate="G$1" pin="SDCLK" pad="P$26"/>
-<connect gate="G$1" pin="SDIN" pad="P$25"/>
-<connect gate="G$1" pin="SDOUT" pad="P$27"/>
-<connect gate="G$1" pin="TEC+" pad="P$23"/>
-<connect gate="G$1" pin="TEC-" pad="P$22"/>
-<connect gate="G$1" pin="THERM+" pad="P$1"/>
-<connect gate="G$1" pin="THERM-" pad="P$44"/>
-<connect gate="G$1" pin="TXCLKN" pad="P$16"/>
-<connect gate="G$1" pin="TXCLKP" pad="P$15"/>
-<connect gate="G$1" pin="VDETCOM" pad="P$31"/>
-<connect gate="G$1" pin="VGND" pad="P$29"/>
-<connect gate="G$1" pin="VN" pad="P$17"/>
-<connect gate="G$1" pin="VNOUT" pad="P$6"/>
-<connect gate="G$1" pin="VPH" pad="P$19"/>
-<connect gate="G$1" pin="VPL" pad="P$18"/>
-<connect gate="G$1" pin="VPOS" pad="P$30"/>
-<connect gate="G$1" pin="VPOUT" pad="P$5"/>
-<connect gate="G$2" pin="DBITN" pad="P$4"/>
-<connect gate="G$2" pin="DBITP" pad="P$3"/>
-<connect gate="G$2" pin="GUARD" pad="P$39"/>
-<connect gate="G$2" pin="IPLL" pad="P$2"/>
-<connect gate="G$2" pin="ITST0" pad="P$32"/>
-<connect gate="G$2" pin="ITWK" pad="P$34"/>
-<connect gate="G$2" pin="SPARE1" pad="P$28"/>
-<connect gate="G$2" pin="TEMP_MINUS" pad="P$40"/>
-<connect gate="G$2" pin="TEMP_PLUS" pad="P$41"/>
-<connect gate="G$2" pin="TRIG" pad="P$42"/>
-<connect gate="G$2" pin="VBLM" pad="P$38"/>
-<connect gate="G$2" pin="VCOMON" pad="P$43"/>
-<connect gate="G$2" pin="VDET_TWK" pad="P$35"/>
-<connect gate="G$2" pin="VHIPAD" pad="P$36"/>
-<connect gate="G$2" pin="VLOPAD" pad="P$37"/>
-<connect gate="G$2" pin="VTSTPAD" pad="P$33"/>
+<connect gate="G$1" pin="ABITOUT" pad="24"/>
+<connect gate="G$1" pin="JAMSYNC" pad="21"/>
+<connect gate="G$1" pin="OUT1N" pad="14"/>
+<connect gate="G$1" pin="OUT1P" pad="13"/>
+<connect gate="G$1" pin="OUT2N" pad="12"/>
+<connect gate="G$1" pin="OUT2P" pad="11"/>
+<connect gate="G$1" pin="OUT3N" pad="10"/>
+<connect gate="G$1" pin="OUT3P" pad="9"/>
+<connect gate="G$1" pin="OUT4N" pad="8"/>
+<connect gate="G$1" pin="OUT4P" pad="7"/>
+<connect gate="G$1" pin="REFCLK" pad="20"/>
+<connect gate="G$1" pin="SDCLK" pad="26"/>
+<connect gate="G$1" pin="SDIN" pad="25"/>
+<connect gate="G$1" pin="SDOUT" pad="27"/>
+<connect gate="G$1" pin="TEC+" pad="23"/>
+<connect gate="G$1" pin="TEC-" pad="22"/>
+<connect gate="G$1" pin="THERM+" pad="1"/>
+<connect gate="G$1" pin="THERM-" pad="44"/>
+<connect gate="G$1" pin="TXCLKN" pad="16"/>
+<connect gate="G$1" pin="TXCLKP" pad="15"/>
+<connect gate="G$1" pin="VDETCOM" pad="31"/>
+<connect gate="G$1" pin="VGND" pad="29"/>
+<connect gate="G$1" pin="VN" pad="17"/>
+<connect gate="G$1" pin="VNOUT" pad="6"/>
+<connect gate="G$1" pin="VPH" pad="19"/>
+<connect gate="G$1" pin="VPL" pad="18"/>
+<connect gate="G$1" pin="VPOS" pad="30"/>
+<connect gate="G$1" pin="VPOUT" pad="5"/>
+<connect gate="G$2" pin="DBITN" pad="4"/>
+<connect gate="G$2" pin="DBITP" pad="3"/>
+<connect gate="G$2" pin="GUARD" pad="39"/>
+<connect gate="G$2" pin="IPLL" pad="2"/>
+<connect gate="G$2" pin="ITST0" pad="32"/>
+<connect gate="G$2" pin="ITWK" pad="34"/>
+<connect gate="G$2" pin="SPARE1" pad="28"/>
+<connect gate="G$2" pin="TEMP_MINUS" pad="40"/>
+<connect gate="G$2" pin="TEMP_PLUS" pad="41"/>
+<connect gate="G$2" pin="TRIG" pad="42"/>
+<connect gate="G$2" pin="VBLM" pad="38"/>
+<connect gate="G$2" pin="VCOMON" pad="43"/>
+<connect gate="G$2" pin="VDET_TWK" pad="35"/>
+<connect gate="G$2" pin="VHIPAD" pad="36"/>
+<connect gate="G$2" pin="VLOPAD" pad="37"/>
+<connect gate="G$2" pin="VTSTPAD" pad="33"/>
 </connects>
 <technologies>
 <technology name=""/>
