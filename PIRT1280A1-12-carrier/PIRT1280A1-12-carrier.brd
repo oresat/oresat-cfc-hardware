@@ -189,10 +189,9 @@
 <text x="137" y="97" size="1.778" layer="21" font="vector" ratio="15">OreSat PIRT1280A1-12 Carrier Board v1.0</text>
 <text x="137" y="94" size="1.778" layer="21" font="vector" ratio="15">2021-01-21</text>
 <text x="18.25" y="92.75" size="1.778" layer="48">TODOimage sensor test board with test points and load resistors</text>
-<wire x1="0" y1="0" x2="0" y2="100" width="0" layer="20"/>
-<wire x1="0" y1="100" x2="204" y2="100" width="0" layer="20"/>
-<wire x1="204" y1="100" x2="204" y2="0" width="0" layer="20"/>
-<wire x1="204" y1="0" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="3" x2="0" y2="97" width="0" layer="20"/>
+<wire x1="3" y1="100" x2="201" y2="100" width="0" layer="20"/>
+<wire x1="204" y1="97" x2="204" y2="3" width="0" layer="20"/>
 <text x="128" y="60" size="1.016" layer="51">copper plate thickness = 9.5mm
 ribbon cable length = 30mm
 
@@ -206,7 +205,6 @@ be less than 28mm, lets say 20mm?***</text>
 <hole x="4" y="96" drill="3"/>
 <hole x="200" y="96" drill="3"/>
 <hole x="200" y="4" drill="3"/>
-<text x="67" y="119.5" size="6.4516" layer="51">TODO RENUMBER</text>
 <text x="54.25" y="94" size="1.016" layer="21" font="vector" ratio="20">PIRT1280 ENABLE</text>
 <text x="173" y="94" size="1.778" layer="21" font="vector" ratio="15">OLIVER REW</text>
 <text x="103.5" y="11.5" size="1.5" layer="21" font="vector" ratio="20">8.2VDC @ 27C
@@ -217,6 +215,7 @@ be less than 28mm, lets say 20mm?***</text>
 MAX</text>
 <text x="76.7525" y="19.333" size="1" layer="21" font="vector" ratio="15" distance="240" rot="R180" align="center-left">5V</text>
 <text x="81.27875" y="19.333" size="1" layer="21" font="vector" ratio="15" distance="240" rot="R180" align="center-right">GND</text>
+<wire x1="201" y1="0" x2="3" y2="0" width="0" layer="20"/>
 <wire x1="88" y1="0" x2="88" y2="29" width="0.508" layer="21"/>
 <wire x1="88" y1="29" x2="70" y2="29" width="0.508" layer="21"/>
 <wire x1="70" y1="29" x2="70" y2="0" width="0.508" layer="21"/>
@@ -345,6 +344,10 @@ MAX</text>
 <wire x1="20.0875" y1="91.9" x2="17.0875" y2="91.9" width="0.127" layer="21"/>
 <wire x1="17.0875" y1="91.9" x2="17.0875" y2="90.4" width="0.127" layer="21"/>
 <wire x1="17.0875" y1="90.4" x2="20.0875" y2="90.4" width="0.127" layer="21"/>
+<wire x1="3" y1="0" x2="0" y2="3" width="0" layer="20" curve="-90"/>
+<wire x1="3" y1="100" x2="0" y2="97" width="0" layer="20" curve="90"/>
+<wire x1="201" y1="100" x2="204" y2="97" width="0" layer="20" curve="-90"/>
+<wire x1="201" y1="0" x2="204" y2="3" width="0" layer="20" curve="90"/>
 </plain>
 <libraries>
 <library name="oresat-misc">
@@ -6129,6 +6132,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="23,1,7c668f948e5c7dae"/>
 <approved hash="23,1,9fd86d8868c89a98"/>
 <approved hash="23,1,230ed95ec1523b02"/>
+<approved hash="23,1,64008a008bb765b7"/>
 </errors>
 </board>
 </drawing>

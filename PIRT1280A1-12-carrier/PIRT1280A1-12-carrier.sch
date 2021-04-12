@@ -191,9 +191,6 @@
 <packages>
 </packages>
 <symbols>
-<symbol name="FRAME_A_L" urn="urn:adsk.eagle:symbol:13882/1" library_version="1">
-<frame x1="0" y1="0" x2="279.4" y2="215.9" columns="6" rows="5" layer="94" border-bottom="no"/>
-</symbol>
 <symbol name="DOCFIELD" urn="urn:adsk.eagle:symbol:13864/1" library_version="1">
 <wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
 <wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
@@ -228,20 +225,6 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FRAME_A_L" urn="urn:adsk.eagle:component:13939/1" prefix="FRAME" uservalue="yes" library_version="1">
-<description>&lt;b&gt;FRAME&lt;/b&gt; A Size , 8 1/2 x 11 INCH, Landscape&lt;p&gt;</description>
-<gates>
-<gate name="G$1" symbol="FRAME_A_L" x="0" y="0" addlevel="always"/>
-<gate name="G$2" symbol="DOCFIELD" x="172.72" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="FRAME_C_L" urn="urn:adsk.eagle:component:13947/1" prefix="FRAME" uservalue="yes" library_version="1">
 <description>&lt;b&gt;FRAME&lt;/b&gt; C Size , 17 x 22 INCH, Landscape&lt;p&gt;</description>
 <gates>
@@ -13230,7 +13213,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="C2" library="oresat-rcl" deviceset="C-EU" device="0603-A" value="4.7u"/>
 <part name="C12" library="oresat-rcl" deviceset="C-EU" device="0603-A" value="0.47u"/>
 <part name="C7" library="oresat-rcl" deviceset="C-EU" device="0603-A" value="4.7u"/>
@@ -13607,23 +13589,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </parts>
 <sheets>
 <sheet>
-<description>PIRT Sensor Breakout Pins</description>
-<plain>
-</plain>
-<instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME1" gate="G$2" x="172.72" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
-</instance>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-<sheet>
 <description>Power Supply</description>
 <plain>
 <text x="29.21" y="-11.43" size="1.778" layer="97">VPOUT     = 0.9 +/- 0.05 V (5%) @ &lt; 40 mA
@@ -13647,6 +13612,7 @@ VOPS        = 3.3 +/- 0.05 V (1%) @ &lt; 75 mA
 all IN+ inputs at a set rate</text>
 <text x="-83.82" y="177.8" size="1.778" layer="97">Jumper to enable sensor power 
 manually or via GPIO</text>
+<text x="-12.7" y="149.86" size="2.54" layer="97">POWER SEQUENCER</text>
 </plain>
 <instances>
 <instance part="C2" gate="CE" x="142.24" y="73.66" smashed="yes">
@@ -14863,36 +14829,57 @@ manually or via GPIO</text>
 <sheet>
 <description>Pocketbeagle</description>
 <plain>
-<text x="244.602" y="46.99" size="2.54" layer="95">Pocket Beagle Connector</text>
-<text x="246.38" y="33.02" size="1.778" layer="95">Pocketbeagle has
-internal 3.3V LDO 
-that will supply
-the board
-(500mA MAX)</text>
-<text x="396.24" y="-187.96" size="1.778" layer="97">TODO renumber</text>
-<text x="373.38" y="-129.54" size="1.778" layer="97">TODO what about CS?</text>
-<text x="38.862" y="16.51" size="2.54" layer="95">5V barrel jack</text>
-<text x="46.482" y="-8.89" size="2.54" layer="95">USB Host</text>
+<text x="391.16" y="-48.26" size="1.778" layer="97">TODO what about CS?</text>
+<text x="38.862" y="31.75" size="2.54" layer="95">5V barrel jack</text>
+<text x="41.402" y="6.35" size="2.54" layer="95">USB Host</text>
 <text x="300.482" y="-26.67" size="2.54" layer="95">UART0</text>
 <text x="100.33" y="-77.978" size="2.54" layer="95" rot="R90">&lt;-- To PIRT1280 Thermistor</text>
 <text x="501.396" y="-285.75" size="2.54" layer="97">Only need to connect 7 bits</text>
-<text x="300.482" y="13.97" size="2.54" layer="95">PRU UART</text>
+<text x="285.242" y="13.97" size="2.54" layer="95">PRU UART</text>
 <text x="346.202" y="13.97" size="2.54" layer="95">CAN0</text>
 <text x="139.7" y="-149.86" size="1.778" layer="97">Initially unconnected until we test SPI</text>
-<text x="175.26" y="-304.8" size="2.54" layer="97">TEC </text>
+<text x="179.07" y="-304.8" size="5.08" layer="97">TEC </text>
 <text x="175.26" y="-314.96" size="1.778" layer="97">TEC can be enabled with a jumper 
 or via MOSFET + GPIO</text>
 <text x="182.88" y="-50.8" size="2.54" layer="97">JAMSYNC jumper for manual 
 or GPIO operation</text>
-<text x="119.38" y="-327.66" size="1.778" layer="97">TEC Screw Terminal
+<text x="25.4" y="-38.1" size="2.54" layer="97">TEC Screw Terminal
 8.2VDC at 27C, 9.2VDC at 50C</text>
 <text x="342.9" y="-330.2" size="1.778" layer="97">!PWR_DWN is pulled low by default, 
 but can be pulled high via jumper
 or via GPIO
 NOTE: Pull down on other sheet</text>
 <text x="408.178" y="-335.28" size="1.778" layer="97" rot="R90">To other sheet</text>
-<text x="256.54" y="-248.92" size="2.54" layer="97">16MHz Oscillator</text>
-<text x="56.642" y="-29.21" size="2.54" layer="95">TODO need thermistor specs</text>
+<text x="261.62" y="-248.92" size="5.08" layer="97">16MHz Oscillator</text>
+<text x="84.582" y="-24.13" size="2.54" layer="95">TODO need thermistor specs</text>
+<wire x1="152.4" y1="-297.18" x2="220.98" y2="-297.18" width="0.508" layer="97"/>
+<wire x1="220.98" y1="-297.18" x2="220.98" y2="-345.44" width="0.508" layer="97"/>
+<wire x1="220.98" y1="-345.44" x2="152.4" y2="-345.44" width="0.508" layer="97"/>
+<wire x1="152.4" y1="-345.44" x2="152.4" y2="-297.18" width="0.508" layer="97"/>
+<wire x1="238.76" y1="-297.18" x2="238.76" y2="-241.3" width="0.508" layer="97"/>
+<wire x1="238.76" y1="-241.3" x2="335.28" y2="-241.3" width="0.508" layer="97"/>
+<wire x1="335.28" y1="-241.3" x2="335.28" y2="-297.18" width="0.508" layer="97"/>
+<wire x1="335.28" y1="-297.18" x2="238.76" y2="-297.18" width="0.508" layer="97"/>
+<wire x1="114.3" y1="-287.02" x2="114.3" y2="-129.54" width="0.508" layer="97"/>
+<wire x1="114.3" y1="-129.54" x2="210.82" y2="-129.54" width="0.508" layer="97"/>
+<wire x1="210.82" y1="-129.54" x2="210.82" y2="-287.02" width="0.508" layer="97"/>
+<wire x1="210.82" y1="-287.02" x2="114.3" y2="-287.02" width="0.508" layer="97"/>
+<text x="121.92" y="-137.16" size="5.08" layer="97">50 pin breakout connector</text>
+<wire x1="340.36" y1="-353.06" x2="340.36" y2="-180.34" width="0.508" layer="97"/>
+<wire x1="340.36" y1="-180.34" x2="543.56" y2="-180.34" width="0.508" layer="97"/>
+<wire x1="543.56" y1="-180.34" x2="543.56" y2="-353.06" width="0.508" layer="97"/>
+<wire x1="543.56" y1="-353.06" x2="340.36" y2="-353.06" width="0.508" layer="97"/>
+<text x="414.02" y="-187.96" size="5.08" layer="97">DESERIALIZER</text>
+<wire x1="81.28" y1="48.26" x2="81.28" y2="-60.96" width="0.508" layer="97"/>
+<wire x1="81.28" y1="-60.96" x2="15.24" y2="-60.96" width="0.508" layer="97"/>
+<wire x1="15.24" y1="-60.96" x2="15.24" y2="48.26" width="0.508" layer="97"/>
+<wire x1="15.24" y1="48.26" x2="81.28" y2="48.26" width="0.508" layer="97"/>
+<text x="29.21" y="38.1" size="5.08" layer="97">PWR + USB</text>
+<wire x1="88.9" y1="-88.9" x2="88.9" y2="43.18" width="0.508" layer="97"/>
+<wire x1="88.9" y1="43.18" x2="523.24" y2="43.18" width="0.508" layer="97"/>
+<wire x1="523.24" y1="43.18" x2="523.24" y2="-88.9" width="0.508" layer="97"/>
+<wire x1="523.24" y1="-88.9" x2="88.9" y2="-88.9" width="0.508" layer="97"/>
+<text x="284.48" y="30.48" size="5.08" layer="97">POCKETBEAGLE</text>
 </plain>
 <instances>
 <instance part="GND21" gate="1" x="129.54" y="-7.62" smashed="yes">
@@ -15143,7 +15130,7 @@ NOTE: Pull down on other sheet</text>
 <instance part="GND27" gate="1" x="436.88" y="-220.98" smashed="yes">
 <attribute name="VALUE" x="434.34" y="-223.52" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="G1" x="353.06" y="-137.16" smashed="yes"/>
+<instance part="GND2" gate="G1" x="373.38" y="-55.88" smashed="yes"/>
 <instance part="REFCLK" gate="G$1" x="139.7" y="-271.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="135.89" y="-271.78" size="1.27" layer="104" rot="R180"/>
 </instance>
@@ -15177,9 +15164,9 @@ NOTE: Pull down on other sheet</text>
 <attribute name="DIS" x="170.18" y="-203.2" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND3" gate="G1" x="134.62" y="-276.86" smashed="yes"/>
-<instance part="J7" gate="G$1" x="365.76" y="-129.54" smashed="yes" rot="R180">
-<attribute name="VALUE" x="368.3" y="-119.634" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="368.3" y="-137.668" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J7" gate="G$1" x="386.08" y="-48.26" smashed="yes" rot="R180">
+<attribute name="VALUE" x="388.62" y="-38.354" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="388.62" y="-56.388" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="U$2" gate="G$1" x="185.42" y="-10.16" smashed="yes"/>
 <instance part="U$2" gate="G$2" x="429.26" y="-10.16" smashed="yes"/>
@@ -15192,27 +15179,26 @@ NOTE: Pull down on other sheet</text>
 <instance part="GND44" gate="1" x="284.48" y="-33.02" smashed="yes">
 <attribute name="VALUE" x="284.734" y="-35.814" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
-<instance part="J13" gate="G$1" x="73.66" y="12.7" smashed="yes">
-<attribute name="NAME" x="68.58" y="12.7" size="1.778" layer="95" font="vector"/>
+<instance part="J13" gate="G$1" x="48.26" y="17.78" smashed="yes">
+<attribute name="NAME" x="43.18" y="17.78" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="116.84" y="7.62" smashed="yes">
 <attribute name="VALUE" x="114.3" y="8.89" size="1.778" layer="96" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="GND45" gate="1" x="81.28" y="12.7" smashed="yes">
-<attribute name="VALUE" x="81.28" y="9.906" size="1.778" layer="96" rot="R180" align="top-center"/>
+<instance part="GND45" gate="1" x="55.88" y="17.78" smashed="yes">
+<attribute name="VALUE" x="55.88" y="14.986" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
-<instance part="J11" gate="G$1" x="71.12" y="-7.62" smashed="yes" rot="MR0">
-<attribute name="NAME" x="76.2" y="2.794" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="MOUSER_PART_NUMBER" x="71.12" y="-7.62" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" x="71.12" y="-7.62" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="71.12" y="-7.62" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" x="71.12" y="-7.62" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="J11" gate="G$1" x="45.72" y="-7.62" smashed="yes" rot="MR0">
+<attribute name="MOUSER_PART_NUMBER" x="45.72" y="-7.62" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" x="45.72" y="-7.62" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="45.72" y="-7.62" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" x="45.72" y="-7.62" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="GND46" gate="1" x="81.28" y="-17.78" smashed="yes">
-<attribute name="VALUE" x="81.28" y="-20.574" size="1.778" layer="96" rot="R180" align="top-center"/>
+<instance part="GND46" gate="1" x="55.88" y="-17.78" smashed="yes">
+<attribute name="VALUE" x="55.88" y="-20.574" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="81.28" y="0" smashed="yes">
-<attribute name="VALUE" x="78.74" y="1.27" size="1.778" layer="96" rot="R90" align="bottom-center"/>
+<instance part="SUPPLY2" gate="G$1" x="55.88" y="0" smashed="yes">
+<attribute name="VALUE" x="53.34" y="1.27" size="1.778" layer="96" rot="R90" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="243.84" y="-15.24" smashed="yes">
 <attribute name="VALUE" x="247.396" y="-14.224" size="1.778" layer="96" rot="R90" align="bottom-center"/>
@@ -15220,11 +15206,11 @@ NOTE: Pull down on other sheet</text>
 <instance part="JP101" gate="G$1" x="134.62" y="-2.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="127.508" y="-1.524" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="J6" gate="J$1" x="294.64" y="15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="297.18" y="9.652" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J6" gate="J$1" x="279.4" y="15.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="281.94" y="9.652" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="GND15" gate="1" x="284.48" y="7.62" smashed="yes">
-<attribute name="VALUE" x="284.734" y="4.826" size="1.778" layer="96" rot="R180" align="top-center"/>
+<instance part="GND15" gate="1" x="269.24" y="7.62" smashed="yes">
+<attribute name="VALUE" x="269.494" y="4.826" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
 <instance part="JP1" gate="G$1" x="172.72" y="-165.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="175.26" y="-167.64" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -15290,9 +15276,9 @@ NOTE: Pull down on other sheet</text>
 <instance part="Q1" gate="NMOS" x="205.74" y="-330.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="200.66" y="-330.2" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="J12" gate="G$1" x="124.46" y="-337.82" smashed="yes">
-<attribute name="VALUE" x="121.92" y="-342.646" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="121.92" y="-332.232" size="1.778" layer="95" font="vector"/>
+<instance part="J12" gate="G$1" x="45.72" y="-48.26" smashed="yes">
+<attribute name="VALUE" x="43.18" y="-53.086" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="43.18" y="-42.672" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="J2" gate="G$1" x="241.3" y="-48.26" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="243.84" y="-53.086" size="1.778" layer="96" font="vector" rot="MR0"/>
@@ -15329,21 +15315,18 @@ NOTE: Pull down on other sheet</text>
 <busses>
 <bus name="SPI1_CLK,SPI1_CS1,SPI1_MISO,SPI1_MOSI">
 <segment>
-<wire x1="360.68" y1="-17.78" x2="360.68" y2="-35.56" width="0.762" layer="92"/>
-<wire x1="360.68" y1="-35.56" x2="340.36" y2="-35.56" width="0.762" layer="92"/>
-<wire x1="340.36" y1="-35.56" x2="340.36" y2="-160.02" width="0.762" layer="92"/>
-<wire x1="340.36" y1="-160.02" x2="187.96" y2="-160.02" width="0.762" layer="92"/>
+<wire x1="360.68" y1="-17.78" x2="360.68" y2="-160.02" width="0.762" layer="92"/>
+<wire x1="360.68" y1="-160.02" x2="187.96" y2="-160.02" width="0.762" layer="92"/>
 </segment>
 </bus>
 <bus name="PRU_BUS:PRU0,PRU1,PRU2,PRU3,PRU4,PRU5,PRU6,PRU7,PRU14_OUT,PRU15_OUT,PRU16_CLK">
 <segment>
-<wire x1="500.38" y1="-15.24" x2="500.38" y2="-66.04" width="0.762" layer="92"/>
-<wire x1="500.38" y1="-66.04" x2="127" y2="-66.04" width="0.762" layer="92"/>
-<label x="147.574" y="-64.516" size="2.54" layer="95"/>
-</segment>
-<segment>
-<wire x1="492.76" y1="-220.98" x2="492.76" y2="-292.1" width="0.762" layer="92"/>
 <label x="491.236" y="-226.568" size="2.54" layer="95" rot="R90"/>
+<wire x1="500.38" y1="-15.24" x2="500.38" y2="-66.04" width="0.762" layer="92"/>
+<wire x1="500.38" y1="-66.04" x2="492.76" y2="-66.04" width="0.762" layer="92"/>
+<label x="147.574" y="-64.516" size="2.54" layer="95"/>
+<wire x1="492.76" y1="-66.04" x2="127" y2="-66.04" width="0.762" layer="92"/>
+<wire x1="492.76" y1="-292.1" x2="492.76" y2="-66.04" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -15526,8 +15509,8 @@ NOTE: Pull down on other sheet</text>
 <segment>
 <pinref part="GND2" gate="G1" pin="GND"/>
 <pinref part="J7" gate="G$1" pin="5"/>
-<wire x1="353.06" y1="-137.16" x2="353.06" y2="-134.62" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="-134.62" x2="358.14" y2="-134.62" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="-55.88" x2="373.38" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="-53.34" x2="378.46" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J5" gate="J$1" pin="3"/>
@@ -15538,28 +15521,28 @@ NOTE: Pull down on other sheet</text>
 <segment>
 <pinref part="J13" gate="G$1" pin="GNDBREAK"/>
 <pinref part="GND45" gate="1" pin="GND"/>
-<wire x1="76.2" y1="17.78" x2="81.28" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="17.78" x2="81.28" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="22.86" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="22.86" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="J13" gate="G$1" pin="GND"/>
-<wire x1="76.2" y1="15.24" x2="81.28" y2="15.24" width="0.1524" layer="91"/>
-<junction x="81.28" y="15.24"/>
+<wire x1="50.8" y1="20.32" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
+<junction x="55.88" y="20.32"/>
 </segment>
 <segment>
 <pinref part="J11" gate="G$1" pin="GND"/>
 <pinref part="GND46" gate="1" pin="GND"/>
-<wire x1="78.74" y1="-10.16" x2="81.28" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="-10.16" x2="81.28" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-10.16" x2="55.88" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-10.16" x2="55.88" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="J11" gate="G$1" pin="SHIELD"/>
-<wire x1="66.04" y1="-5.08" x2="66.04" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="-15.24" x2="78.74" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="-15.24" x2="78.74" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="78.74" y="-10.16"/>
+<wire x1="40.64" y1="-5.08" x2="40.64" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-15.24" x2="53.34" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-15.24" x2="53.34" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="53.34" y="-10.16"/>
 </segment>
 <segment>
 <pinref part="J6" gate="J$1" pin="3"/>
 <pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="287.02" y1="12.7" x2="284.48" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="12.7" x2="284.48" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="12.7" x2="269.24" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="12.7" x2="269.24" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
@@ -15727,7 +15710,7 @@ NOTE: Pull down on other sheet</text>
 <wire x1="142.24" y1="2.54" x2="96.52" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="2.54" x2="96.52" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="J11" gate="G$1" pin="D-"/>
-<wire x1="96.52" y1="-5.08" x2="78.74" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-5.08" x2="53.34" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB_P" class="0">
@@ -15736,7 +15719,7 @@ NOTE: Pull down on other sheet</text>
 <wire x1="142.24" y1="0" x2="99.06" y2="0" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="0" x2="99.06" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="J11" gate="G$1" pin="D+"/>
-<wire x1="99.06" y1="-7.62" x2="78.74" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="-7.62" x2="53.34" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN_TX" class="0">
@@ -15894,8 +15877,8 @@ NOTE: Pull down on other sheet</text>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="4"/>
-<wire x1="340.36" y1="-132.08" x2="358.14" y2="-132.08" width="0.1524" layer="91"/>
-<label x="342.9" y="-132.08" size="1.778" layer="95"/>
+<wire x1="360.68" y1="-50.8" x2="378.46" y2="-50.8" width="0.1524" layer="91"/>
+<label x="363.22" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI1_CLK" class="0">
@@ -15912,8 +15895,8 @@ NOTE: Pull down on other sheet</text>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="2"/>
-<wire x1="340.36" y1="-127" x2="358.14" y2="-127" width="0.1524" layer="91"/>
-<label x="342.9" y="-127" size="1.778" layer="95"/>
+<wire x1="360.68" y1="-45.72" x2="378.46" y2="-45.72" width="0.1524" layer="91"/>
+<label x="363.22" y="-45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI1_MISO" class="0">
@@ -15929,8 +15912,8 @@ NOTE: Pull down on other sheet</text>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="3"/>
-<wire x1="340.36" y1="-129.54" x2="358.14" y2="-129.54" width="0.1524" layer="91"/>
-<label x="342.9" y="-129.54" size="1.778" layer="95"/>
+<wire x1="360.68" y1="-48.26" x2="378.46" y2="-48.26" width="0.1524" layer="91"/>
+<label x="363.22" y="-48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI1_MOSI" class="0">
@@ -15947,8 +15930,8 @@ NOTE: Pull down on other sheet</text>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="1"/>
-<wire x1="340.36" y1="-124.46" x2="358.14" y2="-124.46" width="0.1524" layer="91"/>
-<label x="342.9" y="-124.46" size="1.778" layer="95"/>
+<wire x1="360.68" y1="-43.18" x2="378.46" y2="-43.18" width="0.1524" layer="91"/>
+<label x="363.22" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OUT1_N" class="1">
@@ -16086,9 +16069,11 @@ NOTE: Pull down on other sheet</text>
 <pinref part="J9" gate="G$1" pin="46"/>
 <pinref part="J9" gate="G$1" pin="47"/>
 <pinref part="J12" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="-335.28" x2="162.56" y2="-335.28" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-45.72" x2="66.04" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-45.72" x2="66.04" y2="-335.28" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-335.28" x2="162.56" y2="-335.28" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="-335.28" x2="162.56" y2="-259.08" width="0.1524" layer="91"/>
-<label x="134.62" y="-335.28" size="1.27" layer="95"/>
+<label x="48.26" y="-45.72" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="JAMSYNC" class="0">
@@ -16234,8 +16219,8 @@ NOTE: Pull down on other sheet</text>
 <segment>
 <pinref part="J11" gate="G$1" pin="VBUS"/>
 <pinref part="SUPPLY2" gate="G$1" pin="5V"/>
-<wire x1="78.74" y1="-2.54" x2="81.28" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="-2.54" x2="81.28" y2="0" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-2.54" x2="55.88" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-2.54" x2="55.88" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="P1_24"/>
@@ -16246,8 +16231,8 @@ NOTE: Pull down on other sheet</text>
 <net name="N$41" class="0">
 <segment>
 <pinref part="J13" gate="G$1" pin="PWR"/>
-<wire x1="76.2" y1="20.32" x2="119.38" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="20.32" x2="119.38" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="25.4" x2="119.38" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="25.4" x2="119.38" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="P1_1"/>
 <wire x1="119.38" y1="12.7" x2="142.24" y2="12.7" width="0.1524" layer="91"/>
 </segment>
@@ -16265,7 +16250,7 @@ NOTE: Pull down on other sheet</text>
 <wire x1="231.14" y1="0" x2="236.22" y2="0" width="0.1524" layer="91"/>
 <pinref part="J6" gate="J$1" pin="2"/>
 <wire x1="236.22" y1="0" x2="236.22" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="15.24" x2="287.02" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="15.24" x2="271.78" y2="15.24" width="0.1524" layer="91"/>
 <label x="243.84" y="15.24" size="1.27" layer="95"/>
 </segment>
 </net>
@@ -16275,7 +16260,7 @@ NOTE: Pull down on other sheet</text>
 <wire x1="231.14" y1="7.62" x2="233.68" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="7.62" x2="233.68" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="J6" gate="J$1" pin="1"/>
-<wire x1="233.68" y1="17.78" x2="287.02" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="17.78" x2="271.78" y2="17.78" width="0.1524" layer="91"/>
 <label x="243.84" y="17.78" size="1.27" layer="95"/>
 </segment>
 </net>
@@ -16418,9 +16403,11 @@ NOTE: Pull down on other sheet</text>
 <pinref part="J12" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="-337.82" x2="177.8" y2="-337.82" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="NMOS" pin="S"/>
-<wire x1="177.8" y1="-337.82" x2="132.08" y2="-337.82" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-337.82" x2="63.5" y2="-337.82" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-337.82" x2="63.5" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-48.26" x2="53.34" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="-335.28" x2="203.2" y2="-337.82" width="0.1524" layer="91"/>
-<label x="134.62" y="-337.82" size="1.27" layer="95"/>
+<label x="48.26" y="-48.26" size="1.27" layer="95"/>
 <pinref part="J10" gate="J$1" pin="3"/>
 <wire x1="177.8" y1="-327.66" x2="177.8" y2="-337.82" width="0.1524" layer="91"/>
 <junction x="177.8" y="-337.82"/>
@@ -16549,36 +16536,35 @@ NOTE: Pull down on other sheet</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,2,175.26,76.2,U5,IN,5V,,,"/>
-<approved hash="104,2,205.74,71.12,U5,OUTS,VPOUT,,,"/>
-<approved hash="104,2,205.74,76.2,U5,OUT,VPOUT,,,"/>
-<approved hash="104,2,175.26,27.94,U1,IN,5V,,,"/>
-<approved hash="104,2,205.74,22.86,U1,OUTS,VDETCOM,,,"/>
-<approved hash="104,2,205.74,27.94,U1,OUT,VDETCOM,,,"/>
-<approved hash="104,2,175.26,127,U2,IN,5V,,,"/>
-<approved hash="104,2,205.74,121.92,U2,OUTS,VPL,,,"/>
-<approved hash="104,2,205.74,127,U2,OUT,VPL,,,"/>
-<approved hash="104,2,175.26,177.8,U3,IN,5V,,,"/>
-<approved hash="104,2,205.74,172.72,U3,OUTS,VPH,,,"/>
-<approved hash="104,2,205.74,177.8,U3,OUT,VPH,,,"/>
-<approved hash="104,2,175.26,223.52,U4,IN,5V,,,"/>
-<approved hash="104,2,205.74,218.44,U4,OUTS,VPOS,,,"/>
-<approved hash="104,2,205.74,223.52,U4,OUT,VPOS,,,"/>
-<approved hash="104,3,449.58,-259.08,U7,LVDS_VCC,3.3V,,,"/>
-<approved hash="104,3,457.2,-259.08,U7,PLL_VCC,3.3V,,,"/>
-<approved hash="104,3,426.72,-259.08,U7,VCC_2,3.3V,,,"/>
-<approved hash="104,3,434.34,-259.08,U7,VCC_3,3.3V,,,"/>
-<approved hash="104,3,441.96,-259.08,U7,VCC_4,3.3V,,,"/>
-<approved hash="104,3,419.1,-259.08,U7,VCC,3.3V,,,"/>
-<approved hash="104,2,5.08,129.54,U6,VCC,3.3V,,,"/>
-<approved hash="104,3,78.74,-2.54,J11,VBUS,5V,,,"/>
-<approved hash="104,3,269.24,-259.08,X1,VCC,3.3V,,,"/>
-<approved hash="113,1,139.596,107.846,FRAME1,,,,,"/>
-<approved hash="113,3,361.357,-130.973,J7,,,,,"/>
-<approved hash="113,2,144.676,134.516,FRAME3,,,,,"/>
-<approved hash="113,3,303.693,-57.7427,J8,,,,,"/>
-<approved hash="113,3,128.863,-335.117,J12,,,,,"/>
-<approved hash="113,3,236.897,-45.5574,J2,,,,,"/>
+<approved hash="104,1,175.26,76.2,U5,IN,5V,,,"/>
+<approved hash="104,1,205.74,71.12,U5,OUTS,VPOUT,,,"/>
+<approved hash="104,1,205.74,76.2,U5,OUT,VPOUT,,,"/>
+<approved hash="104,1,175.26,27.94,U1,IN,5V,,,"/>
+<approved hash="104,1,205.74,22.86,U1,OUTS,VDETCOM,,,"/>
+<approved hash="104,1,205.74,27.94,U1,OUT,VDETCOM,,,"/>
+<approved hash="104,1,175.26,127,U2,IN,5V,,,"/>
+<approved hash="104,1,205.74,121.92,U2,OUTS,VPL,,,"/>
+<approved hash="104,1,205.74,127,U2,OUT,VPL,,,"/>
+<approved hash="104,1,175.26,177.8,U3,IN,5V,,,"/>
+<approved hash="104,1,205.74,172.72,U3,OUTS,VPH,,,"/>
+<approved hash="104,1,205.74,177.8,U3,OUT,VPH,,,"/>
+<approved hash="104,1,175.26,223.52,U4,IN,5V,,,"/>
+<approved hash="104,1,205.74,218.44,U4,OUTS,VPOS,,,"/>
+<approved hash="104,1,205.74,223.52,U4,OUT,VPOS,,,"/>
+<approved hash="104,2,449.58,-259.08,U7,LVDS_VCC,3.3V,,,"/>
+<approved hash="104,2,457.2,-259.08,U7,PLL_VCC,3.3V,,,"/>
+<approved hash="104,2,426.72,-259.08,U7,VCC_2,3.3V,,,"/>
+<approved hash="104,2,434.34,-259.08,U7,VCC_3,3.3V,,,"/>
+<approved hash="104,2,441.96,-259.08,U7,VCC_4,3.3V,,,"/>
+<approved hash="104,2,419.1,-259.08,U7,VCC,3.3V,,,"/>
+<approved hash="104,1,5.08,129.54,U6,VCC,3.3V,,,"/>
+<approved hash="104,2,78.74,-2.54,J11,VBUS,5V,,,"/>
+<approved hash="104,2,269.24,-259.08,X1,VCC,3.3V,,,"/>
+<approved hash="113,2,361.357,-130.973,J7,,,,,"/>
+<approved hash="113,1,144.676,134.516,FRAME3,,,,,"/>
+<approved hash="113,2,303.693,-57.7427,J8,,,,,"/>
+<approved hash="113,2,128.863,-335.117,J12,,,,,"/>
+<approved hash="113,2,236.897,-45.5574,J2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
