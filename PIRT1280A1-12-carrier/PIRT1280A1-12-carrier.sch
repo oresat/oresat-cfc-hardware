@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -16558,12 +16558,12 @@ NOTE: Pull down on other sheet</text>
 <approved hash="104,2,441.96,-259.08,U7,VCC_4,3.3V,,,"/>
 <approved hash="104,2,419.1,-259.08,U7,VCC,3.3V,,,"/>
 <approved hash="104,1,5.08,129.54,U6,VCC,3.3V,,,"/>
-<approved hash="104,2,78.74,-2.54,J11,VBUS,5V,,,"/>
+<approved hash="104,2,53.34,-2.54,J11,VBUS,5V,,,"/>
 <approved hash="104,2,269.24,-259.08,X1,VCC,3.3V,,,"/>
-<approved hash="113,2,361.357,-130.973,J7,,,,,"/>
+<approved hash="113,2,381.677,-49.6926,J7,,,,,"/>
 <approved hash="113,1,144.676,134.516,FRAME3,,,,,"/>
 <approved hash="113,2,303.693,-57.7427,J8,,,,,"/>
-<approved hash="113,2,128.863,-335.117,J12,,,,,"/>
+<approved hash="113,2,50.1227,-45.5574,J12,,,,,"/>
 <approved hash="113,2,236.897,-45.5574,J2,,,,,"/>
 </errors>
 </schematic>

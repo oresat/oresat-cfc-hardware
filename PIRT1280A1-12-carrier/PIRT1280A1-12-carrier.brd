@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0625" altunitdist="mm" altunit="mm"/>
@@ -4890,13 +4890,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U5" pad="6"/>
 <contactref element="TP31" pad="1"/>
 <contactref element="SJ7" pad="1"/>
-<wire x1="85.999996875" y1="85.84" x2="85.16" y2="85.84" width="0.3048" layer="1"/>
 <wire x1="85.16" y1="85.84" x2="85" y2="86" width="0.3048" layer="1"/>
 <wire x1="85" y1="86" x2="84.008" y2="86" width="0.3048" layer="1"/>
 <wire x1="84.008" y1="86" x2="84" y2="85.992" width="0.3048" layer="1"/>
 <wire x1="82.5" y1="84.492" x2="82.5" y2="79" width="0.3048" layer="1"/>
 <wire x1="82.5" y1="79" x2="84" y2="77.5" width="0.3048" layer="1"/>
 <wire x1="84" y1="85.992" x2="82.5" y2="84.492" width="0.3048" layer="1"/>
+<wire x1="86" y1="85.84" x2="85.16" y2="85.84" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$15">
 <contactref element="U5" pad="4"/>
@@ -6132,7 +6132,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="23,1,7c668f948e5c7dae"/>
 <approved hash="23,1,9fd86d8868c89a98"/>
 <approved hash="23,1,230ed95ec1523b02"/>
-<approved hash="23,1,64008a008bb765b7"/>
 </errors>
 </board>
 </drawing>

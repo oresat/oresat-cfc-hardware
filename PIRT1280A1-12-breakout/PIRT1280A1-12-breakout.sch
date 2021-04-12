@@ -6255,25 +6255,17 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,115.57,170.18,U1G$1,VPOUT,VPOUT-0.9V,,,"/>
-<approved hash="104,1,118.11,104.14,U1G$1,VNOUT,GND,,,"/>
-<approved hash="104,1,125.73,104.14,U1G$1,VN,GND,,,"/>
-<approved hash="104,1,120.65,170.18,U1G$1,VPL,VPL-1.6V,,,"/>
-<approved hash="104,1,130.81,170.18,U1G$1,VPH,VPH-3.3V,,,"/>
-<approved hash="104,1,133.35,104.14,U1G$1,VGND,GND,,,"/>
-<approved hash="104,1,135.89,170.18,U1G$1,VPOS,VPOS-3.3V,,,"/>
-<approved hash="104,1,125.73,170.18,U1G$1,VDETCOM,VEDETCOM-2.9V,,,"/>
-<approved hash="113,1,139.596,107.846,FRAME1,,,,,"/>
-<approved hash="113,1,122.146,77.7071,JP1,,,,,"/>
-<approved hash="113,1,48.0229,139.926,JP2,,,,,"/>
-<approved hash="113,1,207.247,131.036,JP4,,,,,"/>
-<approved hash="113,1,48.0229,173.764,JP3,,,,,"/>
-<approved hash="113,1,208.517,81.5061,JP5,,,,,"/>
-<approved hash="113,1,48.0229,106.906,JP7,,,,,"/>
-<approved hash="113,1,208.517,66.2661,JP6,,,,,"/>
-<approved hash="113,1,48.0229,89.1261,JP8,,,,,"/>
-<approved hash="113,1,122.953,43.4061,JP9,,,,,"/>
-<approved hash="113,1,122.953,25.6261,JP10,,,,,"/>
+<approved hash="104,1,66.04,175.26,U1G$1,VPOUT-0.9V,VPOUT,,,"/>
+<approved hash="104,1,68.58,109.22,U1G$1,VNOUT,GND,,,"/>
+<approved hash="104,1,76.2,109.22,U1G$1,VN,GND,,,"/>
+<approved hash="104,1,71.12,175.26,U1G$1,VPL-1.6V,VPL,,,"/>
+<approved hash="104,1,81.28,175.26,U1G$1,VPH-3.3V,VPH,,,"/>
+<approved hash="104,1,83.82,109.22,U1G$1,VGND,GND,,,"/>
+<approved hash="104,1,86.36,175.26,U1G$1,VPOS-3.3V,VPOS,,,"/>
+<approved hash="104,1,76.2,175.26,U1G$1,VDETCOM~2.9V,VDETCOM,,,"/>
+<approved hash="113,1,140.866,107.846,FRAME1,,,,,"/>
+<approved hash="113,1,212.327,195.776,JP1,,,,,"/>
+<approved hash="113,1,223.283,195.776,JP2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
