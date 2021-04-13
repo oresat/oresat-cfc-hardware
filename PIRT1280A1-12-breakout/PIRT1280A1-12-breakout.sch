@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5645,16 +5645,15 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 <sheets>
 <sheet>
 <plain>
-<text x="303.53" y="119.38" size="3.81" layer="97">TODO TEST POINTS?</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="76.2" y="142.24" smashed="yes">
 <attribute name="NAME" x="91.44" y="109.22" size="1.778" layer="95" ratio="20"/>
 <attribute name="VALUE" x="91.44" y="106.68" size="1.778" layer="96" ratio="20"/>
 </instance>
-<instance part="U1" gate="G$2" x="283.21" y="121.92" smashed="yes">
-<attribute name="NAME" x="283.21" y="93.98" size="1.778" layer="95" ratio="20"/>
-<attribute name="VALUE" x="283.21" y="91.44" size="1.778" layer="96" ratio="20"/>
+<instance part="U1" gate="G$2" x="13.97" y="33.02" smashed="yes">
+<attribute name="NAME" x="13.97" y="5.08" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="13.97" y="2.54" size="1.778" layer="96" ratio="20"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="1.27" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="173.99" y="0" smashed="yes">
