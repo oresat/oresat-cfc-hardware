@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3678,10 +3678,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="34.27" y="90.032" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="X1" library="X-OSCILLATOR-GENERIC" package="OSC_2.5X2.0" value="16MHz" x="77" y="35" smashed="yes">
-<attribute name="DPN" value="478-4781-1-ND" x="77" y="35" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="KC2520B27.0000C10E00" x="77" y="35" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="" x="77" y="35" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="77" y="35" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="76.5054" y="37.153" size="0.635" layer="25" font="vector" ratio="20" rot="SR0"/>
-<attribute name="VENDOR" value="Kyocera" x="77" y="35" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="" x="77" y="35" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R27" library="oresat-rcl" package=".0402-C-NOSILK" value="100" x="82" y="36" smashed="yes">
 <attribute name="DIS" value="Dgi-Key" x="82" y="36" size="1.778" layer="27" display="off"/>

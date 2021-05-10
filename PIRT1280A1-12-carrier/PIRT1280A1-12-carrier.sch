@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13793,7 +13793,11 @@ Shield pins may be grounded.
 <part name="J10" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="455-1750-1-ND"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="455-1750-1-ND"/>
 <part name="3.3V3" library="oresat-supplies" deviceset="3.3V" device=""/>
-<part name="X1" library="X-OSCILLATOR-GENERIC" deviceset="OSC_GENERIC_2.5X2.0" device="" value="16MHz"/>
+<part name="X1" library="X-OSCILLATOR-GENERIC" deviceset="OSC_GENERIC_2.5X2.0" device="" value="16MHz">
+<attribute name="DPN" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="VENDOR" value=""/>
+</part>
 <part name="3.3V4" library="oresat-supplies" deviceset="3.3V" device=""/>
 <part name="GND52" library="oresat-supplies" deviceset="GND" device=""/>
 <part name="R27" library="oresat-rcl" deviceset="R-US_" device="0402-C-NOSILK" value="100">
@@ -15590,8 +15594,8 @@ POWER JUMPER</text>
 <attribute name="VALUE" x="266.7" y="-292.1" size="1.778" layer="96"/>
 </instance>
 <instance part="R27" gate="R" x="246.38" y="-271.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="251.714" y="-270.2814" size="1.778" layer="95"/>
-<attribute name="VALUE" x="256.286" y="-270.256" size="1.778" layer="96"/>
+<attribute name="NAME" x="241.554" y="-270.2814" size="1.778" layer="95"/>
+<attribute name="VALUE" x="248.666" y="-270.256" size="1.778" layer="96"/>
 <attribute name="MPN" x="246.38" y="-271.78" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="DPN" x="246.38" y="-271.78" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MFR" x="246.38" y="-271.78" size="1.778" layer="96" rot="R180" display="off"/>
