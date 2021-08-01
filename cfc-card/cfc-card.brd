@@ -6403,7 +6403,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="64.5" y="73.5" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="62.7" y="75" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="U$1" library="oresat-flight-marker" package="FLIGHTMARKER_NEW_BOARDS" value="FLIGHMARKERNEW" x="6.2" y="-6.1" smashed="yes"/>
+<element name="U$1" library="oresat-flight-marker" package="FLIGHTMARKER_NEW_BOARDS" value="FLIGHMARKERNEW" x="7.1" y="59.7" smashed="yes" rot="R90"/>
 <element name="J2" library="J-Samtec-TFM-110-X1-XXX-D-RA" package="J-SAMTEC-TFM-110-X1-XXX-D-RA" value="J-SAMTEC-TFM-110-X1-XXX-D-RA" x="21.9" y="87.9" locked="yes" smashed="yes">
 <attribute name="DIS" value="Digikey" x="21.9" y="87.9" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="DPN" value="SAM10113-ND" x="21.9" y="87.9" locked="yes" size="1.778" layer="27" display="off"/>
