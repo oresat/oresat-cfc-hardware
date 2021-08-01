@@ -15691,11 +15691,16 @@ POWER JUMPER</text>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="129.54" y1="-5.08" x2="142.24" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="-5.08" x2="137.16" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="P1_15"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="-5.08" x2="142.24" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="-2.54" x2="129.54" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="129.54" y="-5.08"/>
+<pinref part="U$2" gate="G$1" pin="P1_17"/>
+<wire x1="142.24" y1="-7.62" x2="137.16" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="-7.62" x2="137.16" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="137.16" y="-5.08"/>
 </segment>
 <segment>
 <wire x1="386.08" y1="-5.08" x2="381" y2="-5.08" width="0.1524" layer="91"/>
@@ -16558,14 +16563,12 @@ POWER JUMPER</text>
 <junction x="147.32" y="-167.64"/>
 <pinref part="R21" gate="R" pin="1"/>
 <wire x1="101.6" y1="-33.02" x2="109.22" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P1_17"/>
-<wire x1="142.24" y1="-7.62" x2="134.62" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="-7.62" x2="134.62" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="-20.32" x2="124.46" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="-20.32" x2="124.46" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="-10.16" x2="124.46" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="-33.02" x2="109.22" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="109.22" y="-33.02"/>
 <pinref part="C18" gate="CE" pin="1"/>
+<pinref part="U$2" gate="G$1" pin="P1_19"/>
+<wire x1="124.46" y1="-10.16" x2="142.24" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
