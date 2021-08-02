@@ -18903,9 +18903,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="TP78" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="R14" library="oresat-rcl" deviceset="R-US_" device="0603-A" value="DNP"/>
 <part name="GND45" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R16" library="R-Panasonic-EXB-2HV103JV" deviceset="EXB-2HV103JV" device=""/>
+<part name="R16" library="R-Panasonic-EXB-2HV103JV" deviceset="EXB-2HV103JV" device="" value="100k"/>
 <part name="GND46" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R17" library="R-Panasonic-EXB-2HV103JV" deviceset="EXB-2HV103JV" device=""/>
+<part name="R17" library="R-Panasonic-EXB-2HV103JV" deviceset="EXB-2HV103JV" device="" value="100k"/>
 <part name="GND48" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="3V-6" library="oresat-supplies" deviceset="3.3V" device=""/>
 <part name="SB0" library="oresat-misc" deviceset="TEST-POINT-SMALL" device=""/>

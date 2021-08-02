@@ -5808,8 +5808,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="U3" library="U-Generic-eMMC-153pin" package="BGA-153(11.5X13)(EMMC-BA)" value="THGBMJG7C2LBAU8" x="19.9" y="20" smashed="yes" rot="R270">
 <attribute name="DPN" value="THGBMJG7C2LBAU8-ND" x="19.9" y="20" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="THGBMJG7C2LBAU8" x="19.9" y="20" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="19.9" y="20" size="1.5" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="27.0125" y="15.575" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="19.9" y="20" size="1.5" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="12.3" y="25.6" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C9" library="oresat-rcl" package=".0603-A" value="1uF" x="19.18125" y="28.125" smashed="yes" rot="R90">
@@ -6707,7 +6707,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="24" y="39" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="25.75" y="37.6" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="R16" library="R-Panasonic-EXB-2HV103JV" package="RES_EXB2HV" value="EXB-2HV103JV" x="28.5" y="37.25" smashed="yes">
+<element name="R16" library="R-Panasonic-EXB-2HV103JV" package="RES_EXB2HV" value="100k" x="28.5" y="37.25" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="24" y="46.25" size="1.778" layer="27" display="off"/>
 <attribute name="DPN" value="Y1103CT-ND" x="24" y="46.25" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="EXB-2HV103JV" x="24" y="46.25" size="1.778" layer="27" display="off"/>
@@ -6715,7 +6715,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="SOURCELIBRARY" value="Update_to_database_2020-12-03" x="24" y="46.25" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Panasonic" x="24" y="46.25" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R17" library="R-Panasonic-EXB-2HV103JV" package="RES_EXB2HV" value="EXB-2HV103JV" x="28.5" y="43.5" smashed="yes">
+<element name="R17" library="R-Panasonic-EXB-2HV103JV" package="RES_EXB2HV" value="100k" x="28.5" y="43.5" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="24" y="52.5" size="1.778" layer="27" display="off"/>
 <attribute name="DPN" value="Y1103CT-ND" x="24" y="52.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="EXB-2HV103JV" x="24" y="52.5" size="1.778" layer="27" display="off"/>
