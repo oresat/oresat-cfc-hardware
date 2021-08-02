@@ -18550,8 +18550,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="R63" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100m"/>
 <part name="R39" library="oresat-rcl" deviceset="R-US_" device="0603-A" value="10k"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R50" library="oresat-rcl" deviceset="R-US_" device="0603-A" value="0"/>
-<part name="R51" library="oresat-rcl" deviceset="R-US_" device="0603-A" value="NP">
+<part name="R50" library="oresat-rcl" deviceset="R-US_" device="0603-A" value="10k"/>
+<part name="R51" library="oresat-rcl" deviceset="R-US_" device="0603-A" value="4.7k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-4275-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -21461,11 +21461,11 @@ eMMC. Manual jumper here to override</text>
 <instance part="TP32" gate="G$1" x="281.94" y="375.92" smashed="yes">
 <attribute name="NAME" x="283.21" y="387.35" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="TP33" gate="G$1" x="353.06" y="281.94" smashed="yes">
-<attribute name="NAME" x="355.346" y="282.194" size="1.778" layer="95" font="vector"/>
+<instance part="TP33" gate="G$1" x="347.98" y="281.94" smashed="yes">
+<attribute name="NAME" x="350.266" y="282.194" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="TP34" gate="G$1" x="353.06" y="279.4" smashed="yes">
-<attribute name="NAME" x="355.346" y="279.654" size="1.778" layer="95" font="vector"/>
+<instance part="TP34" gate="G$1" x="347.98" y="279.4" smashed="yes">
+<attribute name="NAME" x="350.266" y="279.654" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="JP1" gate="G$1" x="185.42" y="86.36" smashed="yes">
 <attribute name="NAME" x="182.88" y="88.9" size="1.778" layer="95" font="vector"/>
@@ -21547,8 +21547,8 @@ eMMC. Manual jumper here to override</text>
 <wire x1="241.3" y1="307.34" x2="241.3" y2="248.92" width="0.762" layer="92"/>
 <wire x1="241.3" y1="248.92" x2="309.88" y2="248.92" width="0.762" layer="92"/>
 <wire x1="309.88" y1="248.92" x2="309.88" y2="111.76" width="0.762" layer="92"/>
-<wire x1="309.88" y1="248.92" x2="365.76" y2="248.92" width="0.762" layer="92"/>
-<wire x1="365.76" y1="248.92" x2="365.76" y2="281.94" width="0.762" layer="92"/>
+<wire x1="309.88" y1="248.92" x2="373.38" y2="248.92" width="0.762" layer="92"/>
+<wire x1="373.38" y1="248.92" x2="373.38" y2="281.94" width="0.762" layer="92"/>
 </segment>
 </bus>
 <bus name="SPI1_BUS:SPI1_CLK,SPI1_MISO,SPI1_MOSI">
@@ -22880,19 +22880,21 @@ eMMC. Manual jumper here to override</text>
 <net name="PRU0_14" class="0">
 <segment>
 <pinref part="U7" gate="C" pin="GPMC_AD12"/>
-<wire x1="345.44" y1="281.94" x2="353.06" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="281.94" x2="347.98" y2="281.94" width="0.1524" layer="91"/>
 <pinref part="TP33" gate="G$1" pin="1"/>
-<wire x1="353.06" y1="281.94" x2="365.76" y2="281.94" width="0.1524" layer="91"/>
-<junction x="353.06" y="281.94"/>
+<wire x1="347.98" y1="281.94" x2="373.38" y2="281.94" width="0.1524" layer="91"/>
+<junction x="347.98" y="281.94"/>
+<label x="358.14" y="281.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PRU0_15" class="0">
 <segment>
 <pinref part="U7" gate="C" pin="GPMC_AD13"/>
-<wire x1="345.44" y1="279.4" x2="353.06" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="279.4" x2="347.98" y2="279.4" width="0.1524" layer="91"/>
 <pinref part="TP34" gate="G$1" pin="1"/>
-<wire x1="353.06" y1="279.4" x2="365.76" y2="279.4" width="0.1524" layer="91"/>
-<junction x="353.06" y="279.4"/>
+<wire x1="347.98" y1="279.4" x2="373.38" y2="279.4" width="0.1524" layer="91"/>
+<junction x="347.98" y="279.4"/>
+<label x="358.14" y="279.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SENSOR_ENABLE" class="0">
@@ -24475,19 +24477,19 @@ pullup resistors, and the I2C0 ESD protection</text>
 <approved hash="104,3,444.5,281.94,U3,VSSIO,GND,,,"/>
 <approved hash="104,3,447.04,281.94,U3,VSSQ,GND,,,"/>
 <approved hash="104,3,447.04,320.04,U3,VDDI,N$640,,,"/>
-<approved hash="104,3,220.98,523.24,U11,VCC,3.3V,,,"/>
-<approved hash="104,4,226.06,93.98,U1,VCC,VDD,,,"/>
+<approved hash="104,3,106.68,505.46,U11,VCC,3.3V,,,"/>
+<approved hash="104,1,276.86,119.38,U1,VCC,VDD,,,"/>
 <approved hash="104,2,132.08,170.18,U16,V+,VPD,,,"/>
 <approved hash="104,2,288.29,231.14,U14,VCC,ON/!OFF,,,"/>
 <approved hash="104,2,142.24,63.5,U13,VDD,VPD,,,"/>
 <approved hash="104,2,142.24,104.14,U12,VDD,VPD,,,"/>
-<approved hash="104,3,205.74,436.88,U17,VCC,3.3V,,,"/>
-<approved hash="104,3,502.92,99.06,U2,LVDS_VCC,3.3V,,,"/>
-<approved hash="104,3,510.54,99.06,U2,PLL_VCC,3.3V,,,"/>
-<approved hash="104,3,480.06,99.06,U2,VCC_2,3.3V,,,"/>
-<approved hash="104,3,487.68,99.06,U2,VCC_3,3.3V,,,"/>
-<approved hash="104,3,495.3,99.06,U2,VCC_4,3.3V,,,"/>
-<approved hash="104,3,472.44,99.06,U2,VCC,3.3V,,,"/>
+<approved hash="104,3,106.68,429.26,U17,VCC,3.3V,,,"/>
+<approved hash="104,3,241.3,147.32,U2,LVDS_VCC,3.3V,,,"/>
+<approved hash="104,3,248.92,147.32,U2,PLL_VCC,3.3V,,,"/>
+<approved hash="104,3,218.44,147.32,U2,VCC_2,3.3V,,,"/>
+<approved hash="104,3,226.06,147.32,U2,VCC_3,3.3V,,,"/>
+<approved hash="104,3,233.68,147.32,U2,VCC_4,3.3V,,,"/>
+<approved hash="104,3,210.82,147.32,U2,VCC,3.3V,,,"/>
 <approved hash="111,3,655.32,358.14,SYSBOOT0,,,,,"/>
 <approved hash="111,3,657.86,355.6,SYSBOOT1,,,,,"/>
 <approved hash="111,3,652.78,353.06,SYSBOOT2,,,,,"/>
