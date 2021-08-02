@@ -14936,7 +14936,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MPN" value="MAX7310ATE"/>
 </part>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C39" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="0.1uF"/>
+<part name="C39" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="0.1u"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R71" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="100"/>
 <part name="U14" library="U-Maxim-MAX4211-power-monitor" deviceset="MAX4211" device="" package3d_urn="urn:adsk.eagle:package:8018497/1" value="MAX4211FETE"/>
@@ -15061,12 +15061,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MPN" value="RC1005F6653CS"/>
 </part>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C33" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="1uF">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
-</part>
+<part name="C33" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="1u"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R32" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="10k"/>
 <part name="TP45" library="oresat-misc" deviceset="TEST-POINT_SMD" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
@@ -15085,7 +15080,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="DPN" value="1727-2307-1-ND"/>
 <attribute name="MPN" value="PMV45EN2R"/>
 </part>
-<part name="C34" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="1uF"/>
+<part name="C34" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="1u"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VBUSP2" library="oresat-supplies" deviceset="VBUSP" device=""/>
 <part name="VPD1" library="oresat-supplies" deviceset="VPD" device=""/>
@@ -15105,7 +15100,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="R44" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="1M"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VPD4" library="oresat-supplies" deviceset="VPD" device=""/>
-<part name="C35" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="1uF"/>
+<part name="C35" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="1u"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP41" library="oresat-misc" deviceset="TEST-POINT_SMD" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
 <part name="TP43" library="oresat-misc" deviceset="TEST-POINT_SMD" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
@@ -15115,7 +15110,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="R36" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="1M"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VPD3" library="oresat-supplies" deviceset="VPD" device=""/>
-<part name="C32" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="1uF"/>
+<part name="C32" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="1u"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP42" library="oresat-misc" deviceset="TEST-POINT_SMD" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
 <part name="TP44" library="oresat-misc" deviceset="TEST-POINT_SMD" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
@@ -15244,11 +15239,11 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="TP40" library="oresat-misc" deviceset="TEST-POINT_SMD" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
 <part name="GND56" library="supply" deviceset="GND" device=""/>
 <part name="GND58" library="supply" deviceset="GND" device=""/>
-<part name="C103" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="100n"/>
-<part name="C100" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="100n"/>
-<part name="C102" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="100n"/>
-<part name="C101" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="100n"/>
-<part name="C104" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="100n"/>
+<part name="C103" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="0.1u"/>
+<part name="C100" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="0.1u"/>
+<part name="C102" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="0.1u"/>
+<part name="C101" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="0.1u"/>
+<part name="C104" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="0.1u"/>
 <part name="GND57" library="supply" deviceset="GND" device=""/>
 <part name="TP1" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="VBUSP1" library="oresat-supplies" deviceset="VBUSP" device=""/>
@@ -15271,7 +15266,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="U8" library="U-TI-LP2985AIM5-3.3_NOPB-3.3V-Fixed-LDO" deviceset="LP2985AIM5-3.3_NOPB" device=""/>
 <part name="3.3V3" library="oresat-supplies" deviceset="3.3V" device=""/>
 <part name="GND62" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C18" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="1uF"/>
+<part name="C18" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="1u"/>
 <part name="C19" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="4.7u"/>
 <part name="VBUSP8" library="oresat-supplies" deviceset="VBUSP" device=""/>
 <part name="C20" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="0.1u"/>
@@ -15886,10 +15881,6 @@ CURRENT LIMIT RES VALUES</text>
 <attribute name="VALUE" x="275.59" y="203.2" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C33" gate="CE" x="273.05" y="224.79" smashed="yes" rot="MR180">
-<attribute name="DIS" x="273.05" y="224.79" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="DPN" x="273.05" y="224.79" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MFR" x="273.05" y="224.79" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="273.05" y="224.79" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="NAME" x="276.86" y="226.06" size="1.778" layer="95"/>
 <attribute name="VALUE" x="275.59" y="223.52" size="1.778" layer="96"/>
 </instance>
