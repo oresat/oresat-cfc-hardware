@@ -6045,7 +6045,7 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 <pinref part="U1" gate="G$1" pin="SDCLK"/>
 <wire x1="48.26" y1="139.7" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
 <label x="38.1" y="139.7" size="1.27" layer="95"/>
-<label x="203.2" y="55.88" size="1.778" layer="95"/>
+<label x="203.2" y="58.42" size="1.778" layer="95"/>
 <wire x1="35.56" y1="139.7" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="46"/>
 <wire x1="35.56" y1="58.42" x2="218.44" y2="58.42" width="0.1524" layer="91"/>
@@ -6058,7 +6058,7 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 <segment>
 <pinref part="U1" gate="G$1" pin="SDIN"/>
 <label x="38.1" y="137.16" size="1.27" layer="95"/>
-<label x="203.2" y="58.42" size="1.778" layer="95"/>
+<label x="203.2" y="55.88" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="47"/>
 <wire x1="33.02" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="55.88" x2="218.44" y2="55.88" width="0.1524" layer="91"/>

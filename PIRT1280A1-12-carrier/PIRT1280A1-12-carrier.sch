@@ -11742,98 +11742,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </deviceset>
 </devicesets>
 </library>
-<library name="U-TI-LM2901">
-<packages>
-<package name="PW14-M">
-<smd name="1" x="-2.9718" y="1.95" dx="1.778" dy="0.3556" layer="1"/>
-<smd name="2" x="-2.9718" y="1.3" dx="1.778" dy="0.3556" layer="1"/>
-<smd name="3" x="-2.9718" y="0.65" dx="1.778" dy="0.3556" layer="1"/>
-<smd name="4" x="-2.9718" y="0" dx="1.778" dy="0.3556" layer="1"/>
-<smd name="5" x="-2.9718" y="-0.65" dx="1.778" dy="0.3556" layer="1"/>
-<smd name="6" x="-2.9718" y="-1.3" dx="1.778" dy="0.3556" layer="1"/>
-<smd name="7" x="-2.9718" y="-1.95" dx="1.778" dy="0.3556" layer="1"/>
-<smd name="8" x="2.9718" y="-1.95" dx="1.778" dy="0.3556" layer="1"/>
-<smd name="9" x="2.9718" y="-1.3" dx="1.778" dy="0.3556" layer="1"/>
-<smd name="10" x="2.9718" y="-0.65" dx="1.778" dy="0.3556" layer="1"/>
-<smd name="11" x="2.9718" y="0" dx="1.778" dy="0.3556" layer="1"/>
-<smd name="12" x="2.9718" y="0.65" dx="1.778" dy="0.3556" layer="1"/>
-<smd name="13" x="2.9718" y="1.3" dx="1.778" dy="0.3556" layer="1"/>
-<smd name="14" x="2.9718" y="1.95" dx="1.778" dy="0.3556" layer="1"/>
-<wire x1="2.3876" y1="2.6924" x2="-2.3876" y2="2.6924" width="0.1524" layer="21"/>
-<text x="-1.27" y="3.81" size="0.625" layer="21" font="vector" ratio="20" rot="SR0">&gt;Value</text>
-<text x="-1.27" y="4.445" size="0.625" layer="25" font="vector" ratio="20" rot="SR0">&gt;Name</text>
-<circle x="-3.175" y="3.175" radius="0.127" width="0.508" layer="21"/>
-<wire x1="-0.635" y1="2.667" x2="0.635" y2="2.667" width="0.161290625" layer="21" curve="180"/>
-<wire x1="2.3876" y1="-2.6924" x2="-2.3876" y2="-2.6924" width="0.1524" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LM2901-Q1_PW_14">
-<pin name="OUT1" x="22.86" y="12.7" length="middle" direction="out" rot="R180"/>
-<pin name="OUT2" x="22.86" y="5.08" length="middle" direction="out" rot="R180"/>
-<pin name="VCC" x="0" y="22.86" length="middle" direction="pwr" rot="R270"/>
-<pin name="2IN-" x="-22.86" y="2.54" length="middle" direction="in"/>
-<pin name="2IN+" x="-22.86" y="5.08" length="middle" direction="in"/>
-<pin name="1IN-" x="-22.86" y="10.16" length="middle" direction="in"/>
-<pin name="1IN+" x="-22.86" y="12.7" length="middle" direction="in"/>
-<pin name="3IN-" x="-22.86" y="-5.08" length="middle" direction="in"/>
-<pin name="3IN+" x="-22.86" y="-2.54" length="middle" direction="in"/>
-<pin name="4IN-" x="-22.86" y="-12.7" length="middle" direction="in"/>
-<pin name="4IN+" x="-22.86" y="-10.16" length="middle" direction="in"/>
-<pin name="GND" x="0" y="-22.86" length="middle" direction="pwr" rot="R90"/>
-<pin name="OUT4" x="22.86" y="-10.16" length="middle" direction="out" rot="R180"/>
-<pin name="OUT3" x="22.86" y="-2.54" length="middle" direction="out" rot="R180"/>
-<wire x1="-17.78" y1="17.78" x2="-17.78" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="-17.78" y1="-17.78" x2="17.78" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="17.78" y1="-17.78" x2="17.78" y2="17.78" width="0.1524" layer="94"/>
-<wire x1="17.78" y1="17.78" x2="-17.78" y2="17.78" width="0.1524" layer="94"/>
-<text x="-17.78" y="22.86" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-17.78" y="20.32" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LM2901QPWRQ1" prefix="U">
-<gates>
-<gate name="A" symbol="LM2901-Q1_PW_14" x="0" y="0"/>
-</gates>
-<devices>
-<device name="PW14-M" package="PW14-M">
-<connects>
-<connect gate="A" pin="1IN+" pad="7"/>
-<connect gate="A" pin="1IN-" pad="6"/>
-<connect gate="A" pin="2IN+" pad="5"/>
-<connect gate="A" pin="2IN-" pad="4"/>
-<connect gate="A" pin="3IN+" pad="9"/>
-<connect gate="A" pin="3IN-" pad="8"/>
-<connect gate="A" pin="4IN+" pad="11"/>
-<connect gate="A" pin="4IN-" pad="10"/>
-<connect gate="A" pin="GND" pad="12"/>
-<connect gate="A" pin="OUT1" pad="1"/>
-<connect gate="A" pin="OUT2" pad="2"/>
-<connect gate="A" pin="OUT3" pad="14"/>
-<connect gate="A" pin="OUT4" pad="13"/>
-<connect gate="A" pin="VCC" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET_URL" value="http://www.ti.com/lit/gpn/LM2901-Q1" constant="no"/>
-<attribute name="DESCRIPTION" value="Automotive Catalog Quad Differential Comparator" constant="no"/>
-<attribute name="DPN" value="296-18438-1-ND" constant="no"/>
-<attribute name="FAMILY_NAME" value="COMPARATOR" constant="no"/>
-<attribute name="GENERIC_PART_NUMBER" value="LM2901-Q1" constant="no"/>
-<attribute name="INDUSTRY_STD_PKG_TYPE" value="TSSOP" constant="no"/>
-<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
-<attribute name="MPN" value="LM2901QPWRQ1" constant="no"/>
-<attribute name="PACKAGE_DESIGNATOR" value="PW" constant="no"/>
-<attribute name="PIN_COUNT" value="14" constant="no"/>
-<attribute name="VENDOR" value="Texas Instruments" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="R-Panasonic-EXB-2HV103JV">
 <packages>
 <package name="RES_EXB2HV">
@@ -13433,6 +13341,98 @@ Shield pins may be grounded.
 </deviceset>
 </devicesets>
 </library>
+<library name="U-TI-TLC3704">
+<packages>
+<package name="14-TSSOP">
+<smd name="1" x="-2.9718" y="1.95" dx="1.778" dy="0.3556" layer="1"/>
+<smd name="2" x="-2.9718" y="1.3" dx="1.778" dy="0.3556" layer="1"/>
+<smd name="3" x="-2.9718" y="0.65" dx="1.778" dy="0.3556" layer="1"/>
+<smd name="4" x="-2.9718" y="0" dx="1.778" dy="0.3556" layer="1"/>
+<smd name="5" x="-2.9718" y="-0.65" dx="1.778" dy="0.3556" layer="1"/>
+<smd name="6" x="-2.9718" y="-1.3" dx="1.778" dy="0.3556" layer="1"/>
+<smd name="7" x="-2.9718" y="-1.95" dx="1.778" dy="0.3556" layer="1"/>
+<smd name="8" x="2.9718" y="-1.95" dx="1.778" dy="0.3556" layer="1"/>
+<smd name="9" x="2.9718" y="-1.3" dx="1.778" dy="0.3556" layer="1"/>
+<smd name="10" x="2.9718" y="-0.65" dx="1.778" dy="0.3556" layer="1"/>
+<smd name="11" x="2.9718" y="0" dx="1.778" dy="0.3556" layer="1"/>
+<smd name="12" x="2.9718" y="0.65" dx="1.778" dy="0.3556" layer="1"/>
+<smd name="13" x="2.9718" y="1.3" dx="1.778" dy="0.3556" layer="1"/>
+<smd name="14" x="2.9718" y="1.95" dx="1.778" dy="0.3556" layer="1"/>
+<wire x1="2.3876" y1="2.6924" x2="-2.3876" y2="2.6924" width="0.1524" layer="21"/>
+<text x="-1.27" y="3.81" size="0.625" layer="21" font="vector" ratio="20" rot="SR0">&gt;Value</text>
+<text x="-1.27" y="4.445" size="0.625" layer="25" font="vector" ratio="20" rot="SR0">&gt;Name</text>
+<circle x="-3.175" y="3.175" radius="0.127" width="0.508" layer="21"/>
+<wire x1="-0.635" y1="2.667" x2="0.635" y2="2.667" width="0.161290625" layer="21" curve="180"/>
+<wire x1="2.3876" y1="-2.6924" x2="-2.3876" y2="-2.6924" width="0.1524" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TLC3704">
+<pin name="OUT1" x="22.86" y="12.7" length="middle" direction="out" rot="R180"/>
+<pin name="OUT2" x="22.86" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="VCC" x="0" y="22.86" length="middle" direction="pwr" rot="R270"/>
+<pin name="2IN-" x="-22.86" y="2.54" length="middle" direction="in"/>
+<pin name="2IN+" x="-22.86" y="5.08" length="middle" direction="in"/>
+<pin name="1IN-" x="-22.86" y="10.16" length="middle" direction="in"/>
+<pin name="1IN+" x="-22.86" y="12.7" length="middle" direction="in"/>
+<pin name="3IN-" x="-22.86" y="-5.08" length="middle" direction="in"/>
+<pin name="3IN+" x="-22.86" y="-2.54" length="middle" direction="in"/>
+<pin name="4IN-" x="-22.86" y="-12.7" length="middle" direction="in"/>
+<pin name="4IN+" x="-22.86" y="-10.16" length="middle" direction="in"/>
+<pin name="GND" x="0" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="OUT4" x="22.86" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="OUT3" x="22.86" y="-2.54" length="middle" direction="out" rot="R180"/>
+<wire x1="-17.78" y1="17.78" x2="-17.78" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="-17.78" x2="17.78" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="-17.78" x2="17.78" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="17.78" x2="-17.78" y2="17.78" width="0.1524" layer="94"/>
+<text x="-17.78" y="22.86" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-17.78" y="20.32" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TLC3704IPWR" prefix="U">
+<gates>
+<gate name="A" symbol="TLC3704" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PW14-M" package="14-TSSOP">
+<connects>
+<connect gate="A" pin="1IN+" pad="7"/>
+<connect gate="A" pin="1IN-" pad="6"/>
+<connect gate="A" pin="2IN+" pad="5"/>
+<connect gate="A" pin="2IN-" pad="4"/>
+<connect gate="A" pin="3IN+" pad="9"/>
+<connect gate="A" pin="3IN-" pad="8"/>
+<connect gate="A" pin="4IN+" pad="11"/>
+<connect gate="A" pin="4IN-" pad="10"/>
+<connect gate="A" pin="GND" pad="12"/>
+<connect gate="A" pin="OUT1" pad="1"/>
+<connect gate="A" pin="OUT2" pad="2"/>
+<connect gate="A" pin="OUT3" pad="14"/>
+<connect gate="A" pin="OUT4" pad="13"/>
+<connect gate="A" pin="VCC" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.ti.com/lit/gpn/LM2901-Q1" constant="no"/>
+<attribute name="DESCRIPTION" value="Automotive Catalog Quad Differential Comparator" constant="no"/>
+<attribute name="DPN" value="296-18438-1-ND" constant="no"/>
+<attribute name="FAMILY_NAME" value="COMPARATOR" constant="no"/>
+<attribute name="GENERIC_PART_NUMBER" value="LM2901-Q1" constant="no"/>
+<attribute name="INDUSTRY_STD_PKG_TYPE" value="TSSOP" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="LM2901QPWRQ1" constant="no"/>
+<attribute name="PACKAGE_DESIGNATOR" value="PW" constant="no"/>
+<attribute name="PIN_COUNT" value="14" constant="no"/>
+<attribute name="VENDOR" value="Texas Instruments" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13732,7 +13732,7 @@ Shield pins may be grounded.
 <part name="GND3" library="supply" deviceset="GND" device=""/>
 <part name="J7" library="SparkFun-Connectors" deviceset="CONN_05" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_C_L" device=""/>
-<part name="U6" library="U-TI-LM2901" deviceset="LM2901QPWRQ1" device="PW14-M"/>
+<part name="U6" library="U-TI-TLC3704" deviceset="TLC3704IPWR" device="PW14-M"/>
 <part name="3.3V1" library="oresat-supplies" deviceset="3.3V" device=""/>
 <part name="GND4" library="supply" deviceset="GND" device=""/>
 <part name="R2" library="R-Panasonic-EXB-2HV103JV" deviceset="EXB-2HV103JV" device="" value="10k"/>
@@ -13766,7 +13766,7 @@ Shield pins may be grounded.
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK"/>
 <part name="GND47" library="supply" deviceset="GND" device=""/>
-<part name="R21" library="oresat-rcl" deviceset="R-US_" device="0603-A" value="TBD"/>
+<part name="R21" library="oresat-rcl" deviceset="R-US_" device="0603-A" value="10k"/>
 <part name="1.8V-A1" library="oresat-supplies" deviceset="1.8V-A" device=""/>
 <part name="1.8V-A2" library="oresat-supplies" deviceset="1.8V-A" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="455-1750-1-ND"/>
@@ -15150,7 +15150,6 @@ or via GPIO
 NOTE: Pull down on other sheet</text>
 <text x="405.638" y="-332.74" size="1.778" layer="97" rot="R90">To other sheet</text>
 <text x="261.62" y="-248.92" size="5.08" layer="97">16MHz Oscillator</text>
-<text x="84.582" y="-24.13" size="2.54" layer="95">TODO need thermistor specs</text>
 <wire x1="152.4" y1="-297.18" x2="220.98" y2="-297.18" width="0.508" layer="97"/>
 <wire x1="220.98" y1="-297.18" x2="220.98" y2="-350.52" width="0.508" layer="97"/>
 <wire x1="220.98" y1="-350.52" x2="152.4" y2="-350.52" width="0.508" layer="97"/>
@@ -15506,7 +15505,7 @@ POWER JUMPER</text>
 <instance part="GND47" gate="G1" x="185.42" y="-162.56" smashed="yes"/>
 <instance part="R21" gate="R" x="109.22" y="-27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="107.7214" y="-31.75" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="115.062" y="-29.21" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="112.776" y="-29.464" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="1.8V-A1" gate="G$1" x="243.84" y="-5.08" smashed="yes">
 <attribute name="VALUE" x="245.618" y="-7.112" size="1.778" layer="96"/>
@@ -15696,11 +15695,16 @@ POWER JUMPER</text>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="129.54" y1="-5.08" x2="142.24" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="-5.08" x2="137.16" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="P1_15"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="-5.08" x2="142.24" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="-2.54" x2="129.54" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="129.54" y="-5.08"/>
+<pinref part="U$2" gate="G$1" pin="P1_17"/>
+<wire x1="142.24" y1="-7.62" x2="137.16" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="-7.62" x2="137.16" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="137.16" y="-5.08"/>
 </segment>
 <segment>
 <wire x1="386.08" y1="-5.08" x2="381" y2="-5.08" width="0.1524" layer="91"/>
@@ -16563,14 +16567,12 @@ POWER JUMPER</text>
 <junction x="147.32" y="-167.64"/>
 <pinref part="R21" gate="R" pin="1"/>
 <wire x1="101.6" y1="-33.02" x2="109.22" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P1_17"/>
-<wire x1="142.24" y1="-7.62" x2="134.62" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="-7.62" x2="134.62" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="-20.32" x2="124.46" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="-20.32" x2="124.46" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="-10.16" x2="124.46" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="-33.02" x2="109.22" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="109.22" y="-33.02"/>
 <pinref part="C18" gate="CE" pin="1"/>
+<pinref part="U$2" gate="G$1" pin="P1_19"/>
+<wire x1="124.46" y1="-10.16" x2="142.24" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
