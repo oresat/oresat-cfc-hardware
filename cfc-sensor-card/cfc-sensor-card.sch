@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15228,10 +15228,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="3.3V4" library="oresat-supplies" deviceset="3.3V" device=""/>
 <part name="GND52" library="oresat-supplies" deviceset="GND" device=""/>
 <part name="R27" library="oresat-rcl" deviceset="R-US_" device="0402-A" value="100">
-<attribute name="DIS" value="Dgi-Key"/>
-<attribute name="DPN" value="311-100MCT-ND"/>
-<attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0201FR-07100RL"/>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="541-3239-1-ND"/>
+<attribute name="MFR" value="Vishay"/>
+<attribute name="MPN" value="RCA0402100RFKEDHP"/>
 </part>
 <part name="C11" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="0.1u"/>
 <part name="GND54" library="oresat-supplies" deviceset="GND" device=""/>
