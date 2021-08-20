@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14928,7 +14928,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="D7" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R61" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="2.7k"/>
+<part name="R61" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="10k"/>
 <part name="J4" library="J-Samtec-TFM-120-X1-XXX-D-RA" deviceset="J-SAMTEC-TFM-120-X1-XXX-D-RA" device="" value="TFM-120-01-L-D-RA"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U16" library="U-Maxim-MAX7310-I2C-GPIO-expander" deviceset="MAX7310" device="" package3d_urn="urn:adsk.eagle:package:8018497/1" value="MAX7310ATE">
@@ -14953,7 +14953,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="RC1005F6653CS"/>
 </part>
-<part name="R58" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="NP">
+<part name="R58" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-4275-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -14966,7 +14966,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MPN" value="RC1005F6653CS"/>
 </part>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R55" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="NP">
+<part name="R55" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-4275-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -14991,7 +14991,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MPN" value="RC1005F6653CS"/>
 </part>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R53" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="NP">
+<part name="R53" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-4275-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -15023,7 +15023,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R46" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="10k"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R63" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100m"/>
+<part name="R63" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10m"/>
 <part name="R39" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="10k"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R50" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="0"/>
@@ -15216,7 +15216,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MANUFACTURER_PART_NUMBER" value="150060VS55040"/>
 </part>
 <part name="GND53" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R1" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="1k"/>
+<part name="R1" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="2.7k"/>
 <part name="C40" library="oresat-rcl" deviceset="C-EU" device="0603-B" value="1u"/>
 <part name="GND55" library="supply" deviceset="GND" device=""/>
 <part name="R18" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="200k"/>
@@ -15277,7 +15277,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MANUFACTURER_PART_NUMBER" value="150060VS55040"/>
 </part>
 <part name="GND63" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R11" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="1k"/>
+<part name="R11" library="oresat-rcl" deviceset="R-US_" device="0603-B" value="10k"/>
 <part name="R12" library="oresat-rcl" deviceset="R-US_" device="0402-C-NOSILK" value="NP">
 <attribute name="DIS" value="Dgi-Key"/>
 <attribute name="DPN" value="311-100MCT-ND"/>
@@ -15596,8 +15596,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <plain>
 <text x="416.56" y="6.35" size="3.81" layer="94">1.2</text>
 <text x="209.55" y="256.54" size="2.54" layer="97">Main Power Switch</text>
-<text x="132.08" y="129.54" size="2.54" layer="97" align="center">OreSat Power Enable
-(PEN)</text>
 <text x="68.58" y="217.17" size="2.54" layer="97">Address selection for Card
 (See MAX7310 datasheet)</text>
 <text x="124.46" y="186.69" size="1.778" layer="97">(3.3V)</text>
@@ -15623,8 +15621,9 @@ reserved on all oresat cards</text>
 <wire x1="223.52" y1="78.74" x2="302.26" y2="78.74" width="0.508" layer="97"/>
 <wire x1="302.26" y1="78.74" x2="302.26" y2="134.62" width="0.508" layer="97"/>
 <wire x1="302.26" y1="134.62" x2="223.52" y2="134.62" width="0.508" layer="97"/>
-<text x="317.5" y="236.22" size="2.54" layer="97">TODO CALCULATE ACTUAL 
-CURRENT LIMIT RES VALUES</text>
+<text x="292.1" y="248.92" size="2.54" layer="97">TRIPS @ 2.95 A</text>
+<text x="111.76" y="199.39" size="2.54" layer="97">CFC Sensor Board 
+is OPD 0x1E</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
