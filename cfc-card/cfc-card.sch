@@ -18589,7 +18589,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R32" library="oresat-rcl" deviceset="R-US_" device="0603-A" value="10k"/>
@@ -21243,7 +21243,7 @@ eMMC. Manual jumper here to override</text>
 <attribute name="MFR" x="218.44" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C17" gate="CE" x="241.3" y="187.96" smashed="yes">
-<attribute name="NAME" x="242.824" y="188.341" size="1.778" layer="95"/>
+<attribute name="NAME" x="240.284" y="193.421" size="1.778" layer="95"/>
 <attribute name="VALUE" x="242.824" y="183.261" size="1.778" layer="96"/>
 <attribute name="MPN" x="241.3" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="DPN" x="241.3" y="187.96" size="1.778" layer="96" display="off"/>

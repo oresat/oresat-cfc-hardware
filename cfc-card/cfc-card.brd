@@ -33,7 +33,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -5808,8 +5808,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="U3" library="U-Generic-eMMC-153pin" package="BGA-153(11.5X13)(EMMC-BA)" value="THGBMJG7C2LBAU8" x="19.9" y="20" smashed="yes" rot="R270">
 <attribute name="DPN" value="THGBMJG7C2LBAU8-ND" x="19.9" y="20" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="THGBMJG7C2LBAU8" x="19.9" y="20" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="27.0125" y="15.575" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="19.9" y="20" size="1.5" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="27.0125" y="15.575" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="12.3" y="25.6" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C9" library="oresat-rcl" package=".0603-A" value="1uF" x="19.18125" y="28.125" smashed="yes" rot="R90">
@@ -6166,7 +6166,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIS" value="Digi-Key" x="38.5" y="-34.1" size="1.778" layer="27" display="off"/>
 <attribute name="DPN" value="1276-1001-1-ND" x="38.5" y="-34.1" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Samsung" x="38.5" y="-34.1" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="38.5" y="-34.1" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="38.5" y="-34.1" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="72" y="62.4" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="73.73125" y="62.04375" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="71.2" y="61.05" size="0.8" layer="27" font="vector" ratio="15"/>
