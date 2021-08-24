@@ -1,4 +1,4 @@
-19173448943880593
+19165315390087329
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82774,69 +82774,6 @@ varistor SIOV
 0
 2
 2
-link
-.0201-C-NOSILK
-<b>0201 (metric 0603) tight 'IPC-C' without silkscreen</b>{return}<br>In house package for minimum spacing based on IPC-7351B.{return} This package is identical to 0201-C, but has its tPlace silkscreen layer removed.
-
-0
-2
-2
-link
-.0402-C-NOSILK
-<b>0402 (metric 1005) tight 'IPC-C' without silkscreen</b>{return}<br>In house package for minimum spacing based on IPC-7351B.{return}This package is identical to 0402-C, but has its tPlace silkscreen layer removed.
-
-0
-2
-2
-link
-.0603-C-NOSILK
-<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>{return}<br>In house package for minimum spacing based on IPC-7351B.{return}This package is identical to 0603-C, but has its tPlace silkscreen layer removed.
-
-0
-2
-2
-link
-.0805-C-NOSILK
-<b>0805 (metric 2012) tight 'IPC-C' wilthout silkscreen</b>{return}<br>In house package for minimum spacing based on IPC-7351B.{return}This package is identical to 0805-C, but has its tPlace silkscreen layer removed.
-
-0
-2
-2
-link
-1X01
-<b>PIN HEADER</b>
-
-0
-1
-1
-link
-1X03
-<b>PIN HEADER</b>
-
-0
-3
-3
-link
-2X30
-<b>PIN HEADER</b>
-
-0
-60
-60
-link
-B2,54
-<b>TEST PAD</b>
-
-0
-1
-1
-link
-MTD48_TEX-L
-
-
-0
-48
-48
 proj_footprints
 MTD48
 
