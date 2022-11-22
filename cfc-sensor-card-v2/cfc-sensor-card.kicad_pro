@@ -117,7 +117,37 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
-    "layer_presets": []
+    "layer_presets": [
+      {
+        "activeLayer": -2,
+        "layers": [],
+        "name": "NONE",
+        "renderLayers": [
+          125,
+          126,
+          127,
+          128,
+          129,
+          134,
+          135,
+          137,
+          138,
+          144,
+          146,
+          147,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          157,
+          158,
+          159,
+          160
+        ]
+      }
+    ]
   },
   "boards": [],
   "cvpcb": {
@@ -367,7 +397,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "cfc-sensor-card.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
