@@ -1,2 +1,12 @@
 (sym_lib_table
+  (lib (name "oresat-transistors")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-transistors.kicad_sym")(options "")(descr ""))
+  (lib (name "oresat-power")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-power.kicad_sym")(options "")(descr ""))
+  (lib (name "oresat-pcbs")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-pcbs.kicad_sym")(options "")(descr ""))
+  (lib (name "oresat-passives")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-passives.kicad_sym")(options "")(descr ""))
+  (lib (name "oresat-misc")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-misc.kicad_sym")(options "")(descr ""))
+  (lib (name "oresat-ics")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-ics.kicad_sym")(options "")(descr ""))
+  (lib (name "oresat-graphics")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-graphics.kicad_sym")(options "")(descr ""))
+  (lib (name "oresat-diodes")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-diodes.kicad_sym")(options "")(descr ""))
+  (lib (name "oresat-connectors")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "TLC3704")(type "KiCad")(uri "/Users/oliverrew/Downloads/ul_TLC3704IPW/KiCAD/2023-01-07_04-50-48/2023-01-07_04-50-48.kicad_sym")(options "")(descr ""))
 )
