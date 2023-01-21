@@ -9,7 +9,7 @@
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0625" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="15" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="14" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -32,8 +32,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -46,14 +46,14 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
@@ -234,6 +234,7 @@ ENABLE</text>
 <text x="42.875" y="74.6875" size="0.635" layer="21" ratio="20" rot="R270" align="center-right">GND</text>
 <text x="36.5625" y="24.6875" size="0.635" layer="21" ratio="20" rot="R90" align="center-right">GND</text>
 <text x="55.6875" y="24.875" size="0.635" layer="21" ratio="20" rot="R90" align="center-right">GND</text>
+<rectangle x1="27.8" y1="21.9" x2="33.8" y2="27.9" layer="41"/>
 </plain>
 <libraries>
 <library name="Tova">
@@ -4836,32 +4837,32 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="TP64" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="75" y="91.5" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="75" y="91.5" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="76.016" y="90.611" size="0.8128" layer="25" ratio="21"/>
 <attribute name="LABEL" value="" x="75" y="91.5" size="1.778" layer="27" display="off"/>
+<attribute name="LABEL" value="" x="76.016" y="90.611" size="0.8128" layer="25" ratio="21"/>
 <attribute name="NAME" x="72.025" y="91.1875" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP47" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="66" y="86.9" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="66" y="86.9" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="66" y="86.9" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="67.016" y="86.011" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="66" y="86.9" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="63" y="85" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP57" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="66" y="85.4" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="66" y="85.4" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="66" y="85.4" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="67.016" y="84.511" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="66" y="85.4" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="63" y="84" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP50" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="92.5" y="89" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="92.5" y="89" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="92.5" y="89" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="93.516" y="88.111" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="92.5" y="89" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="89.5" y="88.5" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP54" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="66" y="83.9" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="66" y="83.9" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="66" y="83.9" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="67.016" y="83.011" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="66" y="83.9" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="63" y="83" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="R64" library="oresat-rcl" package=".0603-B" value="10k" x="82.5" y="87.5" smashed="yes" rot="MR0">
@@ -4899,14 +4900,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="TP45" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="92.5" y="81" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="92.5" y="81" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="92.5" y="81" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="93.516" y="80.111" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="92.5" y="81" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="89.5" y="80.5" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP55" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="92.5" y="90.9" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="92.5" y="90.9" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="92.5" y="90.9" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="93.516" y="90.011" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="92.5" y="90.9" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="89.5" y="90.5" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="Q5" library="Q-MOSFET-PCH-SOT23-6" package="SOT23-6" value="MOSFET-PCH-SOT23-6" x="82.5" y="90.1875" smashed="yes" rot="MR270">
@@ -4938,14 +4939,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="TP63" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="92.5" y="79" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="92.5" y="79" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="92.5" y="79" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="93.516" y="78.111" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="92.5" y="79" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="89.5" y="78.5" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP56" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="92.5" y="83" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="92.5" y="83" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="92.5" y="83" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="93.516" y="82.111" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="92.5" y="83" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="89.5" y="82.5" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="D6" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="AMBER" x="92.5" y="82.5" smashed="yes" rot="MR180">
@@ -4965,14 +4966,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="TP52" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="85" y="87.4" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="85" y="87.4" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="85" y="87.4" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="86.016" y="86.511" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="85" y="87.4" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="82.05625" y="87.18125" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP53" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="92.5" y="85" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="92.5" y="85" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="92.5" y="85" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="93.516" y="84.111" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="92.5" y="85" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="89.5" y="84.5" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="R45" library="oresat-rcl" package=".0603-B" value="330k" x="91.5" y="65.875" smashed="yes" rot="MR270">
@@ -4992,14 +4993,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="TP41" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="83" y="57.5" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="83" y="57.5" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="83" y="57.5" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="84.016" y="56.611" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="83" y="57.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="86.38125" y="57.8125" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="TP43" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="83" y="59.5" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="83" y="59.5" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="83" y="59.5" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="84.016" y="58.611" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="83" y="59.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="86.38125" y="59.78125" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="R48" library="oresat-rcl" package=".0603-B" value="100" x="83.5" y="69.025" smashed="yes" rot="MR180">
@@ -5029,20 +5030,20 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="TP42" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="83" y="55.5" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="83" y="55.5" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="83" y="55.5" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="84.016" y="54.611" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="83" y="55.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="86.475" y="55.78125" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="TP44" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="83" y="61.5" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="83" y="61.5" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="83" y="61.5" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="84.016" y="60.611" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="83" y="61.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="86.34375" y="61.78125" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="TP51" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="92.5" y="87" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="92.5" y="87" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="92.5" y="87" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="93.516" y="86.111" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="92.5" y="87" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="89.5" y="86.5" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="U$3" library="psas-logo" package="PSAS_LOGO_10X10" value="" x="84" y="11.9" smashed="yes" rot="MR0"/>
@@ -5063,14 +5064,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="TP67" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="82.5" y="71" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="82.5" y="71" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="82.5" y="71" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="83.516" y="70.111" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="82.5" y="71" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="83.3375" y="70.125" size="0.8" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP68" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="82.5" y="73" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="82.5" y="73" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="82.5" y="73" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="83.516" y="72.111" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="82.5" y="73" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="83.4" y="73.1875" size="0.8" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="PCB1" library="oresat-cards" package="ORESAT-CARD-V1.3-CFC" value="ORESAT-CARD-V1.3-CFC" x="0" y="0" locked="yes" smashed="yes"/>
@@ -5154,14 +5155,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="TP5" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="27.8125" y="71.5625" smashed="yes" rot="R90">
 <attribute name="BOM" value="EXCLUDE" x="27.8125" y="71.5625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL" value="" x="27.8125" y="71.5625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LABEL" value="" x="28.7015" y="72.5785" size="0.8128" layer="25" ratio="21" rot="R90"/>
+<attribute name="LABEL" value="" x="27.8125" y="71.5625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="29.4375" y="70.5625" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="TP23" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="37.5" y="78" smashed="yes" rot="MR270">
 <attribute name="BOM" value="EXCLUDE" x="37.5" y="78" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LABEL" value="" x="38.389" y="76.984" size="0.8128" layer="26" ratio="21" rot="MR270"/>
 <attribute name="LABEL" value="" x="37.5" y="78" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LABEL" value="" x="38.389" y="76.984" size="0.8128" layer="26" ratio="21" rot="MR270"/>
 <attribute name="NAME" x="36.5" y="79" size="0.635" layer="26" font="vector" ratio="20" rot="MR270"/>
 </element>
 <element name="C1" library="oresat-rcl" package=".0603-B" value="4.7u" x="51" y="13" smashed="yes" rot="MR90">
@@ -5186,14 +5187,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="TP2" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="45" y="12" smashed="yes" rot="R90">
 <attribute name="BOM" value="EXCLUDE" x="45" y="12" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL" value="" x="45" y="12" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LABEL" value="" x="45.889" y="13.016" size="0.8128" layer="25" ratio="21" rot="R90"/>
+<attribute name="LABEL" value="" x="45" y="12" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="44.1875" y="12.8625" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP22" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="51.1875" y="20.75" smashed="yes" rot="MR0">
 <attribute name="BOM" value="EXCLUDE" x="51.1875" y="20.75" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="LABEL" value="" x="50.1715" y="19.861" size="0.8128" layer="26" ratio="21" rot="MR0"/>
 <attribute name="LABEL" value="" x="51.1875" y="20.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="LABEL" value="" x="50.1715" y="19.861" size="0.8128" layer="26" ratio="21" rot="MR0"/>
 <attribute name="NAME" x="51.8125" y="21.5" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
 <element name="C5" library="oresat-rcl" package=".0603-B" value="4.7u" x="61.5" y="13" smashed="yes" rot="MR90">
@@ -5218,14 +5219,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="TP14" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="56" y="12" smashed="yes" rot="R90">
 <attribute name="BOM" value="EXCLUDE" x="56" y="12" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL" value="" x="56" y="12" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LABEL" value="" x="56.889" y="13.016" size="0.8128" layer="25" ratio="21" rot="R90"/>
+<attribute name="LABEL" value="" x="56" y="12" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="54.9375" y="12.8625" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP26" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="61.6875" y="20.75" smashed="yes" rot="MR0">
 <attribute name="BOM" value="EXCLUDE" x="61.6875" y="20.75" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="LABEL" value="" x="60.6715" y="19.861" size="0.8128" layer="26" ratio="21" rot="MR0"/>
 <attribute name="LABEL" value="" x="61.6875" y="20.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="LABEL" value="" x="60.6715" y="19.861" size="0.8128" layer="26" ratio="21" rot="MR0"/>
 <attribute name="NAME" x="62.6875" y="21.75" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
 <element name="C4" library="oresat-rcl" package=".0603-B" value="4.7u" x="71.5" y="74" smashed="yes" rot="MR0">
@@ -5250,14 +5251,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="TP11" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="71.5" y="71.5" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="71.5" y="71.5" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="71.5" y="71.5" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="72.516" y="70.611" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="71.5" y="71.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="70.5" y="72.5" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP25" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="68.5" y="71.5" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="68.5" y="71.5" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="69.516" y="70.611" size="0.8128" layer="25" ratio="21"/>
 <attribute name="LABEL" value="" x="68.5" y="71.5" size="1.778" layer="27" display="off"/>
+<attribute name="LABEL" value="" x="69.516" y="70.611" size="0.8128" layer="25" ratio="21"/>
 <attribute name="NAME" x="67.375" y="72.1875" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="C3" library="oresat-rcl" package=".0603-B" value="4.7u" x="71.5" y="80.5" smashed="yes" rot="MR0">
@@ -5282,14 +5283,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="TP8" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="71.5" y="78.5" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="71.5" y="78.5" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="71.5" y="78.5" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="72.516" y="77.611" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="71.5" y="78.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="70.8125" y="79.25" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP24" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="59" y="80" smashed="yes" rot="MR0">
 <attribute name="BOM" value="EXCLUDE" x="59" y="80" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="LABEL" value="" x="57.984" y="79.111" size="0.8128" layer="26" ratio="21" rot="MR0"/>
 <attribute name="LABEL" value="" x="59" y="80" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="LABEL" value="" x="57.984" y="79.111" size="0.8128" layer="26" ratio="21" rot="MR0"/>
 <attribute name="NAME" x="58.6875" y="80.75" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 </element>
 <element name="U7" library="U-TI-TLC3704" package="14-TSSOP" value="TLC3704IPWRPW14-M" x="10.5" y="40.5" smashed="yes" rot="MR270">
@@ -5395,8 +5396,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="TP40" library="oresat-misc" package="TESTPOINT_SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2" value="TEST-POINT_SMD-SMD-10SN" x="56.6875" y="78.625" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="56.6875" y="78.625" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL" value="" x="56.6875" y="78.625" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="57.7035" y="77.736" size="0.8128" layer="25" ratio="21"/>
+<attribute name="LABEL" value="" x="56.6875" y="78.625" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="55.6875" y="77.625" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="C103" library="oresat-rcl" package=".0603-B" value="0.1u" x="54.6875" y="22.25" smashed="yes" rot="MR270">
