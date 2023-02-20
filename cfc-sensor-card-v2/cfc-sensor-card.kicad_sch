@@ -560,7 +560,7 @@
       (reference "R31") (unit 1) (value "NP") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/32b02a49-e716-4e99-9e51-c04d4b68afa0/5f9f51b3-511e-474c-b135-ba38982a37d7"
-      (reference "R32") (unit 1) (value "100m") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "R32") (unit 1) (value "10m") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/49441372-20a8-43de-b381-31735fd4f38e/0a0d2192-3f02-44d3-ac4d-df9571c3b6e6"
       (reference "R33") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")

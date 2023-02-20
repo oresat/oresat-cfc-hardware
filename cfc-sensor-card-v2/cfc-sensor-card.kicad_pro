@@ -285,7 +285,26 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "global_label_dangling|482600|2286000|7ada94e5-897d-4f5b-b88c-b3e84c0112f2|00000000-0000-0000-0000-000000000000",
+      "global_label_dangling|482600|2311400|bddbb6aa-c5be-45c9-9488-bf62ae74964f|00000000-0000-0000-0000-000000000000",
+      "global_label_dangling|609600|1371600|0f8b5b78-af97-44fa-af88-4b6e808a5879|00000000-0000-0000-0000-000000000000",
+      "global_label_dangling|609600|1397000|030029ab-696f-4305-b64f-1104860d9a6f|00000000-0000-0000-0000-000000000000",
+      "global_label_dangling|609600|1422400|de65a05a-f7a2-426b-965f-30b54df2d8f1|00000000-0000-0000-0000-000000000000",
+      "global_label_dangling|609600|1447800|5d1fea33-2249-47fa-8621-4bbba35c5d56|00000000-0000-0000-0000-000000000000",
+      "global_label_dangling|609600|1473200|6b0c8609-eeca-4b74-a486-ae6e8bf9b33b|00000000-0000-0000-0000-000000000000",
+      "global_label_dangling|609600|1498600|23c0932d-5664-40d9-8afa-e0877d9f6a6e|00000000-0000-0000-0000-000000000000",
+      "global_label_dangling|609600|1524000|ed08c782-1d5d-4e1b-a6d0-ad12be733374|00000000-0000-0000-0000-000000000000",
+      "global_label_dangling|609600|1549400|668ec466-a280-47e3-a0e2-bf21201d086c|00000000-0000-0000-0000-000000000000",
+      "global_label_dangling|609600|1574800|d9c16b8d-ee4b-4e91-a1bc-b9a1153e0d23|00000000-0000-0000-0000-000000000000",
+      "global_label_dangling|609600|1600200|29584262-7731-49f8-b1a7-5239d4b73b1f|00000000-0000-0000-0000-000000000000",
+      "global_label_dangling|609600|1879600|8aa99f6f-b8ec-462c-8efa-8e37562d1840|00000000-0000-0000-0000-000000000000",
+      "global_label_dangling|609600|1905000|6b6e9c82-63ae-4027-bb18-765b405a3e6d|00000000-0000-0000-0000-000000000000",
+      "global_label_dangling|609600|2133600|26b9b9d4-b59b-4fb5-8464-fe41d7dc8ee4|00000000-0000-0000-0000-000000000000",
+      "global_label_dangling|609600|2159000|3206ebaf-65fe-4d37-81b6-ae1b22f3ba44|00000000-0000-0000-0000-000000000000",
+      "lib_symbol_issues|965200|2108200|9d39aedc-d2f6-4a63-9e36-ad3d968abefa|00000000-0000-0000-0000-000000000000",
+      "pin_to_pin|2641600|787400|ff3ae4c1-63d0-4ae1-82a9-53bd41f46e9f|5fd82367-a354-4e46-b9e3-819b54873281"
+    ],
     "meta": {
       "version": 0
     },
@@ -481,7 +500,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "error",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
       "unannotated": "error",
       "unit_value_mismatch": "error",
