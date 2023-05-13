@@ -16,6 +16,15 @@ This is the backplane for UMBC's Air Harp 2 sensor, which is going to include a 
        
 ## Required changes to the CFC Processor and CFC sensor boards
 
-* Both OPDs should come on by default.
-* We should figure some way to power the local OPDs so they're not doing anything weird.
+Easiest thing to do:
+
+* Both OPDs should come on by default, so we need to bypass or hack the OPDs to turn on.
+* We may want to figure out some way to power the local OPDs so they're not doing anything weird with their connections to the Octavo.
+
+A Ben Idea:
+
+* Add a 8.4V to 5V LDO, a Trinket M0, two 4.7K resistors, and use Oliver Rew's Arduino code to turn on both CFC cards
+* This assumes we have Trinkets, which I believe we have a bunch lying around.
+* This is cute because we don't have to modify the sensor or processor card, which I hate doing.
+* Be careful of the 8.4V max input voltage can power the trinket without frying it (thus the 5V LDO).
 
