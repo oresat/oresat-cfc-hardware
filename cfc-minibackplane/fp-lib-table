@@ -4,4 +4,5 @@
   (lib (name "oresat-connectors")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/oresat-connectors.pretty")(options "")(descr ""))
   (lib (name "oresat-passives")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/oresat-passives.pretty")(options "")(descr ""))
   (lib (name "oresat-mcu")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/oresat-mcu.pretty")(options "")(descr ""))
+  (lib (name "oresat-graphics")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/oresat-graphics.pretty")(options "")(descr ""))
 )
