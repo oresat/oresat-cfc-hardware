@@ -36,7 +36,7 @@
         "pads": {
           "drill": 1.4,
           "height": 3.6,
-          "width": 2.08
+          "width": 2.0
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -57,7 +57,8 @@
         }
       ],
       "drc_exclusions": [
-        "unconnected_items|124450000|187000000|212e8362-dc26-4c26-8350-ab91a98e1111|93d4e4d3-c266-459a-8989-1de6801963ad"
+        "unconnected_items|130730000|189275000|2e10c296-5fbc-4efe-b558-dcf61488c427|0143355e-fe11-4418-b277-a6df92b1709c",
+        "unconnected_items|130730000|189275000|c863ea34-42a2-4c80-b50b-c7117a3d8208|0143355e-fe11-4418-b277-a6df92b1709c"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -483,7 +484,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "cfc-minibackplane-V1.0-0518-0815.step",
+      "step": "cfc-minibackplane-V1.0-0521-1415.step",
       "vrml": ""
     },
     "page_layout_descr_file": "${ORESAT_LIBRARIES}/title-blocks/oresat-schematic-title-block.kicad_wks"
