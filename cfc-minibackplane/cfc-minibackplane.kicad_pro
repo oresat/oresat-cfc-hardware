@@ -484,7 +484,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "cfc-minibackplane-V1.0-0521-1415.step",
+      "step": "cfc-minibackplane-V1.0-0528-1215.step",
       "vrml": ""
     },
     "page_layout_descr_file": "${ORESAT_LIBRARIES}/title-blocks/oresat-schematic-title-block.kicad_wks"
