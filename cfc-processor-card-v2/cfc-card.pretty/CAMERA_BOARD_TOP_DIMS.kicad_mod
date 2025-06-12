@@ -1,0 +1,404 @@
+(footprint "CAMERA_BOARD_TOP_DIMS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "ffa0f822-44de-4e12-997d-b9534e4e62c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "43358a7e-bd51-4415-ba7a-582dd00c5d79")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0af22006-a38a-4ba2-ae5d-80cc8342d13f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "268e183d-9511-4f03-894a-b1c0870a2193")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 0 -1.6)
+		(end 0 0)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "78d21fff-7d0f-4825-8799-74940bac8ffe")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 23)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "429dce53-3d2b-4da2-babf-c71c5bc259af")
+	)
+	(fp_line
+		(start 0 0)
+		(end 2 0)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "ac023375-9a2a-4b7b-b0fd-d5ba52d5dcde")
+	)
+	(fp_line
+		(start 0 23)
+		(end 14 23)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "ff4cfdca-57e7-4410-8f25-2a3ba19df6f9")
+	)
+	(fp_line
+		(start 2 0)
+		(end 2 1.25)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "49133249-0240-456f-8c63-78d97b009c79")
+	)
+	(fp_line
+		(start 2 1.25)
+		(end 12 1.25)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "432197a2-0e7f-4aa6-a7eb-361f20511cdb")
+	)
+	(fp_line
+		(start 6.1 4.7)
+		(end 7 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "7ba254bd-06db-41a4-80e0-e633087fc3c0")
+	)
+	(fp_line
+		(start 7 2.5)
+		(end 7 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e2f9f3e1-ec50-40b9-9c6c-01c6973ebb06")
+	)
+	(fp_line
+		(start 7.4 -6.9)
+		(end 31.1 -6.9)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "d83c2534-cc0e-43ab-8951-5de5f6256af4")
+	)
+	(fp_line
+		(start 7.4 -1.6)
+		(end 0 -1.6)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "992b45da-88b7-48f9-bbb6-b2b5434e1ba6")
+	)
+	(fp_line
+		(start 7.4 -1.6)
+		(end 7.4 -6.9)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "572014fd-2d3b-4b09-8f6c-e3bb17e698c0")
+	)
+	(fp_line
+		(start 12 0)
+		(end 2 0)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "3fdd079e-5fbd-4614-8a64-3ca62727d3b3")
+	)
+	(fp_line
+		(start 12 0)
+		(end 31.5 0)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "7065c095-dab0-4054-b1a8-f0975c0c1365")
+	)
+	(fp_line
+		(start 12 1.25)
+		(end 12 0)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "97a95d0c-8693-4caf-8a5b-36ce3a6fad48")
+	)
+	(fp_line
+		(start 14 23)
+		(end 14 0)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "927e8391-ef3b-416f-af07-6b013e6bc706")
+	)
+	(fp_line
+		(start 15.25 2)
+		(end 15.25 -3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "0217a8e1-d99e-488d-b23a-8ca624c25815")
+	)
+	(fp_line
+		(start 15.25 2.25)
+		(end 26 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "6c4ed57b-7f99-4d7d-971a-67c7e1a57f2e")
+	)
+	(fp_line
+		(start 19.25 4)
+		(end 19.25 -7.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "75c19fcb-8e3b-46a1-b691-6a7922fcb868")
+	)
+	(fp_line
+		(start 20.55 7.5625)
+		(end 19.25 4.0625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "f91390eb-b1ea-4b0d-a1b8-5de957f209c5")
+	)
+	(fp_line
+		(start 26 4.5)
+		(end 29.75 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "dbf89444-25be-4092-ae27-8ebba6a1ff8a")
+	)
+	(fp_line
+		(start 29.75 2)
+		(end 29.75 -3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "a93dc794-850b-41ba-8505-2146a3f45320")
+	)
+	(fp_line
+		(start 31.1 -6.9)
+		(end 31.1 -1.6)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "74192ec6-d840-4b23-a668-009e5b27e2a2")
+	)
+	(fp_line
+		(start 31.1 -2.6)
+		(end 7.4 -2.6)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "c3c0bed2-7364-4a05-a28c-ee0d45c2e39a")
+	)
+	(fp_line
+		(start 31.1 -1.6)
+		(end 7.4 -1.6)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "3c085f4d-1691-45b4-93ca-0a3b2c7d9435")
+	)
+	(fp_line
+		(start 31.5 -1.6)
+		(end 31.1 -1.6)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "d6d48138-bc6e-4346-9b22-544751ac5f13")
+	)
+	(fp_line
+		(start 31.5 0)
+		(end 31.5 -1.6)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "0f0f1fb2-f774-41c8-b8f3-78bc403e16d7")
+	)
+	(fp_text user "Image Sensor Center"
+		(at 11 5 180)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "0d3a4552-ab29-4df6-9218-a275fbca9df9")
+		(effects
+			(font
+				(size 0.644 0.644)
+				(thickness 0.056)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Connector Height \nwhen open"
+		(at 20.645 -6.4025 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "10d98613-cfd4-41ef-9177-369eca5e5737")
+		(effects
+			(font
+				(size 0.46 0.46)
+				(thickness 0.04)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "Ribbon Cable Center"
+		(at 20.65 7.825 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "33480b5a-b8a5-414c-83a3-8ac83c767e68")
+		(effects
+			(font
+				(size 0.644 0.644)
+				(thickness 0.056)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "APPROX CABLE DEPTH"
+		(at 14.645 -3.4025 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "7daf5a15-53ec-425a-bac1-db4bdea19013")
+		(effects
+			(font
+				(size 0.46 0.46)
+				(thickness 0.04)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "VERY Approx Lens Height\nwhen focused to infinity"
+		(at 0.625 22.05 90)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "7e7e44d9-c714-4371-ab72-46dab5990951")
+		(effects
+			(font
+				(size 0.644 0.644)
+				(thickness 0.056)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "Approx Lens Width"
+		(at 2.65 8.325 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "bb8138c2-8ab2-476b-916b-a2418cac27be")
+		(effects
+			(font
+				(size 0.644 0.644)
+				(thickness 0.056)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "Hole centers \n14.5mm "
+		(at 26 5 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "cc4e0c81-7ec6-4281-bdde-0fe5a1bcb365")
+		(effects
+			(font
+				(size 0.644 0.644)
+				(thickness 0.056)
+			)
+			(justify left top)
+		)
+	)
+	(embedded_fonts no)
+)

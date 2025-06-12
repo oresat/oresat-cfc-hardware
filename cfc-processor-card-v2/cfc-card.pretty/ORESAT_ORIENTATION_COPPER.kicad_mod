@@ -1,0 +1,209 @@
+(footprint "ORESAT_ORIENTATION_COPPER"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "7e91dcd7-060d-4fdf-a4a7-e240ae3d5ce3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e78b6f9c-84b4-48e5-9855-4d087cee7a87")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f312d7b0-d922-41e0-9041-051cf2a72ddd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39bcc0bd-2bd4-4bb1-9ecb-fac344d238c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 1.875 1.625)
+		(end 1.625 1.875)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Mask")
+		(uuid "a2fecc7c-9cb4-48b3-91a5-5e37cc93ab7d")
+	)
+	(fp_poly
+		(pts
+			(xy -4.6 -1.758579) (xy -4.6 -4.6) (xy -1.758579 -4.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "8343162b-35e8-436f-9d87-df056e626ea0")
+	)
+	(fp_poly
+		(pts
+			(xy 2.35 2.35) (xy 1.008579 2.35) (xy 2.35 1.008579)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "af9458ce-bb05-42d5-a920-c3448aed9948")
+	)
+	(fp_poly
+		(pts
+			(xy -1.81558 -2.842944) (xy -1.472625 -2.272267) (xy -1.098446 -1.719908) (xy -0.694861 -1.188678)
+			(xy -0.263042 -0.680121) (xy 0.196672 -0.194749) (xy 2.212403 1.820982) (xy 2.478825 2.620246) (xy -3.391421 -3.25)
+			(xy -2.472196 -4.169225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "ba52e848-0a2d-4e0c-b712-59b4e9918d23")
+	)
+	(fp_poly
+		(pts
+			(xy 2.583005 2.466411) (xy 1.820982 2.212403) (xy -0.194749 0.196672) (xy -0.680121 -0.263042) (xy -1.188678 -0.694861)
+			(xy -1.719908 -1.098446) (xy -2.272267 -1.472625) (xy -2.842944 -1.81558) (xy -4.169225 -2.472196)
+			(xy -2.996713 -3.644708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "ec7ad768-bb80-400a-b119-aa2680181893")
+	)
+	(fp_poly
+		(pts
+			(xy 1.153303 -4.4365) (xy 0.5635 -4.4365) (xy 0.5635 -0.5635) (xy 4.4365 -0.5635) (xy 4.4365 -1.153303)
+			(xy 5.589803 0) (xy 4.4365 1.153303) (xy 4.4365 0.5635) (xy 0.5635 0.5635) (xy 0.5635 4.4365) (xy 1.153303 4.4365)
+			(xy 0 5.589803) (xy -1.153303 4.4365) (xy -0.5635 4.4365) (xy -0.5635 0.5635) (xy -4.4365 0.5635)
+			(xy -4.4365 1.153303) (xy -5.589803 0) (xy -4.4365 -1.153303) (xy -4.4365 -0.5635) (xy -0.5635 -0.5635)
+			(xy -0.5635 -4.4365) (xy -1.153303 -4.4365) (xy 0 -5.589803)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "c7bbd3d4-7dea-4efb-83cb-d7761c9f298a")
+	)
+	(fp_text user "+Y"
+		(at 6 0 180)
+		(unlocked yes)
+		(layer "F.Mask")
+		(uuid "4b4509f1-0d8c-4b68-aab9-8b61c287372d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "+X"
+		(at 0 6 180)
+		(unlocked yes)
+		(layer "F.Mask")
+		(uuid "bcf35e37-2fac-41ca-a54f-d714f933b1e6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "-Z"
+		(at 2.147 3.292 0)
+		(unlocked yes)
+		(layer "F.Mask")
+		(uuid "c0920e28-a7f8-4da8-a4c0-5b46505bb674")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+Z"
+		(at -4.623 -5.992 180)
+		(unlocked yes)
+		(layer "F.Mask")
+		(uuid "f92496d4-6079-4e67-bc64-976cd03b2067")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-X"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.Mask")
+		(uuid "faf70d2e-2809-452c-bfc2-dba4010355b6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "-Y"
+		(at -6 0 0)
+		(unlocked yes)
+		(layer "F.Mask")
+		(uuid "fd457dfd-dc60-46bf-b4b2-839c0d5df2fe")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+			(justify right)
+		)
+	)
+	(embedded_fonts no)
+)

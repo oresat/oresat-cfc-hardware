@@ -1,0 +1,88 @@
+(footprint "FLIGHTMARKER_NEW_BOARDS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "c9b1289f-1cfc-4b29-8125-5e0c76724919")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "10894e0b-81fa-40d3-a858-b77f7a514d27")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "616fc2ea-ac9c-4b76-b591-86589b8667a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05d4dcf2-6814-4ef7-8312-439ff77a5d74")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 2.19 0.5)
+		(end 5.89 0.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "282b2ae6-46a6-4482-af4d-2f2fe204122e")
+	)
+	(fp_poly
+		(pts
+			(xy -0.25 0.3) (xy 1.55 0.3) (xy 1.55 -1.5) (xy -0.25 -1.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "18a75ccb-fc23-42a6-a9fb-10445df71406")
+	)
+	(fp_text user "NOT FLIGHT HARDWARE"
+		(at 2.54 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2dc2455b-1e17-4e19-9279-9bde9b732f7c")
+		(effects
+			(font
+				(size 1.0795 1.0795)
+				(thickness 0.1905)
+			)
+			(justify left bottom)
+		)
+	)
+	(embedded_fonts no)
+)
