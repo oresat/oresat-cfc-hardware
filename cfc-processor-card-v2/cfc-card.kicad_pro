@@ -41,17 +41,23 @@
           "height": 1.27,
           "width": 2.54
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.125,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.127,
+        "silk_text_size_h": 0.5,
+        "silk_text_size_v": 0.5,
+        "silk_text_thickness": 0.125,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [
         [
           "solder_mask_bridge|111957350|123578600|91640c46-f717-4508-8783-7847ec7b650e|d0fd0a10-75ad-4e28-83a5-1630180236a6",
@@ -103,22 +109,6 @@
         ],
         [
           "solder_mask_bridge|122101100|72553600|6848c192-fe32-4e93-8b19-8ba4b48f1ea8|36dbe9df-cd13-41fd-9724-d4c76b4c89ec",
-          ""
-        ],
-        [
-          "solder_mask_bridge|122304577|71578600|2936cc36-4a5f-4b38-bbcc-5fb50a0123e4|2d212a2a-43a9-43bc-a1e3-89e48941e20d",
-          ""
-        ],
-        [
-          "solder_mask_bridge|122366762|71028600|e8318a6f-1ba3-4b1e-91e3-da1749609cb0|c416ac03-e20e-4b82-96e9-1803f8dd7695",
-          ""
-        ],
-        [
-          "solder_mask_bridge|122376100|72578600|6848c192-fe32-4e93-8b19-8ba4b48f1ea8|36dbe9df-cd13-41fd-9724-d4c76b4c89ec",
-          ""
-        ],
-        [
-          "solder_mask_bridge|122377832|72028701|e14c735f-eeda-4849-85db-fec7eb3727eb|2d212a2a-43a9-43bc-a1e3-89e48941e20d",
           ""
         ],
         [
@@ -222,10 +212,6 @@
           ""
         ],
         [
-          "solder_mask_bridge|128712600|84578600|7407e951-fc48-4045-9c7d-3f71bc413a96|438a6f3f-0320-436c-a95e-9d193badd523",
-          ""
-        ],
-        [
           "solder_mask_bridge|128801100|83028600|307dd39f-4c7b-48ed-adc4-1c92dbb82261|299c8dea-7d24-4300-98a8-8b54856d0a7a",
           ""
         ],
@@ -251,18 +237,6 @@
         ],
         [
           "solder_mask_bridge|129212600|73578600|e77e0871-b8f6-483c-a5b6-7ba08ea322ce|51742e3d-91e4-4af9-9adf-66a16027fa16",
-          ""
-        ],
-        [
-          "solder_mask_bridge|129297569|71028600|68abb9a8-4383-4099-8f98-9528b2dda94b|19e855e0-13ff-40a4-a1e0-0e6e294bc0e1",
-          ""
-        ],
-        [
-          "solder_mask_bridge|129376100|71578600|6f481e89-a927-427a-921a-a431862c21c4|0a2a3f53-ea5f-4636-8d2c-5d8b648c76d9",
-          ""
-        ],
-        [
-          "solder_mask_bridge|134244574|84204099|da7143d3-d68f-4eeb-b669-00769f8d9ab9|8c95ec19-9a5d-4d69-9d0a-85ae1a1efd88",
           ""
         ],
         [
@@ -557,7 +531,7 @@
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
-        "malformed_courtyard": "error",
+        "malformed_courtyard": "ignore",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
@@ -569,8 +543,8 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -599,10 +573,10 @@
         "min_hole_to_hole": 0.127,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 1,
+        "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.3048,
-        "min_text_thickness": 0.0508,
+        "min_text_height": 0.5,
+        "min_text_thickness": 0.125,
         "min_through_hole_diameter": 0.254,
         "min_track_width": 0.127,
         "min_via_annular_width": 0.1016,
@@ -622,7 +596,7 @@
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 1,
+          "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -633,7 +607,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 1,
+          "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -644,7 +618,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 1,
+          "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -654,7 +628,21 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.127,
+        0.15,
+        0.1524,
+        0.2,
+        0.25,
+        0.254,
+        0.3,
+        0.38,
+        0.4,
+        0.5,
+        1.0,
+        2.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -681,8 +669,17 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
-      "zones_allow_external_fillets": false
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.4572,
+          "drill": 0.254
+        }
+      ],
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -905,7 +902,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -914,6 +911,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -942,43 +940,43 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2032,
+        "track_width": 0.127,
         "via_diameter": 0.4572,
         "via_drill": 0.254,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.508,
-        "diff_pair_gap": 0.254,
-        "diff_pair_width": 0.381,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "diff",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.381,
-        "via_diameter": 0.4572,
-        "via_drill": 0.254,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.127,
+        "clearance": 1.0105,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "pirt_power",
+        "name": "RF-50-max",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.38,
+        "via_diameter": 0.4572,
+        "via_drill": 0.254,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.6063,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "RF-50-min",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.508,
-        "via_diameter": 0.8,
-        "via_drill": 0.508,
+        "track_width": 0.38,
+        "via_diameter": 0.4572,
+        "via_drill": 0.254,
         "wire_width": 6
       }
     ],
@@ -987,44 +985,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "diff",
-        "pattern": "OUT1_N"
-      },
-      {
-        "netclass": "diff",
-        "pattern": "OUT1_P"
-      },
-      {
-        "netclass": "diff",
-        "pattern": "TXCLK_N"
-      },
-      {
-        "netclass": "diff",
-        "pattern": "TXCLK_P"
-      },
-      {
-        "netclass": "pirt_power",
-        "pattern": "VDETCOM-2.9V"
-      },
-      {
-        "netclass": "pirt_power",
-        "pattern": "VPH-3.3V"
-      },
-      {
-        "netclass": "pirt_power",
-        "pattern": "VPL-1.6V"
-      },
-      {
-        "netclass": "pirt_power",
-        "pattern": "VPOS-3.3V"
-      },
-      {
-        "netclass": "pirt_power",
-        "pattern": "VPOUT-0.9V"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -1141,7 +1102,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "empty.kicad_wks",
+    "page_layout_descr_file": "kicad-embed://oresat-schematic-title-block.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -1164,19 +1125,23 @@
     ],
     [
       "b2257a8e-f157-4d00-9c7a-ebd3e047ad3a",
-      "OPD"
-    ],
-    [
-      "ef373219-d5fd-4fe4-9a40-d71169676409",
-      "OSD3358 SD, eMMC"
-    ],
-    [
-      "fb0d8cda-da67-4375-9bc6-6081ff32bfc0",
-      "OSD3358 USB, XTAL, ADC"
+      "Power (OPD)"
     ],
     [
       "4dfcc501-0eda-4ce5-917f-0383558d98a1",
-      "OSD3358 PWR"
+      "OSD3358: SIP A + E + F (PWR)"
+    ],
+    [
+      "fb0d8cda-da67-4375-9bc6-6081ff32bfc0",
+      "OSD3358: SIP B (USB, XTAL, ADC)"
+    ],
+    [
+      "ef373219-d5fd-4fe4-9a40-d71169676409",
+      "OSD3358: SIP C (SD, eMMC)"
+    ],
+    [
+      "9829b57f-5861-4a7a-b5d2-aba7fd46d0d1",
+      "OSD3358: SIP D (BOOT)"
     ]
   ],
   "text_variables": {}
