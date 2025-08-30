@@ -8107,7 +8107,7 @@
 	)
 	(text "SYSBOOT Jumper to config boot order\nmust use very light pullups because\nboot config is latched at boot and then\nthe pins a used for other purposes"
 		(exclude_from_sim no)
-		(at 205.74 99.06 0)
+		(at 203.2 99.06 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -8116,9 +8116,9 @@
 		)
 		(uuid "a611ec0c-0e7f-4d3b-a9f8-7fc249ac346a")
 	)
-	(text "SYSBOOT2 pulled high by default to boot\neMMC. Manual jumper here to override"
+	(text "SYSBOOT2 pulled high by default to boot\neMMC. Manual jumper here to override and\nOPD can override."
 		(exclude_from_sim no)
-		(at 276.86 127 0)
+		(at 271.78 121.92 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -8227,6 +8227,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "756b44b2-5ab6-41a9-bfcc-376f5917ceff")
+	)
+	(junction
+		(at 267.97 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76e24f01-8b07-4649-9825-88c0dff0d703")
 	)
 	(junction
 		(at 185.42 129.54)
@@ -8388,16 +8394,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 132.08) (xy 246.38 132.08)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "06318463-9116-41d3-a666-67d12e7de51a")
-	)
-	(wire
-		(pts
 			(xy 208.28 162.56) (xy 210.82 162.56)
 		)
 		(stroke
@@ -8468,7 +8464,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 111.76) (xy 271.78 111.76)
+			(xy 190.5 111.76) (xy 267.97 111.76)
 		)
 		(stroke
 			(width 0.1524)
@@ -8548,7 +8544,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 142.24) (xy 281.94 149.86)
+			(xy 281.94 130.81) (xy 281.94 149.86)
 		)
 		(stroke
 			(width 0.1524)
@@ -8598,7 +8594,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 111.76) (xy 271.78 137.16)
+			(xy 267.97 111.76) (xy 267.97 137.16)
 		)
 		(stroke
 			(width 0.1524)
@@ -8668,7 +8664,7 @@
 	)
 	(polyline
 		(pts
-			(xy 248.92 101.6) (xy 248.92 86.36)
+			(xy 250.19 101.6) (xy 250.19 86.36)
 		)
 		(stroke
 			(width 0.1524)
@@ -8958,13 +8954,23 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 137.16) (xy 271.78 137.16)
+			(xy 276.86 137.16) (xy 267.97 137.16)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "b44d953c-bf53-4516-82e3-5658b8673f6f")
+	)
+	(wire
+		(pts
+			(xy 267.97 111.76) (xy 270.51 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b49bd7d9-b129-4177-893a-2d4cbc8eea8a")
 	)
 	(polyline
 		(pts
@@ -9068,6 +9074,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 130.81) (xy 271.78 130.81)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c899ea6c-b364-4ae5-8dc9-48f638e011c0")
+	)
+	(wire
+		(pts
 			(xy 218.44 149.86) (xy 218.44 137.16)
 		)
 		(stroke
@@ -9138,16 +9154,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 132.08) (xy 246.38 149.86)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d486c960-5181-4c7a-b401-5751d18651f0")
-	)
-	(wire
-		(pts
 			(xy 162.56 144.78) (xy 185.42 144.78)
 		)
 		(stroke
@@ -9168,7 +9174,7 @@
 	)
 	(polyline
 		(pts
-			(xy 248.92 86.36) (xy 200.66 86.36)
+			(xy 250.19 86.36) (xy 200.66 86.36)
 		)
 		(stroke
 			(width 0.1524)
@@ -9268,6 +9274,26 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 130.81) (xy 246.38 149.86)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e8b8e0e5-5fb3-4d15-b24a-1490c461c043")
+	)
+	(wire
+		(pts
+			(xy 276.86 135.89) (xy 276.86 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec382624-7745-498f-8c75-46e7cf603e3e")
+	)
+	(wire
+		(pts
 			(xy 213.36 162.56) (xy 215.9 162.56)
 		)
 		(stroke
@@ -9288,7 +9314,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.66 101.6) (xy 248.92 101.6)
+			(xy 200.66 101.6) (xy 250.19 101.6)
 		)
 		(stroke
 			(width 0.1524)
@@ -9466,6 +9492,27 @@
 		)
 		(uuid "fc78f2e2-0381-40b4-a0e4-1bc7b2c446b1")
 	)
+	(global_label "SYSBOOT2"
+		(shape input)
+		(at 270.51 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88eade19-f096-49bb-9b14-084f210031ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 283.1109 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "TEC_ENABLE"
 		(shape bidirectional)
 		(at 154.94 200.66 180)
@@ -9484,7 +9531,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -9506,7 +9552,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -9908,7 +9953,7 @@
 	)
 	(symbol
 		(lib_id "cfc-card-eagle-import:JUMPER-SMT_3_1-NC_TRACE_SILK")
-		(at 281.94 137.16 0)
+		(at 276.86 130.81 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9917,7 +9962,7 @@
 		(dnp no)
 		(uuid "512af306-4fac-40eb-b26a-b3e7cc0449b2")
 		(property "Reference" "JP2"
-			(at 284.48 137.541 0)
+			(at 274.32 127 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -9926,7 +9971,7 @@
 			)
 		)
 		(property "Value" "JUMPER-SMT_3_1-NC_TRACE_SILK"
-			(at 284.48 136.779 0)
+			(at 276.479 128.27 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -9936,7 +9981,7 @@
 			)
 		)
 		(property "Footprint" "cfc-card:SMT-JUMPER_3_1-NC_TRACE_SILK"
-			(at 281.94 137.16 0)
+			(at 276.86 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9945,7 +9990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 137.16 0)
+			(at 276.86 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9954,7 +9999,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 281.94 137.16 0)
+			(at 276.86 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
