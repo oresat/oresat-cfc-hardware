@@ -19664,7 +19664,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 127 320.04 0)
 			(effects
 				(font
@@ -20192,7 +20192,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0805-B"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 393.7 171.45 0)
 			(effects
 				(font
@@ -20261,7 +20261,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 88.9 320.04 0)
 			(effects
 				(font
@@ -20370,7 +20370,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0603-A"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 40.64 64.77 0)
 			(effects
 				(font
@@ -20608,7 +20608,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 114.3 302.26 0)
 			(effects
 				(font
@@ -20717,7 +20717,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0603-A"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 330.2 124.46 0)
 			(effects
 				(font
@@ -20852,7 +20852,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 134.62 337.82 0)
 			(effects
 				(font
@@ -20961,7 +20961,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0603-A"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 370.84 171.45 0)
 			(effects
 				(font
@@ -21368,7 +21368,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 66.04 398.78 0)
 			(effects
 				(font
@@ -21477,7 +21477,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 66.04 383.54 0)
 			(effects
 				(font
@@ -21586,7 +21586,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 134.62 320.04 0)
 			(effects
 				(font
@@ -21827,7 +21827,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 88.9 337.82 0)
 			(effects
 				(font
@@ -22003,7 +22003,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 149.86 355.6 0)
 			(effects
 				(font
@@ -22112,7 +22112,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0603-A"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 363.22 171.45 0)
 			(effects
 				(font
@@ -23057,7 +23057,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 96.52 337.82 0)
 			(effects
 				(font
@@ -23500,7 +23500,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 96.52 320.04 0)
 			(effects
 				(font
@@ -23609,7 +23609,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 104.14 320.04 0)
 			(effects
 				(font
@@ -23718,7 +23718,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 73.66 355.6 0)
 			(effects
 				(font
@@ -24159,7 +24159,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 157.48 355.6 0)
 			(effects
 				(font
@@ -24579,7 +24579,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0603-A"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 330.2 132.08 0)
 			(effects
 				(font
@@ -24714,7 +24714,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 142.24 320.04 0)
 			(effects
 				(font
@@ -24823,7 +24823,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0603-A"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 40.64 74.93 0)
 			(effects
 				(font
@@ -24892,7 +24892,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0603-A"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at -93.98 187.96 0)
 			(effects
 				(font
@@ -25159,7 +25159,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0603-A"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 378.46 171.45 0)
 			(effects
 				(font
@@ -25447,7 +25447,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0603-A"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 227.33 59.69 0)
 			(effects
 				(font
@@ -25516,7 +25516,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 81.28 355.6 0)
 			(effects
 				(font
@@ -25625,7 +25625,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 66.04 406.4 0)
 			(effects
 				(font
@@ -25968,7 +25968,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 142.24 337.82 0)
 			(effects
 				(font
@@ -26077,7 +26077,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0805-B"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at -104.14 187.96 0)
 			(effects
 				(font
@@ -26286,7 +26286,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 149.86 337.82 0)
 			(effects
 				(font
@@ -26395,7 +26395,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0603-A"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 349.25 173.99 0)
 			(effects
 				(font
@@ -26464,7 +26464,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 88.9 355.6 0)
 			(effects
 				(font
@@ -26574,7 +26574,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0603-A"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 116.84 67.31 0)
 			(effects
 				(font
@@ -26776,7 +26776,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0603-A"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 330.2 147.32 0)
 			(effects
 				(font
@@ -26911,7 +26911,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0603-A"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 330.2 139.7 0)
 			(effects
 				(font
@@ -27149,7 +27149,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0603-A"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 386.08 171.45 0)
 			(effects
 				(font
@@ -27416,7 +27416,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 66.04 391.16 0)
 			(effects
 				(font
@@ -27595,7 +27595,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 142.24 355.6 0)
 			(effects
 				(font
@@ -27704,7 +27704,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0402-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-C-NOSILK"
 			(at 81.28 337.82 0)
 			(effects
 				(font
@@ -27813,7 +27813,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0603-A"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 105.41 223.52 0)
 			(effects
 				(font
@@ -28282,7 +28282,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0603-A"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 341.63 173.99 0)
 			(effects
 				(font

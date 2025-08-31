@@ -11925,7 +11925,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:.0603-A"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 281.94 154.94 0)
 			(effects
 				(font
