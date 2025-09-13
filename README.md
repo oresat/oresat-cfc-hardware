@@ -41,7 +41,9 @@ Versions of the CFC have also flown on the NASA High Altitude Student Payload (H
 - The **CFC Processor Card** is a PCB in backplane slot 17 with:
    - LVDS to PRU adapter IC
    - an [Octavo OSD335x-SM](https://octavosystems.com/octavo_products/osd335x-sm/) system in package (SIP) processor with 1 GB DRAM and a 16 GB eMMC storage IC.
- 
+ - Radiator
+    - The top of the CFC Sensor Card has a large block of copper being used as a heat spreader. The heat spreader dumps the heat from the TEC into thin copper leaf springs that lead the heat to two external copper radiators in the -Z+Y and -Z-Y solar module positions. These copper radiators are covered by a high emissivity tape.
+    
 ## Design Notes
 
 - Mostly on our Google Drive right now, here's the beginnings of our [CFC Design Notes](https://docs.google.com/document/d/1nDrTuUim9k1om3DOcBtnp3ixVvrmmALAsb2CZlDwwio/edit?usp=sharing).
