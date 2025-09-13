@@ -1,65 +1,196 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 8c53300c-27d6-4efc-b05b-8b907d6da3f5)
-
-  (paper "B")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 34.29 29.21) (size 22.86 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 32b02a49-e716-4e99-9e51-c04d4b68afa0)
-    (property "Sheetname" "opd" (at 34.29 28.4984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "opd.kicad_sch" (at 34.29 50.1146 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "cfc-sensor-card"
-        (path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 97.79 29.21) (size 22.86 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 49441372-20a8-43de-b381-31735fd4f38e)
-    (property "Sheetname" "pirt" (at 97.79 28.4984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "pirt.kicad_sch" (at 97.79 50.1146 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "cfc-sensor-card"
-        (path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 66.04 29.21) (size 22.86 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 69509d56-9bb2-4b10-9d93-838acc3bc5b3)
-    (property "Sheetname" "connectors" (at 66.04 28.4984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "connectors.kicad_sch" (at 66.04 50.1146 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "cfc-sensor-card"
-        (path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5" (page "3"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8c53300c-27d6-4efc-b05b-8b907d6da3f5")
+	(paper "B")
+	(title_block
+		(title "CFC Sensor Card")
+		(date "2025-09-12")
+		(rev "v2.1")
+		(company "Portland State Aerospace Society")
+	)
+	(lib_symbols)
+	(sheet
+		(at 34.29 29.21)
+		(size 22.86 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "32b02a49-e716-4e99-9e51-c04d4b68afa0")
+		(property "Sheetname" "OPD"
+			(at 34.29 27.6334 0)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.4)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "opd.kicad_sch"
+			(at 34.29 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cfc-sensor-card"
+				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 29.21)
+		(size 22.86 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49441372-20a8-43de-b381-31735fd4f38e")
+		(property "Sheetname" "PIRT Sensor"
+			(at 97.79 27.6334 0)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pirt.kicad_sch"
+			(at 97.79 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cfc-sensor-card"
+				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 29.21)
+		(size 22.86 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "69509d56-9bb2-4b10-9d93-838acc3bc5b3")
+		(property "Sheetname" "Connectors"
+			(at 66.04 27.6334 0)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.4)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 66.04 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cfc-sensor-card"
+				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 29.21)
+		(size 25.4 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "84f76dd6-97e2-45d4-9dd8-6007568bc131")
+		(property "Sheetname" "TEC Control"
+			(at 134.62 27.6334 0)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cfc-sensor-card-sch-tec.kicad_sch"
+			(at 134.62 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cfc-sensor-card"
+				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
