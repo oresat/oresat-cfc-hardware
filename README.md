@@ -5,11 +5,17 @@ Cirrrus Flux Camera hardware repository. See also https://www.oresat.org/satelli
 ## General information
 The Cirrus Flux Camera (CFC) is a Short Wave Infrared (SWIR) camera meant to map the global distribution of high-altitude cirrus clouds. It works by looking at the reflected sunlight from clouds in three SWIR bands. The primary investigators (PIs) for CFC calibration, data processing, and climate science are our collaborators at the [University of Maryland Baltimore Count (UMBC)'s Earth and Space Institute (ESI)](https://esi.umbc.edu/) as well as by our collaborators at the [University College London (UCL) Mullard Space Science Laboratory (MSSL)](https://www.ucl.ac.uk/mathematical-physical-sciences/mssl).
 
+![CFC Assembly CAD model](pictures/cfc-cad.png)
+
 Older versions of the CFC flew on the [2022 NASA High Altitude Student Payload (HASP)](https://sg-webserver.phys.lsu.edu/) mission.
+
+![CFC on HASP balloon](pictures/cfc-hasp.png)
 
 Different but modern versions were flown by [UMBC's AirHARP mission](https://esi.umbc.edu/airharp2-at-pace-pax/) on the NASA ER-2 high altitude plane.
 
 Most recently, we flew a preliminary technology demonstration mission on [OreSat0.5](https://www.oresat.org/satellites/oresat0-5) launched August 16th, 2024.
+
+![CFC on OreSat0.5](pictures/cfc-oresat0.5-assembly.png)
 
 We're planning on flying the science mission camera on OreSat1 in Q2 2026.
 
