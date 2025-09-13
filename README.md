@@ -1,6 +1,6 @@
 # oresat-cfc-hardware
 
-Cirrrus Flux Camera hardware repository. See also (https://www.oresat.org/satellites/oresat/mission-2-cfc).
+Cirrrus Flux Camera hardware repository. See also https://www.oresat.org/satellites/oresat/mission-2-cfc.
 
 ## General information
 The Cirrus Flux Camera (CFC) is a Short Wave Infrared (SWIR) camera meant to map the global distribution of high-altitude cirrus clouds. It works by looking at the reflected sunlight from clouds in three SWIR bands. The primary investigators (PIs) for CFC calibration, data processing, and climate science are our collaborators at the [University of Maryland Baltimore Count (UMBC)'s Earth and Space Institute (ESI)](https://esi.umbc.edu/) as well as by our collaborators at the [University College London (UCL) Mullard Space Science Laboratory (MSSL)](https://www.ucl.ac.uk/mathematical-physical-sciences/mssl).
@@ -36,14 +36,16 @@ Versions of the CFC have also flown on the NASA High Altitude Student Payload (H
    - LVDS to PRU adapter IC
    - an [Octavo OSD335x-SM](https://octavosystems.com/octavo_products/osd335x-sm/) system in package (SIP) processor with 1 GB DRAM and a 16 GB eMMC storage IC.
  
+## Design Notes
+
+- Mostly on our Google Drive right now, here's the beginnings of our [CFC Design Notes](https://docs.google.com/document/d/1nDrTuUim9k1om3DOcBtnp3ixVvrmmALAsb2CZlDwwio/edit?usp=sharing).
+
 ## Links to CAD
 
 - [OreSat CFC Camera mechnical in OnShape](https://cad.onshape.com/documents/0e986a82427039a7549eafca/v/f54f3484c685a75ab5bd82ce/e/deddd282159689e0e52f600b)
 - [OreSat0.5 containing the CFC assembly in OnShape](https://cad.onshape.com/documents/c0a6cf3367d8fdcad3a3c2e1/w/ca55e3ec6f041493d70e4b39/e/591851cdc8c634aae1522f90)
 - [Electronics CAD on Github](https://github.com/oresat/oresat-cfc-hardware) - mostly KiCad with some older EAGLE files.
-- [Kernel module](https://github.com/oresat/oresat-prucam-pirt1280) for the PIRT 1280 on the Octavo's PRU
-
-
+- [Kernel module](https://github.com/oresat/oresat-prucam-pirt1280) for the PIRT 1280 on the Octavo's PRU.
 
 ## License
 
