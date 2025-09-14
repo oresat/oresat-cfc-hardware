@@ -21050,28 +21050,24 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at -19.9644 -39.1414 0)
+		(property "Reference" "REF**"
+			(at 15.24 -37.084 0)
 			(effects
 				(font
-					(size 2.0828 1.7703)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Value" ""
-			(at 14.9606 -69.6214 0)
+		(property "Value" "DS90CR218AMTD"
+			(at 14.224 -39.624 0)
 			(effects
 				(font
-					(size 2.0828 1.7703)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "cfc-card:MTD48_TEX-L"
-			(at 0 0 0)
+			(at 0.508 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21079,8 +21075,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ds90cr218a.pdf?ts=1757691348943"
+			(at 0 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21088,74 +21084,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "+3.3V Rising Edge Data Strobe LVDS 21-Bit Channel Link - 12 MHz to 85 MHz"
+			(at 0 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(symbol "DS90CR218AMTD/NOPBMTD48_TEX-L_1_0"
-			(polyline
-				(pts
-					(xy -20.32 35.56) (xy -20.32 -35.56)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -20.32 -35.56) (xy 22.86 -35.56)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 22.86 35.56) (xy -20.32 35.56)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 22.86 -35.56) (xy 22.86 35.56)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin input line
-				(at -22.86 12.7 0)
+				(at -24.13 12.7 0)
 				(length 2.54)
 				(name "RXIN0-"
 					(effects
@@ -21173,7 +21113,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 10.16 0)
+				(at -24.13 10.16 0)
 				(length 2.54)
 				(name "RXIN0+"
 					(effects
@@ -21191,7 +21131,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 5.08 0)
+				(at -24.13 5.08 0)
 				(length 2.54)
 				(name "RXIN1-"
 					(effects
@@ -21209,7 +21149,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 2.54 0)
+				(at -24.13 2.54 0)
 				(length 2.54)
 				(name "RXIN1+"
 					(effects
@@ -21227,7 +21167,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -2.54 0)
+				(at -24.13 -2.54 0)
 				(length 2.54)
 				(name "RXIN2-"
 					(effects
@@ -21245,7 +21185,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -5.08 0)
+				(at -24.13 -5.08 0)
 				(length 2.54)
 				(name "RXIN2+"
 					(effects
@@ -21263,7 +21203,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -10.16 0)
+				(at -24.13 -10.16 0)
 				(length 2.54)
 				(name "RXCLKIN-"
 					(effects
@@ -21281,7 +21221,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -12.7 0)
+				(at -24.13 -12.7 0)
 				(length 2.54)
 				(name "RXCLKIN+"
 					(effects
@@ -21299,7 +21239,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -17.78 0)
+				(at -24.13 -17.78 0)
 				(length 2.54)
 				(name "~{PWR_DWN}"
 					(effects
@@ -21317,7 +21257,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 38.1 270)
+				(at -19.05 38.1 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -21335,7 +21275,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 38.1 270)
+				(at -11.43 38.1 270)
 				(length 2.54)
 				(name "VCC_2"
 					(effects
@@ -21353,7 +21293,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 38.1 270)
+				(at -3.81 38.1 270)
 				(length 2.54)
 				(name "VCC_3"
 					(effects
@@ -21370,9 +21310,29 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at 0 0 90)
+				(length 2.54)
+				(hide yes)
+				(name "6"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 0 -38.1 90)
 				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -21383,7 +21343,7 @@
 				(number "13"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -21391,6 +21351,7 @@
 			(pin power_in line
 				(at 0 -38.1 90)
 				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -21401,7 +21362,7 @@
 				(number "18"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -21409,6 +21370,7 @@
 			(pin power_in line
 				(at 0 -38.1 90)
 				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -21419,7 +21381,7 @@
 				(number "19"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -21427,6 +21389,7 @@
 			(pin power_in line
 				(at 0 -38.1 90)
 				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -21437,7 +21400,7 @@
 				(number "21"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -21445,6 +21408,7 @@
 			(pin power_in line
 				(at 0 -38.1 90)
 				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -21455,7 +21419,7 @@
 				(number "25"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -21473,7 +21437,7 @@
 				(number "3"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -21481,6 +21445,7 @@
 			(pin power_in line
 				(at 0 -38.1 90)
 				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -21491,7 +21456,7 @@
 				(number "32"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -21499,6 +21464,7 @@
 			(pin power_in line
 				(at 0 -38.1 90)
 				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -21509,7 +21475,7 @@
 				(number "38"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -21517,6 +21483,7 @@
 			(pin power_in line
 				(at 0 -38.1 90)
 				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -21527,7 +21494,7 @@
 				(number "44"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -21535,6 +21502,7 @@
 			(pin power_in line
 				(at 0 -38.1 90)
 				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -21545,13 +21513,13 @@
 				(number "7"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 5.08 38.1 270)
+				(at 3.81 38.1 270)
 				(length 2.54)
 				(name "VCC_4"
 					(effects
@@ -21569,7 +21537,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 38.1 270)
+				(at 11.43 38.1 270)
 				(length 2.54)
 				(name "LVDS_VCC"
 					(effects
@@ -21587,7 +21555,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 38.1 270)
+				(at 19.05 38.1 270)
 				(length 2.54)
 				(name "PLL_VCC"
 					(effects
@@ -21605,7 +21573,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 20.32 180)
+				(at 24.13 20.32 180)
 				(length 2.54)
 				(name "RXOUT0"
 					(effects
@@ -21623,7 +21591,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 17.78 180)
+				(at 24.13 17.78 180)
 				(length 2.54)
 				(name "RXOUT1"
 					(effects
@@ -21641,7 +21609,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 15.24 180)
+				(at 24.13 15.24 180)
 				(length 2.54)
 				(name "RXOUT2"
 					(effects
@@ -21659,7 +21627,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 12.7 180)
+				(at 24.13 12.7 180)
 				(length 2.54)
 				(name "RXOUT3"
 					(effects
@@ -21677,7 +21645,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 10.16 180)
+				(at 24.13 10.16 180)
 				(length 2.54)
 				(name "RXOUT4"
 					(effects
@@ -21695,7 +21663,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 7.62 180)
+				(at 24.13 7.62 180)
 				(length 2.54)
 				(name "RXOUT5"
 					(effects
@@ -21713,7 +21681,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 5.08 180)
+				(at 24.13 5.08 180)
 				(length 2.54)
 				(name "RXOUT6"
 					(effects
@@ -21731,7 +21699,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 2.54 180)
+				(at 24.13 2.54 180)
 				(length 2.54)
 				(name "RXOUT7"
 					(effects
@@ -21749,7 +21717,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 0 180)
+				(at 24.13 0 180)
 				(length 2.54)
 				(name "RXOUT8"
 					(effects
@@ -21767,7 +21735,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -2.54 180)
+				(at 24.13 -2.54 180)
 				(length 2.54)
 				(name "RXOUT9"
 					(effects
@@ -21785,7 +21753,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -5.08 180)
+				(at 24.13 -5.08 180)
 				(length 2.54)
 				(name "RXOUT10"
 					(effects
@@ -21803,7 +21771,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -7.62 180)
+				(at 24.13 -7.62 180)
 				(length 2.54)
 				(name "RXOUT11"
 					(effects
@@ -21821,7 +21789,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -10.16 180)
+				(at 24.13 -10.16 180)
 				(length 2.54)
 				(name "RXOUT12"
 					(effects
@@ -21839,7 +21807,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -12.7 180)
+				(at 24.13 -12.7 180)
 				(length 2.54)
 				(name "RXOUT13"
 					(effects
@@ -21857,7 +21825,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -15.24 180)
+				(at 24.13 -15.24 180)
 				(length 2.54)
 				(name "RXOUT14"
 					(effects
@@ -21875,7 +21843,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -17.78 180)
+				(at 24.13 -17.78 180)
 				(length 2.54)
 				(name "RXOUT15"
 					(effects
@@ -21893,7 +21861,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -20.32 180)
+				(at 24.13 -20.32 180)
 				(length 2.54)
 				(name "RXOUT16"
 					(effects
@@ -21911,7 +21879,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -22.86 180)
+				(at 24.13 -22.86 180)
 				(length 2.54)
 				(name "RXOUT17"
 					(effects
@@ -21929,7 +21897,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -25.4 180)
+				(at 24.13 -25.4 180)
 				(length 2.54)
 				(name "RXOUT18"
 					(effects
@@ -21947,7 +21915,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -27.94 180)
+				(at 24.13 -27.94 180)
 				(length 2.54)
 				(name "RXOUT19"
 					(effects
@@ -21965,7 +21933,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -30.48 180)
+				(at 24.13 -30.48 180)
 				(length 2.54)
 				(name "RXOUT20"
 					(effects
@@ -21983,7 +21951,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -33.02 180)
+				(at 24.13 -33.02 180)
 				(length 2.54)
 				(name "RXCLKOUT"
 					(effects
@@ -21998,6 +21966,19 @@
 							(size 1.524 1.524)
 						)
 					)
+				)
+			)
+		)
+		(symbol "DS90CR218AMTD/NOPBMTD48_TEX-L_1_1"
+			(rectangle
+				(start -21.59 35.56)
+				(end 21.59 -35.56)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
@@ -69193,7 +69174,7 @@
 	)
 	(symbol "TEST-POINT"
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "TP"
 			(at -5.08 2.54 0)
@@ -69238,14 +69219,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(symbol "TEST-POINT_1_0"
@@ -69657,7 +69630,7 @@
 	)
 	(symbol "TEST-POINT3X4"
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "TP"
 			(at -2.54 2.54 0)
@@ -69680,7 +69653,7 @@
 			)
 		)
 		(property "Footprint" "cfc-card:PAD.03X.04"
-			(at 0 0 0)
+			(at 0 -5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69698,20 +69671,12 @@
 			)
 		)
 		(property "Description" "SparkFun Test Points\n\nBare copper test points for troubleshooting or In-Circuit-Testing. These are used by our Production team for verifying production board runs using pogo-pins on test beds.\n\nSparkFun Products:\n\n• SparkFun LSM9DS1 Breakout\n• SparkFun PSOC\n• https://www.sparkfun.com/products/13879 SparkFun Load Cell Amplifier"
-			(at 0 0 0)
+			(at 0 16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(symbol "TEST-POINT3X4_1_0"
@@ -69739,7 +69704,7 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 0 0 180)
 				(length 0)
 				(name "1"

@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat CFC Processor Card")
-		(date "2025-08-28")
-		(rev "1.0")
+		(date "2025-09-13")
+		(rev "2.0")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -3277,9 +3277,9 @@
 		)
 		(uuid "24a2e05c-6488-4459-aa7f-f1dac672b5cc")
 	)
-	(text "ESD Protection for I2C0\nand USB lines"
+	(text "ESD Protection for USB lines"
 		(exclude_from_sim no)
-		(at 342.9 71.12 0)
+		(at 342.9 73.66 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -3529,16 +3529,10 @@
 		(uuid "238a6a82-3359-4484-a630-e83b98096191")
 	)
 	(junction
-		(at 300.99 105.41)
+		(at 323.85 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2e40da7f-93a8-46c3-8c68-263f981e90f4")
-	)
-	(junction
-		(at 303.53 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33beeea4-7c5d-4d2e-857c-815d6a043b78")
+		(uuid "43e5f162-2844-490b-9462-dc5e174f38ae")
 	)
 	(junction
 		(at 302.26 87.63)
@@ -3655,6 +3649,10 @@
 		(uuid "19bfc8ac-f2bb-4054-907d-5dc93caf0eb7")
 	)
 	(no_connect
+		(at 298.45 105.41)
+		(uuid "1cc3e59c-8efa-47f4-a6f7-79da1bd27ca2")
+	)
+	(no_connect
 		(at 144.78 53.34)
 		(uuid "1d6eba4f-b1a6-498c-8ac3-5d87456358a0")
 	)
@@ -3691,6 +3689,14 @@
 		(uuid "66d43770-b220-4025-85cd-f1fc2cc0ca13")
 	)
 	(no_connect
+		(at 298.45 107.95)
+		(uuid "6cd85a90-fc33-419f-a7e0-5410e3bca930")
+	)
+	(no_connect
+		(at 298.45 102.87)
+		(uuid "71e8d61c-c2e3-4e3d-a588-73d5c8bf947f")
+	)
+	(no_connect
 		(at 144.78 114.3)
 		(uuid "851b5257-14f2-4b1e-bfad-7f0aed181e2c")
 	)
@@ -3715,16 +3721,16 @@
 		(uuid "ba740ce8-9aba-4eee-85fb-56627613a774")
 	)
 	(no_connect
-		(at 298.45 64.77)
-		(uuid "ccce1746-7a87-4e98-8a8b-eaedcf6ef336")
-	)
-	(no_connect
 		(at 298.45 92.71)
 		(uuid "dd2bbfb5-7fda-4d99-88b0-800faf87a8d2")
 	)
 	(no_connect
 		(at 144.78 43.18)
 		(uuid "eed36d3a-a22c-4bfe-9577-50bb1ba69a1e")
+	)
+	(no_connect
+		(at 346.71 99.06)
+		(uuid "effa3252-2ac6-4616-828f-a8ec8d72209a")
 	)
 	(no_connect
 		(at 298.45 69.85)
@@ -3739,6 +3745,16 @@
 			(type solid)
 		)
 		(uuid "0100c2b9-1f85-44aa-873f-07cc754c4149")
+	)
+	(wire
+		(pts
+			(xy 323.85 64.77) (xy 327.66 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01c7d68f-d58c-4cca-9e78-c850fe3652ce")
 	)
 	(wire
 		(pts
@@ -3789,16 +3805,6 @@
 			(type solid)
 		)
 		(uuid "0a19250c-9070-4907-a2b3-bcee5ebf5659")
-	)
-	(wire
-		(pts
-			(xy 300.99 105.41) (xy 306.07 105.41)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0a1f78c1-a048-406c-aa99-ffe2b835779e")
 	)
 	(wire
 		(pts
@@ -3982,6 +3988,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 64.77) (xy 323.85 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366e6482-9695-4930-8fa0-bbc74aeff675")
+	)
+	(wire
+		(pts
 			(xy 148.59 76.2) (xy 144.78 76.2)
 		)
 		(stroke
@@ -4009,16 +4025,6 @@
 			(type solid)
 		)
 		(uuid "3a89323a-307b-47f3-8c65-d04a433214fd")
-	)
-	(wire
-		(pts
-			(xy 303.53 99.06) (xy 346.71 99.06)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3bdfd000-6d5b-4369-b7b4-16dfbcc6899c")
 	)
 	(wire
 		(pts
@@ -4242,6 +4248,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 96.52) (xy 323.85 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd3632a-7518-4957-a75d-f107a9fb7d3f")
+	)
+	(wire
+		(pts
 			(xy 165.1 68.58) (xy 148.59 68.58)
 		)
 		(stroke
@@ -4442,6 +4458,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 96.52) (xy 323.85 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9486bea4-c218-450c-9740-16e6fc972f47")
+	)
+	(wire
+		(pts
 			(xy 148.59 83.82) (xy 165.1 83.82)
 		)
 		(stroke
@@ -4512,16 +4538,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 107.95) (xy 306.07 107.95)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a1b2ba2a-257f-4f43-86af-3eebf582e3e1")
-	)
-	(wire
-		(pts
 			(xy 146.05 186.69) (xy 149.86 186.69)
 		)
 		(stroke
@@ -4559,26 +4575,6 @@
 			(type solid)
 		)
 		(uuid "aa4f006e-e37e-4b12-b892-831ec312c541")
-	)
-	(wire
-		(pts
-			(xy 298.45 105.41) (xy 300.99 105.41)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ab3fd00d-3270-450e-a274-87eaa1bb2dd8")
-	)
-	(wire
-		(pts
-			(xy 303.53 102.87) (xy 306.07 102.87)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ae7ed84b-6756-479c-b552-a555ac305822")
 	)
 	(wire
 		(pts
@@ -4622,16 +4618,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 96.52) (xy 346.71 96.52)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bd2ee674-c08a-4d48-8af2-71d17e8bcab0")
-	)
-	(wire
-		(pts
 			(xy 148.59 63.5) (xy 165.1 63.5)
 		)
 		(stroke
@@ -4669,16 +4655,6 @@
 			(type solid)
 		)
 		(uuid "cb0a8b3c-82e9-41a1-b6a9-782830daf4c2")
-	)
-	(wire
-		(pts
-			(xy 300.99 96.52) (xy 300.99 105.41)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cea5c6b9-0754-4302-a63e-6ff625becc0d")
 	)
 	(wire
 		(pts
@@ -4769,16 +4745,6 @@
 			(type solid)
 		)
 		(uuid "da4e8f60-e986-4087-aee7-fb91f7bb307a")
-	)
-	(wire
-		(pts
-			(xy 303.53 99.06) (xy 303.53 102.87)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "de9fbb42-5a4f-433b-8553-3947aa4ea29e")
 	)
 	(wire
 		(pts
@@ -4892,16 +4858,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 102.87) (xy 303.53 102.87)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f5477d5b-9449-439d-becf-58dc6cf62d7f")
-	)
-	(wire
-		(pts
 			(xy 299.72 113.03) (xy 298.45 113.03)
 		)
 		(stroke
@@ -4971,7 +4927,7 @@
 		(uuid "fcca8fb9-e622-4915-a320-d135d094c222")
 	)
 	(global_label "UART0_TX"
-		(shape bidirectional)
+		(shape input)
 		(at 306.07 77.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4982,7 +4938,7 @@
 		)
 		(uuid "167ae15f-2760-45b6-bb52-df690e5589ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 315.245 77.47 0)
+			(at 314.4671 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5130,27 +5086,6 @@
 		(uuid "5e5b25df-615e-4306-89c8-6fcd28ddd746")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.3126 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "EEPROM_WP"
-		(shape bidirectional)
-		(at 306.07 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "64adbf76-44c9-4b52-a376-de402168e272")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.8536 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5391,7 +5326,7 @@
 		)
 	)
 	(global_label "UART0_RX"
-		(shape bidirectional)
+		(shape output)
 		(at 306.07 80.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5402,28 +5337,7 @@
 		)
 		(uuid "e0188864-548d-477a-a216-3b62987190e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 315.4567 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "I2C0_SDA"
-		(shape bidirectional)
-		(at 306.07 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "e213ab1e-89a3-4b9c-b5c2-8fa303ad8363")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 315.1181 105.41 0)
+			(at 314.6788 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,6 +5367,27 @@
 			)
 		)
 	)
+	(global_label "nRESET"
+		(shape bidirectional)
+		(at 327.66 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb906164-5432-413b-a5c3-ba9a99af0757")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 338.6506 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "USB_CLI_N"
 		(shape bidirectional)
 		(at 306.07 87.63 0)
@@ -5466,27 +5401,6 @@
 		(uuid "efec3292-32a2-4c3c-a9e1-950725e32350")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 315.9223 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "I2C0_SCL"
-		(shape bidirectional)
-		(at 306.07 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "f4c549a3-a2b2-47f8-8c96-1590088e535d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 315.0758 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5730,7 +5644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/E0000000JelG/a/440000001NC4/stkwt9TLwnuFEcETp_EuKKu8Zq_5VZ02wBJYU8lO8Hs"
 			(at 356.87 93.98 0)
 			(effects
 				(font
@@ -5739,7 +5653,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "17.5V Clamp 28A (8/20µs) Ipp Tvs Diode Surface Mount SC-70-6"
+			(at 356.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 356.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RCLAMP0504FBTCTCT-ND"
+			(at 356.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Semtech Corporation"
+			(at 356.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCLAMP0504FBTCT"
 			(at 356.87 93.98 0)
 			(effects
 				(font
@@ -5811,7 +5761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 269.24 190.5 0)
 			(effects
 				(font
@@ -5820,7 +5770,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
+			(at 269.24 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "N/A"
+			(at 269.24 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "N/A"
+			(at 269.24 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "N/A"
+			(at 269.24 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 269.24 190.5 0)
 			(effects
 				(font
@@ -5883,7 +5869,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OreSat backplane connector, 2x20 RA"
+		(property "Description" "Connector Header Through Hole, Right Angle 40 position 0.050\" (1.27mm)"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SAM10145-ND"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TFM-120-01-L-D-RA"
 			(at 139.7 86.36 0)
 			(effects
 				(font
@@ -6040,7 +6062,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 356.87 112.014 0)
+			(at 356.87 113.03 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6123,7 +6145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 369.57 93.98 0)
 			(effects
 				(font
@@ -6132,7 +6154,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 369.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 369.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
+			(at 369.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 369.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 369.57 93.98 0)
 			(effects
 				(font
@@ -6404,7 +6462,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ORESAT-DEBUG-CONNECTOR-ALL"
+		(property "Value" "2-1734592-0"
 			(at 287.02 85.09 0)
 			(effects
 				(font
@@ -6422,7 +6480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.te.com/usa-en/product-2-1734592-0.datasheet.pdf"
 			(at 287.02 85.09 0)
 			(effects
 				(font
@@ -6431,7 +6489,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20 Position FPC Connector Contacts, Bottom 0.020\" (0.50mm) Surface Mount, Right Angle"
+			(at 287.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 287.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "A100287CT-ND"
+			(at 287.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "TE Connectivity AMP Connectors"
+			(at 287.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2-1734592-0"
 			(at 287.02 85.09 0)
 			(effects
 				(font
