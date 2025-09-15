@@ -12364,7 +12364,7 @@
 			(uuid "599dc564-1f41-4720-bdcb-541d8ccc5f09")
 		)
 		(instances
-			(project ""
+			(project "cfc-card"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88/4dfcc501-0eda-4ce5-917f-0383558d98a1"
 					(reference "J5")
 					(unit 1)

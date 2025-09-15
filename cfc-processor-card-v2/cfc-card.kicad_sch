@@ -569,7 +569,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "cfc-processor-sch.kicad_sch"
+		(property "Sheetfile" "cfc-processor-sch-sip-e-f.kicad_sch"
 			(at 72.39 46.3046 0)
 			(effects
 				(font
@@ -611,7 +611,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "osd3358_pwr.kicad_sch"
+		(property "Sheetfile" "cfc-processor-sch-sip-a.kicad_sch"
 			(at 228.6 29.7946 0)
 			(effects
 				(font
@@ -653,7 +653,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "cfc-processor-sch-boot.kicad_sch"
+		(property "Sheetfile" "cfc-processor-sch-sip-d.kicad_sch"
 			(at 76.2 31.0646 0)
 			(effects
 				(font
@@ -695,7 +695,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "opd.kicad_sch"
+		(property "Sheetfile" "cfc-processor-sch-power.kicad_sch"
 			(at 25.4 41.2246 0)
 			(effects
 				(font
@@ -737,7 +737,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "osd3358_sd.kicad_sch"
+		(property "Sheetfile" "cfc-processor-sch-sip-c.kicad_sch"
 			(at 127 29.7946 0)
 			(effects
 				(font
@@ -779,7 +779,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "connectors.kicad_sch"
+		(property "Sheetfile" "cfc-processor-sch-connectors.kicad_sch"
 			(at 25.4 29.7946 0)
 			(effects
 				(font
@@ -821,7 +821,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "osd3358_usb.kicad_sch"
+		(property "Sheetfile" "cfc-processor-sch-sip-b.kicad_sch"
 			(at 177.8 29.7946 0)
 			(effects
 				(font

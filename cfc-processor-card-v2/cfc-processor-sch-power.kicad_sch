@@ -12093,7 +12093,7 @@
 			(uuid "3e38cad3-023a-47ca-b51d-0ecad53c2d4a")
 		)
 		(instances
-			(project ""
+			(project "cfc-card"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a"
 					(reference "U5")
 					(unit 1)
