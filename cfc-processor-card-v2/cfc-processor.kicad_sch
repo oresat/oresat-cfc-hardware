@@ -579,7 +579,7 @@
 			)
 		)
 		(instances
-			(project "cfc-card"
+			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88"
 					(page "8")
 				)
@@ -621,7 +621,7 @@
 			)
 		)
 		(instances
-			(project "cfc-card"
+			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88"
 					(page "3")
 				)
@@ -663,7 +663,7 @@
 			)
 		)
 		(instances
-			(project "cfc-card"
+			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88"
 					(page "6")
 				)
@@ -705,7 +705,7 @@
 			)
 		)
 		(instances
-			(project "cfc-card"
+			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88"
 					(page "2")
 				)
@@ -747,7 +747,7 @@
 			)
 		)
 		(instances
-			(project "cfc-card"
+			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88"
 					(page "5")
 				)
@@ -789,7 +789,7 @@
 			)
 		)
 		(instances
-			(project "cfc-card"
+			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88"
 					(page "1")
 				)
@@ -831,7 +831,7 @@
 			)
 		)
 		(instances
-			(project "cfc-card"
+			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88"
 					(page "4")
 				)

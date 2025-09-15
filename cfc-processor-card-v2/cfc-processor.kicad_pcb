@@ -6569,7 +6569,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/ede3eb22-7acc-4202-b00e-bfb602499ca1")
 		(sheetname "/")
-		(sheetfile "cfc-card.kicad_sch")
+		(sheetfile "cfc-processor.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -20788,7 +20788,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/89116bfa-81d1-4445-98bf-572c1b15f977")
 		(sheetname "/")
-		(sheetfile "cfc-card.kicad_sch")
+		(sheetfile "cfc-processor.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -30563,7 +30563,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31197.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30575,7 +30575,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
+		(property "Description" "Dual PMOS transistor, 6 pin package"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30632,6 +30632,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3bf5f52d-715c-495a-9a51-6458972a5bd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value_1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5d1a835-f7a3-46a1-aefd-efedd296c7ce")
 			(effects
 				(font
 					(size 1 1)
@@ -30834,7 +30847,7 @@
 			(roundrect_rratio 0.25)
 			(net 64 "Net-(Q3A-G)")
 			(pinfunction "G")
-			(pintype "passive")
+			(pintype "input")
 			(uuid "5c6515a9-47e2-4e6b-b6fb-5b8749c76712")
 		)
 		(pad "2" smd roundrect
@@ -30854,7 +30867,7 @@
 			(roundrect_rratio 0.25)
 			(net 66 "Net-(Q3B-G)")
 			(pinfunction "G")
-			(pintype "passive")
+			(pintype "input")
 			(uuid "88f9e59e-cc19-42fd-93c9-da3d88e7c36f")
 		)
 		(pad "4" smd roundrect
@@ -47066,7 +47079,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/1fb838f6-38dc-408a-859e-af987c6ed9a9")
 		(sheetname "/")
-		(sheetfile "cfc-card.kicad_sch")
+		(sheetfile "cfc-processor.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -67978,7 +67991,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/5fb4e8e5-8ba6-4d4f-b722-e8573690ba00")
 		(sheetname "/")
-		(sheetfile "cfc-card.kicad_sch")
+		(sheetfile "cfc-processor.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -68842,7 +68855,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/020d2516-07fd-41d4-882a-727dddacc9cd")
 		(sheetname "/")
-		(sheetfile "cfc-card.kicad_sch")
+		(sheetfile "cfc-processor.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -69572,7 +69585,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/2a47af84-52e0-4c05-ad91-ee45b8d5cc74")
 		(sheetname "/")
-		(sheetfile "cfc-card.kicad_sch")
+		(sheetfile "cfc-processor.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
