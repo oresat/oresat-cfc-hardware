@@ -117,7 +117,7 @@
 			(usegerberextensions no)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -147,7 +147,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "gerbers/")
+			(outputdirectory "build")
 		)
 	)
 	(net 0 "")
@@ -626,7 +626,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9829b57f-5861-4a7a-b5d2-aba7fd46d0d1/79c9f291-82ba-4a9b-8fe1-54c8b642f747")
 		(sheetname "/OSD3358: SIP D (BOOT)/")
-		(sheetfile "cfc-processor-sch-boot.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-d.kicad_sch")
 		(attr through_hole dnp)
 		(fp_line
 			(start 1.38 1.27)
@@ -931,7 +931,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/cf809c26-64fc-494e-a3b4-ac87ac42acf3")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -1210,7 +1210,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/fc5f4920-4045-469a-a37c-402165bb4d63")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -1335,7 +1335,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/a12f7249-d218-49bd-846f-ce60f13b1a88")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -1511,7 +1511,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/0b1b5f60-b2e4-4b6e-b338-a66ab56fb992")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -1840,7 +1840,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/e7eb963b-bb8b-4bc6-9cd1-d842ff2f062c")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -2118,7 +2118,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/ec95d588-ccd7-4452-b248-fdf54b0a92f2")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -2294,7 +2294,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/802e7a53-5bb3-44b9-bad6-23c68667e554")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -1.395 -0.795)
 			(end -1.395 0.795)
@@ -2493,7 +2493,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/f656344b-3631-4353-abb4-3ef01ff5253f")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0)
@@ -2617,7 +2617,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/d44ceeab-d86d-4e6e-95ae-6591ad6e0b4c")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.845 -0.295)
 			(end -0.845 0.295)
@@ -2944,7 +2944,7 @@
 		)
 		(path "/fa749d49-011a-4aaa-ad4d-f74224eb48bd/b931ad37-16f1-4756-8a43-4102129fd7f6")
 		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
+		(sheetfile "cfc-processor-sch-connectors.kicad_sch")
 		(fp_line
 			(start -14.2875 -6.731)
 			(end -13.0175 -6.731)
@@ -3712,7 +3712,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/a326acf9-90ab-43ec-b414-d038f08a213f")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -3888,7 +3888,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/f48dbe57-0cc6-4b02-a5cf-bdc8d3259c5f")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -4217,7 +4217,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/9edc0b16-b3e3-41f1-be65-4282fbd1b8dc")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -4546,7 +4546,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/6dfcc824-96b5-4f2b-8d10-851135bd655d")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start 0.845 0.295)
@@ -4876,7 +4876,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/ada9811b-e9c4-4d59-a49f-7488a717fddf")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -5206,7 +5206,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/16da0dc9-3116-4bd0-a181-55e42f423228")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -1.778 -3.429)
 			(end 1.778 -3.429)
@@ -5767,7 +5767,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/b3449cdf-5871-4b60-9d6a-e7ba32783b78")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -6096,7 +6096,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/38138df0-6478-47b3-ba45-2bcada1e7382")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.795 -0.395)
 			(end -0.795 0.395)
@@ -6347,7 +6347,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/2b82eeb9-29e8-48ca-9ad1-250573a5f7ad")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 0.735)
@@ -6721,7 +6721,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/9210ef2c-80a9-47e0-982a-d064768159bd")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -7000,7 +7000,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/d606e3b7-52fc-4f13-8e94-062ac04d1e62")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -7189,7 +7189,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/6416fc3a-313c-4131-a22e-867bf3e73958")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -7462,7 +7462,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/a1d70f0f-8076-4ad7-b1de-836a2d851471")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start 0.845 -0.295)
@@ -7792,7 +7792,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/4827fa13-a4c5-47eb-9ae8-7e6e0195aaa9")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -8121,7 +8121,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/459eca62-5cc7-4dd6-9c27-6721fb91acc8")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.795 -0.395)
 			(end -0.795 0.395)
@@ -8308,7 +8308,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/1a386862-115d-441f-8d81-5e4eeb0fc829")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -8484,7 +8484,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/b3c31ee9-bfc3-4b9d-a496-88bdd326df73")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -1.395 -0.795)
 			(end -1.395 0.795)
@@ -8682,7 +8682,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/303e3e08-942d-449a-b3f0-6d0005d37d7b")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -8858,7 +8858,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/b3b786ce-14c3-4fee-b048-d8e650ef194d")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.845 -0.295)
 			(end -0.845 0.295)
@@ -9188,7 +9188,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/c8594c50-cd29-4550-a82b-6c14804fdc53")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -1.778 -3.429)
 			(end 1.778 -3.429)
@@ -9699,7 +9699,7 @@
 		)
 		(path "/225b75c4-e7f5-44a2-a11f-d224264ec6da/5deaffa1-bd3b-44b3-9318-f2ac344cce7e")
 		(sheetname "/OSD3558: SIP E + F/")
-		(sheetfile "cfc-processor-sch.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-e-f.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 270)
@@ -9836,7 +9836,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/7348b0e2-b6b8-4e56-a00e-f7841c22b897")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 0.735)
@@ -10109,7 +10109,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/631b85ec-691e-44bc-b6a8-6ec3bf86e7e6")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.795 -0.395)
 			(end -0.795 0.395)
@@ -10348,7 +10348,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/4f82486a-e256-4d03-ae32-26021baff43d")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.7 1.16)
@@ -10642,7 +10642,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/e0e6db8f-a975-4aef-8ff8-3db674b622e1")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.795 -0.395)
 			(end -0.795 0.395)
@@ -10829,7 +10829,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/a7928030-c7d2-4e95-9738-dba5d401a975")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -11005,7 +11005,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/67ee7ce1-368c-448c-b11b-a1dfea1d58b0")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -1.395 0.795)
 			(end 1.395 0.795)
@@ -11204,7 +11204,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/a293861b-6a56-445e-9c98-6bb052320aa1")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -11380,7 +11380,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/a94e7332-cb68-4efe-9fbe-1b2eb5c3424c")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.795 -0.395)
 			(end -0.795 0.395)
@@ -11567,7 +11567,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/be04d0ae-6a0e-4979-9225-a341edd0ea50")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -11743,7 +11743,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/c85678b4-9ddd-478c-b782-bf228702caac")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -12072,7 +12072,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/2838c7de-7efd-42b6-a10f-bcd259498c06")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -12350,7 +12350,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/029e8046-12ef-42b5-bb10-4d3e292f8b93")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -12539,7 +12539,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/5b58f8f8-5b42-44d8-8e9f-8a912d4212e0")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 0.735)
@@ -12812,7 +12812,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/ca3702b9-5dbe-4562-9e9c-1803ccec0d4d")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -13091,7 +13091,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/0c458e2b-27d0-4fd1-96fc-e0363321f2cd")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 90)
@@ -13215,7 +13215,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/cdb86b87-51ba-4382-b180-8e0fc473b04f")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -13558,7 +13558,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/b59f05e4-1cd6-41aa-afb6-345675fb9554")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -13781,7 +13781,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/913851fb-74eb-49dd-9a9f-a5d44b19a16d")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -13905,7 +13905,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/bd9a463c-e1ff-444b-928a-20b02f9affb8")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -14234,7 +14234,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/a35d7d8f-58bf-4062-8bad-f3083f7ed11d")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.845 -0.295)
 			(end -0.845 0.295)
@@ -14562,7 +14562,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/4a6aef02-982a-42ad-9c26-3354355ada88")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.185)
@@ -14948,7 +14948,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/8200c18b-f66c-4bc1-94c9-7e40b3d4e5ca")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.845 -0.295)
 			(end -0.845 0.295)
@@ -15277,7 +15277,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/8af107d1-c83a-402d-8f59-80bfddd7d1d8")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.795 -0.395)
 			(end -0.795 0.395)
@@ -15515,7 +15515,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/adde8d5f-c507-4a23-a914-0767d48fe4e2")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -15844,7 +15844,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/61ee7ebf-015f-4671-af85-c3e22d2fe55e")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.845 -0.295)
 			(end -0.845 0.295)
@@ -16173,7 +16173,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/b763bc7c-f5a5-43ca-952c-1739669c0b51")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -16504,7 +16504,7 @@
 		)
 		(path "/fa749d49-011a-4aaa-ad4d-f74224eb48bd/a5c1b59c-dc06-4f60-a0dd-9d30c83620ef")
 		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
+		(sheetfile "cfc-processor-sch-connectors.kicad_sch")
 		(fp_poly
 			(pts
 				(xy 2.75 -8.55) (xy 0.496723 -8.55) (xy 0.357537 -8.568324) (xy 0.224784 -8.623312) (xy 0.110787 -8.710787)
@@ -17804,7 +17804,7 @@
 		)
 		(path "/fa749d49-011a-4aaa-ad4d-f74224eb48bd/eb78b93c-8a2b-436c-b3bc-d08a2a5d70a9")
 		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
+		(sheetfile "cfc-processor-sch-connectors.kicad_sch")
 		(fp_line
 			(start -7.9375 -6.731)
 			(end -6.747 -6.731)
@@ -18363,7 +18363,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/d4e26cbb-072c-447b-a44c-8178242720d9")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -18692,7 +18692,7 @@
 		(property ki_fp_filters "Diodes*PowerDI3333*")
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/78bff4d8-1615-4bac-99b7-0fbbdfb17364")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -19057,7 +19057,7 @@
 		)
 		(path "/fa749d49-011a-4aaa-ad4d-f74224eb48bd/f16706e7-f9e8-4496-9d54-95712889486f")
 		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
+		(sheetfile "cfc-processor-sch-connectors.kicad_sch")
 		(fp_line
 			(start 7.71 -1.8)
 			(end 7.71 -2.9)
@@ -19684,7 +19684,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/a77fd652-2ec0-4286-abd5-ac5ddd800ffd")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(fp_line
 			(start -0.8 -1.75)
 			(end 0.8 -1.75)
@@ -19885,7 +19885,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/26cd4df1-0dae-4350-ad67-4a962e4bb89f")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -20214,7 +20214,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/ddde24e6-6112-4e43-992b-498c3473d447")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.11 -1.385)
@@ -20939,7 +20939,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/d0c925ec-7c82-49d1-b3d6-92bc802f9224")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -21275,7 +21275,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/28d9dd24-a007-4d1f-b944-28ebe9915271")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.795 -0.395)
 			(end -0.795 0.395)
@@ -21516,7 +21516,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/4c49698a-53f6-4152-be14-20c9fcdbc7f7")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_circle
 			(center -3.25 3.25)
 			(end -3.14825 3.25)
@@ -27185,7 +27185,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/429ee906-7899-4421-a2a3-308050cc477a")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -0.555 0.295)
@@ -27515,7 +27515,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/ed425ce1-dd00-4de4-a664-82b5b5777e2f")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.845 -0.295)
 			(end -0.845 0.295)
@@ -27844,7 +27844,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/cdaa500f-329f-4f82-ad26-977a7de7d69a")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -28122,7 +28122,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/b27e6564-107d-4e31-9450-b36e67fe5847")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -28299,7 +28299,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/ab7dd1ec-ceda-4155-83d0-0898bb7b3fa8")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -1.778 -3.429)
 			(end 1.778 -3.429)
@@ -28809,7 +28809,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/064c910d-363e-4dec-b905-030d6a6ae9e3")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 0.9)
@@ -28935,7 +28935,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/3f60f659-ca57-4854-b231-a4a0d9a44596")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -29124,7 +29124,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/b5b44784-a442-4e67-8786-85d2671c3488")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -29397,7 +29397,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/1320cdfa-ebd0-4576-a6ed-e5503dc8841c")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start 1.395 0.795)
 			(end 1.395 -0.795)
@@ -29646,7 +29646,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/b38961e1-e92e-4836-9b00-7c5230cf9ec9")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -29981,7 +29981,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/305d4a91-6fcb-4996-b528-eb9a85e6b363")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.11 2.11)
@@ -30641,7 +30641,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/e95d46f7-ac5c-4fe9-8461-827873bd3a0d")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -31007,7 +31007,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/e043de28-6207-45ea-938c-c85c49e91641")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.795 -0.395)
 			(end -0.795 0.395)
@@ -31195,7 +31195,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/0eae6031-5c63-426b-8c34-5bbdc2729652")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -31372,7 +31372,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/7721464e-cd52-4923-8f47-5f933abfa5c7")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.55 -0.8)
 			(end 0.55 -0.8)
@@ -31675,7 +31675,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/1fec195f-6d28-428d-a360-a1f32229e1d8")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -32004,7 +32004,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/37c03c57-a676-452e-8010-42a9b135aa25")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start 0.795 0.395)
 			(end 0.795 -0.395)
@@ -32192,7 +32192,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/68695510-66e7-46bb-b0ee-bfcb3405ce75")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -32381,7 +32381,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/e970ef6c-f755-4dfc-9928-c23c92ea83ab")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -32654,7 +32654,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/a6272245-c286-4157-96b5-c34d905bbb96")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.795 -0.395)
 			(end -0.795 0.395)
@@ -32892,7 +32892,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/41e658b8-1ba0-4915-88e9-8dfd9ac6f510")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -33170,7 +33170,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/db19c8f6-931c-42be-93aa-f5e9d10b3db8")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_poly
 			(pts
@@ -33412,7 +33412,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/5d231e0c-f9f5-48c9-9e4c-06b9388e0caf")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 1.36)
@@ -33603,7 +33603,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/1eddb182-1598-4fd4-99af-1d27adf4ffbb")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -33729,7 +33729,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/5cc58ce9-e053-4c10-92ef-44f9a3095808")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0)
@@ -33853,7 +33853,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/ed0a489c-3e5e-4fd9-95d6-34f69af4ca1e")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.845 -0.295)
 			(end -0.845 0.295)
@@ -34182,7 +34182,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/2f9915d7-056c-4d3a-b660-ada8e1c40ac9")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -34424,6 +34424,7 @@
 		(property "Value" "SN74AUC1G07DCKR"
 			(at 0 2 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c2ca4cc4-f6d1-415b-90b5-127ae85d7783")
 			(effects
 				(font
@@ -34512,7 +34513,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/36b70dc5-8a1c-4fde-a8b4-d8e5f4837f45")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.7 1.16)
@@ -34816,7 +34817,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/f3095ca0-5e9b-496e-ad9f-135ab8f0da3b")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.11 -1.385)
@@ -35390,7 +35391,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/e080602a-693b-4bf7-8918-e4a8021b5be8")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -35566,7 +35567,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/c23fce72-1f3d-4007-9405-023127f1ec5e")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -35895,7 +35896,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/96edbd8c-82b7-4406-8e43-2e72437098ad")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -36174,7 +36175,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/048c9087-f9b0-41c9-a9d3-a3291b52bb46")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0)
@@ -36248,7 +36249,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/9eddbb44-6eda-4d13-a42d-5f73177527cd")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0)
@@ -36320,7 +36321,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/ae929ca3-07d5-4b28-9e2a-1b729710f010")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -0.845 -0.295)
@@ -36600,7 +36601,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/57abb4ae-b6d2-4bb3-ab87-8bf9c8ce8ae9")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -36724,7 +36725,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/7c1f2a3c-b2f1-4b54-a268-ab5d314c7ea9")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.795 -0.395)
 			(end -0.795 0.395)
@@ -36962,7 +36963,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/7d7bbb23-a765-431c-88c7-510a4f9ec931")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -37292,7 +37293,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/cb80bac1-a9e3-4b94-8688-1573a295a97b")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(fp_line
 			(start -0.53125 -0.796875)
 			(end 0.53125 -0.796875)
@@ -37462,7 +37463,7 @@
 		(property ki_fp_filters "Diodes*PowerDI3333*")
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/18fc6001-d8a7-4437-b58b-81f9325a6274")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -37828,7 +37829,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/b6d24aac-b2da-4a66-bf1e-7f9c4833387e")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.795 -0.395)
 			(end -0.795 0.395)
@@ -38066,7 +38067,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/8b2c415c-f4aa-420b-971c-b125bfc78018")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -38395,7 +38396,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/8e50d5b8-9a69-4d50-be63-7273639c6314")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -38724,7 +38725,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/9220d517-6e98-46cb-bf19-6b4294157625")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.845 -0.295)
 			(end -0.845 0.295)
@@ -39002,7 +39003,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/b18f6b66-6f49-4f40-b39e-7168e14b937c")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -39178,7 +39179,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/b847c90d-2240-44e5-a948-29ff8622ad5b")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.795 -0.395)
 			(end -0.795 0.395)
@@ -39416,7 +39417,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/346b4418-c146-42db-8afa-8ecfc1718167")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -39695,7 +39696,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/8fed73d1-bfde-48c4-8cdd-d056dcabda1a")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -39871,7 +39872,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/53706bb5-3893-419b-acb0-7c74ea9cf964")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -40200,7 +40201,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/3d0c0460-a015-447d-af03-7f03cd77fbd4")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -40529,7 +40530,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/b0fe2a8a-36ef-4f55-a59e-3c52ea9de4f3")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.795 -0.395)
 			(end -0.795 0.395)
@@ -40767,7 +40768,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/979cdc3a-3cee-4dd3-b488-52666ccca0ce")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.845 -0.295)
 			(end -0.845 0.295)
@@ -41096,7 +41097,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/1b3bbe96-03c9-4be5-83de-cfcd54eb6e8b")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -41423,7 +41424,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/00888640-8843-4f05-b838-2cba7e22c556")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.4 -2.09)
@@ -41556,7 +41557,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/aa1bfac6-78df-4e01-989c-a91a7dad30f9")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -41732,7 +41733,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/b1f7bd3f-bf85-41e3-b825-d4adf295881c")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start 0.845 -0.295)
@@ -42062,7 +42063,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/07226998-3e86-4f45-91a9-a5b85b0cec87")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.795 -0.395)
 			(end -0.795 0.395)
@@ -42298,7 +42299,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/176c859c-a99e-4ca6-bead-1313853374a9")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(fp_line
 			(start -10.46 10.46)
 			(end 10.54 10.46)
@@ -45326,7 +45327,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/e4b7ab33-6b53-46bc-883a-6763b38f8090")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -0.555 0.295)
@@ -45656,7 +45657,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/72f9d542-f194-48f5-93a8-8c8236d606b7")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.795 -0.395)
 			(end -0.795 0.395)
@@ -45894,7 +45895,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/ed6af048-3c69-4481-87f4-6243cac83d84")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start 0.845 -0.295)
@@ -46173,7 +46174,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/0ed69c3c-ce98-47e6-9cd0-ef6f5e8e1a8c")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 0.9)
@@ -46349,7 +46350,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/1c20c46b-f50e-4047-9ce0-f28795ca23ce")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -46628,7 +46629,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/6c66d9ee-f033-4d2a-9e2e-009245d7c83a")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 90)
@@ -46752,7 +46753,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/13705f43-d260-4533-8796-de633ddb3402")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start 0.795 0.395)
 			(end 0.795 -0.395)
@@ -46940,7 +46941,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/9a90de1c-dc0b-463b-a519-e674cc8c6104")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -47217,7 +47218,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/9296a580-6702-4f1a-bf8f-bb8300f25e14")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -47496,7 +47497,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/60ae64e8-752d-473b-b453-3084d0419911")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0)
@@ -47569,7 +47570,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/a0caeedc-ca41-445d-a725-1bb5efb6aeb1")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -47695,7 +47696,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/7a1d2a12-a150-4f6d-a407-5284f2b68387")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -47871,7 +47872,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/0cd64854-b424-46ac-b699-318513569ec0")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -48257,7 +48258,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/1a686fb1-16d3-4b42-8a46-e1934e81f976")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -48535,7 +48536,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/0a88f78d-8d29-4f31-b072-0bd80a4b840a")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -48659,7 +48660,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/67d829f5-9e4d-4c16-93b3-52d6fe88bee3")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -0.555 0.295)
@@ -48989,7 +48990,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/e5ec4486-3c5a-466c-b026-12e14df500a4")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start 0.845 -0.295)
@@ -49319,7 +49320,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/9909460d-705e-4142-a17f-2d548ed18c3b")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -49597,7 +49598,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/783ca4cd-ef39-42c5-92c5-b4fa2d9d6265")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -49773,7 +49774,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/47ed278d-9759-4d3e-8f94-94b88b5d9d4a")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start 0.845 -0.295)
@@ -50103,7 +50104,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/e024ad19-aab9-440d-86e2-a170045f8aab")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -50432,7 +50433,7 @@
 		)
 		(path "/fa749d49-011a-4aaa-ad4d-f74224eb48bd/cfc944a9-51e9-4a9b-ae58-77f2dca13e76")
 		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
+		(sheetfile "cfc-processor-sch-connectors.kicad_sch")
 		(fp_line
 			(start -0.845 -0.295)
 			(end -0.845 0.295)
@@ -50761,7 +50762,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/28eec873-fd29-4af2-a3ad-3906da3b9dc2")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -51040,7 +51041,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/f8041d0d-67ad-4b5d-afe4-f7e442d6e68a")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -51215,7 +51216,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/5447df7c-382c-44da-916a-223c5bcb42d4")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -51501,7 +51502,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/7eef48f4-2f69-4af3-8f77-ff1781ecda7f")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -51677,7 +51678,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/22409e17-f351-4b40-9ed7-9a6433e5649e")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -51920,6 +51921,7 @@
 		(property "Value" "BLM18KG300JH1D"
 			(at 0 1.43 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1d0d94da-5855-4f70-93b8-8f7d68d12f44")
 			(effects
 				(font
@@ -52006,7 +52008,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/fa62f660-872e-4b03-9015-b5f1cb901a1a")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.162779 -0.51)
@@ -52198,7 +52200,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/7576b2f9-7566-4dee-9cd9-55c76bd18971")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -52322,7 +52324,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/2e922638-4220-42d9-91c1-fe1e5ed8f3d9")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.845 -0.295)
 			(end -0.845 0.295)
@@ -52601,7 +52603,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/f1597f04-62ee-4a19-8f78-17db953eaeed")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -52778,7 +52780,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/4ee383df-7179-450c-8695-9a3d743fb2a9")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.7 1.16)
@@ -53072,7 +53074,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/a3320a7d-4e9f-4536-be68-c8c0c857d0ca")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -53351,7 +53353,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/e4f68398-63c3-4110-819b-a83f6cb35072")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -53527,7 +53529,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/b4d10f68-a9c1-4eff-945b-a9986d65ab6e")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -53806,7 +53808,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/1b4342ea-dab2-40c2-a918-9b9fc5a7fe5d")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0)
@@ -53930,7 +53932,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/305eaa96-9927-404e-a76f-76a948010569")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -54261,7 +54263,7 @@
 		)
 		(path "/9829b57f-5861-4a7a-b5d2-aba7fd46d0d1/6cef3422-4291-47c5-830f-6e6583235c6a")
 		(sheetname "/OSD3358: SIP D (BOOT)/")
-		(sheetfile "cfc-processor-sch-boot.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-d.kicad_sch")
 		(fp_line
 			(start -0.1778 -2.0828)
 			(end 0.1778 -2.0828)
@@ -54596,7 +54598,7 @@
 		)
 		(path "/9829b57f-5861-4a7a-b5d2-aba7fd46d0d1/d5a9cf0e-5a50-4de6-8fb4-b6a9d2bb183b")
 		(sheetname "/OSD3358: SIP D (BOOT)/")
-		(sheetfile "cfc-processor-sch-boot.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-d.kicad_sch")
 		(fp_line
 			(start -0.1778 -2.0828)
 			(end 0.1778 -2.0828)
@@ -54929,7 +54931,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/db92c233-007f-4a25-b76c-d89fa8308acf")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -55257,7 +55259,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/e0efad4b-6d7c-4446-8c80-47725a8cf9b8")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 1.36)
@@ -55499,7 +55501,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/97e25ad2-975c-4d0d-bfc2-3c1a010d8754")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -55778,7 +55780,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/95178690-5253-43ab-9d93-aaf0f0a58718")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -55903,7 +55905,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/b3b520a8-f6ad-4dcb-b41b-9756eb0b4694")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -56079,7 +56081,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/fcb4d641-82a6-495b-8295-da86a03d2bd6")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -56408,7 +56410,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/221d4845-b5e0-49b2-a80f-f6d378440999")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -56686,7 +56688,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/8cfb9c4c-b189-4233-ab53-66ecb292dc67")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -56862,7 +56864,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/3d94e53c-fcf0-476f-97e2-2607fea4eb8d")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.795 -0.395)
 			(end -0.795 0.395)
@@ -57100,7 +57102,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/de10bf6a-65c9-4a0d-8977-13ef42da249b")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -57341,6 +57343,7 @@
 		(property "Value" "DM3BT-DSF-PEJS"
 			(at -7.6454 -4.0386 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "15456fe9-26b2-4ede-9f4b-a56962fc851f")
 			(effects
 				(font
@@ -57430,7 +57433,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/7f9ef5f2-761d-4fb9-8316-a6f7d3cb22d8")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -7.35 -2.1)
 			(end -7.35 -16.1)
@@ -57907,7 +57910,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/17d253e4-f53a-4acb-b8e3-00e4f0d9a2b3")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -1.395 -0.795)
 			(end -1.395 0.795)
@@ -58156,7 +58159,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/6cdd62b6-5f27-47c2-a773-e5c3f68a697e")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -0.555 0.295)
@@ -58486,7 +58489,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/158ef6eb-b4a9-4579-97c5-c8bf3e419270")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -58817,7 +58820,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/3271ea88-485e-4c82-97c9-34cb94215cc3")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start 3.2258 -6.4262)
 			(end -3.2258 -6.4262)
@@ -60095,7 +60098,7 @@
 		)
 		(path "/225b75c4-e7f5-44a2-a11f-d224264ec6da/b8f2a4b0-ecd7-46d1-b064-81d4f730367b")
 		(sheetname "/OSD3558: SIP E + F/")
-		(sheetfile "cfc-processor-sch.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-e-f.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 270)
@@ -60169,7 +60172,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/176e6b59-2126-422c-b3a0-da70575224e8")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -60294,7 +60297,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/32fea0d1-cb24-4ad8-93bc-e9331c5e8153")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -60418,7 +60421,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/80fbdb2c-4064-4f48-bac4-7675b9be7304")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -60747,7 +60750,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/167c61ac-c77d-4fc8-b788-7d5721dd1f51")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -61026,7 +61029,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/926aef7a-e799-4166-9856-f65b7a1ba3a9")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -61151,7 +61154,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/1d700820-54fe-4404-8680-67813f70cb52")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 -1.38)
@@ -61491,7 +61494,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/d82d91ec-705c-4f93-9561-2d4548f328d6")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 0.735)
@@ -61764,7 +61767,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/516cc78e-5ccf-4602-802b-7f52fee14620")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -0.555 0.295)
@@ -62044,7 +62047,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/3b1e3233-35ad-47b8-866b-96505e137aa5")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -62220,7 +62223,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/725eb46d-565e-4882-abb5-6a82722c42c4")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start 0.795 0.395)
 			(end 0.795 -0.395)
@@ -62458,7 +62461,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/0f80b1c6-a4d9-4f7d-8526-99cd826fa8f8")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -62787,7 +62790,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/535a8338-afa0-416f-993f-bfae99194bcc")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -63116,7 +63119,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/fdb3173a-1fac-44fe-a421-b6f63856e79b")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -63395,7 +63398,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/544ffb27-4c74-4e3e-b14b-955aa40ff64c")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -63571,7 +63574,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/c7a4c7ba-5fd9-413d-b2e3-c59d0294ec4b")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(fp_line
 			(start -0.845 -0.295)
 			(end -0.845 0.295)
@@ -63850,7 +63853,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/e612a98d-0e0e-4e1e-b354-02ea135ab498")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -63976,7 +63979,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/bd6fbab3-6e24-4301-bd3c-e2ac804b5686")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -64099,7 +64102,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/7c2b48e4-c513-416a-99b0-19dce76a2ba5")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -64396,7 +64399,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/c70364c3-ffac-4200-823b-13517411577a")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start 0.85 0.9)
@@ -64521,7 +64524,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/ba39efff-8081-4132-9c8b-b586cf93ebec")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -64696,7 +64699,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/6f84afe8-19ae-4d36-93b8-dd3aa833d5c2")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 1.36)
@@ -64888,7 +64891,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/d88c7809-03d4-493b-b2a9-26079fa46260")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 90)
@@ -65012,7 +65015,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/404d93a0-8e93-4c13-872d-006d06a25d37")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -65341,7 +65344,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/26b54b26-c872-4203-8222-9fe228ed3ca1")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -65619,7 +65622,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/230039fe-ef6a-4f6b-8152-8c13ec99ed00")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -65795,7 +65798,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/055f09f5-f15d-462c-a998-dc9151af113d")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 1.36)
@@ -66037,7 +66040,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/30893754-3307-48e4-8448-95c8a20e6a1b")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -66366,7 +66369,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/cd49d695-27fd-4b9b-9ebd-ff68350a5ac8")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(fp_line
 			(start -0.845 -0.295)
 			(end -0.845 0.295)
@@ -66645,7 +66648,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/d2da5de6-3d44-40b5-884d-dccb41290c7d")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
 			(start -0.85 -0.9)
@@ -66821,7 +66824,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/71aa57cf-57ec-45f3-8754-76d15a925a66")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(fp_line
 			(start 0.795 0.395)
 			(end 0.795 -0.395)
@@ -67059,7 +67062,7 @@
 		)
 		(path "/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a/a32fc551-1910-4255-a527-58dbf391753b")
 		(sheetname "/Power (OPD)/")
-		(sheetfile "opd.kicad_sch")
+		(sheetfile "cfc-processor-sch-power.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -67389,7 +67392,7 @@
 		)
 		(path "/fa749d49-011a-4aaa-ad4d-f74224eb48bd/8058ea44-1d4c-44bd-b4a4-d5613a5400df")
 		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
+		(sheetfile "cfc-processor-sch-connectors.kicad_sch")
 		(fp_circle
 			(center -1.27 1.27)
 			(end -1.143 1.27)
@@ -67670,7 +67673,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/927112e0-5fb1-4c5b-a551-43195e4b1472")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -67746,7 +67749,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/381d3b87-bcfe-4de1-b65c-52db20d89ad6")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -67822,7 +67825,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/e38e8bd6-bd72-4ec1-b25e-227705de9df8")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 90)
@@ -67898,7 +67901,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/1c5c82b3-3f5f-45cf-b202-cae3017a9815")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 90)
@@ -68080,7 +68083,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/4a6a329e-4a2e-480c-bc9b-083761849768")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -68155,7 +68158,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/83fd3312-582a-4a8b-90f9-3f3dbf22440b")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0)
@@ -68231,7 +68234,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/76f8ce0f-fefd-4185-8103-a391367fe2f3")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -68307,7 +68310,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/c6e1c4d0-3193-42aa-8281-f18a27a0d519")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -68383,7 +68386,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/1a7492ae-08a1-45a3-b8bd-2604f8c18c2e")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -68458,7 +68461,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/2d788a00-3501-4fb6-b873-415652472cdc")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0)
@@ -68534,7 +68537,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/89a01594-8277-47b7-ab3e-ea86e6334d18")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0)
@@ -68610,7 +68613,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/00075196-79e8-406a-871b-9033476dd840")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -68686,7 +68689,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/dc145b55-8f45-49ad-9505-321ef09af0d5")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -68762,7 +68765,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/93dcb173-b2f7-47ce-ba27-51e9544f962e")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 90)
@@ -68944,7 +68947,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/f32dbcb2-131f-4bae-8408-e48b3e659f9e")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0)
@@ -69020,7 +69023,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/d694c500-011a-4f2d-9600-0e1f0a16a93c")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 90)
@@ -69095,7 +69098,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/26adbadc-38ce-42f1-818a-9a779401fc6a")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0)
@@ -69171,7 +69174,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/c2af9123-2fb9-4449-9f1a-a8802d00e8d5")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -69301,7 +69304,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/356da7b2-54ce-49e6-8b1f-db48be404411")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start 0.795 0.395)
@@ -69492,7 +69495,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/15f5e5b4-865d-4de6-81b0-61bf0fd0ad7d")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -69673,7 +69676,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/272a7a24-1577-4f0f-9764-a8810a0cde4a")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0)
@@ -69749,7 +69752,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/6cb615d7-cf9a-477f-acc6-43840160342d")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0)
@@ -69825,7 +69828,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/2b9af879-d6e4-47a0-8905-afda4d18528a")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0)
@@ -69901,7 +69904,7 @@
 		)
 		(path "/225b75c4-e7f5-44a2-a11f-d224264ec6da/1c8ae7ff-efca-498e-a3e1-4c91ba5ce5ee")
 		(sheetname "/OSD3558: SIP E + F/")
-		(sheetfile "cfc-processor-sch.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-e-f.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -69977,7 +69980,7 @@
 		)
 		(path "/225b75c4-e7f5-44a2-a11f-d224264ec6da/f2dfc4e0-994a-45d0-977b-3a30f2bd2026")
 		(sheetname "/OSD3558: SIP E + F/")
-		(sheetfile "cfc-processor-sch.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-e-f.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -70107,7 +70110,7 @@
 		)
 		(path "/ef373219-d5fd-4fe4-9a40-d71169676409/d60b7bb1-ef8a-4b4f-b741-17b7d992775c")
 		(sheetname "/OSD3358: SIP C (SD, eMMC, PRU)/")
-		(sheetfile "osd3358_sd.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-c.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start 0.795 0.395)
@@ -70298,7 +70301,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/9c6a2d3c-90cf-4f80-a32a-09085cc0233b")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -70374,7 +70377,7 @@
 		)
 		(path "/4dfcc501-0eda-4ce5-917f-0383558d98a1/62d4525d-7a16-4cae-a279-4051c07fd8e3")
 		(sheetname "/OSD3358: SIP A (PWR)/")
-		(sheetfile "osd3358_pwr.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-a.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 90)
@@ -70450,7 +70453,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/9cfb228c-5edc-4bc3-a663-5bd7cbe0db83")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0 180)
@@ -70526,7 +70529,7 @@
 		)
 		(path "/fb0d8cda-da67-4375-9bc6-6081ff32bfc0/3e86cd19-0579-419f-9a05-64232e4bc72f")
 		(sheetname "/OSD3358: SIP B (USB, XTAL, ADC)/")
-		(sheetfile "osd3358_usb.kicad_sch")
+		(sheetfile "cfc-processor-sch-sip-b.kicad_sch")
 		(attr exclude_from_bom)
 		(pad "P$1" smd roundrect
 			(at 0 0)
@@ -97534,73 +97537,73 @@
 				(xy 137.797067 96.727981) (xy 137.823218 96.767118) (xy 137.8244 96.779117) (xy 137.8244 97.767172)
 				(xy 137.8244 97.840028) (xy 137.842799 97.908699) (xy 137.843256 97.910403) (xy 137.843257 97.910405)
 				(xy 137.875009 97.9654) (xy 137.879685 97.973498) (xy 139.631202 99.725015) (xy 139.694297 99.761444)
-				(xy 139.764672 99.7803) (xy 140.434509 99.7803) (xy 140.477996 99.798313) (xy 140.489759 99.814789)
-				(xy 140.492895 99.821203) (xy 140.511902 99.860084) (xy 140.594615 99.942797) (xy 140.594616 99.942797)
-				(xy 140.594617 99.942798) (xy 140.699707 99.994173) (xy 140.770042 100.004421) (xy 140.769906 100.005349)
-				(xy 140.809416 100.025173) (xy 140.8244 100.065403) (xy 140.8244 100.229672) (xy 140.8244 100.302528)
-				(xy 140.843256 100.372903) (xy 140.879685 100.435998) (xy 140.879688 100.436001) (xy 143.712367 103.26868)
-				(xy 143.73038 103.312167) (xy 143.712367 103.355654) (xy 143.689196 103.370215) (xy 143.673217 103.375807)
-				(xy 143.56395 103.45645) (xy 143.483307 103.565717) (xy 143.438454 103.693898) (xy 143.438453 103.693906)
-				(xy 143.4356 103.724326) (xy 143.4356 103.832873) (xy 143.438453 103.863293) (xy 143.438454 103.863301)
-				(xy 143.482092 103.98801) (xy 143.483307 103.991482) (xy 143.56395 104.10075) (xy 143.673218 104.181393)
-				(xy 143.801401 104.226246) (xy 143.814081 104.227435) (xy 143.831827 104.2291) (xy 143.831834 104.2291)
-				(xy 143.940373 104.2291) (xy 143.956753 104.227563) (xy 143.970799 104.226246) (xy 144.001888 104.215367)
-				(xy 144.048883 104.218006) (xy 144.080249 104.253103) (xy 144.0837 104.273416) (xy 144.0837 104.553783)
-				(xy 144.065687 104.59727) (xy 144.0222 104.615283) (xy 144.001888 104.611832) (xy 143.970802 104.600954)
-				(xy 143.970793 104.600953) (xy 143.940373 104.5981) (xy 143.940366 104.5981) (xy 143.831834 104.5981)
-				(xy 143.831827 104.5981) (xy 143.801406 104.600953) (xy 143.801398 104.600954) (xy 143.673217 104.645807)
-				(xy 143.56395 104.72645) (xy 143.483307 104.835717) (xy 143.438454 104.963898) (xy 143.438453 104.963906)
-				(xy 143.4356 104.994326) (xy 143.4356 105.082312) (xy 143.417587 105.125799) (xy 142.847888 105.695498)
-				(xy 142.847882 105.695506) (xy 142.811457 105.758594) (xy 142.811456 105.758596) (xy 142.794682 105.821202)
-				(xy 142.794681 105.821203) (xy 142.7916 105.832701) (xy 142.762945 105.870044) (xy 142.716278 105.876187)
-				(xy 142.711886 105.874833) (xy 142.7008 105.870954) (xy 142.700793 105.870953) (xy 142.670373 105.8681)
-				(xy 142.670366 105.8681) (xy 142.561834 105.8681) (xy 142.561827 105.8681) (xy 142.531406 105.870953)
-				(xy 142.531398 105.870954) (xy 142.403217 105.915807) (xy 142.301423 105.990935) (xy 142.29395 105.99645)
-				(xy 142.280123 106.015186) (xy 142.278843 106.01692) (xy 142.238526 106.041213) (xy 142.22936 106.0419)
-				(xy 142.162587 106.0419) (xy 142.1191 106.023887) (xy 142.101087 105.9804) (xy 142.1191 105.936913)
-				(xy 142.538899 105.517113) (xy 142.582386 105.4991) (xy 142.670373 105.4991) (xy 142.686753 105.497563)
-				(xy 142.700799 105.496246) (xy 142.828982 105.451393) (xy 142.93825 105.37075) (xy 143.018893 105.261482)
-				(xy 143.063746 105.133299) (xy 143.065063 105.119253) (xy 143.0666 105.102873) (xy 143.0666 104.994326)
-				(xy 143.063746 104.963906) (xy 143.063746 104.963901) (xy 143.018893 104.835718) (xy 142.93825 104.72645)
-				(xy 142.828982 104.645807) (xy 142.808077 104.638492) (xy 142.700801 104.600954) (xy 142.700793 104.600953)
-				(xy 142.670373 104.5981) (xy 142.670366 104.5981) (xy 142.561834 104.5981) (xy 142.561827 104.5981)
-				(xy 142.531406 104.600953) (xy 142.531398 104.600954) (xy 142.403217 104.645807) (xy 142.29395 104.72645)
-				(xy 142.213307 104.835717) (xy 142.195549 104.886467) (xy 142.164184 104.921565) (xy 142.117188 104.924204)
-				(xy 142.08209 104.892839) (xy 142.076 104.866155) (xy 142.076 104.735486) (xy 142.094012 104.692)
-				(xy 142.538899 104.247112) (xy 142.582386 104.2291) (xy 142.670373 104.2291) (xy 142.686753 104.227563)
-				(xy 142.700799 104.226246) (xy 142.828982 104.181393) (xy 142.93825 104.10075) (xy 143.018893 103.991482)
-				(xy 143.063746 103.863299) (xy 143.065063 103.849253) (xy 143.0666 103.832873) (xy 143.0666 103.724326)
-				(xy 143.063746 103.693906) (xy 143.063746 103.693901) (xy 143.018893 103.565718) (xy 142.93825 103.45645)
-				(xy 142.828982 103.375807) (xy 142.813001 103.370215) (xy 142.700801 103.330954) (xy 142.700793 103.330953)
-				(xy 142.670373 103.3281) (xy 142.670366 103.3281) (xy 142.561834 103.3281) (xy 142.561827 103.3281)
-				(xy 142.531406 103.330953) (xy 142.531398 103.330954) (xy 142.403217 103.375807) (xy 142.29395 103.45645)
-				(xy 142.213307 103.565717) (xy 142.168454 103.693898) (xy 142.168453 103.693906) (xy 142.1656 103.724326)
-				(xy 142.1656 103.812312) (xy 142.147587 103.855799) (xy 141.577888 104.425498) (xy 141.577882 104.425506)
-				(xy 141.541457 104.488594) (xy 141.541455 104.488598) (xy 141.533068 104.519896) (xy 141.533069 104.519897)
-				(xy 141.521601 104.562699) (xy 141.492947 104.600043) (xy 141.44628 104.606188) (xy 141.441886 104.604833)
-				(xy 141.4308 104.600954) (xy 141.430793 104.600953) (xy 141.400373 104.5981) (xy 141.400366 104.5981)
-				(xy 141.312387 104.5981) (xy 141.2689 104.580087) (xy 141.145899 104.457086) (xy 141.127886 104.413599)
-				(xy 141.145897 104.370115) (xy 141.268899 104.247112) (xy 141.312386 104.2291) (xy 141.400373 104.2291)
-				(xy 141.416753 104.227563) (xy 141.430799 104.226246) (xy 141.558982 104.181393) (xy 141.66825 104.10075)
-				(xy 141.748893 103.991482) (xy 141.793746 103.863299) (xy 141.795063 103.849253) (xy 141.7966 103.832873)
-				(xy 141.7966 103.724326) (xy 141.793746 103.693906) (xy 141.793746 103.693901) (xy 141.748893 103.565718)
-				(xy 141.66825 103.45645) (xy 141.558982 103.375807) (xy 141.543001 103.370215) (xy 141.430801 103.330954)
-				(xy 141.430793 103.330953) (xy 141.400373 103.3281) (xy 141.400366 103.3281) (xy 141.291834 103.3281)
-				(xy 141.291827 103.3281) (xy 141.261406 103.330953) (xy 141.261398 103.330954) (xy 141.133217 103.375807)
-				(xy 141.02395 103.45645) (xy 140.943307 103.565717) (xy 140.898454 103.693898) (xy 140.898453 103.693906)
-				(xy 140.8956 103.724326) (xy 140.8956 103.812312) (xy 140.877587 103.855799) (xy 140.787 103.946387)
-				(xy 140.743513 103.9644) (xy 140.575046 103.9644) (xy 140.531559 103.946387) (xy 140.513546 103.9029)
-				(xy 140.516997 103.882589) (xy 140.523744 103.863305) (xy 140.523745 103.863301) (xy 140.523746 103.863299)
-				(xy 140.525063 103.849253) (xy 140.5266 103.832873) (xy 140.5266 103.724326) (xy 140.523746 103.693906)
-				(xy 140.523746 103.693901) (xy 140.478893 103.565718) (xy 140.39825 103.45645) (xy 140.288982 103.375807)
-				(xy 140.273001 103.370215) (xy 140.160801 103.330954) (xy 140.160793 103.330953) (xy 140.130373 103.3281)
-				(xy 140.130366 103.3281) (xy 140.021834 103.3281) (xy 140.021827 103.3281) (xy 139.991406 103.330953)
-				(xy 139.991398 103.330954) (xy 139.863217 103.375807) (xy 139.75395 103.45645) (xy 139.738843 103.47692)
-				(xy 139.734698 103.479417) (xy 139.732847 103.483887) (xy 139.715037 103.491263) (xy 139.698526 103.501213)
-				(xy 139.68936 103.5019) (xy 139.611324 103.5019) (xy 139.567837 103.483887) (xy 137.395813 101.311863)
-				(xy 137.3778 101.268376) (xy 137.3778 97.045066) (xy 137.395813 97.001579) (xy 137.415766 96.988247)
-				(xy 137.457755 96.970855) (xy 137.581078 96.888454) (xy 137.685954 96.783578) (xy 137.711764 96.744949)
-				(xy 137.750901 96.718799)
+				(xy 139.764672 99.7803) (xy 139.837528 99.7803) (xy 140.434509 99.7803) (xy 140.477996 99.798313)
+				(xy 140.489759 99.814789) (xy 140.492895 99.821203) (xy 140.511902 99.860084) (xy 140.594615 99.942797)
+				(xy 140.594616 99.942797) (xy 140.594617 99.942798) (xy 140.699707 99.994173) (xy 140.770042 100.004421)
+				(xy 140.769906 100.005349) (xy 140.809416 100.025173) (xy 140.8244 100.065403) (xy 140.8244 100.229672)
+				(xy 140.8244 100.302528) (xy 140.843256 100.372903) (xy 140.879685 100.435998) (xy 140.879688 100.436001)
+				(xy 143.712367 103.26868) (xy 143.73038 103.312167) (xy 143.712367 103.355654) (xy 143.689196 103.370215)
+				(xy 143.673217 103.375807) (xy 143.56395 103.45645) (xy 143.483307 103.565717) (xy 143.438454 103.693898)
+				(xy 143.438453 103.693906) (xy 143.4356 103.724326) (xy 143.4356 103.832873) (xy 143.438453 103.863293)
+				(xy 143.438454 103.863301) (xy 143.482092 103.98801) (xy 143.483307 103.991482) (xy 143.56395 104.10075)
+				(xy 143.673218 104.181393) (xy 143.801401 104.226246) (xy 143.814081 104.227435) (xy 143.831827 104.2291)
+				(xy 143.831834 104.2291) (xy 143.940373 104.2291) (xy 143.956753 104.227563) (xy 143.970799 104.226246)
+				(xy 144.001888 104.215367) (xy 144.048883 104.218006) (xy 144.080249 104.253103) (xy 144.0837 104.273416)
+				(xy 144.0837 104.553783) (xy 144.065687 104.59727) (xy 144.0222 104.615283) (xy 144.001888 104.611832)
+				(xy 143.970802 104.600954) (xy 143.970793 104.600953) (xy 143.940373 104.5981) (xy 143.940366 104.5981)
+				(xy 143.831834 104.5981) (xy 143.831827 104.5981) (xy 143.801406 104.600953) (xy 143.801398 104.600954)
+				(xy 143.673217 104.645807) (xy 143.56395 104.72645) (xy 143.483307 104.835717) (xy 143.438454 104.963898)
+				(xy 143.438453 104.963906) (xy 143.4356 104.994326) (xy 143.4356 105.082312) (xy 143.417587 105.125799)
+				(xy 142.847888 105.695498) (xy 142.847882 105.695506) (xy 142.811457 105.758594) (xy 142.811456 105.758596)
+				(xy 142.794682 105.821202) (xy 142.794681 105.821203) (xy 142.7916 105.832701) (xy 142.762945 105.870044)
+				(xy 142.716278 105.876187) (xy 142.711886 105.874833) (xy 142.7008 105.870954) (xy 142.700793 105.870953)
+				(xy 142.670373 105.8681) (xy 142.670366 105.8681) (xy 142.561834 105.8681) (xy 142.561827 105.8681)
+				(xy 142.531406 105.870953) (xy 142.531398 105.870954) (xy 142.403217 105.915807) (xy 142.301423 105.990935)
+				(xy 142.29395 105.99645) (xy 142.280123 106.015186) (xy 142.278843 106.01692) (xy 142.238526 106.041213)
+				(xy 142.22936 106.0419) (xy 142.162587 106.0419) (xy 142.1191 106.023887) (xy 142.101087 105.9804)
+				(xy 142.1191 105.936913) (xy 142.538899 105.517113) (xy 142.582386 105.4991) (xy 142.670373 105.4991)
+				(xy 142.686753 105.497563) (xy 142.700799 105.496246) (xy 142.828982 105.451393) (xy 142.93825 105.37075)
+				(xy 143.018893 105.261482) (xy 143.063746 105.133299) (xy 143.065063 105.119253) (xy 143.0666 105.102873)
+				(xy 143.0666 104.994326) (xy 143.063746 104.963906) (xy 143.063746 104.963901) (xy 143.018893 104.835718)
+				(xy 142.93825 104.72645) (xy 142.828982 104.645807) (xy 142.808077 104.638492) (xy 142.700801 104.600954)
+				(xy 142.700793 104.600953) (xy 142.670373 104.5981) (xy 142.670366 104.5981) (xy 142.561834 104.5981)
+				(xy 142.561827 104.5981) (xy 142.531406 104.600953) (xy 142.531398 104.600954) (xy 142.403217 104.645807)
+				(xy 142.29395 104.72645) (xy 142.213307 104.835717) (xy 142.195549 104.886467) (xy 142.164184 104.921565)
+				(xy 142.117188 104.924204) (xy 142.08209 104.892839) (xy 142.076 104.866155) (xy 142.076 104.735486)
+				(xy 142.094012 104.692) (xy 142.538899 104.247112) (xy 142.582386 104.2291) (xy 142.670373 104.2291)
+				(xy 142.686753 104.227563) (xy 142.700799 104.226246) (xy 142.828982 104.181393) (xy 142.93825 104.10075)
+				(xy 143.018893 103.991482) (xy 143.063746 103.863299) (xy 143.065063 103.849253) (xy 143.0666 103.832873)
+				(xy 143.0666 103.724326) (xy 143.063746 103.693906) (xy 143.063746 103.693901) (xy 143.018893 103.565718)
+				(xy 142.93825 103.45645) (xy 142.828982 103.375807) (xy 142.813001 103.370215) (xy 142.700801 103.330954)
+				(xy 142.700793 103.330953) (xy 142.670373 103.3281) (xy 142.670366 103.3281) (xy 142.561834 103.3281)
+				(xy 142.561827 103.3281) (xy 142.531406 103.330953) (xy 142.531398 103.330954) (xy 142.403217 103.375807)
+				(xy 142.29395 103.45645) (xy 142.213307 103.565717) (xy 142.168454 103.693898) (xy 142.168453 103.693906)
+				(xy 142.1656 103.724326) (xy 142.1656 103.812312) (xy 142.147587 103.855799) (xy 141.577888 104.425498)
+				(xy 141.577882 104.425506) (xy 141.541457 104.488594) (xy 141.541455 104.488598) (xy 141.533068 104.519896)
+				(xy 141.533069 104.519897) (xy 141.521601 104.562699) (xy 141.492947 104.600043) (xy 141.44628 104.606188)
+				(xy 141.441886 104.604833) (xy 141.4308 104.600954) (xy 141.430793 104.600953) (xy 141.400373 104.5981)
+				(xy 141.400366 104.5981) (xy 141.312387 104.5981) (xy 141.2689 104.580087) (xy 141.145899 104.457086)
+				(xy 141.127886 104.413599) (xy 141.145897 104.370115) (xy 141.268899 104.247112) (xy 141.312386 104.2291)
+				(xy 141.400373 104.2291) (xy 141.416753 104.227563) (xy 141.430799 104.226246) (xy 141.558982 104.181393)
+				(xy 141.66825 104.10075) (xy 141.748893 103.991482) (xy 141.793746 103.863299) (xy 141.795063 103.849253)
+				(xy 141.7966 103.832873) (xy 141.7966 103.724326) (xy 141.793746 103.693906) (xy 141.793746 103.693901)
+				(xy 141.748893 103.565718) (xy 141.66825 103.45645) (xy 141.558982 103.375807) (xy 141.543001 103.370215)
+				(xy 141.430801 103.330954) (xy 141.430793 103.330953) (xy 141.400373 103.3281) (xy 141.400366 103.3281)
+				(xy 141.291834 103.3281) (xy 141.291827 103.3281) (xy 141.261406 103.330953) (xy 141.261398 103.330954)
+				(xy 141.133217 103.375807) (xy 141.02395 103.45645) (xy 140.943307 103.565717) (xy 140.898454 103.693898)
+				(xy 140.898453 103.693906) (xy 140.8956 103.724326) (xy 140.8956 103.812312) (xy 140.877587 103.855799)
+				(xy 140.787 103.946387) (xy 140.743513 103.9644) (xy 140.575046 103.9644) (xy 140.531559 103.946387)
+				(xy 140.513546 103.9029) (xy 140.516997 103.882589) (xy 140.523744 103.863305) (xy 140.523745 103.863301)
+				(xy 140.523746 103.863299) (xy 140.525063 103.849253) (xy 140.5266 103.832873) (xy 140.5266 103.724326)
+				(xy 140.523746 103.693906) (xy 140.523746 103.693901) (xy 140.478893 103.565718) (xy 140.39825 103.45645)
+				(xy 140.288982 103.375807) (xy 140.273001 103.370215) (xy 140.160801 103.330954) (xy 140.160793 103.330953)
+				(xy 140.130373 103.3281) (xy 140.130366 103.3281) (xy 140.021834 103.3281) (xy 140.021827 103.3281)
+				(xy 139.991406 103.330953) (xy 139.991398 103.330954) (xy 139.863217 103.375807) (xy 139.75395 103.45645)
+				(xy 139.738843 103.47692) (xy 139.734698 103.479417) (xy 139.732847 103.483887) (xy 139.715037 103.491263)
+				(xy 139.698526 103.501213) (xy 139.68936 103.5019) (xy 139.611324 103.5019) (xy 139.567837 103.483887)
+				(xy 137.395813 101.311863) (xy 137.3778 101.268376) (xy 137.3778 97.045066) (xy 137.395813 97.001579)
+				(xy 137.415766 96.988247) (xy 137.457755 96.970855) (xy 137.581078 96.888454) (xy 137.685954 96.783578)
+				(xy 137.711764 96.744949) (xy 137.750901 96.718799)
 			)
 		)
 		(filled_polygon

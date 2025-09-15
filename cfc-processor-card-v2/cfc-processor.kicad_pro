@@ -72,7 +72,7 @@
           ""
         ],
         [
-          "shorting_items|118152105|129152595|11f294ec-d346-446f-b316-a899632b53d6|8f9e476d-1c73-47a8-8eda-21c0a8333c76",
+          "shorting_items|117350095|129954605|82526d6b-99d6-4d00-987a-55e02506b66e|8f9e476d-1c73-47a8-8eda-21c0a8333c76",
           ""
         ],
         [
@@ -104,6 +104,10 @@
           ""
         ],
         [
+          "shorting_items|119611100|132553600|42d4c604-684c-47d1-bc8e-e4e31be5d25a|ef5a7b1c-ff55-4515-b210-fc73fb565e17",
+          ""
+        ],
+        [
           "shorting_items|119746400|131053600|16029be0-c097-45c8-805c-64772812513b|bcdec45e-f812-4c8d-9ed8-d16ca607db68",
           ""
         ],
@@ -116,7 +120,7 @@
           ""
         ],
         [
-          "shorting_items|120257350|129553600|e1af7fab-9947-487b-bb38-783a54a1d4ee|ed91efb9-a465-46e5-9260-a89c34b044a6",
+          "shorting_items|120257350|129053600|71419d35-14f3-4706-98d1-25bb2ca9d1fc|e1af7fab-9947-487b-bb38-783a54a1d4ee",
           ""
         ],
         [
@@ -129,10 +133,6 @@
         ],
         [
           "shorting_items|120751100|129193600|519c9d22-d5a7-4d76-bf0d-1184715c0d18|db3e42a7-c5f7-49b0-ba30-fdcedb0607bc",
-          ""
-        ],
-        [
-          "shorting_items|121111100|132553600|ec753023-ed28-4601-bdd9-4103d3e8a981|ef5a7b1c-ff55-4515-b210-fc73fb565e17",
           ""
         ],
         [
@@ -736,7 +736,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerbers/",
+      "plot": "build",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
