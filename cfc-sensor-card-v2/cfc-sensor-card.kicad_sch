@@ -603,7 +603,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
@@ -689,7 +689,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5"
-					(page "3")
+					(page "2")
 				)
 			)
 		)

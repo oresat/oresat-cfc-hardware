@@ -928,7 +928,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "build",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "cfc-sensor-card.step",
@@ -1096,12 +1096,12 @@
       "Root"
     ],
     [
-      "32b02a49-e716-4e99-9e51-c04d4b68afa0",
-      "OPD"
-    ],
-    [
       "69509d56-9bb2-4b10-9d93-838acc3bc5b3",
       "Connectors"
+    ],
+    [
+      "32b02a49-e716-4e99-9e51-c04d4b68afa0",
+      "OPD"
     ],
     [
       "49441372-20a8-43de-b381-31735fd4f38e",
