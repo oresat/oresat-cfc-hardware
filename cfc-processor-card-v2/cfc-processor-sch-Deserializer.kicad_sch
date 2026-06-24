@@ -1712,259 +1712,259 @@
 	)
 	(text "Only need to connect 7 bits + clock"
 		(exclude_from_sim no)
-		(at 258.826 171.45 0)
+		(at 156.464 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c4789548-01da-42bd-9adc-2ac79ea0986e")
 	)
 	(text "DESERIALIZER"
 		(exclude_from_sim no)
-		(at 186.69 60.96 0)
+		(at 228.6 59.69 0)
 		(effects
 			(font
 				(size 5.08 4.318)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ce485d2e-c067-4bcb-9c62-a477e05298b4")
 	)
 	(junction
-		(at 237.49 115.57)
+		(at 177.8 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c50918f-9daa-4cde-aa78-3538877d0cb7")
 	)
 	(junction
-		(at 184.15 124.46)
+		(at 231.14 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f9a440d-4061-45e9-8860-2ef9d15158f9")
 	)
 	(junction
-		(at 245.11 124.46)
+		(at 170.18 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13505c30-82c1-434b-bbf5-652e8b607300")
 	)
 	(junction
-		(at 184.15 106.68)
+		(at 231.14 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15c4b110-fa69-41b7-8ae9-bc9c4e18e798")
 	)
 	(junction
-		(at 166.37 160.02)
+		(at 248.92 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d0cb1ae-a0c9-4a83-b12b-7691d2f1367d")
 	)
 	(junction
-		(at 222.25 88.9)
+		(at 193.04 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c589501-c222-4a71-b52b-b5a95e4148c2")
 	)
 	(junction
-		(at 184.15 116.84)
+		(at 231.14 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35b33277-9dd7-4420-aba7-a4aaa340b2da")
 	)
 	(junction
-		(at 207.01 71.12)
+		(at 208.28 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37274931-b9b6-4e88-95ab-4dcbdf0a8cae")
 	)
 	(junction
-		(at 166.37 182.88)
+		(at 248.92 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ddcda27-637b-496d-b680-4949973c6d1e")
 	)
 	(junction
-		(at 245.11 132.08)
+		(at 170.18 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52f98e55-4792-4d29-8dcb-7fbc3cb55b8c")
 	)
 	(junction
-		(at 199.39 88.9)
+		(at 215.9 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a3863d8-bd1c-4560-a1c8-ffed5a37968b")
 	)
 	(junction
-		(at 191.77 88.9)
+		(at 223.52 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e371eb7-75e9-44a0-9ff4-e390284fb32c")
 	)
 	(junction
-		(at 229.87 88.9)
+		(at 185.42 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7059d15b-b20d-4914-9e2d-c614f524aeac")
 	)
 	(junction
-		(at 214.63 88.9)
+		(at 200.66 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74b590f1-61a7-4366-86fc-c290d3b5c14c")
 	)
 	(junction
-		(at 237.49 106.68)
+		(at 177.8 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8bdde058-b1ba-4ff2-aa93-50ada521c371")
 	)
 	(junction
-		(at 199.39 106.68)
+		(at 215.9 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8b4d700-49f8-469b-9741-3b213fdd4040")
 	)
 	(junction
-		(at 229.87 99.06)
+		(at 185.42 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8dc4f62-e3c8-4e0d-b93e-dd27f0b41a41")
 	)
 	(junction
-		(at 176.53 124.46)
+		(at 238.76 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac7792cd-79c4-4838-a892-60b262fc1b9d")
 	)
 	(junction
-		(at 237.49 124.46)
+		(at 177.8 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b02d3dc0-f8ec-4ccd-8a98-dba321635e24")
 	)
 	(junction
-		(at 156.21 157.48)
+		(at 259.08 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4788c91-b3aa-4f66-a192-5edff28c38db")
 	)
 	(junction
-		(at 207.01 88.9)
+		(at 208.28 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b82ff640-a6cb-4e88-a2bb-bf2a4b45a8a9")
 	)
 	(junction
-		(at 191.77 106.68)
+		(at 223.52 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8d47d1e-bcf7-4442-bc1d-00a14fc2b5dd")
 	)
 	(junction
-		(at 191.77 99.06)
+		(at 223.52 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb1ae41f-3dc6-4b00-9a2d-91646cc3e7f4")
 	)
 	(junction
-		(at 229.87 124.46)
+		(at 185.42 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d82a975b-09d2-44a8-9824-1e1ec9e0a5ef")
 	)
 	(junction
-		(at 176.53 134.62)
+		(at 238.76 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db47b3ae-c8c6-4da6-9d43-2e71bfc8aa5a")
 	)
 	(junction
-		(at 222.25 106.68)
+		(at 193.04 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e73ab795-9c1a-488a-81aa-1beef376f97f")
 	)
 	(junction
-		(at 229.87 106.68)
+		(at 185.42 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edaaf31e-da16-4c50-ac11-7b129b084493")
 	)
 	(junction
-		(at 191.77 124.46)
+		(at 223.52 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0c93e21-289c-440e-9aaa-807eab135478")
 	)
 	(junction
-		(at 156.21 180.34)
+		(at 259.08 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffae38d7-463a-457d-934c-38fddd5e3eb3")
 	)
 	(no_connect
-		(at 234.95 170.18)
+		(at 180.34 168.91)
 		(uuid "06a3e562-c18b-4e77-ba5e-8c311152a014")
 	)
 	(no_connect
-		(at 234.95 172.72)
+		(at 180.34 171.45)
 		(uuid "0c62e0df-6ecf-4bf6-84d7-d4851cd13ed9")
 	)
 	(no_connect
-		(at 234.95 175.26)
+		(at 180.34 173.99)
 		(uuid "5b937edd-6bdc-4db5-9969-9b2008355eba")
 	)
 	(no_connect
-		(at 234.95 198.12)
+		(at 180.34 196.85)
 		(uuid "5f5f2372-9852-463c-ad16-6a9cbeb17f3a")
 	)
 	(no_connect
-		(at 234.95 190.5)
+		(at 180.34 189.23)
 		(uuid "7af89a53-5c2d-4752-8b34-cc485bdeaa48")
 	)
 	(no_connect
-		(at 234.95 167.64)
+		(at 180.34 166.37)
 		(uuid "8d851fcb-ebdc-47ba-a37f-01d1e1757c67")
 	)
 	(no_connect
-		(at 234.95 182.88)
+		(at 180.34 181.61)
 		(uuid "96b9d93e-d57c-41ae-ab07-d5b7f6313bd4")
 	)
 	(no_connect
-		(at 234.95 200.66)
+		(at 180.34 199.39)
 		(uuid "9ac9eb54-4c60-4dd7-93d7-e5762144c98d")
 	)
 	(no_connect
-		(at 234.95 180.34)
+		(at 180.34 179.07)
 		(uuid "b0706467-73b9-4043-aa63-84358b9b6190")
 	)
 	(no_connect
-		(at 234.95 193.04)
+		(at 180.34 191.77)
 		(uuid "b0ab44ae-9786-48c2-a409-6a121a33087c")
 	)
 	(no_connect
-		(at 234.95 185.42)
+		(at 180.34 184.15)
 		(uuid "c5ca2ed2-d18f-4d7b-93ce-7192cf0e8b97")
 	)
 	(no_connect
-		(at 234.95 195.58)
+		(at 180.34 194.31)
 		(uuid "d39b2156-c156-4959-ad26-e76dd5e22cb6")
 	)
 	(no_connect
-		(at 234.95 177.8)
+		(at 180.34 176.53)
 		(uuid "e41eb19a-a67a-4b88-b085-61820aee9185")
 	)
 	(no_connect
-		(at 234.95 187.96)
+		(at 180.34 186.69)
 		(uuid "f59ca70b-73f3-4000-85a9-9564f80f26ef")
 	)
 	(wire
 		(pts
-			(xy 184.15 113.03) (xy 184.15 116.84)
+			(xy 231.14 111.76) (xy 231.14 115.57)
 		)
 		(stroke
 			(width 0.1524)
@@ -1974,7 +1974,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 115.57) (xy 237.49 115.57)
+			(xy 170.18 114.3) (xy 177.8 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -1984,7 +1984,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 96.52) (xy 184.15 99.06)
+			(xy 231.14 95.25) (xy 231.14 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -1994,7 +1994,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 88.9) (xy 214.63 86.36)
+			(xy 200.66 87.63) (xy 200.66 85.09)
 		)
 		(stroke
 			(width 0.1524)
@@ -2004,7 +2004,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 106.68) (xy 176.53 107.95)
+			(xy 238.76 105.41) (xy 238.76 106.68)
 		)
 		(stroke
 			(width 0.1524)
@@ -2014,7 +2014,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 162.56) (xy 288.29 162.56)
+			(xy 180.34 161.29) (xy 127 161.29)
 		)
 		(stroke
 			(width 0.1524)
@@ -2024,7 +2024,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 160.02) (xy 288.29 160.02)
+			(xy 180.34 158.75) (xy 127 158.75)
 		)
 		(stroke
 			(width 0.1524)
@@ -2034,7 +2034,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 88.9) (xy 207.01 71.12)
+			(xy 208.28 87.63) (xy 208.28 69.85)
 		)
 		(stroke
 			(width 0.1524)
@@ -2044,7 +2044,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 172.72) (xy 166.37 172.72)
+			(xy 228.6 171.45) (xy 248.92 171.45)
 		)
 		(stroke
 			(width 0.1524)
@@ -2054,7 +2054,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 132.08) (xy 245.11 132.08)
+			(xy 177.8 130.81) (xy 170.18 130.81)
 		)
 		(stroke
 			(width 0.1524)
@@ -2064,7 +2064,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 180.34) (xy 146.05 180.34)
+			(xy 259.08 179.07) (xy 269.24 179.07)
 		)
 		(stroke
 			(width 0.1524)
@@ -2074,7 +2074,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 193.04) (xy 173.99 193.04)
+			(xy 243.84 191.77) (xy 241.3 191.77)
 		)
 		(stroke
 			(width 0.1524)
@@ -2084,7 +2084,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 124.46) (xy 176.53 124.46)
+			(xy 246.38 123.19) (xy 238.76 123.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -2094,7 +2094,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 132.08) (xy 252.73 129.54)
+			(xy 162.56 130.81) (xy 162.56 128.27)
 		)
 		(stroke
 			(width 0.1524)
@@ -2104,7 +2104,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 132.08) (xy 214.63 88.9)
+			(xy 200.66 130.81) (xy 200.66 87.63)
 		)
 		(stroke
 			(width 0.1524)
@@ -2114,7 +2114,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 124.46) (xy 184.15 124.46)
+			(xy 238.76 123.19) (xy 231.14 123.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -2124,7 +2124,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 149.86) (xy 288.29 149.86)
+			(xy 180.34 148.59) (xy 127 148.59)
 		)
 		(stroke
 			(width 0.1524)
@@ -2134,7 +2134,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 106.68) (xy 222.25 106.68)
+			(xy 185.42 105.41) (xy 193.04 105.41)
 		)
 		(stroke
 			(width 0.1524)
@@ -2144,7 +2144,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 88.9) (xy 237.49 88.9)
+			(xy 185.42 87.63) (xy 177.8 87.63)
 		)
 		(stroke
 			(width 0.1524)
@@ -2154,7 +2154,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 132.08) (xy 245.11 129.54)
+			(xy 170.18 130.81) (xy 170.18 128.27)
 		)
 		(stroke
 			(width 0.1524)
@@ -2164,7 +2164,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 157.48) (xy 186.69 157.48)
+			(xy 259.08 156.21) (xy 228.6 156.21)
 		)
 		(stroke
 			(width 0.1524)
@@ -2174,7 +2174,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 125.73) (xy 176.53 124.46)
+			(xy 238.76 124.46) (xy 238.76 123.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -2184,7 +2184,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 134.62) (xy 176.53 134.62)
+			(xy 231.14 133.35) (xy 238.76 133.35)
 		)
 		(stroke
 			(width 0.1524)
@@ -2194,7 +2194,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 162.56) (xy 166.37 162.56)
+			(xy 251.46 161.29) (xy 248.92 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2204,7 +2204,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 99.06) (xy 237.49 99.06)
+			(xy 185.42 97.79) (xy 177.8 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -2214,7 +2214,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 132.08) (xy 252.73 132.08)
+			(xy 170.18 130.81) (xy 162.56 130.81)
 		)
 		(stroke
 			(width 0.1524)
@@ -2224,7 +2224,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 106.68) (xy 237.49 106.68)
+			(xy 170.18 105.41) (xy 177.8 105.41)
 		)
 		(stroke
 			(width 0.1524)
@@ -2234,7 +2234,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 125.73) (xy 176.53 124.46)
+			(xy 238.76 124.46) (xy 238.76 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2244,7 +2244,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 115.57) (xy 237.49 115.57)
+			(xy 185.42 114.3) (xy 177.8 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -2254,7 +2254,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 124.46) (xy 168.91 125.73)
+			(xy 246.38 123.19) (xy 246.38 124.46)
 		)
 		(stroke
 			(width 0.1524)
@@ -2264,7 +2264,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 93.98) (xy 222.25 99.06)
+			(xy 193.04 92.71) (xy 193.04 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -2274,7 +2274,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 177.8) (xy 166.37 182.88)
+			(xy 248.92 176.53) (xy 248.92 181.61)
 		)
 		(stroke
 			(width 0.1524)
@@ -2284,7 +2284,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 95.25) (xy 184.15 96.52)
+			(xy 231.14 93.98) (xy 231.14 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2294,7 +2294,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 99.06) (xy 191.77 100.33)
+			(xy 223.52 97.79) (xy 223.52 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2304,7 +2304,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 106.68) (xy 199.39 106.68)
+			(xy 223.52 105.41) (xy 215.9 105.41)
 		)
 		(stroke
 			(width 0.1524)
@@ -2314,7 +2314,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 106.68) (xy 237.49 106.68)
+			(xy 185.42 105.41) (xy 177.8 105.41)
 		)
 		(stroke
 			(width 0.1524)
@@ -2324,7 +2324,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 113.03) (xy 176.53 114.3)
+			(xy 238.76 111.76) (xy 238.76 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2334,7 +2334,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 130.81) (xy 176.53 132.08)
+			(xy 238.76 129.54) (xy 238.76 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2344,7 +2344,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 180.34) (xy 156.21 180.34)
+			(xy 228.6 179.07) (xy 259.08 179.07)
 		)
 		(stroke
 			(width 0.1524)
@@ -2354,7 +2354,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 124.46) (xy 191.77 121.92)
+			(xy 223.52 123.19) (xy 223.52 120.65)
 		)
 		(stroke
 			(width 0.1524)
@@ -2364,7 +2364,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 208.28) (xy 210.82 209.55)
+			(xy 204.47 207.01) (xy 204.47 208.28)
 		)
 		(stroke
 			(width 0.1524)
@@ -2374,7 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 124.46) (xy 229.87 132.08)
+			(xy 185.42 123.19) (xy 185.42 130.81)
 		)
 		(stroke
 			(width 0.1524)
@@ -2384,7 +2384,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 130.81) (xy 168.91 132.08)
+			(xy 246.38 129.54) (xy 246.38 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2394,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 121.92) (xy 229.87 124.46)
+			(xy 185.42 120.65) (xy 185.42 123.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -2404,7 +2404,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 154.94) (xy 166.37 154.94)
+			(xy 251.46 153.67) (xy 248.92 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2414,7 +2414,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 132.08) (xy 191.77 124.46)
+			(xy 223.52 130.81) (xy 223.52 123.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -2424,7 +2424,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 154.94) (xy 156.21 157.48)
+			(xy 259.08 153.67) (xy 259.08 156.21)
 		)
 		(stroke
 			(width 0.1524)
@@ -2434,7 +2434,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 160.02) (xy 166.37 160.02)
+			(xy 269.24 158.75) (xy 248.92 158.75)
 		)
 		(stroke
 			(width 0.1524)
@@ -2444,7 +2444,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 124.46) (xy 252.73 124.46)
+			(xy 170.18 123.19) (xy 162.56 123.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -2454,7 +2454,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 99.06) (xy 191.77 99.06)
+			(xy 231.14 97.79) (xy 223.52 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -2464,7 +2464,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 95.25) (xy 199.39 96.52)
+			(xy 215.9 93.98) (xy 215.9 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2474,7 +2474,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 132.08) (xy 199.39 106.68)
+			(xy 215.9 130.81) (xy 215.9 105.41)
 		)
 		(stroke
 			(width 0.1524)
@@ -2484,7 +2484,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 99.06) (xy 199.39 96.52)
+			(xy 215.9 97.79) (xy 215.9 95.25)
 		)
 		(stroke
 			(width 0.1524)
@@ -2494,7 +2494,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 106.68) (xy 184.15 107.95)
+			(xy 231.14 105.41) (xy 231.14 106.68)
 		)
 		(stroke
 			(width 0.1524)
@@ -2504,7 +2504,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 116.84) (xy 184.15 116.84)
+			(xy 238.76 115.57) (xy 231.14 115.57)
 		)
 		(stroke
 			(width 0.1524)
@@ -2514,7 +2514,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 165.1) (xy 186.69 165.1)
+			(xy 248.92 163.83) (xy 228.6 163.83)
 		)
 		(stroke
 			(width 0.1524)
@@ -2524,7 +2524,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 104.14) (xy 222.25 106.68)
+			(xy 193.04 102.87) (xy 193.04 105.41)
 		)
 		(stroke
 			(width 0.1524)
@@ -2534,7 +2534,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 132.08) (xy 184.15 134.62)
+			(xy 231.14 130.81) (xy 231.14 133.35)
 		)
 		(stroke
 			(width 0.1524)
@@ -2544,7 +2544,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 191.77) (xy 160.02 193.04)
+			(xy 255.27 190.5) (xy 255.27 191.77)
 		)
 		(stroke
 			(width 0.1524)
@@ -2554,7 +2554,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 107.95) (xy 191.77 106.68)
+			(xy 223.52 106.68) (xy 223.52 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2564,7 +2564,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 152.4) (xy 288.29 152.4)
+			(xy 180.34 151.13) (xy 127 151.13)
 		)
 		(stroke
 			(width 0.1524)
@@ -2574,7 +2574,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 93.98) (xy 237.49 99.06)
+			(xy 177.8 92.71) (xy 177.8 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -2584,7 +2584,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 157.48) (xy 156.21 157.48)
+			(xy 269.24 156.21) (xy 259.08 156.21)
 		)
 		(stroke
 			(width 0.1524)
@@ -2594,7 +2594,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 99.06) (xy 199.39 99.06)
+			(xy 223.52 97.79) (xy 215.9 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -2604,7 +2604,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 177.8) (xy 166.37 177.8)
+			(xy 251.46 176.53) (xy 248.92 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2614,7 +2614,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 187.96) (xy 173.99 187.96)
+			(xy 228.6 186.69) (xy 241.3 186.69)
 		)
 		(stroke
 			(width 0.1524)
@@ -2624,7 +2624,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 88.9) (xy 207.01 88.9)
+			(xy 215.9 87.63) (xy 208.28 87.63)
 		)
 		(stroke
 			(width 0.1524)
@@ -2634,7 +2634,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 172.72) (xy 166.37 170.18)
+			(xy 248.92 171.45) (xy 248.92 168.91)
 		)
 		(stroke
 			(width 0.1524)
@@ -2644,7 +2644,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 154.94) (xy 166.37 160.02)
+			(xy 248.92 153.67) (xy 248.92 158.75)
 		)
 		(stroke
 			(width 0.1524)
@@ -2654,7 +2654,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 162.56) (xy 166.37 165.1)
+			(xy 248.92 161.29) (xy 248.92 163.83)
 		)
 		(stroke
 			(width 0.1524)
@@ -2664,7 +2664,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 116.84) (xy 184.15 119.38)
+			(xy 231.14 115.57) (xy 231.14 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2674,7 +2674,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 167.64) (xy 156.21 162.56)
+			(xy 259.08 166.37) (xy 259.08 161.29)
 		)
 		(stroke
 			(width 0.1524)
@@ -2684,7 +2684,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 154.94) (xy 158.75 154.94)
+			(xy 259.08 153.67) (xy 256.54 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2694,7 +2694,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 154.94) (xy 288.29 154.94)
+			(xy 180.34 153.67) (xy 127 153.67)
 		)
 		(stroke
 			(width 0.1524)
@@ -2704,7 +2704,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 157.48) (xy 288.29 157.48)
+			(xy 180.34 156.21) (xy 127 156.21)
 		)
 		(stroke
 			(width 0.1524)
@@ -2714,7 +2714,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 88.9) (xy 214.63 88.9)
+			(xy 193.04 87.63) (xy 200.66 87.63)
 		)
 		(stroke
 			(width 0.1524)
@@ -2724,7 +2724,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 93.98) (xy 229.87 99.06)
+			(xy 185.42 92.71) (xy 185.42 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -2734,7 +2734,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 106.68) (xy 184.15 106.68)
+			(xy 238.76 105.41) (xy 231.14 105.41)
 		)
 		(stroke
 			(width 0.1524)
@@ -2744,7 +2744,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 177.8) (xy 158.75 177.8)
+			(xy 259.08 176.53) (xy 256.54 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2754,7 +2754,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 175.26) (xy 156.21 170.18)
+			(xy 259.08 173.99) (xy 259.08 168.91)
 		)
 		(stroke
 			(width 0.1524)
@@ -2764,7 +2764,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 95.25) (xy 191.77 96.52)
+			(xy 223.52 93.98) (xy 223.52 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2774,7 +2774,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 111.76) (xy 229.87 115.57)
+			(xy 185.42 110.49) (xy 185.42 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -2784,7 +2784,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 170.18) (xy 158.75 170.18)
+			(xy 259.08 168.91) (xy 256.54 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2794,7 +2794,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 88.9) (xy 229.87 88.9)
+			(xy 193.04 87.63) (xy 185.42 87.63)
 		)
 		(stroke
 			(width 0.1524)
@@ -2804,7 +2804,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 114.3) (xy 191.77 116.84)
+			(xy 223.52 113.03) (xy 223.52 115.57)
 		)
 		(stroke
 			(width 0.1524)
@@ -2814,7 +2814,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 182.88) (xy 166.37 182.88)
+			(xy 269.24 181.61) (xy 248.92 181.61)
 		)
 		(stroke
 			(width 0.1524)
@@ -2824,7 +2824,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 170.18) (xy 166.37 170.18)
+			(xy 251.46 168.91) (xy 248.92 168.91)
 		)
 		(stroke
 			(width 0.1524)
@@ -2834,7 +2834,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 160.02) (xy 186.69 160.02)
+			(xy 248.92 158.75) (xy 228.6 158.75)
 		)
 		(stroke
 			(width 0.1524)
@@ -2844,7 +2844,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 116.84) (xy 184.15 116.84)
+			(xy 223.52 115.57) (xy 231.14 115.57)
 		)
 		(stroke
 			(width 0.1524)
@@ -2854,7 +2854,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 182.88) (xy 186.69 182.88)
+			(xy 248.92 181.61) (xy 228.6 181.61)
 		)
 		(stroke
 			(width 0.1524)
@@ -2864,7 +2864,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 71.12) (xy 207.01 68.58)
+			(xy 208.28 69.85) (xy 208.28 67.31)
 		)
 		(stroke
 			(width 0.1524)
@@ -2874,7 +2874,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 124.46) (xy 184.15 124.46)
+			(xy 223.52 123.19) (xy 231.14 123.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -2884,7 +2884,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 193.04) (xy 173.99 187.96)
+			(xy 241.3 191.77) (xy 241.3 186.69)
 		)
 		(stroke
 			(width 0.1524)
@@ -2894,7 +2894,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 90.17) (xy 191.77 88.9)
+			(xy 223.52 88.9) (xy 223.52 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2904,7 +2904,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 167.64) (xy 255.27 203.2)
+			(xy 160.02 166.37) (xy 160.02 201.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -2914,7 +2914,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 107.95) (xy 184.15 106.68)
+			(xy 231.14 106.68) (xy 231.14 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2924,7 +2924,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 76.2) (xy 209.55 80.01)
+			(xy 205.74 74.93) (xy 205.74 78.74)
 		)
 		(stroke
 			(width 0.1524)
@@ -2934,7 +2934,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 162.56) (xy 158.75 162.56)
+			(xy 259.08 161.29) (xy 256.54 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2944,7 +2944,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 71.12) (xy 207.01 71.12)
+			(xy 205.74 69.85) (xy 208.28 69.85)
 		)
 		(stroke
 			(width 0.1524)
@@ -2954,7 +2954,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 106.68) (xy 191.77 106.68)
+			(xy 231.14 105.41) (xy 223.52 105.41)
 		)
 		(stroke
 			(width 0.1524)
@@ -2964,7 +2964,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 99.06) (xy 191.77 96.52)
+			(xy 223.52 97.79) (xy 223.52 95.25)
 		)
 		(stroke
 			(width 0.1524)
@@ -2974,7 +2974,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 114.3) (xy 176.53 116.84)
+			(xy 238.76 113.03) (xy 238.76 115.57)
 		)
 		(stroke
 			(width 0.1524)
@@ -2984,7 +2984,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 111.76) (xy 237.49 115.57)
+			(xy 177.8 110.49) (xy 177.8 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -2994,7 +2994,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 88.9) (xy 191.77 88.9)
+			(xy 215.9 87.63) (xy 223.52 87.63)
 		)
 		(stroke
 			(width 0.1524)
@@ -3004,7 +3004,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 129.54) (xy 237.49 132.08)
+			(xy 177.8 128.27) (xy 177.8 130.81)
 		)
 		(stroke
 			(width 0.1524)
@@ -3014,7 +3014,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 193.04) (xy 161.29 193.04)
+			(xy 255.27 191.77) (xy 254 191.77)
 		)
 		(stroke
 			(width 0.1524)
@@ -3024,7 +3024,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 203.2) (xy 234.95 203.2)
+			(xy 160.02 201.93) (xy 180.34 201.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -3034,7 +3034,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 88.9) (xy 191.77 88.9)
+			(xy 231.14 87.63) (xy 223.52 87.63)
 		)
 		(stroke
 			(width 0.1524)
@@ -3044,7 +3044,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 111.76) (xy 245.11 115.57)
+			(xy 170.18 110.49) (xy 170.18 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -3054,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 130.81) (xy 184.15 132.08)
+			(xy 231.14 129.54) (xy 231.14 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3064,7 +3064,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 88.9) (xy 184.15 90.17)
+			(xy 231.14 87.63) (xy 231.14 88.9)
 		)
 		(stroke
 			(width 0.1524)
@@ -3074,7 +3074,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 132.08) (xy 207.01 88.9)
+			(xy 208.28 130.81) (xy 208.28 87.63)
 		)
 		(stroke
 			(width 0.1524)
@@ -3084,7 +3084,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 132.08) (xy 245.11 133.35)
+			(xy 170.18 130.81) (xy 170.18 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3094,7 +3094,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 113.03) (xy 191.77 114.3)
+			(xy 223.52 111.76) (xy 223.52 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3104,7 +3104,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 124.46) (xy 245.11 124.46)
+			(xy 177.8 123.19) (xy 170.18 123.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -3114,7 +3114,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 134.62) (xy 176.53 137.16)
+			(xy 238.76 133.35) (xy 238.76 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3124,7 +3124,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 124.46) (xy 229.87 124.46)
+			(xy 177.8 123.19) (xy 185.42 123.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -3134,7 +3134,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 175.26) (xy 156.21 175.26)
+			(xy 228.6 173.99) (xy 259.08 173.99)
 		)
 		(stroke
 			(width 0.1524)
@@ -3144,7 +3144,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 99.06) (xy 229.87 99.06)
+			(xy 193.04 97.79) (xy 185.42 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -3154,7 +3154,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 132.08) (xy 222.25 106.68)
+			(xy 193.04 130.81) (xy 193.04 105.41)
 		)
 		(stroke
 			(width 0.1524)
@@ -3164,7 +3164,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 134.62) (xy 176.53 134.62)
+			(xy 246.38 133.35) (xy 238.76 133.35)
 		)
 		(stroke
 			(width 0.1524)
@@ -3174,7 +3174,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 167.64) (xy 156.21 167.64)
+			(xy 228.6 166.37) (xy 259.08 166.37)
 		)
 		(stroke
 			(width 0.1524)
@@ -3184,7 +3184,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 132.08) (xy 168.91 134.62)
+			(xy 246.38 130.81) (xy 246.38 133.35)
 		)
 		(stroke
 			(width 0.1524)
@@ -3194,7 +3194,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 165.1) (xy 288.29 165.1)
+			(xy 180.34 163.83) (xy 127 163.83)
 		)
 		(stroke
 			(width 0.1524)
@@ -3204,7 +3204,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 106.68) (xy 199.39 104.14)
+			(xy 215.9 105.41) (xy 215.9 102.87)
 		)
 		(stroke
 			(width 0.1524)
@@ -3214,7 +3214,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 167.64) (xy 288.29 167.64)
+			(xy 160.02 166.37) (xy 127 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3224,7 +3224,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 134.62) (xy 176.53 132.08)
+			(xy 238.76 133.35) (xy 238.76 130.81)
 		)
 		(stroke
 			(width 0.1524)
@@ -3234,7 +3234,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 90.17) (xy 199.39 88.9)
+			(xy 215.9 88.9) (xy 215.9 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3244,7 +3244,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 177.8) (xy 156.21 180.34)
+			(xy 259.08 176.53) (xy 259.08 179.07)
 		)
 		(stroke
 			(width 0.1524)
@@ -3254,7 +3254,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 125.73) (xy 184.15 124.46)
+			(xy 231.14 124.46) (xy 231.14 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3263,220 +3263,221 @@
 		(uuid "ff4c2456-19b6-429b-bf02-b9ec003bd8ef")
 	)
 	(label "PRU_BUS.PRU0_0"
-		(at 236.22 149.86 0)
+		(at 179.07 148.59 180)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "03a8fbdb-efba-4e80-9728-17c9b960c908")
 	)
 	(label "PRU_BUS.PRU0_1"
-		(at 236.22 152.4 0)
+		(at 179.07 151.13 180)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0838da7d-90fb-4574-aed3-efc799ca1b68")
 	)
 	(label "PRU_BUS.PRU0_4"
-		(at 236.22 160.02 0)
+		(at 179.07 158.75 180)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0f60c371-820b-4fa7-a497-d120c0e0d689")
 	)
 	(label "PRU_BUS.PRU_16_CLK"
-		(at 237.49 203.2 0)
+		(at 177.8 201.93 180)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0f9402a7-f685-4bbc-8bd4-7bbf88f883f6")
 	)
 	(label "PRU_BUS.PRU0_5"
-		(at 236.22 162.56 0)
+		(at 179.07 161.29 180)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "87642421-5ad1-475d-b7ee-3c952f51c14d")
 	)
 	(label "PRU_BUS.PRU0_2"
-		(at 236.22 154.94 0)
+		(at 179.07 153.67 180)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a8d3a861-7218-4dc9-aabf-0f4d2268825f")
 	)
 	(label "PRU_BUS.PRU0_3"
-		(at 236.22 157.48 0)
+		(at 179.07 156.21 180)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b62b3bf7-1fe2-44e4-a56c-004054289f93")
 	)
 	(label "PRU_BUS.PRU0_6"
-		(at 236.22 165.1 0)
+		(at 179.07 163.83 180)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "eb00ff3b-5ae8-441c-a6e5-9243f37b1237")
 	)
 	(hierarchical_label "PRU_BUS.PRU0_1"
 		(shape input)
-		(at 288.29 152.4 0)
+		(at 127 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "086d42e0-0ca0-438d-a072-5948106ba90f")
 	)
 	(hierarchical_label "PRU_BUS.PRU0_6"
 		(shape input)
-		(at 288.29 165.1 0)
+		(at 127 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "380d5fef-2e91-41bf-b596-b5c598251667")
 	)
 	(hierarchical_label "PRU_BUS.PRU0_2"
 		(shape input)
-		(at 288.29 154.94 0)
+		(at 127 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3af32267-dd6a-4343-af6f-409d187a5ce2")
 	)
 	(hierarchical_label "OUT1_P"
 		(shape bidirectional)
-		(at 146.05 160.02 180)
+		(at 269.24 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5e6d8849-ca03-40be-bf74-420edeff6f98")
 	)
 	(hierarchical_label "PRU_BUS.PRU0_0"
 		(shape input)
-		(at 288.29 149.86 0)
+		(at 127 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6b83be8e-c53e-466c-8956-cf90e81e67c5")
 	)
 	(hierarchical_label "PRU_BUS.PRU_16_CLK"
 		(shape input)
-		(at 288.29 167.64 0)
+		(at 127 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7b32a8c1-22dc-48e4-9048-d3ee8311667a")
 	)
 	(hierarchical_label "TXCLK_N"
 		(shape bidirectional)
-		(at 146.05 180.34 180)
+		(at 269.24 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "7ed0668d-7d3b-482c-8505-58fd4212107f")
 	)
 	(hierarchical_label "PRU_BUS.PRU0_5"
 		(shape input)
-		(at 288.29 162.56 0)
+		(at 127 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a4a6e5e9-0b7e-4c51-869c-2224eefe6679")
 	)
 	(hierarchical_label "OUT1_N"
 		(shape bidirectional)
-		(at 146.05 157.48 180)
+		(at 269.24 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b72b676e-53ce-40ad-803e-c660ecb51d61")
 	)
 	(hierarchical_label "PRU_BUS.PRU0_4"
 		(shape input)
-		(at 288.29 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ba265756-2358-43c9-be45-5b04402ec27c")
-	)
-	(hierarchical_label "TXCLK_P"
-		(shape bidirectional)
-		(at 146.05 182.88 180)
+		(at 127 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ebd3ee39-1596-438d-927f-f9ad83847d18")
+		(uuid "ba265756-2358-43c9-be45-5b04402ec27c")
 	)
-	(hierarchical_label "PRU_BUS.PRU0_3"
-		(shape input)
-		(at 288.29 157.48 0)
+	(hierarchical_label "TXCLK_P"
+		(shape bidirectional)
+		(at 269.24 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
+		(uuid "ebd3ee39-1596-438d-927f-f9ad83847d18")
+	)
+	(hierarchical_label "PRU_BUS.PRU0_3"
+		(shape input)
+		(at 127 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
 		(uuid "f9b75a86-afe9-48c8-a346-4d954555c3a9")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 237.49 109.22 0)
+		(at 177.8 107.95 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3486,7 +3487,7 @@
 		(dnp no)
 		(uuid "04f53b2b-5b20-42ea-b03e-416ab0b40ecf")
 		(property "Reference" "C47"
-			(at 239.014 108.839 0)
+			(at 176.276 107.569 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3497,7 +3498,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 239.268 111.887 0)
+			(at 176.022 110.617 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3508,7 +3509,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 237.49 109.22 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3519,7 +3520,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C100F5GACAUTO"
-			(at 237.49 109.22 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3530,7 +3531,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 237.49 109.22 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3541,7 +3542,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 237.49 109.22 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3553,7 +3554,7 @@
 			)
 		)
 		(property "DPN" "399-C0402C100F5GACAUTOCT-ND"
-			(at 237.49 109.22 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3565,7 +3566,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 237.49 109.22 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3577,7 +3578,7 @@
 			)
 		)
 		(property "MPN" "C0402C100F5GACAUTO"
-			(at 237.49 109.22 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3605,7 +3606,8 @@
 	)
 	(symbol
 		(lib_id "cfc-card-eagle-import:DS90CR218AMTD/NOPBMTD48_TEX-L")
-		(at 210.82 170.18 0)
+		(at 204.47 168.91 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3615,7 +3617,7 @@
 		(dnp no)
 		(uuid "05370b60-9466-42a1-86ab-a1d33f74049a")
 		(property "Reference" "U13"
-			(at 224.79 209.55 0)
+			(at 190.5 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3626,7 +3628,7 @@
 			)
 		)
 		(property "Value" "DS90CR218AMTD/NOPB"
-			(at 224.79 213.36 0)
+			(at 190.5 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3637,7 +3639,7 @@
 			)
 		)
 		(property "Footprint" "cfc-card:MTD48_TEX-L"
-			(at 210.82 170.18 0)
+			(at 204.47 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3648,7 +3650,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ds90cr218a.pdf?ts=1757691348943"
-			(at 210.82 170.18 0)
+			(at 204.47 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3659,7 +3661,7 @@
 			)
 		)
 		(property "Description" "+3.3V Rising Edge Data Strobe LVDS 21-Bit Channel Link - 12 MHz to 85 MHz"
-			(at 210.82 170.18 0)
+			(at 204.47 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3670,7 +3672,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 210.82 170.18 0)
+			(at 204.47 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3681,7 +3683,7 @@
 			)
 		)
 		(property "DPN" "DS90CR218AMTD/NOPB-ND"
-			(at 210.82 170.18 0)
+			(at 204.47 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3692,7 +3694,7 @@
 			)
 		)
 		(property "MFR" "Texas Instruments "
-			(at 210.82 170.18 0)
+			(at 204.47 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3703,7 +3705,7 @@
 			)
 		)
 		(property "MPN" "DS90CR218AMTD/NOPB"
-			(at 210.82 170.18 0)
+			(at 204.47 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3868,7 +3870,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 161.29 170.18 90)
+		(at 254 168.91 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3878,7 +3881,7 @@
 		(dnp yes)
 		(uuid "09d9685c-79ed-42a0-8c0f-ad58296e3284")
 		(property "Reference" "R61"
-			(at 168.91 167.894 90)
+			(at 246.38 166.624 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3889,7 +3892,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 156.972 168.4274 90)
+			(at 258.318 167.1574 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3900,7 +3903,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 161.29 170.18 0)
+			(at 254 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3911,7 +3914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 170.18 0)
+			(at 254 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3922,7 +3925,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 161.29 170.18 0)
+			(at 254 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3933,7 +3936,7 @@
 			)
 		)
 		(property "DIS" "Dgi-Key"
-			(at 161.29 170.18 0)
+			(at 254 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3945,7 +3948,7 @@
 			)
 		)
 		(property "DPN" "311-100MCT-ND"
-			(at 161.29 170.18 0)
+			(at 254 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3957,7 +3960,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 161.29 170.18 0)
+			(at 254 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3969,7 +3972,7 @@
 			)
 		)
 		(property "MPN" "RC0201FR-07100RL"
-			(at 161.29 170.18 0)
+			(at 254 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3997,7 +4000,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 137.16 0)
+		(at 238.76 135.89 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4007,7 +4011,7 @@
 		(dnp no)
 		(uuid "152d8fd8-e6c5-41f2-9012-43293934a908")
 		(property "Reference" "#GND056"
-			(at 176.53 137.16 0)
+			(at 238.76 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4018,7 +4022,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 142.748 0)
+			(at 241.3 141.478 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4029,7 +4033,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 137.16 0)
+			(at 238.76 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4040,7 +4044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 137.16 0)
+			(at 238.76 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4051,7 +4055,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 137.16 0)
+			(at 238.76 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4075,7 +4079,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 237.49 127 0)
+		(at 177.8 125.73 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4085,7 +4090,7 @@
 		(dnp no)
 		(uuid "1719d1cc-b15e-43b9-b40a-93b8db439507")
 		(property "Reference" "C48"
-			(at 238.76 126.619 0)
+			(at 176.53 125.349 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4096,7 +4101,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 238.76 131.445 0)
+			(at 176.53 130.175 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4107,7 +4112,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 237.49 127 0)
+			(at 177.8 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4118,7 +4123,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C102J3GACAUTO"
-			(at 237.49 127 0)
+			(at 177.8 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4129,7 +4134,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 237.49 127 0)
+			(at 177.8 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4140,7 +4145,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 237.49 127 0)
+			(at 177.8 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4152,7 +4157,7 @@
 			)
 		)
 		(property "DPN" "399-C0402C102J3GACAUTOCT-ND"
-			(at 237.49 127 0)
+			(at 177.8 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4164,7 +4169,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 237.49 127 0)
+			(at 177.8 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4176,7 +4181,7 @@
 			)
 		)
 		(property "MPN" "C0402C102J3GACAUTO"
-			(at 237.49 127 0)
+			(at 177.8 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4204,7 +4209,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 161.29 162.56 90)
+		(at 254 161.29 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4214,7 +4220,7 @@
 		(dnp yes)
 		(uuid "1d69c299-bb00-40e6-9145-36c9a191943c")
 		(property "Reference" "R60"
-			(at 168.656 160.528 90)
+			(at 246.634 159.258 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4225,7 +4231,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 157.48 160.5534 90)
+			(at 257.81 159.2834 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4236,7 +4242,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 161.29 162.56 0)
+			(at 254 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4247,7 +4253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 162.56 0)
+			(at 254 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4258,7 +4264,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 161.29 162.56 0)
+			(at 254 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4269,7 +4275,7 @@
 			)
 		)
 		(property "DIS" "Dgi-Key"
-			(at 161.29 162.56 0)
+			(at 254 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4281,7 +4287,7 @@
 			)
 		)
 		(property "DPN" "311-100MCT-ND"
-			(at 161.29 162.56 0)
+			(at 254 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4293,7 +4299,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 161.29 162.56 0)
+			(at 254 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4305,7 +4311,7 @@
 			)
 		)
 		(property "MPN" "RC0201FR-07100RL"
-			(at 161.29 162.56 0)
+			(at 254 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4333,7 +4339,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 184.15 110.49 0)
+		(at 231.14 109.22 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4343,7 +4350,7 @@
 		(dnp no)
 		(uuid "20444bb6-fcf4-4443-8d9e-fae2fccfe1ad")
 		(property "Reference" "C37"
-			(at 185.674 110.109 0)
+			(at 229.616 108.839 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4354,7 +4361,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 185.674 115.189 0)
+			(at 229.616 113.919 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4365,7 +4372,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 184.15 110.49 0)
+			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4376,7 +4383,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C100F5GACAUTO"
-			(at 184.15 110.49 0)
+			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4387,7 +4394,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 184.15 110.49 0)
+			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4398,7 +4405,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 184.15 110.49 0)
+			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4410,7 +4417,7 @@
 			)
 		)
 		(property "DPN" "399-C0402C100F5GACAUTOCT-ND"
-			(at 184.15 110.49 0)
+			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4422,7 +4429,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 184.15 110.49 0)
+			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4434,7 +4441,7 @@
 			)
 		)
 		(property "MPN" "C0402C100F5GACAUTO"
-			(at 184.15 110.49 0)
+			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4462,7 +4469,8 @@
 	)
 	(symbol
 		(lib_id "cfc-card-eagle-import:3.3V")
-		(at 191.77 119.38 0)
+		(at 223.52 118.11 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4472,7 +4480,7 @@
 		(dnp no)
 		(uuid "400ddc1d-5030-4db6-9c72-98bba8cad886")
 		(property "Reference" "#3.3V02"
-			(at 191.77 119.38 0)
+			(at 223.52 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4483,7 +4491,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 189.23 119.38 0)
+			(at 226.06 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4494,7 +4502,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 119.38 0)
+			(at 223.52 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4505,7 +4513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 119.38 0)
+			(at 223.52 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4516,7 +4524,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 119.38 0)
+			(at 223.52 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4540,7 +4548,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 245.11 133.35 0)
+		(at 170.18 132.08 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4550,7 +4559,7 @@
 		(dnp no)
 		(uuid "45db9924-8a9c-4c7c-b8e0-c163a3a1cc87")
 		(property "Reference" "#GND063"
-			(at 245.11 133.35 0)
+			(at 170.18 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4561,7 +4570,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 138.176 0)
+			(at 172.72 136.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4572,7 +4581,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 133.35 0)
+			(at 170.18 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4583,7 +4592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 133.35 0)
+			(at 170.18 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4594,7 +4603,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 133.35 0)
+			(at 170.18 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4618,7 +4627,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 161.29 177.8 90)
+		(at 254 176.53 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4628,7 +4638,7 @@
 		(dnp no)
 		(uuid "4a775b9b-b827-474e-99e5-6c7bc87b9b0b")
 		(property "Reference" "R62"
-			(at 168.656 175.514 90)
+			(at 246.634 174.244 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4639,7 +4649,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 157.226 175.7934 90)
+			(at 258.064 174.5234 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4650,7 +4660,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 161.29 177.8 0)
+			(at 254 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4661,7 +4671,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 161.29 177.8 0)
+			(at 254 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4672,7 +4682,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 161.29 177.8 0)
+			(at 254 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4683,7 +4693,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 161.29 177.8 0)
+			(at 254 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4695,7 +4705,7 @@
 			)
 		)
 		(property "DPN" "RMCF0402FT100RCT-ND"
-			(at 161.29 177.8 0)
+			(at 254 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4707,7 +4717,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
-			(at 161.29 177.8 0)
+			(at 254 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4719,7 +4729,7 @@
 			)
 		)
 		(property "MPN" "RMCF0402FT100R"
-			(at 161.29 177.8 0)
+			(at 254 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4747,7 +4757,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 184.15 92.71 0)
+		(at 231.14 91.44 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4757,7 +4768,7 @@
 		(dnp no)
 		(uuid "4c07c91f-89ca-4d44-a76c-b087ff765023")
 		(property "Reference" "C36"
-			(at 185.674 92.329 0)
+			(at 229.616 91.059 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4768,7 +4779,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 185.674 97.409 0)
+			(at 229.616 96.139 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4779,7 +4790,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 184.15 92.71 0)
+			(at 231.14 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4790,7 +4801,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C104K4RECAUTO"
-			(at 184.15 92.71 0)
+			(at 231.14 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4801,7 +4812,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 184.15 92.71 0)
+			(at 231.14 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4812,7 +4823,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 184.15 92.71 0)
+			(at 231.14 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4824,7 +4835,7 @@
 			)
 		)
 		(property "DPN" "399-17167-1-ND"
-			(at 184.15 92.71 0)
+			(at 231.14 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4836,7 +4847,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 184.15 92.71 0)
+			(at 231.14 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4848,7 +4859,7 @@
 			)
 		)
 		(property "MPN" "C0402C104K4RECAUTO"
-			(at 184.15 92.71 0)
+			(at 231.14 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4876,7 +4887,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 222.25 91.44 0)
+		(at 193.04 90.17 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4886,7 +4898,7 @@
 		(dnp no)
 		(uuid "5159501c-fa29-43b5-bf28-7755730b68f2")
 		(property "Reference" "C43"
-			(at 221.234 85.979 0)
+			(at 194.056 84.709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4897,7 +4909,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 223.774 96.139 0)
+			(at 191.516 94.869 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4908,7 +4920,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 222.25 91.44 0)
+			(at 193.04 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4919,7 +4931,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C102J3GACAUTO"
-			(at 222.25 91.44 0)
+			(at 193.04 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4930,7 +4942,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 222.25 91.44 0)
+			(at 193.04 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4941,7 +4953,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 222.25 91.44 0)
+			(at 193.04 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4953,7 +4965,7 @@
 			)
 		)
 		(property "DPN" "399-C0402C102J3GACAUTOCT-ND"
-			(at 222.25 91.44 0)
+			(at 193.04 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4965,7 +4977,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 222.25 91.44 0)
+			(at 193.04 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4977,7 +4989,7 @@
 			)
 		)
 		(property "MPN" "C0402C102J3GACAUTO"
-			(at 222.25 91.44 0)
+			(at 193.04 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5005,7 +5017,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 229.87 91.44 0)
+		(at 185.42 90.17 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5015,7 +5028,7 @@
 		(dnp no)
 		(uuid "524659ac-e621-4d18-a932-b8c71c9d2648")
 		(property "Reference" "C44"
-			(at 231.394 91.059 0)
+			(at 183.896 89.789 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5026,7 +5039,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 231.394 96.139 0)
+			(at 183.896 94.869 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5037,7 +5050,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 229.87 91.44 0)
+			(at 185.42 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5048,7 +5061,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C100F5GACAUTO"
-			(at 229.87 91.44 0)
+			(at 185.42 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5059,7 +5072,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 229.87 91.44 0)
+			(at 185.42 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5070,7 +5083,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 229.87 91.44 0)
+			(at 185.42 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5082,7 +5095,7 @@
 			)
 		)
 		(property "DPN" "399-C0402C100F5GACAUTOCT-ND"
-			(at 229.87 91.44 0)
+			(at 185.42 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5094,7 +5107,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 229.87 91.44 0)
+			(at 185.42 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5106,7 +5119,7 @@
 			)
 		)
 		(property "MPN" "C0402C100F5GACAUTO"
-			(at 229.87 91.44 0)
+			(at 185.42 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5134,7 +5147,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 209.55 0)
+		(at 204.47 208.28 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5144,7 +5158,7 @@
 		(dnp no)
 		(uuid "527be97a-a091-4a7c-900f-abdc5fcf1bc2")
 		(property "Reference" "#GND060"
-			(at 210.82 209.55 0)
+			(at 204.47 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5155,7 +5169,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 214.884 0)
+			(at 207.01 213.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5166,7 +5180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 209.55 0)
+			(at 204.47 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5177,7 +5191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 209.55 0)
+			(at 204.47 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5188,7 +5202,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 209.55 0)
+			(at 204.47 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5212,7 +5226,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 245.11 127 0)
+		(at 170.18 125.73 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5222,7 +5237,7 @@
 		(dnp no)
 		(uuid "5524e353-75bb-4caf-a72b-26be8d29ca59")
 		(property "Reference" "C50"
-			(at 246.634 126.619 0)
+			(at 168.656 125.349 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5233,7 +5248,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 246.634 131.445 0)
+			(at 168.656 130.175 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5244,7 +5259,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 245.11 127 0)
+			(at 170.18 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5255,7 +5270,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C100F5GACAUTO"
-			(at 245.11 127 0)
+			(at 170.18 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5266,7 +5281,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 245.11 127 0)
+			(at 170.18 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5277,7 +5292,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 245.11 127 0)
+			(at 170.18 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5289,7 +5304,7 @@
 			)
 		)
 		(property "DPN" "399-C0402C100F5GACAUTOCT-ND"
-			(at 245.11 127 0)
+			(at 170.18 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5301,7 +5316,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 245.11 127 0)
+			(at 170.18 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5313,7 +5328,7 @@
 			)
 		)
 		(property "MPN" "C0402C100F5GACAUTO"
-			(at 245.11 127 0)
+			(at 170.18 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5341,7 +5356,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 229.87 109.22 0)
+		(at 185.42 107.95 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5351,7 +5367,7 @@
 		(dnp no)
 		(uuid "57711358-1fa9-412b-b171-c33c13da72bc")
 		(property "Reference" "C45"
-			(at 231.902 108.839 0)
+			(at 183.388 107.569 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5362,7 +5378,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 231.902 111.887 0)
+			(at 183.388 110.617 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5373,7 +5389,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 229.87 109.22 0)
+			(at 185.42 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5384,7 +5400,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C102J3GACAUTO"
-			(at 229.87 109.22 0)
+			(at 185.42 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5395,7 +5411,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 229.87 109.22 0)
+			(at 185.42 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5406,7 +5422,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 229.87 109.22 0)
+			(at 185.42 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5418,7 +5434,7 @@
 			)
 		)
 		(property "DPN" "399-C0402C102J3GACAUTOCT-ND"
-			(at 229.87 109.22 0)
+			(at 185.42 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5430,7 +5446,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 229.87 109.22 0)
+			(at 185.42 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5442,7 +5458,7 @@
 			)
 		)
 		(property "MPN" "C0402C102J3GACAUTO"
-			(at 229.87 109.22 0)
+			(at 185.42 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5470,7 +5486,8 @@
 	)
 	(symbol
 		(lib_id "cfc-card-eagle-import:3.3V")
-		(at 160.02 189.23 0)
+		(at 255.27 187.96 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5480,7 +5497,7 @@
 		(dnp no)
 		(uuid "5aaebc91-cb8d-4406-af94-74e9a8ca67b3")
 		(property "Reference" "#3.3V01"
-			(at 160.02 189.23 0)
+			(at 255.27 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5491,7 +5508,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 157.48 189.23 0)
+			(at 257.81 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5502,7 +5519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 189.23 0)
+			(at 255.27 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5513,7 +5530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 189.23 0)
+			(at 255.27 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5524,7 +5541,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 189.23 0)
+			(at 255.27 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5548,7 +5565,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 191.77 92.71 0)
+		(at 223.52 91.44 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5558,7 +5576,7 @@
 		(dnp no)
 		(uuid "63bd553c-ba17-41cf-aeab-47e4c3ef6898")
 		(property "Reference" "C39"
-			(at 193.294 92.329 0)
+			(at 221.996 91.059 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5569,7 +5587,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 193.294 97.409 0)
+			(at 221.996 96.139 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5580,7 +5598,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 191.77 92.71 0)
+			(at 223.52 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5591,7 +5609,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C100F5GACAUTO"
-			(at 191.77 92.71 0)
+			(at 223.52 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5602,7 +5620,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 191.77 92.71 0)
+			(at 223.52 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5613,7 +5631,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 191.77 92.71 0)
+			(at 223.52 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5625,7 +5643,7 @@
 			)
 		)
 		(property "DPN" "399-C0402C100F5GACAUTOCT-ND"
-			(at 191.77 92.71 0)
+			(at 223.52 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5637,7 +5655,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 191.77 92.71 0)
+			(at 223.52 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5649,7 +5667,7 @@
 			)
 		)
 		(property "MPN" "C0402C100F5GACAUTO"
-			(at 191.77 92.71 0)
+			(at 223.52 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5677,7 +5695,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 99.06 0)
+		(at 185.42 97.79 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5687,7 +5706,7 @@
 		(dnp no)
 		(uuid "6c4a8e6e-da8b-47a3-b84f-1fd658651996")
 		(property "Reference" "#GND061"
-			(at 229.87 99.06 0)
+			(at 185.42 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5698,7 +5717,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 103.632 0)
+			(at 187.96 102.362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5709,7 +5728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 99.06 0)
+			(at 185.42 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5720,7 +5739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 99.06 0)
+			(at 185.42 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5731,7 +5750,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 99.06 0)
+			(at 185.42 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5755,7 +5774,8 @@
 	)
 	(symbol
 		(lib_id "cfc-card-eagle-import:3.3V")
-		(at 229.87 119.38 0)
+		(at 185.42 118.11 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5765,7 +5785,7 @@
 		(dnp no)
 		(uuid "71f22d11-22b5-4f41-9c2e-5b4f1d3c0ed6")
 		(property "Reference" "#3.3V07"
-			(at 229.87 119.38 0)
+			(at 185.42 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5776,7 +5796,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 227.33 119.38 0)
+			(at 187.96 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5787,7 +5807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 119.38 0)
+			(at 185.42 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5798,7 +5818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 119.38 0)
+			(at 185.42 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5809,7 +5829,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 119.38 0)
+			(at 185.42 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5833,7 +5853,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 199.39 92.71 0)
+		(at 215.9 91.44 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5843,7 +5864,7 @@
 		(dnp no)
 		(uuid "81d37401-fa83-4398-9508-f9050f403722")
 		(property "Reference" "C41"
-			(at 200.914 92.329 0)
+			(at 214.376 91.059 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5854,7 +5875,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 200.914 97.409 0)
+			(at 214.376 96.139 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5865,7 +5886,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 199.39 92.71 0)
+			(at 215.9 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5876,7 +5897,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C102J3GACAUTO"
-			(at 199.39 92.71 0)
+			(at 215.9 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5887,7 +5908,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 199.39 92.71 0)
+			(at 215.9 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5898,7 +5919,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 199.39 92.71 0)
+			(at 215.9 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5910,7 +5931,7 @@
 			)
 		)
 		(property "DPN" "399-C0402C102J3GACAUTOCT-ND"
-			(at 199.39 92.71 0)
+			(at 215.9 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5922,7 +5943,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 199.39 92.71 0)
+			(at 215.9 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5934,7 +5955,7 @@
 			)
 		)
 		(property "MPN" "C0402C102J3GACAUTO"
-			(at 199.39 92.71 0)
+			(at 215.9 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5962,7 +5983,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 119.38 0)
+		(at 231.14 118.11 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5972,7 +5994,7 @@
 		(dnp no)
 		(uuid "925d11e9-1f48-4b51-8c32-8f8218deec57")
 		(property "Reference" "#GND057"
-			(at 184.15 119.38 0)
+			(at 231.14 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5983,7 +6005,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 123.952 0)
+			(at 233.68 122.682 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5994,7 +6016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 119.38 0)
+			(at 231.14 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6005,7 +6027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 119.38 0)
+			(at 231.14 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6016,7 +6038,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 119.38 0)
+			(at 231.14 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6040,7 +6062,8 @@
 	)
 	(symbol
 		(lib_id "cfc-card-eagle-import:3.3V")
-		(at 199.39 101.6 0)
+		(at 215.9 100.33 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6050,7 +6073,7 @@
 		(dnp no)
 		(uuid "940c1b59-8164-4cba-835d-4410dbf32f4d")
 		(property "Reference" "#3.3V03"
-			(at 199.39 101.6 0)
+			(at 215.9 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6061,7 +6084,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 196.85 101.6 0)
+			(at 218.44 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6072,7 +6095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 101.6 0)
+			(at 215.9 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6083,7 +6106,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 101.6 0)
+			(at 215.9 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6094,7 +6117,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 101.6 0)
+			(at 215.9 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6118,7 +6141,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 245.11 109.22 0)
+		(at 170.18 107.95 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6128,7 +6152,7 @@
 		(dnp no)
 		(uuid "94584b87-d270-458f-be70-40e8d9dfed6f")
 		(property "Reference" "C49"
-			(at 246.38 108.585 0)
+			(at 168.91 107.315 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6139,7 +6163,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 246.634 112.649 0)
+			(at 168.656 111.379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6150,7 +6174,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 245.11 109.22 0)
+			(at 170.18 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6161,7 +6185,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C104K4RECAUTO"
-			(at 245.11 109.22 0)
+			(at 170.18 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6172,7 +6196,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 245.11 109.22 0)
+			(at 170.18 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6183,7 +6207,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 245.11 109.22 0)
+			(at 170.18 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6195,7 +6219,7 @@
 			)
 		)
 		(property "DPN" "399-17167-1-ND"
-			(at 245.11 109.22 0)
+			(at 170.18 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6207,7 +6231,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 245.11 109.22 0)
+			(at 170.18 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6219,7 +6243,7 @@
 			)
 		)
 		(property "MPN" "C0402C104K4RECAUTO"
-			(at 245.11 109.22 0)
+			(at 170.18 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6247,7 +6271,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 209.55 73.66 0)
+		(at 205.74 72.39 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6257,7 +6282,7 @@
 		(dnp no)
 		(uuid "9560bde3-83bc-4303-9810-9856961aa8df")
 		(property "Reference" "C42"
-			(at 211.074 73.279 0)
+			(at 204.216 72.009 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6268,7 +6293,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 211.074 78.359 0)
+			(at 204.216 77.089 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6279,7 +6304,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0805-C-NOSILK"
-			(at 209.55 73.66 0)
+			(at 205.74 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6290,7 +6315,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
-			(at 209.55 73.66 0)
+			(at 205.74 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6301,7 +6326,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 209.55 73.66 0)
+			(at 205.74 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6312,7 +6337,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 209.55 73.66 0)
+			(at 205.74 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6324,7 +6349,7 @@
 			)
 		)
 		(property "DPN" "490-GRT21BC71E106KE13LCT-ND"
-			(at 209.55 73.66 0)
+			(at 205.74 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6336,7 +6361,7 @@
 			)
 		)
 		(property "MFR" "Murata Electronics"
-			(at 209.55 73.66 0)
+			(at 205.74 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6348,7 +6373,7 @@
 			)
 		)
 		(property "MPN" "GRT21BC71E106KE13L"
-			(at 209.55 73.66 0)
+			(at 205.74 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6376,7 +6401,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 176.53 128.27 0)
+		(at 238.76 127 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6386,7 +6412,7 @@
 		(dnp no)
 		(uuid "a2366fae-014c-428f-afbc-7d954b3ce722")
 		(property "Reference" "C35"
-			(at 178.054 127.889 0)
+			(at 237.236 126.619 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6397,7 +6423,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 178.054 132.969 0)
+			(at 237.236 131.699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6408,7 +6434,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 176.53 128.27 0)
+			(at 238.76 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6419,7 +6445,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C100F5GACAUTO"
-			(at 176.53 128.27 0)
+			(at 238.76 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6430,7 +6456,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 176.53 128.27 0)
+			(at 238.76 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6441,7 +6467,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 176.53 128.27 0)
+			(at 238.76 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6453,7 +6479,7 @@
 			)
 		)
 		(property "DPN" "399-C0402C100F5GACAUTOCT-ND"
-			(at 176.53 128.27 0)
+			(at 238.76 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6465,7 +6491,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 176.53 128.27 0)
+			(at 238.76 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6477,7 +6503,7 @@
 			)
 		)
 		(property "MPN" "C0402C100F5GACAUTO"
-			(at 176.53 128.27 0)
+			(at 238.76 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6505,7 +6531,8 @@
 	)
 	(symbol
 		(lib_id "cfc-card-eagle-import:3.3V")
-		(at 214.63 83.82 0)
+		(at 200.66 82.55 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6515,7 +6542,7 @@
 		(dnp no)
 		(uuid "a54e3f4d-ce82-4219-acb2-86654ff979ae")
 		(property "Reference" "#3.3V05"
-			(at 214.63 83.82 0)
+			(at 200.66 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6526,7 +6553,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 212.09 83.82 0)
+			(at 203.2 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6537,7 +6564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 83.82 0)
+			(at 200.66 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6548,7 +6575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 83.82 0)
+			(at 200.66 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6559,7 +6586,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 83.82 0)
+			(at 200.66 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6583,7 +6610,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 176.53 110.49 0)
+		(at 238.76 109.22 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6593,7 +6621,7 @@
 		(dnp no)
 		(uuid "bcc3efee-554d-4284-aab2-3a0dc1e3eda5")
 		(property "Reference" "C34"
-			(at 178.054 110.109 0)
+			(at 237.236 108.839 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6604,7 +6632,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 178.054 115.189 0)
+			(at 237.236 113.919 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6615,7 +6643,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 176.53 110.49 0)
+			(at 238.76 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6626,7 +6654,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C104K4RECAUTO"
-			(at 176.53 110.49 0)
+			(at 238.76 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6637,7 +6665,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 176.53 110.49 0)
+			(at 238.76 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6648,7 +6676,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 176.53 110.49 0)
+			(at 238.76 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6660,7 +6688,7 @@
 			)
 		)
 		(property "DPN" "399-17167-1-ND"
-			(at 176.53 110.49 0)
+			(at 238.76 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6672,7 +6700,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 176.53 110.49 0)
+			(at 238.76 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6684,7 +6712,7 @@
 			)
 		)
 		(property "MPN" "C0402C104K4RECAUTO"
-			(at 176.53 110.49 0)
+			(at 238.76 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6712,7 +6740,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 115.57 0)
+		(at 177.8 114.3 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6722,7 +6751,7 @@
 		(dnp no)
 		(uuid "c568616a-1ea3-43a0-9673-9f59cea4e087")
 		(property "Reference" "#GND062"
-			(at 237.49 115.57 0)
+			(at 177.8 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6733,7 +6762,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 120.904 0)
+			(at 180.34 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6744,7 +6773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 115.57 0)
+			(at 177.8 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6755,7 +6784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 115.57 0)
+			(at 177.8 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6766,7 +6795,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 115.57 0)
+			(at 177.8 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6790,7 +6819,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 168.91 128.27 0)
+		(at 246.38 127 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6800,7 +6830,7 @@
 		(dnp no)
 		(uuid "ca0a441a-b3bc-4a2b-a229-1e0e03786994")
 		(property "Reference" "C33"
-			(at 170.434 127.889 0)
+			(at 244.856 126.619 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6811,7 +6841,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 170.434 132.969 0)
+			(at 244.856 131.699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6822,7 +6852,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 168.91 128.27 0)
+			(at 246.38 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6833,7 +6863,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C104K4RECAUTO"
-			(at 168.91 128.27 0)
+			(at 246.38 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6844,7 +6874,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 168.91 128.27 0)
+			(at 246.38 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6855,7 +6885,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 168.91 128.27 0)
+			(at 246.38 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6867,7 +6897,7 @@
 			)
 		)
 		(property "DPN" "399-17167-1-ND"
-			(at 168.91 128.27 0)
+			(at 246.38 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6879,7 +6909,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 168.91 128.27 0)
+			(at 246.38 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6891,7 +6921,7 @@
 			)
 		)
 		(property "MPN" "C0402C104K4RECAUTO"
-			(at 168.91 128.27 0)
+			(at 246.38 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6919,7 +6949,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 100.33 0)
+		(at 223.52 99.06 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6929,7 +6960,7 @@
 		(dnp no)
 		(uuid "ca7b1cbc-38ee-4643-ab36-4df4a460b102")
 		(property "Reference" "#GND058"
-			(at 191.77 100.33 0)
+			(at 223.52 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6940,7 +6971,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 105.41 0)
+			(at 226.06 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6951,7 +6982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 100.33 0)
+			(at 223.52 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6962,7 +6993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 100.33 0)
+			(at 223.52 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6973,7 +7004,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 100.33 0)
+			(at 223.52 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6997,7 +7028,8 @@
 	)
 	(symbol
 		(lib_id "cfc-card-eagle-import:3.3V")
-		(at 222.25 101.6 0)
+		(at 193.04 100.33 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7007,7 +7039,7 @@
 		(dnp no)
 		(uuid "cd335927-8821-4290-8d7a-05e2af7f15ae")
 		(property "Reference" "#3.3V06"
-			(at 222.25 101.6 0)
+			(at 193.04 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7018,7 +7050,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 219.71 101.6 0)
+			(at 195.58 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7029,7 +7061,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 101.6 0)
+			(at 193.04 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7040,7 +7072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 101.6 0)
+			(at 193.04 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7051,7 +7083,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 101.6 0)
+			(at 193.04 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7075,7 +7107,8 @@
 	)
 	(symbol
 		(lib_id "cfc-card-eagle-import:3.3V")
-		(at 207.01 66.04 0)
+		(at 208.28 64.77 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7085,7 +7118,7 @@
 		(dnp no)
 		(uuid "d3162bb4-0b4b-44a4-a11f-4deab532130a")
 		(property "Reference" "#3.3V04"
-			(at 207.01 66.04 0)
+			(at 208.28 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7096,7 +7129,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 204.47 66.04 0)
+			(at 210.82 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7107,7 +7140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 66.04 0)
+			(at 208.28 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7118,7 +7151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 66.04 0)
+			(at 208.28 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7129,7 +7162,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 66.04 0)
+			(at 208.28 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7153,7 +7186,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 184.15 128.27 0)
+		(at 231.14 127 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7163,7 +7197,7 @@
 		(dnp no)
 		(uuid "d7690410-9a18-40b3-a56e-5d2e8d4658e1")
 		(property "Reference" "C38"
-			(at 185.674 127.889 0)
+			(at 229.616 126.619 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7174,7 +7208,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 185.674 132.969 0)
+			(at 229.616 131.699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7185,7 +7219,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 184.15 128.27 0)
+			(at 231.14 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7196,7 +7230,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C102J3GACAUTO"
-			(at 184.15 128.27 0)
+			(at 231.14 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7207,7 +7241,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 184.15 128.27 0)
+			(at 231.14 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7218,7 +7252,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 184.15 128.27 0)
+			(at 231.14 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7230,7 +7264,7 @@
 			)
 		)
 		(property "DPN" "399-C0402C102J3GACAUTOCT-ND"
-			(at 184.15 128.27 0)
+			(at 231.14 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7242,7 +7276,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 184.15 128.27 0)
+			(at 231.14 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7254,7 +7288,7 @@
 			)
 		)
 		(property "MPN" "C0402C102J3GACAUTO"
-			(at 184.15 128.27 0)
+			(at 231.14 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7282,7 +7316,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 80.01 0)
+		(at 205.74 78.74 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7292,7 +7327,7 @@
 		(dnp no)
 		(uuid "e078ec17-1724-4359-8c1b-f4f6a479ec3b")
 		(property "Reference" "#GND059"
-			(at 209.55 80.01 0)
+			(at 205.74 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7303,7 +7338,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 85.09 0)
+			(at 208.28 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7314,7 +7349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 80.01 0)
+			(at 205.74 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7325,7 +7360,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 80.01 0)
+			(at 205.74 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7336,7 +7371,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 80.01 0)
+			(at 205.74 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7360,7 +7395,8 @@
 	)
 	(symbol
 		(lib_id "cfc-card-eagle-import:JUMPER-SMT_2_NC_TRACE_SILK")
-		(at 166.37 193.04 0)
+		(at 248.92 191.77 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7370,7 +7406,7 @@
 		(dnp no)
 		(uuid "e7cf697e-523d-420c-a40f-59635a5692ec")
 		(property "Reference" "JP1"
-			(at 163.83 190.5 0)
+			(at 251.46 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7381,7 +7417,7 @@
 			)
 		)
 		(property "Value" "JUMPER-SMT_2_NC_TRACE_SILK"
-			(at 163.83 195.58 0)
+			(at 251.46 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7393,7 +7429,7 @@
 			)
 		)
 		(property "Footprint" "cfc-card:SMT-JUMPER_2_NC_TRACE_SILK"
-			(at 166.37 193.04 0)
+			(at 248.92 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7404,7 +7440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 193.04 0)
+			(at 248.92 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7415,7 +7451,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 193.04 0)
+			(at 248.92 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7442,7 +7478,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 237.49 91.44 0)
+		(at 177.8 90.17 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7452,7 +7489,7 @@
 		(dnp no)
 		(uuid "ec2ee55f-4425-4a16-9e15-7331f8bba2c9")
 		(property "Reference" "C46"
-			(at 239.014 91.059 0)
+			(at 176.276 89.789 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7463,7 +7500,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 239.014 96.139 0)
+			(at 176.276 94.869 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7474,7 +7511,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 237.49 91.44 0)
+			(at 177.8 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7485,7 +7522,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C104K4RECAUTO"
-			(at 237.49 91.44 0)
+			(at 177.8 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7496,7 +7533,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 237.49 91.44 0)
+			(at 177.8 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7507,7 +7544,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 237.49 91.44 0)
+			(at 177.8 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7519,7 +7556,7 @@
 			)
 		)
 		(property "DPN" "399-17167-1-ND"
-			(at 237.49 91.44 0)
+			(at 177.8 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7531,7 +7568,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 237.49 91.44 0)
+			(at 177.8 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7543,7 +7580,7 @@
 			)
 		)
 		(property "MPN" "C0402C104K4RECAUTO"
-			(at 237.49 91.44 0)
+			(at 177.8 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7571,7 +7608,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 161.29 154.94 270)
+		(at 254 153.67 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7581,7 +7619,7 @@
 		(dnp no)
 		(uuid "ef1c900d-8eb0-48fb-82b0-0f6320397b8a")
 		(property "Reference" "R59"
-			(at 167.64 151.892 90)
+			(at 247.65 150.622 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7592,7 +7630,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 157.226 152.1714 90)
+			(at 258.064 150.9014 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7603,7 +7641,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 161.29 154.94 0)
+			(at 254 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7614,7 +7652,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 161.29 154.94 0)
+			(at 254 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7625,7 +7663,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 161.29 154.94 0)
+			(at 254 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7636,7 +7674,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 161.29 154.94 0)
+			(at 254 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7648,7 +7686,7 @@
 			)
 		)
 		(property "DPN" "RMCF0402FT100RCT-ND"
-			(at 161.29 154.94 0)
+			(at 254 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7660,7 +7698,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
-			(at 161.29 154.94 0)
+			(at 254 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7672,7 +7710,7 @@
 			)
 		)
 		(property "MPN" "RMCF0402FT100R"
-			(at 161.29 154.94 0)
+			(at 254 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7700,7 +7738,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 191.77 110.49 0)
+		(at 223.52 109.22 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7710,7 +7749,7 @@
 		(dnp no)
 		(uuid "f27255d4-3e1e-4098-98b6-f5e885cf95f7")
 		(property "Reference" "C40"
-			(at 193.294 110.109 0)
+			(at 221.996 108.839 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7721,7 +7760,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 193.294 115.189 0)
+			(at 221.996 113.919 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7732,7 +7771,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 191.77 110.49 0)
+			(at 223.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7743,7 +7782,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C102J3GACAUTO"
-			(at 191.77 110.49 0)
+			(at 223.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7754,7 +7793,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 191.77 110.49 0)
+			(at 223.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7765,7 +7804,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 191.77 110.49 0)
+			(at 223.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7777,7 +7816,7 @@
 			)
 		)
 		(property "DPN" "399-C0402C102J3GACAUTOCT-ND"
-			(at 191.77 110.49 0)
+			(at 223.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7789,7 +7828,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 191.77 110.49 0)
+			(at 223.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7801,7 +7840,7 @@
 			)
 		)
 		(property "MPN" "C0402C102J3GACAUTO"
-			(at 191.77 110.49 0)
+			(at 223.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7829,7 +7868,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 252.73 127 0)
+		(at 162.56 125.73 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7839,7 +7879,7 @@
 		(dnp no)
 		(uuid "fbb3b2de-3ce2-4ada-b3db-1ea2ec5cc8a1")
 		(property "Reference" "C51"
-			(at 254.508 126.365 0)
+			(at 160.782 125.095 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7850,7 +7890,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 254.254 131.699 0)
+			(at 161.036 130.429 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7861,7 +7901,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0402-C-NOSILK"
-			(at 252.73 127 0)
+			(at 162.56 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7872,7 +7912,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C104K4RECAUTO"
-			(at 252.73 127 0)
+			(at 162.56 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7883,7 +7923,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 252.73 127 0)
+			(at 162.56 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7894,7 +7934,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 252.73 127 0)
+			(at 162.56 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7906,7 +7946,7 @@
 			)
 		)
 		(property "DPN" "399-17167-1-ND"
-			(at 252.73 127 0)
+			(at 162.56 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7918,7 +7958,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 252.73 127 0)
+			(at 162.56 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7930,7 +7970,7 @@
 			)
 		)
 		(property "MPN" "C0402C104K4RECAUTO"
-			(at 252.73 127 0)
+			(at 162.56 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

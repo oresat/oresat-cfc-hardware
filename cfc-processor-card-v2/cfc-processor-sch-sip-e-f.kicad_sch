@@ -11,38 +11,35 @@
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
-		(symbol "cfc-card-eagle-import:TEST-POINT3X4"
+		(symbol "Oresat Misc:Test-Point-1mm-round"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
-				(at -2.54 2.54 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
-						(size 1.778 1.778)
+						(size 1.27 1.0795)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" ""
-				(at -2.54 -2.54 0)
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
-						(size 1.778 1.778)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "cfc-card:PAD.03X.04"
-				(at 0 -5.334 0)
+			(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -63,8 +60,8 @@
 					)
 				)
 			)
-			(property "Description" "SparkFun Test Points\n\nBare copper test points for troubleshooting or In-Circuit-Testing. These are used by our Production team for verifying production board runs using pogo-pins on test beds.\n\nSparkFun Products:\n\n• SparkFun LSM9DS1 Breakout\n• SparkFun PSOC\n• https://www.sparkfun.com/products/13879 SparkFun Load Cell Amplifier"
-				(at 0 16.764 0)
+			(property "Description" "1mm round SMT test point"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -74,33 +71,57 @@
 					)
 				)
 			)
-			(symbol "TEST-POINT3X4_1_0"
+			(symbol "Test-Point-1mm-round_1_0"
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 0 0)
+						(xy -1.27 1.27) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(arc
-					(start 3.302 -0.762)
-					(mid 2.54 0)
-					(end 3.302 0.762)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
 					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(pin passive line
-					(at 0 0 180)
+					(at 0 0 0)
 					(length 0)
 					(name "1"
 						(effects
@@ -109,7 +130,7 @@
 							)
 						)
 					)
-					(number "P$1"
+					(number "1"
 						(effects
 							(font
 								(size 0 0)
@@ -7409,7 +7430,7 @@
 		(uuid "fe989f36-9fae-4dc8-8760-0f22e2a89e53")
 	)
 	(symbol
-		(lib_id "cfc-card-eagle-import:TEST-POINT3X4")
+		(lib_id "Oresat Misc:Test-Point-1mm-round")
 		(at 185.42 152.4 180)
 		(unit 1)
 		(body_style 1)
@@ -7442,8 +7463,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:PAD.03X.04"
-			(at 185.42 152.4 0)
+		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
+			(at 185.42 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7464,7 +7485,7 @@
 				)
 			)
 		)
-		(property "Description" "SparkFun Test Points\n\nBare copper test points for troubleshooting or In-Circuit-Testing. These are used by our Production team for verifying production board runs using pogo-pins on test beds.\n\nSparkFun Products:\n\n• SparkFun LSM9DS1 Breakout\n• SparkFun PSOC\n• https://www.sparkfun.com/products/13879 SparkFun Load Cell Amplifier"
+		(property "Description" "1mm round SMT test point"
 			(at 185.42 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -7475,7 +7496,7 @@
 				)
 			)
 		)
-		(pin "P$1"
+		(pin "1"
 			(uuid "cbc82b45-1844-44de-af60-ea349ddbf413")
 		)
 		(instances
@@ -9340,7 +9361,7 @@
 		)
 	)
 	(symbol
-		(lib_id "cfc-card-eagle-import:TEST-POINT3X4")
+		(lib_id "Oresat Misc:Test-Point-1mm-round")
 		(at 185.42 162.56 180)
 		(unit 1)
 		(body_style 1)
@@ -9373,8 +9394,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:PAD.03X.04"
-			(at 185.42 162.56 0)
+		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
+			(at 185.42 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9395,7 +9416,7 @@
 				)
 			)
 		)
-		(property "Description" "SparkFun Test Points\n\nBare copper test points for troubleshooting or In-Circuit-Testing. These are used by our Production team for verifying production board runs using pogo-pins on test beds.\n\nSparkFun Products:\n\n• SparkFun LSM9DS1 Breakout\n• SparkFun PSOC\n• https://www.sparkfun.com/products/13879 SparkFun Load Cell Amplifier"
+		(property "Description" "1mm round SMT test point"
 			(at 185.42 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -9406,7 +9427,7 @@
 				)
 			)
 		)
-		(pin "P$1"
+		(pin "1"
 			(uuid "6e05e73f-9d32-4f5d-a2da-e9fb4c496146")
 		)
 		(instances
@@ -9497,7 +9518,7 @@
 		)
 	)
 	(symbol
-		(lib_id "cfc-card-eagle-import:TEST-POINT3X4")
+		(lib_id "Oresat Misc:Test-Point-1mm-round")
 		(at 185.42 157.48 180)
 		(unit 1)
 		(body_style 1)
@@ -9530,8 +9551,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:PAD.03X.04"
-			(at 185.42 157.48 0)
+		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
+			(at 185.42 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9552,7 +9573,7 @@
 				)
 			)
 		)
-		(property "Description" "SparkFun Test Points\n\nBare copper test points for troubleshooting or In-Circuit-Testing. These are used by our Production team for verifying production board runs using pogo-pins on test beds.\n\nSparkFun Products:\n\n• SparkFun LSM9DS1 Breakout\n• SparkFun PSOC\n• https://www.sparkfun.com/products/13879 SparkFun Load Cell Amplifier"
+		(property "Description" "1mm round SMT test point"
 			(at 185.42 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -9563,7 +9584,7 @@
 				)
 			)
 		)
-		(pin "P$1"
+		(pin "1"
 			(uuid "6156d825-ea29-4e58-acfa-59f1668721db")
 		)
 		(instances
@@ -9576,7 +9597,7 @@
 		)
 	)
 	(symbol
-		(lib_id "cfc-card-eagle-import:TEST-POINT3X4")
+		(lib_id "Oresat Misc:Test-Point-1mm-round")
 		(at 185.42 147.32 180)
 		(unit 1)
 		(body_style 1)
@@ -9609,8 +9630,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cfc-card:PAD.03X.04"
-			(at 185.42 147.32 0)
+		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
+			(at 185.42 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9631,7 +9652,7 @@
 				)
 			)
 		)
-		(property "Description" "SparkFun Test Points\n\nBare copper test points for troubleshooting or In-Circuit-Testing. These are used by our Production team for verifying production board runs using pogo-pins on test beds.\n\nSparkFun Products:\n\n• SparkFun LSM9DS1 Breakout\n• SparkFun PSOC\n• https://www.sparkfun.com/products/13879 SparkFun Load Cell Amplifier"
+		(property "Description" "1mm round SMT test point"
 			(at 185.42 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9642,7 +9663,7 @@
 				)
 			)
 		)
-		(pin "P$1"
+		(pin "1"
 			(uuid "4584d3e2-b9ca-442a-96a3-ca86579e5af8")
 		)
 		(instances

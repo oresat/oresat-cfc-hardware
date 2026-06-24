@@ -11,6 +11,161 @@
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Fiducial_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -582,138 +737,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "cfc-card-eagle-import:ORESAT-CARD-V1.3-GENERIC-0RF"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "PCB"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "cfc-card:ORESAT-CARD-V1.3-GENERIC-0RF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ORESAT-CARD-V1.3-GENERIC-0RF_1_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "OreSat Card v1.3: Generic Card w/0RF"
-					(at 2.54 -1.27 0)
-					(effects
-						(font
-							(size 2.54 2.159)
-						)
-						(justify left bottom)
 					)
 				)
 			)
@@ -3592,6 +3615,12 @@
 		(uuid "36aee80c-38c8-4ad0-99f2-9057e4b2fb72")
 	)
 	(junction
+		(at 58.42 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43eaf156-d8bb-402a-9050-c46107a2b15b")
+	)
+	(junction
 		(at 110.49 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3668,6 +3697,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea120558-aa07-470d-bdcc-187aea7766c1")
+	)
+	(junction
+		(at 58.42 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea8c0a5a-a2de-4512-9d4b-062df26dbb43")
 	)
 	(junction
 		(at 46.99 90.17)
@@ -3750,6 +3785,16 @@
 	(no_connect
 		(at 49.53 181.61)
 		(uuid "df09ebc7-cce0-432b-9079-d2082f8e093c")
+	)
+	(wire
+		(pts
+			(xy 58.42 99.06) (xy 58.42 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b6a937-5e59-4c48-b191-820dcf7ea93d")
 	)
 	(wire
 		(pts
@@ -3943,7 +3988,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 132.08) (xy 354.33 132.08)
+			(xy 316.23 132.08) (xy 354.33 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3953,7 +3998,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 175.26) (xy 321.31 137.16)
+			(xy 318.77 175.26) (xy 318.77 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4063,7 +4108,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 142.24) (xy 356.87 142.24)
+			(xy 321.31 142.24) (xy 356.87 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4653,7 +4698,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 175.26) (xy 321.31 175.26)
+			(xy 307.34 175.26) (xy 318.77 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4883,7 +4928,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 177.8) (xy 325.12 142.24)
+			(xy 321.31 177.8) (xy 321.31 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5013,7 +5058,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 177.8) (xy 325.12 177.8)
+			(xy 307.34 177.8) (xy 321.31 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5163,6 +5208,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 90.17) (xy 58.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b482fe65-ee0b-4857-bcf9-7965538df330")
+	)
+	(wire
+		(pts
 			(xy 39.37 208.28) (xy 50.8 208.28)
 		)
 		(stroke
@@ -5243,7 +5298,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 172.72) (xy 317.5 172.72)
+			(xy 307.34 172.72) (xy 316.23 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5283,7 +5338,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 137.16) (xy 356.87 137.16)
+			(xy 318.77 137.16) (xy 356.87 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5643,7 +5698,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 172.72) (xy 317.5 132.08)
+			(xy 316.23 172.72) (xy 316.23 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5651,8 +5706,18 @@
 		)
 		(uuid "ff8c75aa-1dc3-4122-a853-4cb048c22c43")
 	)
+	(label "THERM+"
+		(at 379.73 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02bbe76d-9c3f-406b-924b-b5be4e763138")
+	)
 	(label "TEC_ENABLE"
-		(at 375.92 147.32 0)
+		(at 374.65 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5732,7 +5797,7 @@
 		(uuid "9dab81f2-b029-42fa-a0d6-e688896b3045")
 	)
 	(label "SPI1_MISO"
-		(at 377.19 162.56 0)
+		(at 375.92 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5782,7 +5847,7 @@
 		(uuid "c84dcc40-c3b0-41d9-8706-befd0bbf66b1")
 	)
 	(label "SPI1_MOSI"
-		(at 377.19 172.72 0)
+		(at 375.92 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6121,6 +6186,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 58.42 95.25 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f927487-8d6d-4105-82f0-0045ffa8a4e8")
+		(property "Reference" "C56"
+			(at 65.024 94.996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10u"
+			(at 65.024 97.028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-passives:0805-B-NOSILK"
+			(at 58.42 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7851/1276_CL21B1.pdf"
+			(at 58.42 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 58.42 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 58.42 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "1276-CL21B106KAYQNNETR-ND"
+			(at 58.42 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Samsung Electro-Mechanics"
+			(at 58.42 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21B106KAYQNNE"
+			(at 58.42 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6bd4f6f-b15a-43a2-8118-371f08644cfe")
+		)
+		(pin "2"
+			(uuid "236673e1-ea68-433b-bbf6-d1f9b639758d")
+		)
+		(instances
+			(project "cfc-processor"
+				(path "/07ac832f-8d98-4777-b655-1877592dfd88"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "Fiducial_4")
 		(lib_id "Mechanical:Fiducial")
 		(at 406.4 250.19 0)
@@ -6269,125 +6460,6 @@
 			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88"
 					(reference "FID1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cfc-card-eagle-import:ORESAT-CARD-V1.3-GENERIC-0RF")
-		(at 16.51 248.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9ee21d78-eb90-4161-9e8b-b39a032cf621")
-		(property "Reference" "PCB1"
-			(at 16.51 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ORESAT-CARD-V1.3-GENERIC-0RF"
-			(at 16.51 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "cfc-card:ORESAT-CARD-V1.3-GENERIC-0RF"
-			(at 16.51 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "N/A"
-			(at 16.51 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N/A"
-			(at 16.51 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIS" "N/A"
-			(at 16.51 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DPN" "N/A"
-			(at 16.51 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" "N/A"
-			(at 16.51 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "N/A"
-			(at 16.51 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88"
-					(reference "PCB1")
 					(unit 1)
 				)
 			)

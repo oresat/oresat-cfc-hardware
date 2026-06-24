@@ -1135,7 +1135,7 @@
         "uuid": "07ac832f-8d98-4777-b655-1877592dfd88"
       }
     ],
-    "used_designators": "TP1-82,L1,JP1,FID1-6,Y1-2,PCB1,D1-8,U1-13,FB1,C1-51,#GND1-65,#VPD1-5,#VBUSP1-2,Q1-6,#VBUS1-2,#SUPPLY1-2,RA1-5,#1.8V\\-A1,R1-62,#3V\\-1-13,J1-6,#3.3VA1,#3.3V1-7",
+    "used_designators": "#PWR17-18,TP1-83,L1,J1-6,JP1,FID1-6,Y1-2,PCB1,#3.3V1-7,D1-8,U1-13,#3.3VA1,#1.8V\\-A1,FB1,C1-56,#GND1-65,#VPD1-5,#VBUSP1-2,Q1-6,#VBUS1-2,#SUPPLY1-2,RA1-5,R1-63,#3V\\-1-14",
     "variants": []
   },
   "sheets": [
