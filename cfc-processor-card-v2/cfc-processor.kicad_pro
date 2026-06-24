@@ -481,6 +481,10 @@
         ""
       ],
       [
+        "multiple_net_names|3048000|1917700|cddb0e47-ef7a-4ee6-a1dc-5579611177b9|be08a461-bb2e-497a-a281-86f2814c668d|/07ac832f-8d98-4777-b655-1877592dfd88/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a|/07ac832f-8d98-4777-b655-1877592dfd88/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a|/07ac832f-8d98-4777-b655-1877592dfd88/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a",
+        ""
+      ],
+      [
         "pin_to_pin|1828800|1041400|f3c63cc8-46a0-4d3b-8924-d6fd8cb4eb38|6f3e4304-87ca-458f-a8f7-3484a4e54382|/07ac832f-8d98-4777-b655-1877592dfd88/4dfcc501-0eda-4ce5-917f-0383558d98a1|/07ac832f-8d98-4777-b655-1877592dfd88/4dfcc501-0eda-4ce5-917f-0383558d98a1|/07ac832f-8d98-4777-b655-1877592dfd88/4dfcc501-0eda-4ce5-917f-0383558d98a1",
         ""
       ],
@@ -1135,7 +1139,7 @@
         "uuid": "07ac832f-8d98-4777-b655-1877592dfd88"
       }
     ],
-    "used_designators": "#PWR17-18,TP1-83,L1,J1-6,JP1,FID1-6,Y1-2,PCB1,#3.3V1-7,D1-8,U1-13,#3.3VA1,#1.8V\\-A1,FB1,C1-56,#GND1-65,#VPD1-5,#VBUSP1-2,Q1-6,#VBUS1-2,#SUPPLY1-2,RA1-5,R1-63,#3V\\-1-14",
+    "used_designators": "#1.8V\\-A2",
     "variants": []
   },
   "sheets": [
@@ -1164,12 +1168,12 @@
       "OSD3358: SIP D (BOOT)"
     ],
     [
-      "fa749d49-011a-4aaa-ad4d-f74224eb48bd",
-      "Deserializer"
-    ],
-    [
       "225b75c4-e7f5-44a2-a11f-d224264ec6da",
       "OSD3558: SIP E + F"
+    ],
+    [
+      "fa749d49-011a-4aaa-ad4d-f74224eb48bd",
+      "Deserializer"
     ]
   ],
   "text_variables": {},

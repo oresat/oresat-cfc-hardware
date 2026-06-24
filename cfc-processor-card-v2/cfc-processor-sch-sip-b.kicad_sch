@@ -888,136 +888,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Oresat Misc:Test-Point-1mm-round"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1mm round SMT test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Test-Point-1mm-round_1_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "cfc-card-eagle-import:1.8V-A"
 			(power global)
 			(exclude_from_sim no)
@@ -1244,6 +1114,1113 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cfc-card-eagle-import:EXB-A10P391JC_ARRAY_EXBA-M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -17.8308 5.1308 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -17.6784 2.5908 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "cfc-card:ARRAY_EXBA-M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "EXB-A10P391JC_ARRAY_EXBA-M_1_0"
+				(polyline
+					(pts
+						(xy -10.16 0) (xy -9.398 1.2446)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -5.08) (xy -9.398 -3.8354)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -10.16) (xy -9.398 -8.9408)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -15.24) (xy -9.398 -13.97)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -9.525 -11.43) (xy -10.16 -12.7)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -9.525 -16.51) (xy -10.16 -17.78)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -9.4996 -1.2954) (xy -10.16 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -9.4742 -6.3246) (xy -10.16 -7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -9.398 1.2446) (xy -8.128 -1.2954)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -9.398 -3.8354) (xy -8.128 -6.3754)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -9.398 -8.9408) (xy -8.128 -11.4808)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -9.398 -13.97) (xy -8.128 -16.51)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.255 -13.97) (xy -9.525 -11.43)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.255 -19.05) (xy -9.525 -16.51)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.2296 -3.8354) (xy -9.4996 -1.2954)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.2042 -8.8646) (xy -9.4742 -6.3246)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.128 -1.2954) (xy -6.858 1.2446)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.128 -6.3754) (xy -6.858 -3.8354)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.128 -11.4808) (xy -6.858 -8.9408)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.128 -16.51) (xy -6.858 -13.97)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 -11.43) (xy -8.255 -13.97)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 -16.51) (xy -8.255 -19.05)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.9596 -1.2954) (xy -8.2296 -3.8354)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.9342 -6.3246) (xy -8.2042 -8.8646)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.858 1.2446) (xy -5.588 -1.2954)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.858 -3.8354) (xy -5.588 -6.3754)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.858 -8.9408) (xy -5.588 -11.4808)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.858 -13.97) (xy -5.588 -16.51)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 -13.97) (xy -6.985 -11.43)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 -19.05) (xy -6.985 -16.51)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.6896 -3.8354) (xy -6.9596 -1.2954)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.6642 -8.8646) (xy -6.9342 -6.3246)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.588 -1.2954) (xy -4.318 1.2446)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.588 -6.3754) (xy -4.318 -3.8354)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.588 -11.4808) (xy -4.318 -8.9408)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.588 -16.51) (xy -4.318 -13.97)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -11.43) (xy -5.715 -13.97)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -16.51) (xy -5.715 -19.05)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.4196 -1.2954) (xy -5.6896 -3.8354)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.3942 -6.3246) (xy -5.6642 -8.8646)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 1.2446) (xy -3.048 -1.2954)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 -3.8354) (xy -3.048 -6.3754)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 -8.9408) (xy -3.048 -11.4808)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 -13.97) (xy -3.048 -16.51)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -13.97) (xy -4.445 -11.43)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -19.05) (xy -4.445 -16.51)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.1496 -3.8354) (xy -4.4196 -1.2954)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.1242 -8.8646) (xy -4.3942 -6.3246)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -1.2954) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -6.3754) (xy -2.413 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -11.4808) (xy -2.413 -10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -16.51) (xy -2.413 -15.24)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -7.62) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -10.16) (xy 0 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -12.7) (xy -3.175 -13.97)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -12.7) (xy 0 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -15.24) (xy 0 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -17.78) (xy -3.175 -19.05)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -17.78) (xy 0 -17.78)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.413 -2.54) (xy -3.1496 -3.8354)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.413 -7.62) (xy -3.1242 -8.8646)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 0 -10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 0 -12.7)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -12.7) (xy 0 -15.24)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -15.24) (xy 0 -17.78)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "22"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "33"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "44"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -10.16 180)
+					(length 2.54)
+					(name "55"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -17.78 0)
+					(length 2.54)
+					(name "66"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "77"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "88"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "99"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -10.16 180)
+					(length 2.54)
+					(name "55"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 0 0)
@@ -7929,6 +8906,17 @@
 		)
 		(uuid "159c7dcf-8bfc-4c04-be5d-069093577a17")
 	)
+	(text "IN/OUT"
+		(exclude_from_sim no)
+		(at 247.65 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d4b14c8-8cbf-4874-8c75-6ebbdd9633b8")
+	)
 	(text "<-- To Connectors Sheet"
 		(exclude_from_sim no)
 		(at 52.07 182.118 0)
@@ -7939,6 +8927,17 @@
 			(justify left bottom)
 		)
 		(uuid "2533b585-9370-49fd-85c0-e6e0d7f03757")
+	)
+	(text "IN"
+		(exclude_from_sim no)
+		(at 247.65 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f2cd34f-372e-4669-8a57-65b5b1f581ad")
 	)
 	(text "USB ID grounded to make host circuit"
 		(exclude_from_sim no)
@@ -7961,6 +8960,28 @@
 			(justify left bottom)
 		)
 		(uuid "60bc7e36-a7cf-4a35-901d-94669c121105")
+	)
+	(text "IN/OUT"
+		(exclude_from_sim no)
+		(at 247.65 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "611256ad-cff2-45a1-b97e-d0d4a6aeeb6f")
+	)
+	(text "IN/OUT"
+		(exclude_from_sim no)
+		(at 247.65 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64244120-d221-406e-b6f3-15cc37513611")
 	)
 	(text "ADC VREFP tied to 1.8V and VREFN\ntied to GND. Analog inputs must be\nbetween 0V-1.8V"
 		(exclude_from_sim no)
@@ -8017,6 +9038,39 @@
 		)
 		(uuid "961b53e9-6302-480f-aa32-1c3f07035eda")
 	)
+	(text "IN/OUT"
+		(exclude_from_sim no)
+		(at 247.65 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99bf2e0d-e0af-44fe-b06e-fb72e0ea4085")
+	)
+	(text "IN/OUT"
+		(exclude_from_sim no)
+		(at 247.65 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99cb5aeb-650a-44e0-b714-4fb31d084c05")
+	)
+	(text "IN"
+		(exclude_from_sim no)
+		(at 247.65 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abced46c-7c84-4b45-96dd-8ee3fb273d18")
+	)
 	(text "ESD Protection for USB lines"
 		(exclude_from_sim no)
 		(at 113.03 188.468 0)
@@ -8052,7 +9106,7 @@
 	)
 	(text "ALL ADC INPUTS MUST\nBE <= 1.8V MAXIMUM"
 		(exclude_from_sim no)
-		(at 252.73 135.89 0)
+		(at 252.222 114.808 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8062,6 +9116,17 @@
 			(justify left bottom)
 		)
 		(uuid "f9ae7e93-64ef-4f34-9cc9-85e1cf62e794")
+	)
+	(text "IN"
+		(exclude_from_sim no)
+		(at 247.65 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb5ea017-5001-4357-95d2-ca586d01990f")
 	)
 	(text "32 KHz"
 		(exclude_from_sim no)
@@ -8170,12 +9235,6 @@
 		(uuid "92a5519e-6727-490d-8366-c939e51540ee")
 	)
 	(junction
-		(at 313.69 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "940589cd-dd6e-421c-83c8-0a37af07ff1b")
-	)
-	(junction
 		(at 127 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8206,12 +9265,6 @@
 		(uuid "ceb0f6c0-6058-4955-8d00-7295510636da")
 	)
 	(junction
-		(at 257.81 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2d0d7b5-6ea1-4108-9fae-f243cd001241")
-	)
-	(junction
 		(at 140.97 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8224,24 +9277,64 @@
 		(uuid "f01e403f-4556-4e25-880c-c2d98bda424c")
 	)
 	(no_connect
-		(at 245.11 133.35)
-		(uuid "19b907c2-8038-4e65-83c7-a15a52eebb45")
+		(at 184.15 168.91)
+		(uuid "12351f6e-62da-431f-822a-7f75e0543b92")
 	)
 	(no_connect
-		(at 245.11 135.89)
-		(uuid "bb6d5e1b-0501-463b-81fd-6f9fe3adc1ea")
+		(at 245.11 158.75)
+		(uuid "23d04b27-a9e5-4197-82ad-39d182653e00")
+	)
+	(no_connect
+		(at 184.15 135.89)
+		(uuid "47f43f58-faa1-456a-8b69-8c74c6066380")
+	)
+	(no_connect
+		(at 245.11 148.59)
+		(uuid "4f58fa99-ac85-4339-a50e-edc3854b06d5")
+	)
+	(no_connect
+		(at 184.15 138.43)
+		(uuid "81154aba-20fe-4126-834c-4845b914baaf")
+	)
+	(no_connect
+		(at 245.11 168.91)
+		(uuid "869f7cdf-840b-408c-9927-7424122dbdf5")
+	)
+	(no_connect
+		(at 184.15 140.97)
+		(uuid "9037bf99-9014-45a3-a887-8a0288e2867f")
+	)
+	(no_connect
+		(at 245.11 161.29)
+		(uuid "935a9501-5942-4b7a-be2e-d9c5d0955f62")
+	)
+	(no_connect
+		(at 245.11 163.83)
+		(uuid "a98425f1-d2cb-4f39-bd38-7be0e9685c8b")
+	)
+	(no_connect
+		(at 295.91 142.24)
+		(uuid "c9f3a4c4-cf54-48e8-9a74-134a54207b33")
+	)
+	(no_connect
+		(at 184.15 171.45)
+		(uuid "cd4ec691-6d95-4f60-a884-2f2bcd902235")
+	)
+	(no_connect
+		(at 184.15 166.37)
+		(uuid "d8f87115-1965-4a76-9db4-b1f2d0c8e9c5")
+	)
+	(no_connect
+		(at 184.15 133.35)
+		(uuid "da83b0a6-6451-4b2a-bbbc-f21e63277f77")
 	)
 	(no_connect
 		(at 116.84 214.63)
 		(uuid "e7ff38a6-b503-4b51-b7eb-b4eea1358dc0")
 	)
 	(no_connect
-		(at 245.11 130.81)
-		(uuid "f3da7d53-90c5-4a20-b28d-83d407346ef0")
-	)
-	(no_connect
-		(at 245.11 138.43)
-		(uuid "f701d87c-1b61-4ba0-b8b3-a580e1068c1f")
+		(at 245.11 171.45)
+		(uuid "f511a8ef-a6af-4ec8-b69c-4abc78a06af5")
 	)
 	(wire
 		(pts
@@ -8305,6 +9398,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 142.24) (xy 311.15 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc549c9-e50d-4402-95f3-1667b9c50a07")
+	)
+	(wire
+		(pts
 			(xy 165.1 139.7) (xy 165.1 146.05)
 		)
 		(stroke
@@ -8322,6 +9425,16 @@
 			(type default)
 		)
 		(uuid "0e5edca9-1c64-4d77-bc62-d6a13441115c")
+	)
+	(wire
+		(pts
+			(xy 245.11 130.81) (xy 293.37 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "100e60e9-cde5-48eb-9602-8f984a9176e7")
 	)
 	(wire
 		(pts
@@ -8375,16 +9488,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 140.97) (xy 181.61 140.97)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1db88886-e383-45a4-8e8b-d902615a15a7")
-	)
-	(wire
-		(pts
 			(xy 265.43 166.37) (xy 245.11 166.37)
 		)
 		(stroke
@@ -8405,16 +9508,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 123.19) (xy 245.11 123.19)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "21c9142a-11dc-4707-9b35-9227f7a62ff1")
-	)
-	(wire
-		(pts
 			(xy 83.82 172.72) (xy 92.71 172.72)
 		)
 		(stroke
@@ -8422,6 +9515,26 @@
 			(type solid)
 		)
 		(uuid "23b0bb0a-bae8-42fd-9e06-16d8d96bf638")
+	)
+	(wire
+		(pts
+			(xy 300.99 120.65) (xy 300.99 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "266408f7-6fe5-4ac4-b596-a01bfb78c1ee")
+	)
+	(wire
+		(pts
+			(xy 245.11 138.43) (xy 250.19 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27be359b-de47-418b-b001-f4529d6fb8fe")
 	)
 	(wire
 		(pts
@@ -8445,16 +9558,6 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 80.01) (xy 313.69 88.9)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2b38333c-c3f9-48a2-8a6c-a8f5165966e3")
-	)
-	(wire
-		(pts
 			(xy 121.92 123.19) (xy 184.15 123.19)
 		)
 		(stroke
@@ -8462,16 +9565,6 @@
 			(type solid)
 		)
 		(uuid "2db5e907-c6fc-4580-9ca6-35997e581a4e")
-	)
-	(wire
-		(pts
-			(xy 181.61 138.43) (xy 184.15 138.43)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "30d8e44d-e11b-4800-a407-29538d8dbed1")
 	)
 	(wire
 		(pts
@@ -8495,6 +9588,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 157.48) (xy 300.99 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c3c549-b5e8-477a-b721-5c5e15d14dba")
+	)
+	(wire
+		(pts
 			(xy 144.78 102.87) (xy 158.75 102.87)
 		)
 		(stroke
@@ -8512,16 +9615,6 @@
 			(type solid)
 		)
 		(uuid "36b3ec10-3518-4260-b56d-e098af64e31a")
-	)
-	(wire
-		(pts
-			(xy 181.61 166.37) (xy 184.15 166.37)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3a7d045f-0d07-4fca-9b45-8e940d26935c")
 	)
 	(wire
 		(pts
@@ -8575,16 +9668,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 158.75) (xy 247.65 158.75)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "47057825-5fde-4069-ae4f-fb96b1f8df87")
-	)
-	(wire
-		(pts
 			(xy 153.67 74.93) (xy 153.67 72.39)
 		)
 		(stroke
@@ -8602,6 +9685,16 @@
 			(type solid)
 		)
 		(uuid "47c29b8d-7e34-4373-812f-9c9bf3df926a")
+	)
+	(wire
+		(pts
+			(xy 250.19 138.43) (xy 250.19 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b41350-e37a-4a1b-9382-93769f15c1ad")
 	)
 	(wire
 		(pts
@@ -8635,23 +9728,13 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 125.73) (xy 245.11 125.73)
+			(xy 298.45 128.27) (xy 298.45 142.24)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "55d85b0d-5cc0-401d-9d15-f36f85a6873a")
-	)
-	(wire
-		(pts
-			(xy 184.15 171.45) (xy 181.61 171.45)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "59b975c6-c10c-4e7e-914e-887f68cbb00d")
+		(uuid "5d073103-9a9c-4c4a-9fd6-f71526d2e8f1")
 	)
 	(wire
 		(pts
@@ -8715,6 +9798,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 123.19) (xy 306.07 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d3e251-8efd-4882-9e00-b1b8e241f23e")
+	)
+	(wire
+		(pts
 			(xy 158.75 105.41) (xy 158.75 107.95)
 		)
 		(stroke
@@ -8725,23 +9818,13 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 80.01) (xy 257.81 80.01)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7ca21c50-3595-447a-9a3d-1bd24a6f904d")
-	)
-	(wire
-		(pts
-			(xy 313.69 96.52) (xy 313.69 100.33)
+			(xy 303.53 125.73) (xy 303.53 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fd5b409-af2c-4a4c-8ec4-dd535c199ed7")
+		(uuid "7fbe2e33-87ce-422b-b602-58e7d9333530")
 	)
 	(wire
 		(pts
@@ -8805,16 +9888,6 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 101.6) (xy 313.69 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88d47b3a-df0c-488f-87ff-72fabdfb11d4")
-	)
-	(wire
-		(pts
 			(xy 128.27 118.11) (xy 130.81 118.11)
 		)
 		(stroke
@@ -8832,6 +9905,16 @@
 			(type default)
 		)
 		(uuid "89599c51-71fe-4314-8c00-2a4e21323c17")
+	)
+	(wire
+		(pts
+			(xy 308.61 133.35) (xy 245.11 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b23791-7f33-4895-854b-ccb8d53a69d5")
 	)
 	(wire
 		(pts
@@ -8855,16 +9938,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 168.91) (xy 247.65 168.91)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8cdd2af5-97f3-4fbc-9c5d-84d4eec8bcb8")
-	)
-	(wire
-		(pts
 			(xy 121.92 102.87) (xy 121.92 118.11)
 		)
 		(stroke
@@ -8872,6 +9945,16 @@
 			(type solid)
 		)
 		(uuid "8e4c976c-5c9f-4063-a3ba-69d3e582617a")
+	)
+	(wire
+		(pts
+			(xy 245.11 125.73) (xy 303.53 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f81da19-73ce-4692-903b-a126db5545d4")
 	)
 	(wire
 		(pts
@@ -8902,16 +9985,6 @@
 			(type solid)
 		)
 		(uuid "978b986b-88bb-4977-b0d6-e2444030a005")
-	)
-	(wire
-		(pts
-			(xy 181.61 168.91) (xy 184.15 168.91)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9ede1b60-e95a-482e-b8fb-a7e9ce3aa097")
 	)
 	(wire
 		(pts
@@ -8975,6 +10048,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 133.35) (xy 308.61 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6618fa-b05a-4f4c-9e5e-9d24f67948c9")
+	)
+	(wire
+		(pts
 			(xy 123.19 72.39) (xy 121.92 72.39)
 		)
 		(stroke
@@ -9005,6 +10088,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 143.51) (xy 250.19 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b733a966-b9dd-4574-be12-6fbbde776d32")
+	)
+	(wire
+		(pts
 			(xy 92.71 209.55) (xy 92.71 172.72)
 		)
 		(stroke
@@ -9012,16 +10105,6 @@
 			(type solid)
 		)
 		(uuid "b76b5137-8059-4f54-8411-ea3893fdbf0e")
-	)
-	(wire
-		(pts
-			(xy 342.9 100.33) (xy 313.69 100.33)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bbc37eb9-d46d-49a3-bab7-0ffafbe17448")
 	)
 	(wire
 		(pts
@@ -9065,16 +10148,6 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 88.9) (xy 313.69 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c01fb0ef-f679-4ce2-8170-c04bb41aea0d")
-	)
-	(wire
-		(pts
 			(xy 247.65 110.49) (xy 245.11 110.49)
 		)
 		(stroke
@@ -9105,16 +10178,6 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 106.68) (xy 313.69 110.49)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c3430d56-b6b2-4ddd-8d8c-7cab3343d93c")
-	)
-	(wire
-		(pts
 			(xy 128.27 102.87) (xy 130.81 102.87)
 		)
 		(stroke
@@ -9125,26 +10188,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 163.83) (xy 247.65 163.83)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c67a52da-ac6c-4a48-ad38-65927cab4aa9")
-	)
-	(wire
-		(pts
-			(xy 245.11 161.29) (xy 247.65 161.29)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c6a57025-ff1a-422a-9134-618a3d62f642")
-	)
-	(wire
-		(pts
 			(xy 90.17 170.18) (xy 86.36 170.18)
 		)
 		(stroke
@@ -9152,26 +10195,6 @@
 			(type solid)
 		)
 		(uuid "c722f3da-c8fe-48f4-ab35-ccbc897a667a")
-	)
-	(wire
-		(pts
-			(xy 247.65 128.27) (xy 245.11 128.27)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cad98cbb-f077-4dfd-920b-9b82fa3cb2cb")
-	)
-	(wire
-		(pts
-			(xy 245.11 143.51) (xy 247.65 143.51)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cc242416-d001-4382-be52-1857938d6e68")
 	)
 	(wire
 		(pts
@@ -9195,16 +10218,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 171.45) (xy 245.11 171.45)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d0f3ffcb-49cc-4f74-8c32-67f92c8e51af")
-	)
-	(wire
-		(pts
 			(xy 121.92 92.71) (xy 121.92 87.63)
 		)
 		(stroke
@@ -9215,6 +10228,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 130.81) (xy 293.37 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4fe6a93-d65e-4353-8cf9-a3387b9c8357")
+	)
+	(wire
+		(pts
 			(xy 123.19 87.63) (xy 121.92 87.63)
 		)
 		(stroke
@@ -9222,16 +10245,6 @@
 			(type solid)
 		)
 		(uuid "d5007281-37f9-46ee-80e2-7268ed468194")
-	)
-	(wire
-		(pts
-			(xy 184.15 135.89) (xy 181.61 135.89)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d9c13eff-ba41-4778-be50-c01857f8273d")
 	)
 	(wire
 		(pts
@@ -9255,16 +10268,6 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 120.65) (xy 295.91 100.33)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "dd73509d-99a2-4e66-a7a4-9f9c7c05101e")
-	)
-	(wire
-		(pts
 			(xy 247.65 92.71) (xy 247.65 100.33)
 		)
 		(stroke
@@ -9272,26 +10275,6 @@
 			(type solid)
 		)
 		(uuid "ddd2ab4c-e613-4114-a299-54b5cba6d393")
-	)
-	(wire
-		(pts
-			(xy 245.11 148.59) (xy 247.65 148.59)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ddec5976-777a-4768-a21b-b72a7ae713ca")
-	)
-	(wire
-		(pts
-			(xy 295.91 100.33) (xy 313.69 100.33)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "deb0125f-2783-4e1f-a8ce-ff306e7e7b3c")
 	)
 	(wire
 		(pts
@@ -9305,6 +10288,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 135.89) (xy 311.15 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee437cc-46c1-48b8-93e1-46d918071f6b")
+	)
+	(wire
+		(pts
 			(xy 184.15 158.75) (xy 140.97 158.75)
 		)
 		(stroke
@@ -9312,16 +10305,6 @@
 			(type solid)
 		)
 		(uuid "def50ce8-eae2-4886-a027-6083d72f35ae")
-	)
-	(wire
-		(pts
-			(xy 181.61 133.35) (xy 184.15 133.35)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "df17c601-7c0f-4b6b-b4ce-6c3fbbe4fab8")
 	)
 	(polyline
 		(pts
@@ -9375,13 +10358,13 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 120.65) (xy 295.91 120.65)
+			(xy 245.11 128.27) (xy 298.45 128.27)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "e92de05b-6863-49a5-9965-14ac1b46269b")
+		(uuid "e8bb7c0b-925d-43ba-878b-5782c2a9310e")
 	)
 	(wire
 		(pts
@@ -9402,6 +10385,16 @@
 			(type solid)
 		)
 		(uuid "ea67cfc3-dd5d-41dd-a22c-5e96e18612b7")
+	)
+	(wire
+		(pts
+			(xy 245.11 120.65) (xy 300.99 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb500618-e9a1-4f5f-bf7b-9f733ce04b76")
 	)
 	(wire
 		(pts
@@ -9462,6 +10455,16 @@
 			(type default)
 		)
 		(uuid "f2afeafc-5ab4-47ea-b123-35fae61ffc8c")
+	)
+	(wire
+		(pts
+			(xy 306.07 142.24) (xy 306.07 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b39562-c55d-4e96-b28a-52451aa2ad23")
 	)
 	(wire
 		(pts
@@ -9566,175 +10569,6 @@
 			(justify right)
 		)
 		(uuid "ae918422-49a7-48a7-a2e9-8a7cbd51b11e")
-	)
-	(hierarchical_label "THERM+"
-		(shape bidirectional)
-		(at 342.9 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ddd4c797-232f-4494-b037-491807353ee5")
-	)
-	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 181.61 138.43 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00075196-79e8-406a-871b-9033476dd840")
-		(property "Reference" "TP41"
-			(at 177.038 137.668 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 184.15 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 181.61 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 181.61 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e0b59b6e-0f40-46bf-8432-94f5f237cc66")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "TP41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 247.65 161.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "048c9087-f9b0-41c9-a9d3-a3291b52bb46")
-		(property "Reference" "TP52"
-			(at 252.222 162.052 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 245.11 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 247.65 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 247.65 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55891de3-6744-458a-90b1-c3bc7767f961")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "TP52")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -9856,164 +10690,6 @@
 			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
 					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 181.61 166.37 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "15f5e5b4-865d-4de6-81b0-61bf0fd0ad7d")
-		(property "Reference" "TP43"
-			(at 177.038 165.608 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 184.15 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 181.61 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 181.61 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9770359f-562c-4fe2-b6b2-30d4ba67915b")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "TP43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 247.65 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1b4342ea-dab2-40c2-a918-9b9fc5a7fe5d")
-		(property "Reference" "TP51"
-			(at 252.222 159.512 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 245.11 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 247.65 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 247.65 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7bd1db4c-5acb-4448-9d56-710160b0d29b")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "TP51")
 					(unit 1)
 				)
 			)
@@ -10270,242 +10946,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 247.65 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2b9af879-d6e4-47a0-8905-afda4d18528a")
-		(property "Reference" "TP47"
-			(at 252.222 126.492 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 245.11 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 247.65 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 247.65 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "50fe4e6a-2c86-416f-aaf0-a0287e50c71c")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "TP47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 313.69 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "36b5473b-4173-4b80-8f42-e7a45c271d75")
-		(property "Reference" "#GND044"
-			(at 313.69 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 313.69 116.078 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 313.69 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 313.69 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 313.69 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "47e99ba7-7b4d-45ba-890f-b593a2217ccf")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "#GND044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 247.65 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "381d3b87-bcfe-4de1-b65c-52db20d89ad6")
-		(property "Reference" "TP55"
-			(at 252.222 172.212 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 245.11 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 247.65 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 247.65 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef3fab49-0e0c-44cf-8985-676b135d64d4")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "TP55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 127 224.79 0)
 		(unit 1)
@@ -10584,85 +11024,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 247.65 123.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3e86cd19-0579-419f-9a05-64232e4bc72f")
-		(property "Reference" "TP46"
-			(at 252.222 123.952 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 245.11 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 247.65 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 247.65 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ee5ef77-6245-4519-a36e-e705d8867c0c")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "TP46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "cfc-card-eagle-import:1.8V-A")
 		(at 257.81 74.93 0)
 		(unit 1)
@@ -10735,85 +11096,6 @@
 			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
 					(reference "#1.8V-A01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 247.65 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4a6a329e-4a2e-480c-bc9b-083761849768")
-		(property "Reference" "TP50"
-			(at 252.222 149.352 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 245.11 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 247.65 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 247.65 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b104b968-6b74-4500-99d7-f1363b50c29e")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "TP50")
 					(unit 1)
 				)
 			)
@@ -11070,41 +11352,39 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 247.65 163.83 0)
+		(lib_id "power:GND")
+		(at 300.99 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5cc58ce9-e053-4c10-92ef-44f9a3095808")
-		(property "Reference" "TP53"
-			(at 252.222 164.592 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 245.11 166.37 0)
+		(uuid "7f253f84-22e3-43a9-af87-41735a2dad73")
+		(property "Reference" "#PWR050"
+			(at 300.99 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 247.65 153.67 0)
+		(property "Value" "GND"
+			(at 300.99 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.99 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11115,7 +11395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 163.83 0)
+			(at 300.99 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11125,87 +11405,8 @@
 				)
 			)
 		)
-		(property "Description" "1mm round SMT test point"
-			(at 247.65 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5227cf4-c5b3-463a-a0c9-a00603bd05f3")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "TP53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 247.65 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6cb615d7-cf9a-477f-acc6-43840160342d")
-		(property "Reference" "TP48"
-			(at 252.222 129.032 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 245.11 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 247.65 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 247.65 128.27 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 300.99 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11216,91 +11417,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cbea5ed0-e361-4932-86f1-2ebd973dce4a")
+			(uuid "bdad9f6a-0566-42b6-a428-77546e27c8b0")
 		)
 		(instances
 			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "TP48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 181.61 140.97 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "76f8ce0f-fefd-4185-8103-a391367fe2f3")
-		(property "Reference" "TP42"
-			(at 177.038 140.208 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 184.15 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 181.61 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 181.61 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5be69b15-31b6-46a7-8781-1a9e1c36a25a")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "TP42")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -11464,85 +11586,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 181.61 168.91 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "927112e0-5fb1-4c5b-a551-43195e4b1472")
-		(property "Reference" "TP44"
-			(at 177.038 168.148 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 184.15 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 181.61 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 181.61 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "90cbd55b-3401-4420-b40d-814414b8f2d1")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "TP44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Oresat Misc:Test-Point-0.75mm-th")
 		(at 86.36 170.18 180)
 		(unit 1)
@@ -11615,289 +11658,6 @@
 			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
 					(reference "TP83")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 181.61 135.89 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9c6a2d3c-90cf-4f80-a32a-09085cc0233b")
-		(property "Reference" "TP40"
-			(at 177.038 135.128 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 184.15 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 181.61 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 181.61 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "319fb0ee-9360-4088-8bd6-5ca6b7d64e84")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "TP40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 181.61 133.35 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9cfb228c-5edc-4bc3-a663-5bd7cbe0db83")
-		(property "Reference" "TP39"
-			(at 177.038 132.588 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 184.15 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 181.61 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 181.61 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b3e8eba0-824c-4d2f-8883-3ac95bb8dd78")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "TP39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 313.69 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a3320a7d-4e9f-4536-be68-c8c0c857d0ca")
-		(property "Reference" "C22"
-			(at 315.214 103.759 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100n"
-			(at 315.214 108.839 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 313.69 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
-			(at 313.69 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 313.69 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIS" "DigiKey"
-			(at 313.69 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DPN" "587-3472-1-ND"
-			(at 313.69 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" "Taiyo Yuden"
-			(at 313.69 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TMK107BJ104KAHT"
-			(at 313.69 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5ae70b64-cd05-4e21-a9f6-66557892c415")
-		)
-		(pin "2"
-			(uuid "138f204d-ead6-409e-92c7-959a4f142588")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -12706,85 +12466,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 247.65 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c6e1c4d0-3193-42aa-8281-f18a27a0d519")
-		(property "Reference" "TP54"
-			(at 252.222 169.672 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 245.11 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 247.65 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 247.65 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bae1ada1-1a63-4c16-81bc-cc69cab88166")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "TP54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 125.73 72.39 90)
 		(unit 1)
@@ -13160,87 +12841,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 247.65 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dc145b55-8f45-49ad-9505-321ef09af0d5")
-		(property "Reference" "TP49"
-			(at 252.222 144.272 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 245.11 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 247.65 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 247.65 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c23f510a-e3ac-43e3-acb3-806daf47a44f")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "TP49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 313.69 93.98 180)
+		(lib_id "cfc-card-eagle-import:EXB-A10P391JC_ARRAY_EXBA-M")
+		(at 311.15 154.94 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13248,31 +12850,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e024ad19-aab9-440d-86e2-a170045f8aab")
-		(property "Reference" "R53"
-			(at 319.532 96.774 0)
+		(uuid "e16853f4-0780-480c-8a34-99446b89be4f")
+		(property "Reference" "R64"
+			(at 304.6476 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10k"
-			(at 319.532 90.424 0)
+		(property "Value" "47K Array"
+			(at 304.8 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 313.69 93.98 0)
+		(property "Footprint" "cfc-card:ARRAY_EXBA-M"
+			(at 311.15 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13282,8 +12884,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 313.69 93.98 0)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 311.15 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13293,8 +12895,31 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 313.69 93.98 0)
+		(property "Description" "47k Ohm ±5% 62.5mW Power Per Element Bussed 8 Resistor Network/Array ±200ppm/°C 2512 (6432 Metric), Concave, Long Side Terminals"
+			(at 311.15 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "U7473CT-ND"
+			(at 311.15 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "EXB-A10P473J"
+			(at 311.15 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13305,7 +12930,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 313.69 93.98 0)
+			(at 311.15 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13315,30 +12940,8 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 313.69 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 313.69 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RMCF0603FT10K0"
-			(at 313.69 93.98 0)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 311.15 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13349,15 +12952,39 @@
 			)
 		)
 		(pin "1"
-			(uuid "335e4b5f-6f59-42a9-8ef8-e9ef9e0c1e90")
+			(uuid "18292477-6e0a-48f0-acf8-9f8a040e8f2b")
+		)
+		(pin "9"
+			(uuid "d42aa8de-e64b-493b-9176-4b2f1bcb7c45")
 		)
 		(pin "2"
-			(uuid "57a9f667-1a14-4613-b2ec-97703133c2f9")
+			(uuid "28be272f-843b-41a9-9a80-b8fbd7ecac9d")
+		)
+		(pin "8"
+			(uuid "2981504d-2559-48cd-a838-b59d3fee41b8")
+		)
+		(pin "3"
+			(uuid "85694ac4-ee30-45bd-be75-1b64cafd30fe")
+		)
+		(pin "7"
+			(uuid "e3c39e89-47e3-491b-aaca-34ffb0ee3567")
+		)
+		(pin "4"
+			(uuid "8e85062a-20f9-4e1e-930a-69d4e2f6eefa")
+		)
+		(pin "6"
+			(uuid "bb14838a-c0b8-4e5c-8c6a-37d52268de60")
+		)
+		(pin "10"
+			(uuid "91da500a-7d16-4ee5-8cdc-b146599ad5f7")
+		)
+		(pin "5"
+			(uuid "68ede257-912b-4775-b138-7badc6cf9958")
 		)
 		(instances
 			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "R53")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -13437,85 +13064,6 @@
 			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
 					(reference "#GND042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 181.61 171.45 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f656344b-3631-4353-abb4-3ef01ff5253f")
-		(property "Reference" "TP45"
-			(at 177.038 170.688 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 184.15 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 181.61 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 181.61 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7557cf89-dab3-4b69-bef1-363b6711489e")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "TP45")
 					(unit 1)
 				)
 			)
