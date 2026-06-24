@@ -89,3 +89,5 @@ oresat-symbols.bak
 # Exported BOM files
 *.xml
 *.csv
+cfc-processor-card-v2/.history/
+cfc-sensor-card-v2/.history/
