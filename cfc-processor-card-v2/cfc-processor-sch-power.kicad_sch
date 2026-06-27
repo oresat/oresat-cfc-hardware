@@ -905,101 +905,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Oresat Misc:Test-Point-0.75mm-th"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Value" "Test-Point"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Test-Point-0.75mm-th_1_0"
-				(pin passive line
-					(at 0 0 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Test-Point-0.75mm-th_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:Q_Dual_PMOS_G1S2G2D2S1D1"
 			(pin_names
 				(offset 0)
@@ -4265,6 +4170,101 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "oresat-misc:Test-Point-0.75mm-th"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Value" "Test-Point"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Test-Point-0.75mm-th_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Test-Point-0.75mm-th_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -9324,7 +9324,7 @@
 		)
 	)
 	(symbol
-		(lib_id "cfc-card-eagle-import:TEST-POINT")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 105.41 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -9356,8 +9356,8 @@
 				)
 			)
 		)
-		(property "Footprint" "cfc-card:2MM-TEST-POINT"
-			(at 105.41 132.08 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 105.41 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9378,7 +9378,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 105.41 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -9606,7 +9606,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-0.75mm-th")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 335.28 201.93 0)
 		(unit 1)
 		(body_style 1)
@@ -9842,7 +9842,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-0.75mm-th")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 358.14 189.23 0)
 		(unit 1)
 		(body_style 1)
@@ -10187,7 +10187,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-0.75mm-th")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 153.67 137.16 0)
 		(unit 1)
 		(body_style 1)
@@ -10519,7 +10519,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-0.75mm-th")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 398.78 40.64 0)
 		(unit 1)
 		(body_style 1)
@@ -10926,7 +10926,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-0.75mm-th")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 347.98 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -17778,7 +17778,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-0.75mm-th")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 153.67 132.08 90)
 		(unit 1)
 		(body_style 1)
@@ -17986,7 +17986,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-0.75mm-th")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 330.2 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -18268,7 +18268,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-0.75mm-th")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 317.5 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -18425,7 +18425,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-0.75mm-th")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 387.35 97.79 0)
 		(unit 1)
 		(body_style 1)
@@ -18790,7 +18790,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-0.75mm-th")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 153.67 121.92 90)
 		(unit 1)
 		(body_style 1)
@@ -18993,7 +18993,7 @@
 		)
 	)
 	(symbol
-		(lib_id "cfc-card-eagle-import:TEST-POINT")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 80.01 48.26 180)
 		(unit 1)
 		(body_style 1)
@@ -19025,8 +19025,8 @@
 				)
 			)
 		)
-		(property "Footprint" "cfc-card:2MM-TEST-POINT"
-			(at 80.01 48.26 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 80.01 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19047,7 +19047,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 80.01 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -19479,7 +19479,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-0.75mm-th")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 281.94 101.6 0)
 		(mirror y)
 		(unit 1)
@@ -19715,7 +19715,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-0.75mm-th")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 153.67 134.62 90)
 		(unit 1)
 		(body_style 1)
@@ -21634,7 +21634,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-0.75mm-th")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 153.67 119.38 90)
 		(unit 1)
 		(body_style 1)
@@ -22273,7 +22273,7 @@
 		)
 	)
 	(symbol
-		(lib_id "cfc-card-eagle-import:TEST-POINT")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 100.33 129.54 180)
 		(unit 1)
 		(body_style 1)
@@ -22305,8 +22305,8 @@
 				)
 			)
 		)
-		(property "Footprint" "cfc-card:2MM-TEST-POINT"
-			(at 100.33 129.54 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 100.33 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22327,7 +22327,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 100.33 129.54 0)
 			(hide yes)
 			(show_name no)

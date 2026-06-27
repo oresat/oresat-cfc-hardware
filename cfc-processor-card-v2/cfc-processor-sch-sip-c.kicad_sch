@@ -930,136 +930,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Oresat Misc:Test-Point-1mm-round"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1mm round SMT test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Test-Point-1mm-round_1_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "cfc-card-eagle-import:3.3V"
 			(power global)
 			(exclude_from_sim no)
@@ -12364,7 +12234,7 @@
 	)
 	(text "Need ~2.2uF here, but using two 1uF for simplicity"
 		(exclude_from_sim no)
-		(at 361.95 152.4 0)
+		(at 359.156 152.146 0)
 		(effects
 			(font
 				(size 1.27 1.0795)
@@ -12753,12 +12623,6 @@
 		(uuid "f286c6ba-a2d9-4f33-ab2d-a6dcee346bf1")
 	)
 	(junction
-		(at 114.3 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7b7c7ed-4d05-499d-a4eb-fbfac4eb2cdb")
-	)
-	(junction
 		(at 403.86 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12857,6 +12721,10 @@
 		(uuid "97e6cb13-a2dc-4f76-9b90-00f0b6f1a750")
 	)
 	(no_connect
+		(at 204.47 45.72)
+		(uuid "9d8ff120-4700-4372-9efc-337e8adb3e2b")
+	)
+	(no_connect
 		(at 248.92 182.88)
 		(uuid "a41e1c27-3ddb-4eb8-9cc5-8ec6ed01f711")
 	)
@@ -12875,6 +12743,10 @@
 	(no_connect
 		(at 187.96 124.46)
 		(uuid "af8466c5-236b-4ea1-a024-c5eb51f089d6")
+	)
+	(no_connect
+		(at 204.47 40.64)
+		(uuid "b004287a-dd73-4953-9b7b-72cd760dc1ec")
 	)
 	(no_connect
 		(at 322.58 144.78)
@@ -12920,7 +12792,7 @@
 	)
 	(polyline
 		(pts
-			(xy 370.84 149.86) (xy 370.84 142.24)
+			(xy 361.95 149.86) (xy 361.95 142.24)
 		)
 		(stroke
 			(width 0.1524)
@@ -13107,16 +12979,6 @@
 			(type default)
 		)
 		(uuid "1fdd7a45-b800-4e15-be3c-982a9004ce8a")
-	)
-	(wire
-		(pts
-			(xy 204.47 45.72) (xy 199.39 45.72)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "20102546-3471-4b12-953a-9547a21d5de0")
 	)
 	(wire
 		(pts
@@ -14087,16 +13949,6 @@
 			(type default)
 		)
 		(uuid "7b4a7304-076e-424f-bcb1-2240971240f1")
-	)
-	(wire
-		(pts
-			(xy 204.47 40.64) (xy 199.39 40.64)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7b8ec571-14d5-4d3f-b871-8dc453b0e94a")
 	)
 	(wire
 		(pts
@@ -15802,86 +15654,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 199.39 40.64 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0a88f78d-8d29-4f31-b072-0bd80a4b840a")
-		(property "Reference" "TP73"
-			(at 194.818 41.402 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 201.93 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 199.39 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 199.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55fa6d4e-fed4-4de7-afc8-6db947207dc9")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/ef373219-d5fd-4fe4-9a40-d71169676409"
-					(reference "TP73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "cfc-card-eagle-import:3.3V")
 		(at 299.72 124.46 0)
 		(unit 1)
@@ -16856,86 +16628,6 @@
 			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88/ef373219-d5fd-4fe4-9a40-d71169676409"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 199.39 45.72 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "32fea0d1-cb24-4ad8-93bc-e9331c5e8153")
-		(property "Reference" "TP74"
-			(at 194.818 46.482 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 201.93 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 199.39 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 199.39 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "17ef33eb-73dc-4d54-ae81-1b61d66d41d7")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/ef373219-d5fd-4fe4-9a40-d71169676409"
-					(reference "TP74")
 					(unit 1)
 				)
 			)
@@ -18162,85 +17854,6 @@
 			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88/ef373219-d5fd-4fe4-9a40-d71169676409"
 					(reference "#GND045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 114.3 132.08 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "60ae64e8-752d-473b-b453-3084d0419911")
-		(property "Reference" "TP56"
-			(at 115.062 127.508 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 116.84 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 104.14 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 114.3 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4697582-0171-42b7-a3ec-08507dca0635")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/ef373219-d5fd-4fe4-9a40-d71169676409"
-					(reference "TP56")
 					(unit 1)
 				)
 			)

@@ -235,7 +235,7 @@
 					)
 				)
 			)
-			(property "Sim.Pin" "1=K 2=A"
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -524,35 +524,43 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Oresat Misc:Test-Point-0.75mm-th"
+		(symbol "LED_Small_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 2.54 0)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Value" "Test-Point"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-				(at 0 10.16 0)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -563,6 +571,17 @@
 				)
 			)
 			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -573,7 +592,7 @@
 					)
 				)
 			)
-			(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -584,105 +603,68 @@
 					)
 				)
 			)
-			(symbol "Test-Point-0.75mm-th_1_0"
-				(pin passive line
-					(at 0 0 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "Test-Point-0.75mm-th_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_Small_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Oresat Misc:Test-Point-1mm-round"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1mm round SMT test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Test-Point-1mm-round_1_0"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy 1.27 1.27)
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
 					)
 					(stroke
 						(width 0.254)
@@ -694,54 +676,50 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy 1.016 0) (xy -0.762 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "LED_Small_1_1_1"
 				(pin passive line
-					(at 0 0 0)
-					(length 0)
-					(name "1"
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2617,6 +2595,231 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "oresat-misc:Test-Point-0.75mm-th"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Value" "Test-Point"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Test-Point-0.75mm-th_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Test-Point-0.75mm-th_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "oresat-misc:Test-Point-1mm-round"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1mm round SMT test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Test-Point-1mm-round_1_0"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "oresat-power:VBUS"
 			(power global)
 			(pin_names
@@ -3511,112 +3714,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "star-tracker-card-eagle-import:TEST-POINT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at -5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "star-tracker-card:2MM-TEST-POINT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TEST-POINT_1_0"
-				(pin passive line
-					(at 0 0 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TEST-POINT_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "Trips @ 2.95 A"
 		(exclude_from_sim no)
@@ -4346,7 +4443,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 127) (xy 139.7 127)
+			(xy 121.92 127) (xy 133.35 127)
 		)
 		(stroke
 			(width 0)
@@ -6605,12 +6702,12 @@
 		(uuid "d56c787c-4395-4a09-b069-e07e56a04072")
 	)
 	(label "UART_EN"
-		(at 124.46 127 0)
+		(at 133.35 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d58a3b72-6326-4d72-9c7e-5c422a869d2b")
 	)
@@ -6964,95 +7061,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
-		(at 139.7 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "08573a30-d081-424d-8a53-380e2fb1fe85")
-		(property "Reference" "TP15"
-			(at 141.732 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint-MinTH"
-			(at 139.7 120.015 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 139.7 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 139.7 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIS" ""
-			(at 139.7 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4cb8c82e-5610-4b31-a8a6-f37c268b4e3b")
-		)
-		(instances
-			(project "cfc-sensor-card"
-				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-power:VPD")
 		(at 91.44 208.28 0)
 		(unit 1)
@@ -7257,7 +7265,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
+		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 109.22 243.84 0)
 		(unit 1)
 		(body_style 1)
@@ -8622,7 +8630,7 @@
 		)
 	)
 	(symbol
-		(lib_id "star-tracker-card-eagle-import:TEST-POINT")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 86.36 121.92 180)
 		(unit 1)
 		(body_style 1)
@@ -8654,8 +8662,8 @@
 				)
 			)
 		)
-		(property "Footprint" "star-tracker-card:2MM-TEST-POINT"
-			(at 86.36 121.92 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 86.36 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8676,7 +8684,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 86.36 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -9275,7 +9283,7 @@
 				)
 			)
 		)
-		(property "Description" "Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric) - 430 mcd @ 20 mA"
+		(property "Description" "Light emitting diode, small symbol"
 			(at 375.92 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9332,6 +9340,17 @@
 		)
 		(property "MPN" "150060GS75000"
 			(at 375.92 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 375.92 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9586,7 +9605,7 @@
 		)
 	)
 	(symbol
-		(lib_id "star-tracker-card-eagle-import:TEST-POINT")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 302.26 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -9618,8 +9637,8 @@
 				)
 			)
 		)
-		(property "Footprint" "star-tracker-card:2MM-TEST-POINT"
-			(at 302.26 83.82 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 302.26 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9640,7 +9659,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 302.26 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9664,7 +9683,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-0.75mm-th")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 363.22 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -11133,7 +11152,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-0.75mm-th")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 73.66 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -12006,7 +12025,7 @@
 		)
 	)
 	(symbol
-		(lib_id "star-tracker-card-eagle-import:TEST-POINT")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 302.26 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -12038,8 +12057,8 @@
 				)
 			)
 		)
-		(property "Footprint" "star-tracker-card:2MM-TEST-POINT"
-			(at 302.26 58.42 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 302.26 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12060,7 +12079,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 302.26 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12240,7 +12259,7 @@
 		)
 	)
 	(symbol
-		(lib_id "star-tracker-card-eagle-import:TEST-POINT")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 298.45 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -12272,8 +12291,8 @@
 				)
 			)
 		)
-		(property "Footprint" "star-tracker-card:2MM-TEST-POINT"
-			(at 298.45 73.66 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 298.45 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12294,7 +12313,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 298.45 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12318,7 +12337,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
+		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 261.62 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -13157,7 +13176,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-1mm-round")
+		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 109.22 195.58 0)
 		(unit 1)
 		(body_style 1)
@@ -14111,7 +14130,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Oresat Misc:Test-Point-0.75mm-th")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 375.92 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -15651,6 +15670,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_Small_1")
 		(lib_id "Device:LED_Small")
 		(at 198.12 99.06 180)
 		(unit 1)
@@ -15703,7 +15723,7 @@
 				)
 			)
 		)
-		(property "Description" "Amber 605nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+		(property "Description" "Light emitting diode, small symbol"
 			(at 198.12 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -15769,6 +15789,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 198.12 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6ac1e303-7917-4cb6-ac61-30e9ceca1f38")
 		)
@@ -15785,7 +15816,7 @@
 		)
 	)
 	(symbol
-		(lib_id "star-tracker-card-eagle-import:TEST-POINT")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 81.28 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -15817,8 +15848,8 @@
 				)
 			)
 		)
-		(property "Footprint" "star-tracker-card:2MM-TEST-POINT"
-			(at 81.28 119.38 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 81.28 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15839,7 +15870,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 81.28 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -17079,7 +17110,7 @@
 		)
 	)
 	(symbol
-		(lib_id "star-tracker-card-eagle-import:TEST-POINT")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 313.69 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -17111,8 +17142,8 @@
 				)
 			)
 		)
-		(property "Footprint" "star-tracker-card:2MM-TEST-POINT"
-			(at 313.69 68.58 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 313.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17133,7 +17164,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 313.69 68.58 0)
 			(hide yes)
 			(show_name no)
