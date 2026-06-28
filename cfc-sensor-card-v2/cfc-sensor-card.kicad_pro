@@ -1097,7 +1097,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "r",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
@@ -1163,7 +1163,7 @@
         "uuid": "8c53300c-27d6-4efc-b05b-8b907d6da3f5"
       }
     ],
-    "used_designators": "R57,R59,#3V16",
+    "used_designators": "#GND76-77,R57,R59,#3V16-17,C67-68",
     "variants": []
   },
   "sheets": [
