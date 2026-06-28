@@ -9124,17 +9124,6 @@
 		)
 		(uuid "690cb555-547a-4636-b1f1-e0648f6b5866")
 	)
-	(text "PIRT1280 Thermistor"
-		(exclude_from_sim no)
-		(at 335.28 81.28 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "6dfa53cb-309a-4bdc-9f8a-f6872b131d2c")
-	)
 	(text "VBUS goes to VIN_USB\non OSD3358"
 		(exclude_from_sim no)
 		(at 50.8 171.45 0)
@@ -9222,17 +9211,6 @@
 			(justify left bottom)
 		)
 		(uuid "f1a35815-f2d1-4aa4-9b9c-081c335569ab")
-	)
-	(text "10k resistor is upper resistor of\ndivider and the PIRT1280 10k\nthermistor is the lower resistor\nof the divider"
-		(exclude_from_sim no)
-		(at 332.74 95.25 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5dfa9e3-2ba3-4983-b36f-0cf76ef630ae")
 	)
 	(text "ALL ADC INPUTS MUST\nBE <= 1.8V MAXIMUM"
 		(exclude_from_sim no)

@@ -1649,6 +1649,17 @@
 		)
 		(uuid "15f2c610-0862-447e-9857-f24312053344")
 	)
+	(text "PIRT1280 Thermistor"
+		(exclude_from_sim no)
+		(at 155.194 151.638 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f6c359a-809c-4d61-8a12-b7fb2dbf8dd1")
+	)
 	(text "Constant Current Buck SPS"
 		(exclude_from_sim no)
 		(at 172.72 87.63 0)
@@ -1672,6 +1683,17 @@
 		)
 		(uuid "a0c0c58b-be83-4684-9001-8f60e25080d4")
 	)
+	(text "10k resistor is upper resistor of\ndivider and the PIRT1280 10k\nthermistor is the lower resistor"
+		(exclude_from_sim no)
+		(at 154.94 165.608 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8fba09f-938e-4690-81db-899b4d3d9c26")
+	)
 	(junction
 		(at 172.72 101.6)
 		(diameter 0)
@@ -1689,6 +1711,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae5daf82-5e8b-4152-ada7-2eb775d5a467")
+	)
+	(junction
+		(at 133.35 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af67841e-8742-43bd-9bf1-a6643ae8e65a")
 	)
 	(junction
 		(at 44.45 142.24)
@@ -1719,10 +1747,6 @@
 		(uuid "3782e837-fc5d-4cd9-8950-e26079d51b21")
 	)
 	(no_connect
-		(at 102.87 149.86)
-		(uuid "5d7e25b2-0419-4b5b-b6b9-0510a69eec95")
-	)
-	(no_connect
 		(at 102.87 152.4)
 		(uuid "6fb89df6-039d-4b5e-8230-bacb46026ddc")
 	)
@@ -1749,6 +1773,16 @@
 			(type default)
 		)
 		(uuid "10c4328c-9b54-4780-98af-43612d0fc85e")
+	)
+	(wire
+		(pts
+			(xy 102.87 147.32) (xy 120.65 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b669658-c94b-4410-a08d-08b80c277ac2")
 	)
 	(wire
 		(pts
@@ -1872,6 +1906,26 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 162.56) (xy 133.35 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452f7822-2dbe-4c70-9a04-7a686bb1fbd1")
+	)
+	(wire
+		(pts
+			(xy 102.87 149.86) (xy 123.19 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9d1f61-02ee-446e-a66e-5e71e302381e")
+	)
+	(wire
+		(pts
 			(xy 24.13 154.94) (xy 52.07 154.94)
 		)
 		(stroke
@@ -1902,7 +1956,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 175.26) (xy 151.13 177.8)
+			(xy 234.95 200.66) (xy 234.95 203.2)
 		)
 		(stroke
 			(width 0)
@@ -1972,6 +2026,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 162.56) (xy 135.89 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775ff5c7-5b8f-47f9-aa63-5c7093ba9758")
+	)
+	(wire
+		(pts
 			(xy 207.01 106.68) (xy 204.47 106.68)
 		)
 		(stroke
@@ -2002,6 +2066,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 161.29) (xy 133.35 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee69daa-556e-481f-a73a-db1af14a6533")
+	)
+	(wire
+		(pts
 			(xy 207.01 115.57) (xy 207.01 111.76)
 		)
 		(stroke
@@ -2009,6 +2083,16 @@
 			(type default)
 		)
 		(uuid "8f8bcf23-545a-43a0-ad60-691ae247ac28")
+	)
+	(wire
+		(pts
+			(xy 102.87 144.78) (xy 120.65 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f77416-2836-47d7-ba7a-cad9f11996c5")
 	)
 	(wire
 		(pts
@@ -2092,16 +2176,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 147.32) (xy 120.65 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b98014d7-20e5-42d0-b8ee-0df96261842b")
-	)
-	(wire
-		(pts
 			(xy 210.82 107.95) (xy 213.36 107.95)
 		)
 		(stroke
@@ -2172,16 +2246,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 144.78) (xy 120.65 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deb8a7f7-6473-4ac1-8990-ae26fa9cf919")
-	)
-	(wire
-		(pts
 			(xy 223.52 115.57) (xy 223.52 118.11)
 		)
 		(stroke
@@ -2192,7 +2256,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 167.64) (xy 151.13 170.18)
+			(xy 234.95 193.04) (xy 234.95 195.58)
 		)
 		(stroke
 			(width 0)
@@ -2260,6 +2324,16 @@
 		)
 		(uuid "fe9a4447-8f40-4083-9c0f-0a2cfa776534")
 	)
+	(wire
+		(pts
+			(xy 123.19 149.86) (xy 123.19 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa330cc-7206-4c05-ae08-518d28e8d4c2")
+	)
 	(label "CURRENT_SET"
 		(at 107.95 139.7 0)
 		(effects
@@ -2270,7 +2344,17 @@
 		)
 		(uuid "42ecdb74-6be5-472b-8b71-d5c52e7e4fa7")
 	)
-	(label "HBRIDGE_DIR"
+	(label "HBRIDGE_DIR_L"
+		(at 120.65 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "46e68308-dc20-4bea-8193-0cffb4d1c975")
+	)
+	(label "HBRIDGE_DIR_H"
 		(at 120.65 142.24 180)
 		(effects
 			(font
@@ -2282,7 +2366,7 @@
 	)
 	(hierarchical_label "THERM+"
 		(shape input)
-		(at 120.65 147.32 0)
+		(at 135.89 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2290,17 +2374,6 @@
 			(justify left)
 		)
 		(uuid "285679ca-30fc-4edb-8436-23d57af59207")
-	)
-	(hierarchical_label "SENSOR_ENABLE"
-		(shape output)
-		(at 120.65 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "41297840-b4fe-4a87-9904-c938577fbf14")
 	)
 	(hierarchical_label "I2C1_CLK"
 		(shape input)
@@ -2345,6 +2418,17 @@
 			(justify left)
 		)
 		(uuid "769b8b5f-9e37-45b2-be9d-67bb3cb70aa2")
+	)
+	(hierarchical_label "SENSOR_ENABLE"
+		(shape output)
+		(at 120.65 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c32b21fb-88c6-47f5-b432-0c7d7ef02974")
 	)
 	(hierarchical_label "VREF"
 		(shape input)
@@ -2436,7 +2520,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 151.13 172.72 90)
+		(at 234.95 198.12 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2446,7 +2530,7 @@
 		(dnp no)
 		(uuid "0b73a96b-c3c0-4c2f-bdda-9893792a925f")
 		(property "Reference" "D4"
-			(at 153.67 171.3864 90)
+			(at 237.49 196.7864 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2457,7 +2541,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 153.67 173.9264 90)
+			(at 237.49 199.3264 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2468,7 +2552,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 151.13 172.72 90)
+			(at 234.95 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2479,7 +2563,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75000.pdf"
-			(at 151.13 172.72 90)
+			(at 234.95 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2490,7 +2574,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 151.13 172.72 0)
+			(at 234.95 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2501,7 +2585,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 151.13 172.72 0)
+			(at 234.95 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2512,7 +2596,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 151.13 172.72 90)
+			(at 234.95 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2523,7 +2607,7 @@
 			)
 		)
 		(property "DPN" "732-4971-1-ND"
-			(at 151.13 172.72 90)
+			(at 234.95 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2534,7 +2618,7 @@
 			)
 		)
 		(property "MFR" "Wurth"
-			(at 151.13 172.72 90)
+			(at 234.95 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2545,7 +2629,7 @@
 			)
 		)
 		(property "MPN" "150060GS75000"
-			(at 151.13 172.72 90)
+			(at 234.95 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2556,7 +2640,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 151.13 172.72 0)
+			(at 234.95 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2659,8 +2743,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 151.13 165.1 180)
+		(lib_id "oresat-power:3.3V")
+		(at 133.35 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2668,31 +2752,110 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "24cc46fa-a40f-406b-a0fa-4fd2c4dfd111")
-		(property "Reference" "R63"
-			(at 153.67 163.8299 0)
+		(fields_autoplaced yes)
+		(uuid "19e24f2b-fff4-4d91-aab3-81088ee247ca")
+		(property "Reference" "#3V016"
+			(at 133.35 160.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 133.35 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "886fcd56-285c-4540-9a6f-8ebdcf49ccd9")
+		)
+		(instances
+			(project "cfc-sensor-card"
+				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/84f76dd6-97e2-45d4-9dd8-6007568bc131"
+					(reference "#3V016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 133.35 158.75 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22a28043-6298-4edd-9052-fa9427d0b7f6")
+		(property "Reference" "R59"
+			(at 130.81 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(property "Value" "10K"
-			(at 153.67 166.3699 0)
+			(at 130.81 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 151.13 165.1 0)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 133.35 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2702,8 +2865,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 151.13 165.1 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/1099/1/SEI-RNCF.pdf"
+			(at 133.35 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2713,8 +2876,8 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 151.13 165.1 0)
+		(property "Description" "Thin Film Resistors - SMD 10KOhms 0603 2ppm 0.01% Precision AEC-Q200"
+			(at 133.35 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2724,8 +2887,8 @@
 				)
 			)
 		)
-		(property "DIS" "DigiKey"
-			(at 151.13 165.1 0)
+		(property "DIS" "Mouser"
+			(at 133.35 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2735,8 +2898,8 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 151.13 165.1 0)
+		(property "DPN" "708-RNCF0603TKW10K0 "
+			(at 133.35 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2747,7 +2910,132 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
-			(at 151.13 165.1 0)
+			(at 133.35 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RNCF0603TKW10K0"
+			(at 133.35 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bdcd97b-f9c7-4686-8439-a7a7876802a1")
+		)
+		(pin "2"
+			(uuid "89d7c086-f746-46dc-9fbb-c1407f0176e3")
+		)
+		(instances
+			(project "cfc-sensor-card"
+				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/84f76dd6-97e2-45d4-9dd8-6007568bc131"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 234.95 190.5 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24cc46fa-a40f-406b-a0fa-4fd2c4dfd111")
+		(property "Reference" "R63"
+			(at 237.49 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 237.49 191.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 234.95 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 234.95 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 234.95 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 234.95 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
+			(at 234.95 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 234.95 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2758,7 +3046,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 151.13 165.1 0)
+			(at 234.95 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2814,7 +3102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 215.9 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2939,7 +3227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 210.82 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3391,7 +3679,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 177.8 0)
+		(at 234.95 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3401,7 +3689,7 @@
 		(dnp no)
 		(uuid "82975d8e-7036-4908-b3e4-57b88ea16ad3")
 		(property "Reference" "#GND073"
-			(at 151.13 184.15 0)
+			(at 234.95 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3412,7 +3700,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 181.356 0)
+			(at 234.95 206.756 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3422,7 +3710,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 177.8 0)
+			(at 234.95 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3433,7 +3721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 177.8 0)
+			(at 234.95 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3444,7 +3732,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 177.8 0)
+			(at 234.95 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3500,7 +3788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 52.07 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3704,7 +3992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 39.37 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -3830,7 +4118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 172.72 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4078,7 +4366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)

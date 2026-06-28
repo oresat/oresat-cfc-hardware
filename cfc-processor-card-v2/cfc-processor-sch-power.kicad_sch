@@ -5893,6 +5893,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 168.91) (xy 228.6 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2685a744-9587-426c-b2ab-312ac3810f2c")
+	)
+	(wire
+		(pts
 			(xy 68.58 48.26) (xy 71.12 48.26)
 		)
 		(stroke
@@ -6030,6 +6040,16 @@
 			(type default)
 		)
 		(uuid "3387420b-d4f5-48c7-920a-e92e7f2f86c0")
+	)
+	(wire
+		(pts
+			(xy 226.06 173.99) (xy 228.6 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342dc7bc-ee96-479e-b0d5-ca9b665d2118")
 	)
 	(wire
 		(pts
@@ -6633,16 +6653,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 168.91) (xy 193.04 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b115b36-414f-4852-ab04-d04f75f54403")
-	)
-	(wire
-		(pts
 			(xy 320.04 60.96) (xy 332.74 60.96)
 		)
 		(stroke
@@ -6680,16 +6690,6 @@
 			(type solid)
 		)
 		(uuid "5cb32b31-0ad9-452e-af72-cf09542d287a")
-	)
-	(wire
-		(pts
-			(xy 186.69 173.99) (xy 193.04 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cd9277a-6be8-47a5-8bba-a04e2d9b5813")
 	)
 	(wire
 		(pts
@@ -6863,7 +6863,17 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 173.99) (xy 228.6 173.99)
+			(xy 177.8 173.99) (xy 193.04 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f368360-0419-466c-85a0-f75eefb90822")
+	)
+	(wire
+		(pts
+			(xy 218.44 173.99) (xy 220.98 173.99)
 		)
 		(stroke
 			(width 0)
@@ -7000,16 +7010,6 @@
 			(type solid)
 		)
 		(uuid "74dd98c1-a40d-43ef-b497-8ae5d0628499")
-	)
-	(wire
-		(pts
-			(xy 177.8 168.91) (xy 181.61 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74dfa837-0d67-49f6-9d48-50f2a0c05aab")
 	)
 	(wire
 		(pts
@@ -8033,7 +8033,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 168.91) (xy 228.6 168.91)
+			(xy 218.44 168.91) (xy 220.98 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8303,16 +8303,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 173.99) (xy 181.61 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6dfe205-a872-40fb-8eb5-2d631d915d23")
-	)
-	(wire
-		(pts
 			(xy 283.21 59.69) (xy 283.21 53.34)
 		)
 		(stroke
@@ -8550,6 +8540,16 @@
 			(type solid)
 		)
 		(uuid "e9ae1712-0c9d-41fd-a0bf-5a89395d9281")
+	)
+	(wire
+		(pts
+			(xy 177.8 168.91) (xy 193.04 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c65fd2-5619-4bbe-b4f9-54005788650b")
 	)
 	(wire
 		(pts
@@ -19276,7 +19276,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 184.15 173.99 90)
+		(at 223.52 173.99 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -19287,7 +19287,7 @@
 		(dnp no)
 		(uuid "b4d10f68-a9c1-4eff-945b-a9986d65ab6e")
 		(property "Reference" "R26"
-			(at 186.182 175.514 90)
+			(at 225.552 175.514 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19298,7 +19298,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 186.182 178.054 90)
+			(at 225.552 178.054 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19309,7 +19309,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 184.15 173.99 0)
+			(at 223.52 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19320,7 +19320,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 184.15 173.99 0)
+			(at 223.52 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19331,7 +19331,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 184.15 173.99 0)
+			(at 223.52 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19342,7 +19342,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 184.15 173.99 90)
+			(at 223.52 173.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19353,7 +19353,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT100RCT-ND"
-			(at 184.15 173.99 90)
+			(at 223.52 173.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19364,7 +19364,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
-			(at 184.15 173.99 90)
+			(at 223.52 173.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19375,7 +19375,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT100R"
-			(at 184.15 173.99 90)
+			(at 223.52 173.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20486,7 +20486,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 184.15 168.91 270)
+		(at 223.52 168.91 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20496,7 +20496,7 @@
 		(dnp no)
 		(uuid "cf809c26-64fc-494e-a3b4-ac87ac42acf3")
 		(property "Reference" "R25"
-			(at 181.102 161.544 90)
+			(at 220.472 161.544 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20507,7 +20507,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 181.102 164.084 90)
+			(at 220.472 164.084 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20518,7 +20518,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 184.15 168.91 0)
+			(at 223.52 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20529,7 +20529,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 184.15 168.91 0)
+			(at 223.52 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20540,7 +20540,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 184.15 168.91 0)
+			(at 223.52 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20551,7 +20551,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 184.15 168.91 90)
+			(at 223.52 168.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20562,7 +20562,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT100RCT-ND"
-			(at 184.15 168.91 90)
+			(at 223.52 168.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20573,7 +20573,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
-			(at 184.15 168.91 90)
+			(at 223.52 168.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20584,7 +20584,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT100R"
-			(at 184.15 168.91 90)
+			(at 223.52 168.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

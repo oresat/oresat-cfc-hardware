@@ -2363,7 +2363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 186.69 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -2578,7 +2578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 220.98 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2949,7 +2949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 220.98 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3385,7 +3385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 193.04 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3511,7 +3511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 106.68 127 0)
 			(hide yes)
 			(show_name no)
@@ -4405,7 +4405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 187.96 100.33 0)
 			(hide yes)
 			(show_name no)
