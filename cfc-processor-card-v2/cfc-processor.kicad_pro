@@ -777,7 +777,17 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "oresat-connectors",
+      "oresat-pcbs",
+      "oresat-diodes",
+      "oresat-graphics",
+      "oresat-ics",
+      "oresat-misc",
+      "oresat-passives",
+      "oresat-qrcodes",
+      "oresat-transistors"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {

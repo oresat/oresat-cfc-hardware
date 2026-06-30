@@ -3908,6 +3908,12 @@
 		(uuid "b5a51828-8750-454e-85ab-9e066b3699bb")
 	)
 	(junction
+		(at 388.62 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9da7c87-12a2-4a97-9470-aa3ba8d5253b")
+	)
+	(junction
 		(at 113.03 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4016,6 +4022,16 @@
 			(type default)
 		)
 		(uuid "00b6a937-5e59-4c48-b191-820dcf7ea93d")
+	)
+	(wire
+		(pts
+			(xy 347.98 157.48) (xy 388.62 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ec1509-b0f6-434a-a494-512883efe1b9")
 	)
 	(wire
 		(pts
@@ -4319,7 +4335,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 257.81) (xy 237.49 257.81)
+			(xy 228.6 226.06) (xy 237.49 226.06)
 		)
 		(stroke
 			(width 0)
@@ -4336,6 +4352,16 @@
 			(type solid)
 		)
 		(uuid "293cf00a-f324-4219-9ded-188f96d51057")
+	)
+	(wire
+		(pts
+			(xy 245.11 52.07) (xy 347.98 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a65858b-e418-4682-a50b-51e8a2bb148d")
 	)
 	(wire
 		(pts
@@ -5449,7 +5475,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 257.81) (xy 237.49 213.36)
+			(xy 237.49 226.06) (xy 237.49 213.36)
 		)
 		(stroke
 			(width 0)
@@ -5719,6 +5745,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 52.07) (xy 347.98 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1aec10f-233a-4bd5-92e9-7916f2b86415")
+	)
+	(wire
+		(pts
 			(xy 95.25 176.53) (xy 95.25 224.79)
 		)
 		(stroke
@@ -5848,12 +5884,12 @@
 		(uuid "46300a6d-7c0c-4517-ad3e-df407fafb225")
 	)
 	(label "TXCLK_N"
-		(at 378.46 127 0)
+		(at 386.08 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4995bc62-ac8e-4962-abbe-55badb17c4ee")
 	)
@@ -5908,22 +5944,22 @@
 		(uuid "999c6ff6-f40e-4d42-a506-12439ef2a1e1")
 	)
 	(label "SPI1_CLK"
-		(at 377.19 167.64 0)
+		(at 386.08 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9dab81f2-b029-42fa-a0d6-e688896b3045")
 	)
 	(label "SPI1_MISO"
-		(at 375.92 162.56 0)
+		(at 386.08 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9e2c7fbd-94d3-43a2-a52f-a61711cb682b")
 	)
@@ -5947,6 +5983,16 @@
 		)
 		(uuid "a2b96a40-098c-4fd9-8a91-662a7dd79857")
 	)
+	(label "SENSOR_ENABLE"
+		(at 386.08 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a91f79d9-5335-4d69-8baa-22a0ba5ed3f2")
+	)
 	(label "C3-UART-TX"
 		(at 46.99 123.19 0)
 		(effects
@@ -5968,22 +6014,22 @@
 		(uuid "c84dcc40-c3b0-41d9-8706-befd0bbf66b1")
 	)
 	(label "SPI1_MOSI"
-		(at 375.92 172.72 0)
+		(at 386.08 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c878561b-4437-4ff1-bd64-a25c9a36befd")
 	)
 	(label "TXCLK_P"
-		(at 378.46 132.08 0)
+		(at 386.08 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d4e7864f-bc4e-4045-937a-c994dd30ebc5")
 	)
@@ -7669,7 +7715,7 @@
 			)
 		)
 		(pin "VIN_USB" input
-			(at 228.6 257.81 0)
+			(at 228.6 226.06 0)
 			(uuid "6d403a48-fafd-44b8-9a5e-b4f7d1e330d6")
 			(effects
 				(font

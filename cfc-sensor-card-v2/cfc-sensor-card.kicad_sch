@@ -2372,6 +2372,12 @@
 		(uuid "2c37119c-8cf8-4a87-a7d3-1b6718b184f5")
 	)
 	(junction
+		(at 66.04 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36638ed0-d498-4a6f-ad85-9866f41421ca")
+	)
+	(junction
 		(at 64.77 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2424,12 +2430,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a32f6ae8-129f-48be-8fc6-f03944dce651")
-	)
-	(junction
-		(at 66.04 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6fffb43-4731-45f9-a768-8e5e17962237")
 	)
 	(junction
 		(at 64.77 107.95)
@@ -2659,6 +2659,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 186.69) (xy 161.29 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16ddacac-7239-4223-9722-cdf85acefa72")
+	)
+	(wire
+		(pts
 			(xy 66.04 161.29) (xy 63.5 161.29)
 		)
 		(stroke
@@ -2746,16 +2756,6 @@
 			(type default)
 		)
 		(uuid "246cb42d-1503-48f4-864d-00e01446734f")
-	)
-	(wire
-		(pts
-			(xy 227.33 193.04) (xy 241.3 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2686fd42-c85b-4b56-87fc-3d409dd74108")
 	)
 	(wire
 		(pts
@@ -2999,16 +2999,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 186.69) (xy 185.42 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55264137-1ff4-47e7-8c71-480fba8cca00")
-	)
-	(wire
-		(pts
 			(xy 227.33 181.61) (xy 237.49 181.61)
 		)
 		(stroke
@@ -3129,6 +3119,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 214.63) (xy 185.42 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7439dce3-c4b5-4b24-9edb-9234c4af772d")
+	)
+	(wire
+		(pts
 			(xy 228.6 224.79) (xy 306.07 224.79)
 		)
 		(stroke
@@ -3166,16 +3166,6 @@
 			(type default)
 		)
 		(uuid "8244000c-e9e7-4c81-a0f6-2fb4ee922e88")
-	)
-	(wire
-		(pts
-			(xy 241.3 222.25) (xy 228.6 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82829658-cb45-40cf-9a98-c1a200743e23")
 	)
 	(wire
 		(pts
@@ -3236,6 +3226,16 @@
 			(type default)
 		)
 		(uuid "96b81afa-4769-45fc-b479-fc36a9d52c14")
+	)
+	(wire
+		(pts
+			(xy 161.29 186.69) (xy 161.29 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97660ee0-788d-4f1b-84bd-4df534a0d45f")
 	)
 	(wire
 		(pts
@@ -3699,16 +3699,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 193.04) (xy 241.3 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7dc78e0-ec20-427d-9660-a7adf6042dfe")
-	)
-	(wire
-		(pts
 			(xy 62.23 85.09) (xy 64.77 85.09)
 		)
 		(stroke
@@ -3856,6 +3846,16 @@
 			(justify right bottom)
 		)
 		(uuid "c79bfbe6-fa6b-4693-9657-9de92abf3a04")
+	)
+	(label "SENSOR_ENABLE"
+		(at 71.12 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db84f4af-736b-453e-aeaa-834761849c4a")
 	)
 	(label "OUT1_N"
 		(at 71.12 166.37 0)
@@ -5098,13 +5098,13 @@
 			)
 		)
 		(pin "SENSOR_ENABLE" input
-			(at 228.6 222.25 0)
+			(at 185.42 214.63 180)
 			(uuid "36ea3d7e-126d-4cea-837b-ecf74cad7963")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "CLK_EN" output
@@ -5164,46 +5164,6 @@
 				(justify left top)
 			)
 		)
-		(pin "TEC-" output
-			(at 227.33 177.8 0)
-			(uuid "c4ecc27d-a6ec-4790-8316-d8054c1e5e49")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TEC+" output
-			(at 227.33 175.26 0)
-			(uuid "2aad7009-6d40-495d-bf0f-530f2de3870a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SENSOR_ENABLE" output
-			(at 227.33 193.04 0)
-			(uuid "b32015d8-b9c1-4928-9c4a-6056dbfa17fc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VREF" input
-			(at 185.42 186.69 180)
-			(uuid "c07b3647-6afe-48ad-b971-dc6732a498c7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "I2C1_SDA" input
 			(at 185.42 176.53 180)
 			(uuid "046ce5e3-78e0-4dfe-a550-803741160410")
@@ -5227,6 +5187,26 @@
 		(pin "THERM+" input
 			(at 227.33 181.61 0)
 			(uuid "80d9ccff-8e6a-4617-a71c-19a0b28e804e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TEC_OUT_1" output
+			(at 227.33 175.26 0)
+			(uuid "e89688c3-6280-4b09-abe0-bbe98f7c3509")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TEC_OUT2" output
+			(at 227.33 177.8 0)
+			(uuid "c0851544-4e24-497c-94a7-2a98317c033b")
 			(effects
 				(font
 					(size 1.27 1.27)

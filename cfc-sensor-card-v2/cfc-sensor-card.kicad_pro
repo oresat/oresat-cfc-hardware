@@ -1163,7 +1163,7 @@
         "uuid": "8c53300c-27d6-4efc-b05b-8b907d6da3f5"
       }
     ],
-    "used_designators": "#GND76-77,R57,R59,#3V16-17,C67-68",
+    "used_designators": "U12,#3V18,C40,C69-70,#GND78-80",
     "variants": []
   },
   "sheets": [
