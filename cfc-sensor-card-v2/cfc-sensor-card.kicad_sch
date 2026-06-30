@@ -3029,16 +3029,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 143.51) (xy 243.84 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d4b1822-1cce-408e-956d-35d0c20f16ad")
-	)
-	(wire
-		(pts
 			(xy 62.23 105.41) (xy 64.77 105.41)
 		)
 		(stroke
@@ -3176,16 +3166,6 @@
 			(type default)
 		)
 		(uuid "86f9b5fe-58a7-4619-93e2-811e1c9b4ec0")
-	)
-	(wire
-		(pts
-			(xy 229.87 140.97) (xy 243.84 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9038638a-baf1-42b7-b6cf-a2b8381e40aa")
 	)
 	(wire
 		(pts
@@ -3559,6 +3539,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 140.97) (xy 243.84 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d559bba2-a7d4-4e07-b6b6-6dac4f434380")
+	)
+	(wire
+		(pts
 			(xy 66.04 184.15) (xy 66.04 181.61)
 		)
 		(stroke
@@ -3696,6 +3686,16 @@
 			(type default)
 		)
 		(uuid "f3440c1d-99ce-4cf7-997a-58c905913bb2")
+	)
+	(wire
+		(pts
+			(xy 232.41 143.51) (xy 243.84 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa3bc7f5-ac02-4bbf-bea3-5b1a44bd56ac")
 	)
 	(wire
 		(pts
@@ -5302,7 +5302,7 @@
 			)
 		)
 		(pin "TEC+" input
-			(at 243.84 140.97 180)
+			(at 243.84 143.51 180)
 			(uuid "92e688a7-58a8-4c4b-b50f-8da01795504b")
 			(effects
 				(font
@@ -5352,7 +5352,7 @@
 			)
 		)
 		(pin "TEC-" input
-			(at 243.84 143.51 180)
+			(at 243.84 140.97 180)
 			(uuid "0abcd692-4005-45dc-9326-b2dc4394dafd")
 			(effects
 				(font

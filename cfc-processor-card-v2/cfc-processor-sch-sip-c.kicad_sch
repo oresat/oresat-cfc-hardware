@@ -12371,12 +12371,6 @@
 		(uuid "360bc1b6-2ebd-466e-9c1e-392763ce548a")
 	)
 	(junction
-		(at 185.42 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a5a7aeb-e34f-4026-a204-46f0a13fcb31")
-	)
-	(junction
 		(at 175.26 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12503,12 +12497,6 @@
 		(uuid "97a406c6-6554-4410-a396-4cfa88c9f238")
 	)
 	(junction
-		(at 185.42 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98ba4053-64a4-42af-93fe-af3ea192487f")
-	)
-	(junction
 		(at 297.18 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12551,12 +12539,6 @@
 		(uuid "b820f6e1-3258-4be7-83fc-641d97646e43")
 	)
 	(junction
-		(at 185.42 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbffe808-1dee-4e4a-a6f9-14892fe6094c")
-	)
-	(junction
 		(at 175.26 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12573,12 +12555,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd4f42af-1b7e-4b00-b038-ff20badcd181")
-	)
-	(junction
-		(at 185.42 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce8128ca-15c2-42cc-a130-8612343605e0")
 	)
 	(junction
 		(at 345.44 144.78)
@@ -13222,16 +13198,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 93.98) (xy 185.42 93.98)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "39d620f4-b497-4f38-990e-9b9333eaaaec")
-	)
-	(wire
-		(pts
 			(xy 248.92 144.78) (xy 261.62 144.78)
 		)
 		(stroke
@@ -13289,16 +13255,6 @@
 			(type solid)
 		)
 		(uuid "3ee77c2f-73be-41ae-8c83-607044894829")
-	)
-	(wire
-		(pts
-			(xy 185.42 91.44) (xy 180.34 91.44)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "41720b3f-01ec-469c-9573-16ae6ac61653")
 	)
 	(wire
 		(pts
@@ -13422,7 +13378,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 93.98) (xy 187.96 93.98)
+			(xy 180.34 93.98) (xy 187.96 93.98)
 		)
 		(stroke
 			(width 0.1524)
@@ -13652,7 +13608,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 91.44) (xy 185.42 91.44)
+			(xy 180.34 91.44) (xy 187.96 91.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -13829,16 +13785,6 @@
 			(type solid)
 		)
 		(uuid "7231ac09-4655-4f0a-bd2c-31caab753794")
-	)
-	(wire
-		(pts
-			(xy 187.96 99.06) (xy 185.42 99.06)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "728d6c3f-5f3a-43c5-86a7-6a4c5e320f26")
 	)
 	(wire
 		(pts
@@ -14062,7 +14008,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 99.06) (xy 185.42 99.06)
+			(xy 180.34 99.06) (xy 187.96 99.06)
 		)
 		(stroke
 			(width 0.1524)
@@ -14072,7 +14018,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 96.52) (xy 185.42 96.52)
+			(xy 180.34 96.52) (xy 187.96 96.52)
 		)
 		(stroke
 			(width 0.1524)
@@ -14219,16 +14165,6 @@
 			(type default)
 		)
 		(uuid "94b7dae1-8585-4c55-b78c-2d7504d26198")
-	)
-	(wire
-		(pts
-			(xy 180.34 96.52) (xy 185.42 96.52)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "97f0c3d5-6375-4ad8-ac69-52e0330a2f52")
 	)
 	(wire
 		(pts
@@ -15130,36 +15066,6 @@
 		)
 		(uuid "393aeeb6-330c-4214-8411-f2de6916767a")
 	)
-	(label "PRU_BUS.PRU0_0"
-		(at 147.32 160.02 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ca55252-333d-40f2-944b-1bd0e77fcd42")
-	)
-	(label "PRU_BUS.PRU0_6"
-		(at 147.32 175.26 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "40d0973a-1b7d-42b6-8d16-1d946cb47fdd")
-	)
-	(label "PRU_BUS.PRU_16_CLK"
-		(at 147.32 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4798b7d6-bc05-42b7-bea1-e34ac18e5894")
-	)
 	(label "~{EMMC_RST}"
 		(at 266.7 180.34 0)
 		(effects
@@ -15180,16 +15086,6 @@
 		)
 		(uuid "6a9953d3-8b36-4ff6-886a-163f14753151")
 	)
-	(label "PRU_BUS.PRU0_3"
-		(at 147.32 167.64 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "96464583-3d7b-4255-995a-333ae077794a")
-	)
 	(label "EMMC_D4"
 		(at 266.7 162.56 0)
 		(effects
@@ -15199,26 +15095,6 @@
 			(justify left bottom)
 		)
 		(uuid "ad8cd5ac-33b9-4100-957f-9bbec740bd19")
-	)
-	(label "PRU_BUS.PRU0_4"
-		(at 147.32 170.18 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "b029bab6-71d9-4e7c-84b1-6761dd4de56c")
-	)
-	(label "PRU_BUS.PRU0_2"
-		(at 147.32 165.1 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0a212ca-1deb-4deb-96e9-12f73ee6f223")
 	)
 	(label "EMMC_D3"
 		(at 266.7 160.02 0)
@@ -15289,26 +15165,6 @@
 			(justify left bottom)
 		)
 		(uuid "eca119b9-55a7-464a-a3fa-b9083bffebb3")
-	)
-	(label "PRU_BUS.PRU0_1"
-		(at 147.32 162.56 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0ce5160-9ee9-4b72-b0a4-5441f0c95e27")
-	)
-	(label "PRU_BUS.PRU0_5"
-		(at 147.32 172.72 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "fb1cd0b6-2398-4ebd-b159-d41a3cd11ab3")
 	)
 	(hierarchical_label "SPI1_MISO"
 		(shape input)
@@ -16222,84 +16078,6 @@
 			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88/ef373219-d5fd-4fe4-9a40-d71169676409"
 					(reference "RA1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cfc-card-eagle-import:TEST-POINT")
-		(at 185.42 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "176e6b59-2126-422c-b3a0-da70575224e8")
-		(property "Reference" "TP70"
-			(at 186.69 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT"
-			(at 185.42 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "cfc-card:2MM-TEST-POINT"
-			(at 185.42 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bb948497-dadd-448c-b593-fb05c7b1689e")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/ef373219-d5fd-4fe4-9a40-d71169676409"
-					(reference "TP70")
 					(unit 1)
 				)
 			)
@@ -17568,84 +17346,6 @@
 			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88/ef373219-d5fd-4fe4-9a40-d71169676409"
 					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cfc-card-eagle-import:TEST-POINT")
-		(at 185.42 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "544ffb27-4c74-4e3e-b14b-955aa40ff64c")
-		(property "Reference" "TP69"
-			(at 186.69 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT"
-			(at 185.42 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "cfc-card:2MM-TEST-POINT"
-			(at 185.42 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cbaadac6-a72a-46af-aa5b-8f2f182c49d2")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/ef373219-d5fd-4fe4-9a40-d71169676409"
-					(reference "TP69")
 					(unit 1)
 				)
 			)
@@ -21346,84 +21046,6 @@
 		)
 	)
 	(symbol
-		(lib_id "cfc-card-eagle-import:TEST-POINT")
-		(at 185.42 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f1597f04-62ee-4a19-8f78-17db953eaeed")
-		(property "Reference" "TP68"
-			(at 186.69 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT"
-			(at 185.42 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "cfc-card:2MM-TEST-POINT"
-			(at 185.42 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "39762d23-289a-4c94-a24a-b1639aa1ba8b")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/ef373219-d5fd-4fe4-9a40-d71169676409"
-					(reference "TP68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 364.49 140.97 0)
 		(unit 1)
@@ -22586,84 +22208,6 @@
 			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88/ef373219-d5fd-4fe4-9a40-d71169676409"
 					(reference "TP57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cfc-card-eagle-import:TEST-POINT")
-		(at 185.42 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fc5f4920-4045-469a-a37c-402165bb4d63")
-		(property "Reference" "TP67"
-			(at 186.69 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT"
-			(at 185.42 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "cfc-card:2MM-TEST-POINT"
-			(at 185.42 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6d33b36c-e8b4-4f13-83da-dcbc5f54d976")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/ef373219-d5fd-4fe4-9a40-d71169676409"
-					(reference "TP67")
 					(unit 1)
 				)
 			)

@@ -16610,7 +16610,7 @@
 		)
 	)
 	(symbol
-		(lib_id "cfc-card-eagle-import:TEST-POINT")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 332.74 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -16642,8 +16642,8 @@
 				)
 			)
 		)
-		(property "Footprint" "cfc-card:2MM-TEST-POINT"
-			(at 332.74 81.28 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 332.74 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16664,7 +16664,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 332.74 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -17700,7 +17700,7 @@
 		)
 	)
 	(symbol
-		(lib_id "cfc-card-eagle-import:TEST-POINT")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 205.74 93.98 0)
 		(unit 1)
 		(body_style 1)
@@ -17732,8 +17732,8 @@
 				)
 			)
 		)
-		(property "Footprint" "cfc-card:2MM-TEST-POINT"
-			(at 205.74 93.98 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 205.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17754,7 +17754,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 205.74 93.98 0)
 			(hide yes)
 			(show_name no)

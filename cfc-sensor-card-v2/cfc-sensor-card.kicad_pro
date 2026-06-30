@@ -641,6 +641,10 @@
       [
         "pin_to_pin|2641600|749300|5fd82367-a354-4e46-b9e3-819b54873281|ff3ae4c1-63d0-4ae1-82a9-53bd41f46e9f|/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0|/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0|/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0",
         ""
+      ],
+      [
+        "pin_to_pin|2654300|1790700|4c502232-32e5-4508-88d4-66007d864960|6524ebe6-6c24-402a-b7c1-e066ca186b36|/8c53300c-27d6-4efc-b05b-8b907d6da3f5/84f76dd6-97e2-45d4-9dd8-6007568bc131|/8c53300c-27d6-4efc-b05b-8b907d6da3f5/84f76dd6-97e2-45d4-9dd8-6007568bc131|/8c53300c-27d6-4efc-b05b-8b907d6da3f5/84f76dd6-97e2-45d4-9dd8-6007568bc131",
+        ""
       ]
     ],
     "meta": {
@@ -1163,7 +1167,7 @@
         "uuid": "8c53300c-27d6-4efc-b05b-8b907d6da3f5"
       }
     ],
-    "used_designators": "U12,#3V18,C40,C69-70,#GND78-80",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

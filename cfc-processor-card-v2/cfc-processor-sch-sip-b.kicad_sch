@@ -9115,7 +9115,7 @@
 	)
 	(text "ADC VREFP tied to 1.8V and VREFN\ntied to GND. Analog inputs must be\nbetween 0V-1.8V"
 		(exclude_from_sim no)
-		(at 255.27 69.85 0)
+		(at 257.556 69.342 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
