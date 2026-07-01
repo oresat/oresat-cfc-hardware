@@ -881,7 +881,17 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "oresat-connectors",
+      "oresat-diodes",
+      "oresat-graphics",
+      "oresat-ics",
+      "oresat-misc",
+      "oresat-passives",
+      "oresat-pcbs",
+      "oresat-power",
+      "oresat-transistors"
+    ]
   },
   "meta": {
     "filename": "cfc-sensor-card.kicad_pro",
@@ -1175,7 +1185,7 @@
         "uuid": "8c53300c-27d6-4efc-b05b-8b907d6da3f5"
       }
     ],
-    "used_designators": "R57,R60,R66-70,#GND64,#GND81-83,D5-6,U13,U15-16,#3V19-20,C71-72",
+    "used_designators": "#GND84-87,U16-17,C73-74,#3V21-22,R69-71",
     "variants": []
   },
   "sheets": [
