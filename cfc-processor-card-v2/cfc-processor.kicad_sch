@@ -5903,7 +5903,7 @@
 		)
 		(uuid "5cf7b109-3685-49ba-b4f1-f816144f9c27")
 	)
-	(label "OUT1_N"
+	(label "OUT1_P"
 		(at 378.46 142.24 0)
 		(effects
 			(font

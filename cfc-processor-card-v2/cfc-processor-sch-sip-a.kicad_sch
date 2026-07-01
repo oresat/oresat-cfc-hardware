@@ -8320,6 +8320,17 @@
 		)
 		(uuid "54b795f2-26f6-4e10-b2a7-22c2ec310ffe")
 	)
+	(text "\"3.3V\""
+		(exclude_from_sim no)
+		(at 229.108 88.646 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55201500-812d-4312-84be-bf95ecd57f23")
+	)
 	(text "PWR LED"
 		(exclude_from_sim no)
 		(at 209.55 90.17 0)

@@ -2005,6 +2005,17 @@
 		)
 		(uuid "60238e3e-6bd9-4371-99da-9d416504458e")
 	)
+	(text "\"PIRT\""
+		(exclude_from_sim no)
+		(at 149.86 148.336 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "adf8eba9-9ebc-4af8-a756-8f911013e419")
+	)
 	(text "*** NOTE: SET pins need Low Leakage Cap ***"
 		(exclude_from_sim no)
 		(at 215.392 43.18 0)

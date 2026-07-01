@@ -3803,6 +3803,17 @@
 		)
 		(uuid "8cc48c05-17f8-4a7e-ac81-b4bef57d7cbb")
 	)
+	(text "\"ON\"\n"
+		(exclude_from_sim no)
+		(at 194.31 94.742 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cd3db38-1c88-4105-9a85-f576502719c0")
+	)
 	(text "Address selection for Card\nCFC Sensor Card is 0x1E\n(See MAX7310 datasheet)"
 		(exclude_from_sim no)
 		(at 88.9 80.01 0)
@@ -3847,6 +3858,17 @@
 		)
 		(uuid "e98c822d-1129-49d1-a96d-388652fb4f60")
 	)
+	(text "\"VBUSP\""
+		(exclude_from_sim no)
+		(at 378.206 55.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed30b6c0-9d23-4743-a58f-27755fb8da64")
+	)
 	(junction
 		(at 251.46 68.58)
 		(diameter 0)
@@ -3864,12 +3886,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0dfd90ba-6cea-46f4-b151-42474464f8e4")
-	)
-	(junction
-		(at 109.22 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e695386-aca7-4ddf-8860-2478aea05ff8")
 	)
 	(junction
 		(at 261.62 78.74)
@@ -3960,12 +3976,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cf100c0-5c80-4408-bbfc-cf900515c5f9")
-	)
-	(junction
-		(at 109.22 243.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55448cbc-bee5-43b8-b12b-71d0d0555799")
 	)
 	(junction
 		(at 60.96 99.06)
@@ -6943,14 +6953,14 @@
 			)
 		)
 		(property "Value" "DMP3050LVT-7"
-			(at 196.85 39.37 90)
+			(at 211.328 40.132 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
@@ -6998,6 +7008,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "DPN" "DMP3050LVT-7DICT-ND"
@@ -7009,6 +7020,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "MFR" "Diodes Inc"
@@ -7020,6 +7032,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "MPN" "DMP3050LVT-7"
@@ -7031,6 +7044,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -7259,95 +7273,6 @@
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
 					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 109.22 243.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0c4adcf1-5b31-4b45-b09d-81f07bfdae4e")
-		(property "Reference" "TP7"
-			(at 104.14 242.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint-MinTH"
-			(at 109.22 236.855 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 109.22 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 109.22 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIS" ""
-			(at 109.22 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b4a77496-178d-46f8-a64f-d37ec1f6b0a1")
-		)
-		(instances
-			(project "cfc-sensor-card"
-				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -7762,7 +7687,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "10"
 			(at 67.31 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7770,7 +7695,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -7784,7 +7708,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 63.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7795,7 +7719,7 @@
 				)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 63.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7815,9 +7739,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
-		(property "DPN" "RMCF0603FT100RCT-ND"
+		(property "DPN" "RMCF0603FT10R0CT-ND"
 			(at 63.5 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -7826,6 +7751,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
@@ -7837,9 +7763,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
-		(property "MPN" "RMCF0603FT100R"
+		(property "MPN" "RMCF0603FT10R0"
 			(at 63.5 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -7848,6 +7775,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -9498,6 +9426,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
@@ -9522,7 +9451,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
+		(property "Description" "Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
 			(at 53.34 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -9542,6 +9471,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "DPN" "DMP2240UDMDICT-ND"
@@ -9553,6 +9483,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "MFR" "Diodes Inc"
@@ -12776,15 +12707,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 43.18 85.09 90)
+		(property "Value" "100"
+			(at 42.926 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -12809,7 +12740,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 45.72 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -12831,7 +12762,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT1K00CT-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 45.72 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -12853,7 +12784,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT1K00"
+		(property "MPN" "RMCF0603FT100R"
 			(at 45.72 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -13065,7 +12996,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
@@ -13113,6 +13044,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "DPN" "DMP3050LVT-7DICT-ND"
@@ -13124,6 +13056,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "MFR" "Diodes Inc"
@@ -13135,6 +13068,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "MPN" "DMP3050LVT-7"
@@ -13146,6 +13080,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -13170,95 +13105,6 @@
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
 					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 109.22 195.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "986b2eab-7409-472a-aa2c-7cba741c93a0")
-		(property "Reference" "TP6"
-			(at 104.14 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint-MinTH"
-			(at 109.22 188.595 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 109.22 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 109.22 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIS" ""
-			(at 109.22 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b1d92fe-87b2-49b6-811f-1b38f51c5137")
-		)
-		(instances
-			(project "cfc-sensor-card"
-				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -13952,10 +13798,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 358.14 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13977,7 +13823,7 @@
 				)
 			)
 		)
-		(property "Description" "N-Channel 30V 4.1A (Ta) 510mW (Ta), 5W (Tc) Surface Mount TO-236AB"
+		(property "Description" "N-Channel 30 V 4.1A (Ta) 510mW (Ta), 5W (Tc) Surface Mount TO-236AB"
 			(at 353.06 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13997,6 +13843,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "DPN" "1727-2307-1-ND"
@@ -14008,6 +13855,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "MFR" "Nexperia"
@@ -14019,6 +13867,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "MPN" "PMV45EN2R"
@@ -14030,6 +13879,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -14230,15 +14080,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 83.82 85.09 90)
+		(property "Value" "100"
+			(at 83.82 81.788 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -14263,7 +14113,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -14285,7 +14135,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT1K00CT-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 81.28 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -14307,7 +14157,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT1K00"
+		(property "MPN" "RMCF0603FT100R"
 			(at 81.28 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -14777,15 +14627,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 58.42 85.09 90)
+		(property "Value" "100"
+			(at 58.166 81.788 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -14810,7 +14660,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 60.96 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -14832,7 +14682,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT1K00CT-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 60.96 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -14854,7 +14704,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT1K00"
+		(property "MPN" "RMCF0603FT100R"
 			(at 60.96 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -16468,10 +16318,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 200.66 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -16493,7 +16343,7 @@
 				)
 			)
 		)
-		(property "Description" "N-Channel 30V 4.1A (Ta) 510mW (Ta), 5W (Tc) Surface Mount TO-236AB"
+		(property "Description" "N-Channel 30 V 4.1A (Ta) 510mW (Ta), 5W (Tc) Surface Mount TO-236AB"
 			(at 195.58 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -16513,6 +16363,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "DPN" "1727-2307-1-ND"
@@ -16524,6 +16375,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "MFR" "Nexperia"
@@ -16535,6 +16387,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "MPN" "PMV45EN2R"
@@ -16546,6 +16399,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -17003,6 +16857,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
@@ -17027,7 +16882,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
+		(property "Description" "Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
 			(at 53.34 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -17047,6 +16902,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "DPN" "DMP2240UDMDICT-ND"
@@ -17058,6 +16914,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "MFR" "Diodes Inc"

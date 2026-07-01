@@ -631,6 +631,10 @@
   "erc": {
     "erc_exclusions": [
       [
+        "isolated_pin_label|1333500|1270000|d58a3b72-6326-4d72-9c7e-5c422a869d2b|00000000-0000-0000-0000-000000000000|/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0||",
+        ""
+      ],
+      [
         "isolated_pin_label|787400|1282700|02eb0ee9-9088-4311-834c-f54b5fa36f99|00000000-0000-0000-0000-000000000000|/8c53300c-27d6-4efc-b05b-8b907d6da3f5||",
         ""
       ],
@@ -640,6 +644,10 @@
       ],
       [
         "pin_to_pin|2641600|749300|5fd82367-a354-4e46-b9e3-819b54873281|ff3ae4c1-63d0-4ae1-82a9-53bd41f46e9f|/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0|/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0|/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0",
+        ""
+      ],
+      [
+        "pin_to_pin|2654300|1600200|d9f5d60c-1e88-40ea-b7ce-5611ca779083|4dce83d1-614f-4a09-b6f9-d0a4628bab45|/8c53300c-27d6-4efc-b05b-8b907d6da3f5/84f76dd6-97e2-45d4-9dd8-6007568bc131|/8c53300c-27d6-4efc-b05b-8b907d6da3f5/84f76dd6-97e2-45d4-9dd8-6007568bc131|/8c53300c-27d6-4efc-b05b-8b907d6da3f5/84f76dd6-97e2-45d4-9dd8-6007568bc131",
         ""
       ],
       [
@@ -1101,7 +1109,7 @@
           "show": false
         }
       ],
-      "filter_string": "r",
+      "filter_string": "C",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
@@ -1167,7 +1175,7 @@
         "uuid": "8c53300c-27d6-4efc-b05b-8b907d6da3f5"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R57,R60,R66-70,#GND64,#GND81-83,D5-6,U13,U15-16,#3V19-20,C71-72",
     "variants": []
   },
   "sheets": [
