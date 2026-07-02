@@ -1201,7 +1201,7 @@
         "uuid": "8c53300c-27d6-4efc-b05b-8b907d6da3f5"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#3V1-22,R1-71,#GND1-91,C1-49,#VBUS1-2,#VBUSP1-8,U1-19,#VPD1-5,D1-6,FID1-6,J1-2,L1,Q1-5,TP1-29",
     "variants": []
   },
   "sheets": [

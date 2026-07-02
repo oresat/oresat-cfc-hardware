@@ -6786,7 +6786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01435037-0807-445a-9a90-4664f0c77878")
-		(property "Reference" "#VBUS01"
+		(property "Reference" "#VBUS02"
 			(at 193.04 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6846,7 +6846,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#VBUS01")
+					(reference "#VBUS02")
 					(unit 1)
 				)
 			)
@@ -6863,7 +6863,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0405141c-02d8-48de-b0a2-9421391c3267")
-		(property "Reference" "#GND018"
+		(property "Reference" "#GND019"
 			(at 276.86 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6924,7 +6924,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND018")
+					(reference "#GND019")
 					(unit 1)
 				)
 			)
@@ -7164,7 +7164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "099a2278-eff4-48d5-b699-6ce9693e74ef")
-		(property "Reference" "C30"
+		(property "Reference" "C10"
 			(at 344.17 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7272,7 +7272,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "C30")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8568,7 +8568,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "313630a9-0d74-4142-ad61-f9d96fbfa6c6")
-		(property "Reference" "TP14"
+		(property "Reference" "TP3"
 			(at 88.9 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8629,7 +8629,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "TP14")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -9088,7 +9088,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fc5406d-f72b-4685-94db-e156d12534cc")
-		(property "Reference" "#GND010"
+		(property "Reference" "#GND011"
 			(at 109.22 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9149,7 +9149,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND010")
+					(reference "#GND011")
 					(unit 1)
 				)
 			)
@@ -9546,7 +9546,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4984f2b3-6ec6-4a05-865f-e3d083350289")
-		(property "Reference" "TP20"
+		(property "Reference" "TP7"
 			(at 297.18 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9607,7 +9607,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "TP20")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -9625,7 +9625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ae079dc-a1b6-4565-b589-c2b0608f9fff")
-		(property "Reference" "TP23"
+		(property "Reference" "TP9"
 			(at 365.76 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9686,7 +9686,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "TP23")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -9703,7 +9703,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c74f496-0144-4b25-8261-1f44ad9be15e")
-		(property "Reference" "#GND04"
+		(property "Reference" "#GND05"
 			(at 71.12 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -9764,7 +9764,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND04")
+					(reference "#GND05")
 					(unit 1)
 				)
 			)
@@ -9906,7 +9906,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4da4ce4a-25df-45d2-99a2-29a734dcf53d")
-		(property "Reference" "#GND023"
+		(property "Reference" "#GND024"
 			(at 375.92 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9967,7 +9967,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND023")
+					(reference "#GND024")
 					(unit 1)
 				)
 			)
@@ -9984,7 +9984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4db69ea1-81c8-41cb-9434-3e425eb5e219")
-		(property "Reference" "R35"
+		(property "Reference" "R37"
 			(at 353.06 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10092,7 +10092,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "R35")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -10234,7 +10234,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "553dbed3-bbbd-48dd-9e08-e1b762cb58b9")
-		(property "Reference" "R65"
+		(property "Reference" "R35"
 			(at 341.122 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10340,7 +10340,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "R65")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -10358,7 +10358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5994c15c-9376-46eb-8cda-87486c92539a")
-		(property "Reference" "#GND05"
+		(property "Reference" "#GND06"
 			(at 81.28 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10419,7 +10419,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND05")
+					(reference "#GND06")
 					(unit 1)
 				)
 			)
@@ -10561,7 +10561,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "608f827a-73ff-4b0c-a5f2-572251b48360")
-		(property "Reference" "R36"
+		(property "Reference" "R38"
 			(at 373.38 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10669,7 +10669,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "R36")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -10812,7 +10812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6706dde6-4369-42e4-ac87-467dceb045d8")
-		(property "Reference" "C29"
+		(property "Reference" "C9"
 			(at 328.93 46.9962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10920,7 +10920,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "C29")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11015,7 +11015,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "682701ed-6ce9-4b90-a924-c67d7baced7a")
-		(property "Reference" "#GND020"
+		(property "Reference" "#GND021"
 			(at 307.34 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -11076,7 +11076,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND020")
+					(reference "#GND021")
 					(unit 1)
 				)
 			)
@@ -11094,7 +11094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "691be637-915f-406f-b40b-c76a47140363")
-		(property "Reference" "TP3"
+		(property "Reference" "TP1"
 			(at 76.2 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11155,7 +11155,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "TP3")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -11435,7 +11435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7030e025-23c3-4d2f-a83d-d18279474490")
-		(property "Reference" "#GND07"
+		(property "Reference" "#GND08"
 			(at 91.44 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -11496,7 +11496,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND07")
+					(reference "#GND08")
 					(unit 1)
 				)
 			)
@@ -11638,7 +11638,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75a72f8e-9b4e-4b19-abe1-c1bbcbebb1c4")
-		(property "Reference" "#GND09"
+		(property "Reference" "#GND010"
 			(at 99.06 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -11699,7 +11699,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND09")
+					(reference "#GND010")
 					(unit 1)
 				)
 			)
@@ -11966,7 +11966,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "790c4d62-caee-4abb-8bf7-15b46576d0a0")
-		(property "Reference" "TP18"
+		(property "Reference" "TP6"
 			(at 304.038 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12027,7 +12027,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "TP18")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -12044,7 +12044,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8007326f-72f4-4d29-b7a7-1b0d9cfdb343")
-		(property "Reference" "#GND014"
+		(property "Reference" "#GND015"
 			(at 203.2 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12105,7 +12105,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND014")
+					(reference "#GND015")
 					(unit 1)
 				)
 			)
@@ -12123,7 +12123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80fc0805-a5e2-4c4f-8134-822817b842de")
-		(property "Reference" "#GND011"
+		(property "Reference" "#GND012"
 			(at 134.62 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12183,7 +12183,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND011")
+					(reference "#GND012")
 					(unit 1)
 				)
 			)
@@ -12200,7 +12200,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86940a4a-73b9-44e4-982d-658f2501cc34")
-		(property "Reference" "TP17"
+		(property "Reference" "TP5"
 			(at 294.64 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12261,7 +12261,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "TP17")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -12278,7 +12278,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b6cf885-9377-4aeb-a0f8-59e52a808710")
-		(property "Reference" "TP16"
+		(property "Reference" "TP4"
 			(at 256.54 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12350,7 +12350,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "TP16")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -12618,7 +12618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "901b39af-9eb9-4d55-b6b0-d33251eb0d94")
-		(property "Reference" "#GND02"
+		(property "Reference" "#GND03"
 			(at 66.04 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -12679,7 +12679,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND02")
+					(reference "#GND03")
 					(unit 1)
 				)
 			)
@@ -12821,7 +12821,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "926c598a-a448-44a4-a390-cfe52be41135")
-		(property "Reference" "#GND019"
+		(property "Reference" "#GND020"
 			(at 297.18 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12882,7 +12882,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND019")
+					(reference "#GND020")
 					(unit 1)
 				)
 			)
@@ -13293,7 +13293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dfdac0f-bd96-49cf-8be0-07304c7a8990")
-		(property "Reference" "#GND017"
+		(property "Reference" "#GND018"
 			(at 251.46 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13354,7 +13354,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND017")
+					(reference "#GND018")
 					(unit 1)
 				)
 			)
@@ -13496,7 +13496,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0c0a657-b08f-4a7f-a9e2-ef8e4f8e6290")
-		(property "Reference" "#GND03"
+		(property "Reference" "#GND04"
 			(at 71.12 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -13557,7 +13557,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND03")
+					(reference "#GND04")
 					(unit 1)
 				)
 			)
@@ -13700,7 +13700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a632f332-a14f-49f2-a6c7-0d546937fa97")
-		(property "Reference" "#GND08"
+		(property "Reference" "#GND09"
 			(at 99.06 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -13761,7 +13761,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND08")
+					(reference "#GND09")
 					(unit 1)
 				)
 			)
@@ -13912,7 +13912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ada1599e-070c-4e82-8815-5439f1e93a7e")
-		(property "Reference" "#GND016"
+		(property "Reference" "#GND017"
 			(at 241.3 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13973,7 +13973,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND016")
+					(reference "#GND017")
 					(unit 1)
 				)
 			)
@@ -13991,7 +13991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b45007dd-a6f3-4b79-90f6-3cdbd0f0f1d9")
-		(property "Reference" "TP4"
+		(property "Reference" "TP10"
 			(at 378.46 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14052,7 +14052,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "TP4")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -15240,7 +15240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d748fda9-fce8-4fbf-8a74-a7f97cf7ca6b")
-		(property "Reference" "#GND013"
+		(property "Reference" "#GND014"
 			(at 198.12 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -15301,7 +15301,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND013")
+					(reference "#GND014")
 					(unit 1)
 				)
 			)
@@ -15452,7 +15452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db0520cf-cf2e-417f-b76f-f413a2fb6520")
-		(property "Reference" "#GND01"
+		(property "Reference" "#GND02"
 			(at 50.8 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -15513,7 +15513,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND01")
+					(reference "#GND02")
 					(unit 1)
 				)
 			)
@@ -15676,7 +15676,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd727360-a550-43c7-885a-037976160665")
-		(property "Reference" "TP13"
+		(property "Reference" "TP2"
 			(at 83.82 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15737,7 +15737,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "TP13")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -15971,7 +15971,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3fbda9d-379b-40a4-bb19-57a0b054fef5")
-		(property "Reference" "R64"
+		(property "Reference" "R36"
 			(at 341.63 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16077,7 +16077,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "R64")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -16220,7 +16220,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6d1ad0e-244b-4dfe-a8ed-e0acc3b7a535")
-		(property "Reference" "#GND021"
+		(property "Reference" "#GND022"
 			(at 320.04 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -16281,7 +16281,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND021")
+					(reference "#GND022")
 					(unit 1)
 				)
 			)
@@ -16431,7 +16431,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed8152b8-a50f-48df-89a0-ed7b8fe7ec0e")
-		(property "Reference" "#GND06"
+		(property "Reference" "#GND07"
 			(at 91.44 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -16492,7 +16492,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND06")
+					(reference "#GND07")
 					(unit 1)
 				)
 			)
@@ -16509,7 +16509,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "edb6c946-67e0-47f5-99f5-af65af01931f")
-		(property "Reference" "#GND012"
+		(property "Reference" "#GND013"
 			(at 187.96 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -16570,7 +16570,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND012")
+					(reference "#GND013")
 					(unit 1)
 				)
 			)
@@ -16977,7 +16977,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5503bb8-a608-424e-bc47-dee2b884298f")
-		(property "Reference" "TP19"
+		(property "Reference" "TP8"
 			(at 309.88 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17038,7 +17038,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "TP19")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -17055,7 +17055,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6f79a12-2102-4654-8293-1408ac95ad3c")
-		(property "Reference" "#GND015"
+		(property "Reference" "#GND016"
 			(at 215.9 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -17116,7 +17116,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND015")
+					(reference "#GND016")
 					(unit 1)
 				)
 			)
@@ -17133,7 +17133,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f85e8979-9fc5-4945-899a-18e6ec89b508")
-		(property "Reference" "#GND022"
+		(property "Reference" "#GND023"
 			(at 355.6 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -17194,7 +17194,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5/32b02a49-e716-4e99-9e51-c04d4b68afa0"
-					(reference "#GND022")
+					(reference "#GND023")
 					(unit 1)
 				)
 			)

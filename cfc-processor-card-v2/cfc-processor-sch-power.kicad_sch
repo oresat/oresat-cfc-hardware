@@ -11155,7 +11155,7 @@
 				)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 97.79 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11562,7 +11562,7 @@
 				)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 67.31 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12093,7 +12093,7 @@
 				)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 87.63 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -20592,7 +20592,7 @@
 				)
 			)
 		)
-		(property "Description" "10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 66.04 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -21288,7 +21288,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 377.19 50.8 0)
 			(hide yes)
 			(show_name no)

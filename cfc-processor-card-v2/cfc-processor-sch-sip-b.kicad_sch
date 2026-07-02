@@ -8779,136 +8779,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oresat-misc:Test-Point-1mm-round"
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1mm round SMT test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Test-Point-1mm-round_1_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -9349,12 +9219,6 @@
 		(uuid "9f4f03cb-3c4d-4ae3-a5e8-a3e7d0480bf9")
 	)
 	(junction
-		(at 247.65 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4c80be6-b9e9-4d25-8043-070d8b53080a")
-	)
-	(junction
 		(at 121.92 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9399,6 +9263,10 @@
 		(uuid "23d04b27-a9e5-4197-82ad-39d182653e00")
 	)
 	(no_connect
+		(at 303.53 142.24)
+		(uuid "4794f592-966f-4850-ac68-a57cb316f84b")
+	)
+	(no_connect
 		(at 184.15 135.89)
 		(uuid "47f43f58-faa1-456a-8b69-8c74c6066380")
 	)
@@ -9425,10 +9293,6 @@
 	(no_connect
 		(at 245.11 163.83)
 		(uuid "a98425f1-d2cb-4f39-bd38-7be0e9685c8b")
-	)
-	(no_connect
-		(at 295.91 142.24)
-		(uuid "c9f3a4c4-cf54-48e8-9a74-134a54207b33")
 	)
 	(no_connect
 		(at 184.15 171.45)
@@ -9512,16 +9376,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 142.24) (xy 311.15 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bc549c9-e50d-4402-95f3-1667b9c50a07")
-	)
-	(wire
-		(pts
 			(xy 165.1 139.7) (xy 165.1 146.05)
 		)
 		(stroke
@@ -9542,16 +9396,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 130.81) (xy 293.37 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "100e60e9-cde5-48eb-9602-8f984a9176e7")
-	)
-	(wire
-		(pts
 			(xy 144.78 118.11) (xy 135.89 118.11)
 		)
 		(stroke
@@ -9559,6 +9403,16 @@
 			(type solid)
 		)
 		(uuid "10faf25e-cf76-41e2-8c4b-ca84411c7d3e")
+	)
+	(wire
+		(pts
+			(xy 293.37 128.27) (xy 245.11 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1518845d-69da-412b-b2bd-aa3ebe87cea3")
 	)
 	(wire
 		(pts
@@ -9612,6 +9466,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 142.24) (xy 300.99 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f79d7e2-e579-437f-b602-fb56fa3c0152")
+	)
+	(wire
+		(pts
 			(xy 138.43 83.82) (xy 138.43 87.63)
 		)
 		(stroke
@@ -9629,16 +9493,6 @@
 			(type solid)
 		)
 		(uuid "23b0bb0a-bae8-42fd-9e06-16d8d96bf638")
-	)
-	(wire
-		(pts
-			(xy 300.99 120.65) (xy 300.99 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "266408f7-6fe5-4ac4-b596-a01bfb78c1ee")
 	)
 	(wire
 		(pts
@@ -9669,6 +9523,16 @@
 			(type solid)
 		)
 		(uuid "2aa4c035-0d9c-45e9-ac5a-e87c3ef810a8")
+	)
+	(wire
+		(pts
+			(xy 245.11 125.73) (xy 298.45 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba4a0c1-965f-46a8-8240-9998ff12206a")
 	)
 	(wire
 		(pts
@@ -9802,6 +9666,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 123.19) (xy 306.07 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c83484-dcc3-4242-94f2-4997a742a215")
+	)
+	(wire
+		(pts
 			(xy 250.19 138.43) (xy 250.19 143.51)
 		)
 		(stroke
@@ -9822,6 +9696,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 142.24) (xy 298.45 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "536b8c1d-83bf-46b6-a743-4fd500074de5")
+	)
+	(wire
+		(pts
 			(xy 161.29 132.08) (xy 165.1 132.08)
 		)
 		(stroke
@@ -9839,16 +9723,6 @@
 			(type solid)
 		)
 		(uuid "55b5d167-2009-4bb5-9cda-b62df6c94452")
-	)
-	(wire
-		(pts
-			(xy 298.45 128.27) (xy 298.45 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d073103-9a9c-4c4a-9fd6-f71526d2e8f1")
 	)
 	(wire
 		(pts
@@ -9902,6 +9776,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 123.19) (xy 306.07 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d42e095-3562-45e1-97c5-6669cc228af5")
+	)
+	(wire
+		(pts
 			(xy 153.67 82.55) (xy 153.67 85.09)
 		)
 		(stroke
@@ -9912,16 +9796,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 123.19) (xy 306.07 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71d3e251-8efd-4882-9e00-b1b8e241f23e")
-	)
-	(wire
-		(pts
 			(xy 158.75 105.41) (xy 158.75 107.95)
 		)
 		(stroke
@@ -9929,16 +9803,6 @@
 			(type default)
 		)
 		(uuid "72889156-2aad-4dad-9d5a-25939b2398bc")
-	)
-	(wire
-		(pts
-			(xy 303.53 125.73) (xy 303.53 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fbe2e33-87ce-422b-b602-58e7d9333530")
 	)
 	(wire
 		(pts
@@ -10022,7 +9886,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 133.35) (xy 245.11 133.35)
+			(xy 245.11 133.35) (xy 300.99 133.35)
 		)
 		(stroke
 			(width 0)
@@ -10059,16 +9923,6 @@
 			(type solid)
 		)
 		(uuid "8e4c976c-5c9f-4063-a3ba-69d3e582617a")
-	)
-	(wire
-		(pts
-			(xy 245.11 125.73) (xy 303.53 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f81da19-73ce-4692-903b-a126db5545d4")
 	)
 	(wire
 		(pts
@@ -10162,13 +10016,13 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 133.35) (xy 308.61 142.24)
+			(xy 293.37 142.24) (xy 293.37 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac6618fa-b05a-4f4c-9e5e-9d24f67948c9")
+		(uuid "a425a44f-8146-41c8-a48e-5775718b6401")
 	)
 	(wire
 		(pts
@@ -10229,6 +10083,16 @@
 			(type default)
 		)
 		(uuid "bc9eb5b3-2309-488b-a677-f8c9449350a3")
+	)
+	(wire
+		(pts
+			(xy 295.91 142.24) (xy 295.91 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcd566cc-e446-4113-9f97-2d9f8786cd3a")
 	)
 	(wire
 		(pts
@@ -10312,6 +10176,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 142.24) (xy 311.15 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7952df-3dc6-48e6-904d-bf56a3699154")
+	)
+	(wire
+		(pts
 			(xy 128.27 72.39) (xy 130.81 72.39)
 		)
 		(stroke
@@ -10342,16 +10216,6 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 130.81) (xy 293.37 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4fe6a93-d65e-4353-8cf9-a3387b9c8357")
-	)
-	(wire
-		(pts
 			(xy 123.19 87.63) (xy 121.92 87.63)
 		)
 		(stroke
@@ -10359,6 +10223,16 @@
 			(type solid)
 		)
 		(uuid "d5007281-37f9-46ee-80e2-7268ed468194")
+	)
+	(wire
+		(pts
+			(xy 245.11 130.81) (xy 295.91 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62dd77b-d532-4893-9f01-1c62d6cc58d6")
 	)
 	(wire
 		(pts
@@ -10472,16 +10346,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 128.27) (xy 298.45 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8bb7c0b-925d-43ba-878b-5782c2a9310e")
-	)
-	(wire
-		(pts
 			(xy 144.78 102.87) (xy 135.89 102.87)
 		)
 		(stroke
@@ -10502,7 +10366,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 120.65) (xy 300.99 120.65)
+			(xy 245.11 120.65) (xy 308.61 120.65)
 		)
 		(stroke
 			(width 0)
@@ -10572,13 +10436,13 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 142.24) (xy 306.07 123.19)
+			(xy 308.61 142.24) (xy 308.61 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2b39562-c55d-4e96-b28a-52451aa2ad23")
+		(uuid "f346a91f-649a-471c-b30a-61b4d9dc62d5")
 	)
 	(wire
 		(pts
@@ -11460,85 +11324,6 @@
 			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 247.65 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7952e441-7621-4456-8df8-ae8ab3fabc68")
-		(property "Reference" "TP23"
-			(at 252.222 70.612 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT3X4"
-			(at 245.11 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 247.65 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 247.65 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ddca5066-d03e-4d1a-83e4-809eb416cfee")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "TP23")
 					(unit 1)
 				)
 			)

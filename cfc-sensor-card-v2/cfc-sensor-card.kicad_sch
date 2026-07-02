@@ -4398,7 +4398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "401c180d-4da6-4928-949c-48cd10b110d1")
-		(property "Reference" "#VBUS02"
+		(property "Reference" "#VBUS01"
 			(at 72.39 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4458,7 +4458,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5"
-					(reference "#VBUS02")
+					(reference "#VBUS01")
 					(unit 1)
 				)
 			)
@@ -4827,7 +4827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e401fa75-4602-496f-a32c-8a24a2c8a90d")
-		(property "Reference" "#GND063"
+		(property "Reference" "#GND01"
 			(at 71.12 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4888,7 +4888,7 @@
 		(instances
 			(project "cfc-sensor-card"
 				(path "/8c53300c-27d6-4efc-b05b-8b907d6da3f5"
-					(reference "#GND063")
+					(reference "#GND01")
 					(unit 1)
 				)
 			)

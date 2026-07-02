@@ -3109,6 +3109,26 @@
 		)
 		(uuid "0f9402a7-f685-4bbc-8bd4-7bbf88f883f6")
 	)
+	(label "RXIN2_N"
+		(at 229.87 171.45 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c2d4b70-762b-4604-bedb-54fb8b261f92")
+	)
+	(label "RXIN1_N"
+		(at 229.87 163.83 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "506cf391-f713-4520-8ba2-2cca64d459a9")
+	)
 	(label "PRU_BUS.PRU0_5"
 		(at 179.07 161.29 180)
 		(effects
@@ -3139,6 +3159,16 @@
 		)
 		(uuid "b62b3bf7-1fe2-44e4-a56c-004054289f93")
 	)
+	(label "RXIN2_P"
+		(at 229.87 173.99 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3f84cc3-31fb-4df9-8f68-2cc8834c77b1")
+	)
 	(label "PRU_BUS.PRU0_6"
 		(at 179.07 163.83 180)
 		(effects
@@ -3148,6 +3178,16 @@
 			(justify right bottom)
 		)
 		(uuid "eb00ff3b-5ae8-441c-a6e5-9243f37b1237")
+	)
+	(label "RXIN1_P"
+		(at 229.87 166.37 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb010b2b-762c-4b94-bcf6-02374b3da01d")
 	)
 	(hierarchical_label "PRU_BUS.PRU0_1"
 		(shape input)
