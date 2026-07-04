@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat CFC Processor Card")
-		(date "2025-09-14")
-		(rev "2.0")
+		(date "2026-07-03")
+		(rev "2.1")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -12282,7 +12282,7 @@
 		(dnp no)
 		(uuid "346b4418-c146-42db-8afa-8ecfc1718167")
 		(property "Reference" "R43"
-			(at 218.44 79.7814 0)
+			(at 215.646 79.502 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12292,15 +12292,15 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1k"
-			(at 218.44 84.582 0)
+		(property "Value" "10k"
+			(at 215.646 84.3026 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -12347,7 +12347,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT1K00CT-ND"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 222.25 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12369,7 +12369,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT1K00"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 222.25 81.28 0)
 			(hide yes)
 			(show_name no)

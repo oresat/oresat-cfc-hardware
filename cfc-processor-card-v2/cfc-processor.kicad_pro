@@ -63,9 +63,9 @@
           "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.127,
-          "pad_connection": 2,
+          "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.127,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -82,7 +82,11 @@
           ""
         ],
         [
-          "shorting_items|118152105|129152595|11f294ec-d346-446f-b316-a899632b53d6|8f9e476d-1c73-47a8-8eda-21c0a8333c76",
+          "shorting_items|117350095|129954605|82526d6b-99d6-4d00-987a-55e02506b66e|8f9e476d-1c73-47a8-8eda-21c0a8333c76",
+          ""
+        ],
+        [
+          "shorting_items|117850095|129954605|44d52505-008d-4019-8f3d-4e59492e489d|5d01c659-fb94-42d8-b311-e1550701e2ba",
           ""
         ],
         [
@@ -90,15 +94,11 @@
           ""
         ],
         [
-          "shorting_items|118652105|129152595|48d4c740-69ce-4877-9c6b-92ac2d55c743|5d01c659-fb94-42d8-b311-e1550701e2ba",
-          ""
-        ],
-        [
           "shorting_items|118757350|129053600|48d4c740-69ce-4877-9c6b-92ac2d55c743|4a05391c-97ee-42ca-81bd-04ac24588e5c",
           ""
         ],
         [
-          "shorting_items|119350095|128954605|00ad133d-4b78-4cd7-b05e-d62d9c171b1c|871d074d-4d04-44c3-8a34-d8a03d964bb1",
+          "shorting_items|118850095|129454605|4d168b73-f7ce-403b-a055-d54d0c20b7fe|871d074d-4d04-44c3-8a34-d8a03d964bb1",
           ""
         ],
         [
@@ -114,11 +114,11 @@
           ""
         ],
         [
-          "shorting_items|120257350|129553600|e1af7fab-9947-487b-bb38-783a54a1d4ee|ed91efb9-a465-46e5-9260-a89c34b044a6",
+          "shorting_items|120257350|129053600|71419d35-14f3-4706-98d1-25bb2ca9d1fc|e1af7fab-9947-487b-bb38-783a54a1d4ee",
           ""
         ],
         [
-          "shorting_items|120652105|129954605|15c180f3-b6a3-4698-a72f-16edc1d59495|fa33eda1-90a9-429c-89d7-8ffa0c70498d",
+          "shorting_items|120257350|129559850|ed91efb9-a465-46e5-9260-a89c34b044a6|fa33eda1-90a9-429c-89d7-8ffa0c70498d",
           ""
         ],
         [
@@ -134,7 +134,7 @@
           ""
         ],
         [
-          "shorting_items|121611100|132553600|378d7a4e-5098-4383-a898-57b1acde4a33|ef5a7b1c-ff55-4515-b210-fc73fb565e17",
+          "shorting_items|121111100|132553600|ec753023-ed28-4601-bdd9-4103d3e8a981|ef5a7b1c-ff55-4515-b210-fc73fb565e17",
           ""
         ],
         [
@@ -159,10 +159,6 @@
         ],
         [
           "shorting_items|121891100|132053600|3f427ace-6c95-4f01-a64f-678c8f7356a3|5a79b14d-6c48-4285-83de-0c1ded4c9aea",
-          ""
-        ],
-        [
-          "silk_over_copper|104547618|145404819|f68e24f2-43a9-42b2-a854-4fb4b67f40d6|0901c00d-3c25-4e7d-932b-40b5a9054fae",
           ""
         ],
         [
@@ -210,15 +206,15 @@
           ""
         ],
         [
-          "solder_mask_bridge|120251100|129725350|98431e47-dc7b-44f3-b97b-59e273135e5f|fa33eda1-90a9-429c-89d7-8ffa0c70498d",
+          "solder_mask_bridge|120257350|129559850|98431e47-dc7b-44f3-b97b-59e273135e5f|ed91efb9-a465-46e5-9260-a89c34b044a6",
           ""
         ],
         [
-          "solder_mask_bridge|120751100|131225350|70ecf80e-d71a-4dd6-a354-92a419751fff|2818df79-2e9f-43db-a7d4-8ca1ecaaa15e",
+          "solder_mask_bridge|120649350|132553600|5d9b14d6-74c5-49e7-bc95-7d7d872267fe|12c6459d-4031-421e-afc2-cce2336ead8c",
           ""
         ],
         [
-          "solder_mask_bridge|120751100|132725350|5d9b14d6-74c5-49e7-bc95-7d7d872267fe|ef5a7b1c-ff55-4515-b210-fc73fb565e17",
+          "solder_mask_bridge|120852850|131053600|70ecf80e-d71a-4dd6-a354-92a419751fff|42561efe-588c-4e11-b03d-bc55ade580d0",
           ""
         ],
         [
@@ -431,7 +427,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "2.0"
+      "sch_revision": "2.1"
     },
     "layer_pairs": [],
     "layer_presets": [],

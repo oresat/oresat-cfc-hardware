@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat CFC Processor Card")
-		(date "2025-09-14")
-		(rev "2.0")
+		(date "2026-07-03")
+		(rev "2.1")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -4922,12 +4922,6 @@
 		(uuid "276e40dc-8724-41f7-b124-2d87072c7782")
 	)
 	(junction
-		(at 387.35 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2dd9a96e-b3c0-4222-afa1-0ffa2e754e5f")
-	)
-	(junction
 		(at 87.63 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4958,18 +4952,6 @@
 		(uuid "3ba18553-22ca-4b82-80f9-b08e5f8308ef")
 	)
 	(junction
-		(at 347.98 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ea3bbf1-796a-4713-b820-039ec851d8fb")
-	)
-	(junction
-		(at 382.27 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "408a2aad-583e-4dfe-88d3-97c08bf5fea6")
-	)
-	(junction
 		(at 283.21 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4992,12 +4974,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "488aed5d-f741-44a2-a607-3fae80fb3c55")
-	)
-	(junction
-		(at 330.2 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48fe99c9-00e2-43bd-a2d6-fd35a06a736e")
 	)
 	(junction
 		(at 80.01 48.26)
@@ -5198,6 +5174,12 @@
 		(uuid "c64b56b1-ceda-493d-95a6-e2ce455b8e10")
 	)
 	(junction
+		(at 382.27 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c68d657b-106b-47c0-b247-1995659fa494")
+	)
+	(junction
 		(at 191.77 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5226,12 +5208,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3aa4081-eef7-416f-b91a-840386a0c85d")
-	)
-	(junction
-		(at 332.74 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d449b594-0f5c-40bd-bf17-b56b47029c2d")
 	)
 	(junction
 		(at 105.41 132.08)
@@ -5280,6 +5256,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed6b167c-972e-4b2e-a2ee-69971b011ae8")
+	)
+	(junction
+		(at 387.35 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdd42fd7-ade7-4b34-ba1c-a076b61315a8")
 	)
 	(wire
 		(pts
@@ -5533,6 +5515,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 82.55) (xy 382.27 85.09)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1247cf2d-695a-485b-882c-9649bc12f88b")
+	)
+	(wire
+		(pts
 			(xy 138.43 210.82) (xy 123.19 210.82)
 		)
 		(stroke
@@ -5703,7 +5695,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 71.12) (xy 312.42 71.12)
+			(xy 312.42 71.12) (xy 342.9 71.12)
 		)
 		(stroke
 			(width 0.1524)
@@ -6310,16 +6302,6 @@
 			(type solid)
 		)
 		(uuid "4dc22ad4-cf9b-4846-9e9c-4b3c90beaaec")
-	)
-	(wire
-		(pts
-			(xy 330.2 71.12) (xy 342.9 71.12)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4e4f81b9-186d-4662-bb8e-93460ad74c7d")
 	)
 	(wire
 		(pts
@@ -7413,7 +7395,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 85.09) (xy 387.35 85.09)
+			(xy 382.27 82.55) (xy 387.35 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -7593,7 +7575,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 85.09) (xy 387.35 97.79)
+			(xy 387.35 82.55) (xy 387.35 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -8350,16 +8332,6 @@
 			(type solid)
 		)
 		(uuid "e272854f-60b7-4f96-84a5-2e705fd589c4")
-	)
-	(wire
-		(pts
-			(xy 382.27 82.55) (xy 382.27 85.09)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e3510192-7444-441d-bf49-cd9c3e5bb922")
 	)
 	(wire
 		(pts
@@ -9957,8 +9929,8 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "DMP3050LVT-7"
-			(at 237.744 38.1 90)
+		(property "Value" "DMPH2040UVTQ-7"
+			(at 244.856 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9981,7 +9953,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3050LVT.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMPH2040UVTQ.pdf"
 			(at 224.79 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -9993,7 +9965,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "P-Channel Power MOSFET, TSOT-23-6"
+		(property "Description" "P-Channel 20 V 5.6A (Ta), 11.7A (Tc) 1W (Ta) Surface Mount TSOT-26"
 			(at 224.79 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10016,7 +9988,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "DMP3050LVT-7DICT-ND"
+		(property "DPN" "31-DMPH2040UVTQ-7CT-ND"
 			(at 224.79 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -10028,7 +10000,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "Diodes Inc"
+		(property "MFR" "Diodes Incorporated"
 			(at 224.79 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -10040,7 +10012,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "DMP3050LVT-7"
+		(property "MPN" "DMPH2040UVTQ-7"
 			(at 224.79 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -10513,7 +10485,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 345.44 86.36 0)
+			(at 345.44 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10590,7 +10562,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2.7k"
+		(property "Value" "10k"
 			(at 380.238 187.2234 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10645,7 +10617,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT2K70CT-ND"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 374.65 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -10667,7 +10639,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT2K70"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 374.65 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -10813,84 +10785,6 @@
 			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 347.98 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "230039fe-ef6a-4f6b-8152-8c13ec99ed00")
-		(property "Reference" "TP19"
-			(at 344.17 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT"
-			(at 347.98 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 347.98 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 347.98 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 347.98 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2471d16f-25e0-46fb-81cf-79abced830bd")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a"
-					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -11122,7 +11016,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at 96.774 93.218 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11130,7 +11024,7 @@
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -11144,7 +11038,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" ""
 			(at 97.79 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11166,7 +11060,7 @@
 				)
 			)
 		)
-		(property "DIS" "DigiKey"
+		(property "DIS" "Digi-Key"
 			(at 97.79 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11175,9 +11069,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT100RCT-ND"
+		(property "DPN" "1276-4275-1-ND"
 			(at 97.79 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11186,9 +11081,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Samsung"
 			(at 97.79 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11197,9 +11093,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT100R"
+		(property "MPN" "RC1005F6653CS"
 			(at 97.79 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11208,6 +11105,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -11529,7 +11427,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at 64.77 91.9734 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11537,7 +11435,7 @@
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -11551,7 +11449,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" ""
 			(at 67.31 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11573,7 +11471,7 @@
 				)
 			)
 		)
-		(property "DIS" "DigiKey"
+		(property "DIS" "Digi-Key"
 			(at 67.31 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11582,9 +11480,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT100RCT-ND"
+		(property "DPN" "1276-4275-1-ND"
 			(at 67.31 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11593,9 +11492,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Samsung"
 			(at 67.31 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11604,9 +11504,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT100R"
+		(property "MPN" "RC1005F6653CS"
 			(at 67.31 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11615,6 +11516,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -12060,7 +11962,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at 92.456 88.8746 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12068,7 +11970,7 @@
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -12082,7 +11984,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" ""
 			(at 87.63 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12104,7 +12006,7 @@
 				)
 			)
 		)
-		(property "DIS" "DigiKey"
+		(property "DIS" "Digi-Key"
 			(at 87.63 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12113,9 +12015,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT100RCT-ND"
+		(property "DPN" "1276-4275-1-ND"
 			(at 87.63 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12124,9 +12027,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right bottom)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Samsung"
 			(at 87.63 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12135,9 +12039,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT100R"
+		(property "MPN" "RC1005F6653CS"
 			(at 87.63 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12146,6 +12051,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right bottom)
 			)
 		)
 		(pin "1"
@@ -13508,7 +13414,7 @@
 		(dnp no)
 		(uuid "5447df7c-382c-44da-916a-223c5bcb42d4")
 		(property "Reference" "Q5"
-			(at 369.57 84.074 0)
+			(at 390.144 84.328 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13518,8 +13424,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "PMV45EN"
-			(at 369.57 86.614 0)
+		(property "Value" "DMN2050LQ-7"
+			(at 390.144 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13540,7 +13446,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/DMN2050LQ.pdf"
 			(at 379.73 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -13551,7 +13457,7 @@
 				)
 			)
 		)
-		(property "Description" "N-Channel 30 V 4.1A (Ta) 510mW (Ta), 5W (Tc) Surface Mount TO-236AB"
+		(property "Description" "N-Channel 20 V 5.9A (Ta) 1.4W Surface Mount SOT-23-3"
 			(at 379.73 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -13560,6 +13466,18 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFR" "Diodes Incorporated"
+			(at 379.73 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 			)
 		)
 		(property "DIS" "DigiKey"
@@ -13574,7 +13492,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "1727-2307-1-ND"
+		(property "MPN" "DMN2050LQ-7"
 			(at 379.73 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -13586,19 +13504,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "Nexperia"
-			(at 379.73 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MPN" "PMV45EN2R"
+		(property "DPN" "31-DMN2050LQ-7CT-ND"
 			(at 379.73 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -15227,7 +15133,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "DMP3050LVT-7"
+		(property "Value" "DMPH2040UVTQ-7"
 			(at 375.158 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15251,7 +15157,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3050LVT.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMPH2040UVTQ.pdf"
 			(at 370.84 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -15263,7 +15169,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "P-Channel Power MOSFET, TSOT-23-6"
+		(property "Description" "P-Channel 20 V 5.6A (Ta), 11.7A (Tc) 1W (Ta) Surface Mount TSOT-26"
 			(at 370.84 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15286,7 +15192,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "DMP3050LVT-7DICT-ND"
+		(property "DPN" "31-DMPH2040UVTQ-7CT-ND"
 			(at 370.84 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -15298,7 +15204,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "Diodes Inc"
+		(property "MFR" "Diodes Incorporated"
 			(at 370.84 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -15310,7 +15216,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "DMP3050LVT-7"
+		(property "MPN" "DMPH2040UVTQ-7"
 			(at 370.84 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -15371,7 +15277,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "PMV45EN"
+		(property "Value" "DMN2050LQ-7"
 			(at 222.25 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15393,7 +15299,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/DMN2050LQ.pdf"
 			(at 217.17 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -15404,7 +15310,7 @@
 				)
 			)
 		)
-		(property "Description" "N-Channel 30 V 4.1A (Ta) 510mW (Ta), 5W (Tc) Surface Mount TO-236AB"
+		(property "Description" "N-Channel 20 V 5.9A (Ta) 1.4W Surface Mount SOT-23-3"
 			(at 217.17 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -15413,18 +15319,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MFR" "Nexperia"
-			(at 217.17 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "DIS" "DigiKey"
@@ -15439,7 +15333,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "PMV45EN2R"
+		(property "DPN" "31-DMN2050LQ-7CT-ND"
 			(at 217.17 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -15451,7 +15345,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "1727-2307-1-ND"
+		(property "MFR" "Diodes Incorporated"
+			(at 217.17 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "DMN2050LQ-7"
 			(at 217.17 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -16238,7 +16144,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2.7k"
+		(property "Value" "4.7k"
 			(at 209.804 89.8906 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16246,7 +16152,7 @@
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -16291,9 +16197,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT2K70CT-ND"
+		(property "DPN" "RMCF0603FT4K70CT-ND"
 			(at 212.09 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -16302,6 +16209,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
@@ -16313,9 +16221,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT2K70"
+		(property "MPN" "RMCF0603FT4K70"
 			(at 212.09 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -16324,6 +16233,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -16336,84 +16246,6 @@
 			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 332.74 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8cfb9c4c-b189-4233-ab53-66ecb292dc67")
-		(property "Reference" "TP17"
-			(at 330.2 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT"
-			(at 332.74 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 332.74 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 332.74 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 332.74 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "68b49bcc-9a6d-4c1b-8021-661202e56a98")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a"
-					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -17318,7 +17150,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2.7k"
+		(property "Value" "10k"
 			(at 404.622 44.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17373,7 +17205,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT2K70CT-ND"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 398.78 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -17395,7 +17227,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT2K70"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 398.78 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -17702,84 +17534,6 @@
 			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 330.2 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a326acf9-90ab-43ec-b414-d038f08a213f")
-		(property "Reference" "TP16"
-			(at 328.93 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT"
-			(at 330.2 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 330.2 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 330.2 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ad6210f-e709-4184-8891-a274c42a0498")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/b2257a8e-f157-4d00-9c7a-ebd3e047ad3a"
-					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -18158,7 +17912,7 @@
 		(dnp no)
 		(uuid "aa1bfac6-78df-4e01-989c-a91a7dad30f9")
 		(property "Reference" "TP21"
-			(at 384.81 101.6 0)
+			(at 389.382 98.552 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20024,15 +19778,15 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "10k"
-			(at 178.054 133.858 90)
+		(property "Value" "1k"
+			(at 178.054 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -20046,7 +19800,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" ""
 			(at 180.34 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -20068,7 +19822,7 @@
 				)
 			)
 		)
-		(property "DIS" "DigiKey"
+		(property "DIS" "Digi-Key"
 			(at 180.34 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -20077,9 +19831,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT10K0CT-ND"
+		(property "DPN" "1276-4275-1-ND"
 			(at 180.34 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -20088,9 +19843,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Samsung"
 			(at 180.34 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -20099,9 +19855,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT10K0"
+		(property "MPN" "RC1005F6653CS"
 			(at 180.34 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -20110,6 +19867,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -20560,7 +20318,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "100"
 			(at 65.278 43.688 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20568,6 +20326,7 @@
 				(font
 					(size 1.778 1.5113)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -20581,7 +20340,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 66.04 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -20612,10 +20371,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT10R0CT-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 66.04 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -20624,7 +20382,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
@@ -20636,10 +20393,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT10R0"
+		(property "MPN" "RMCF0603FT100R"
 			(at 66.04 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -20648,7 +20404,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(pin "1"
