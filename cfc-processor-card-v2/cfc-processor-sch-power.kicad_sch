@@ -16145,7 +16145,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 209.804 89.8906 90)
+			(at 213.36 89.662 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

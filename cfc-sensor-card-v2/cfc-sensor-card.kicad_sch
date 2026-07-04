@@ -5250,7 +5250,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "cfc-sensor-card-sch-PIRT.kicad_sch"
+		(property "Sheetfile" "cfc-sensor-card-sch-pirt.kicad_sch"
 			(at 243.84 152.908 0)
 			(show_name no)
 			(do_not_autoplace no)

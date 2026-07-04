@@ -167,7 +167,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Small"
+		(symbol "Device:LED_Small_Filled"
 			(pin_numbers
 				(hide yes)
 			)
@@ -191,7 +191,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LED_Small"
+			(property "Value" "LED_Small_Filled"
 				(at -4.445 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -224,7 +224,7 @@
 					)
 				)
 			)
-			(property "Description" "Light emitting diode, small symbol"
+			(property "Description" "Light emitting diode, small symbol, filled shape"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -268,7 +268,7 @@
 					)
 				)
 			)
-			(symbol "LED_Small_0_1"
+			(symbol "LED_Small_Filled_0_1"
 				(polyline
 					(pts
 						(xy -0.762 -1.016) (xy -0.762 1.016)
@@ -314,7 +314,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -330,7 +330,7 @@
 					)
 				)
 			)
-			(symbol "LED_Small_1_1"
+			(symbol "LED_Small_Filled_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -507,209 +507,6 @@
 					(at 0 -2.54 90)
 					(length 1.016)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LED_Small_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -1.27 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LED_Small"
-				(at -4.445 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode light-emitting-diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_Small_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Small_1_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7687,7 +7484,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "100"
 			(at 67.31 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7695,6 +7492,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -7708,7 +7506,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 63.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7719,7 +7517,7 @@
 				)
 			)
 		)
-		(property "Description" "10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 63.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7739,10 +7537,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
 			)
 		)
-		(property "DPN" "RMCF0603FT10R0CT-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 63.5 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -7751,7 +7548,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
@@ -7763,10 +7559,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
 			)
 		)
-		(property "MPN" "RMCF0603FT10R0"
+		(property "MPN" "RMCF0603FT100R"
 			(at 63.5 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -7775,7 +7570,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
 			)
 		)
 		(pin "1"
@@ -9156,7 +8950,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "Device:LED_Small_Filled")
 		(at 375.92 58.42 90)
 		(unit 1)
 		(body_style 1)
@@ -9211,7 +9005,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "Light emitting diode, small symbol, filled shape"
 			(at 375.92 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12715,7 +12509,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -12729,7 +12522,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 45.72 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -12760,6 +12553,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
 		(property "DPN" "RMCF0603FT100RCT-ND"
@@ -12771,6 +12565,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
@@ -12782,6 +12577,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
 		(property "MPN" "RMCF0603FT100R"
@@ -12793,6 +12589,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -12988,7 +12785,7 @@
 				)
 			)
 		)
-		(property "Value" "DMP3050LVT-7"
+		(property "Value" "DMPH2040UVTQ-7"
 			(at 331.47 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13012,7 +12809,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3050LVT.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMPH2040UVTQ.pdf"
 			(at 337.82 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -13024,7 +12821,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "P-Channel Power MOSFET, TSOT-23-6"
+		(property "Description" "P-Channel 20 V 5.6A (Ta), 11.7A (Tc) 1W (Ta) Surface Mount TSOT-26"
 			(at 337.82 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -13047,7 +12844,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "DMP3050LVT-7DICT-ND"
+		(property "DPN" "31-DMPH2040UVTQ-7CT-ND"
 			(at 337.82 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -13059,7 +12856,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "Diodes Inc"
+		(property "MFR" "Diodes Incorporated"
 			(at 337.82 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -13071,7 +12868,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "DMP3050LVT-7"
+		(property "MPN" "DMPH2040UVTQ-7"
 			(at 337.82 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -13790,7 +13587,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMV45EN"
+		(property "Value" "DMN2050LQ-7"
 			(at 359.41 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13812,7 +13609,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/DMN2050LQ.pdf"
 			(at 353.06 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13823,7 +13620,7 @@
 				)
 			)
 		)
-		(property "Description" "N-Channel 30 V 4.1A (Ta) 510mW (Ta), 5W (Tc) Surface Mount TO-236AB"
+		(property "Description" "N-Channel 20 V 5.9A (Ta) 1.4W Surface Mount SOT-23-3"
 			(at 353.06 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13846,7 +13643,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "1727-2307-1-ND"
+		(property "DPN" "31-DMN2050LQ-7CT-ND"
 			(at 353.06 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13858,7 +13655,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "Nexperia"
+		(property "MFR" "Diodes Incorporated"
 			(at 353.06 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13870,7 +13667,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "PMV45EN2R"
+		(property "MPN" "DMN2050LQ-7"
 			(at 353.06 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -14088,7 +13885,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -14102,7 +13898,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -14133,6 +13929,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
 		(property "DPN" "RMCF0603FT100RCT-ND"
@@ -14144,6 +13941,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
@@ -14155,6 +13953,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
 		(property "MPN" "RMCF0603FT100R"
@@ -14166,6 +13965,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -14635,7 +14435,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -14649,7 +14448,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 60.96 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -14680,6 +14479,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
 		(property "DPN" "RMCF0603FT100RCT-ND"
@@ -14691,6 +14491,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
@@ -14702,6 +14503,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
 		(property "MPN" "RMCF0603FT100R"
@@ -14713,6 +14515,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -15520,8 +15323,7 @@
 		)
 	)
 	(symbol
-		(lib_name "LED_Small_1")
-		(lib_id "Device:LED_Small")
+		(lib_id "Device:LED_Small_Filled")
 		(at 198.12 99.06 180)
 		(unit 1)
 		(body_style 1)
@@ -15541,7 +15343,7 @@
 				)
 			)
 		)
-		(property "Value" "AMBER"
+		(property "Value" "AMB"
 			(at 198.12 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15549,6 +15351,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
@@ -15562,7 +15365,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060AS75000.pdf"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060AS75000.pdf"
 			(at 198.12 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -15573,18 +15376,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 198.12 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
+		(property "Description" "Light emitting diode, small symbol, filled shape"
 			(at 198.12 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -15604,6 +15396,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right bottom)
 			)
 		)
 		(property "DPN" "732-150060AS75000CT-ND"
@@ -15615,6 +15408,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right bottom)
 			)
 		)
 		(property "MFR" "Wurth"
@@ -15626,9 +15420,22 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right bottom)
 			)
 		)
 		(property "MPN" "150060AS75000"
+			(at 198.12 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Device" "D"
 			(at 198.12 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -16310,7 +16117,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMV45EN"
+		(property "Value" "DMN2050LQ-7"
 			(at 201.93 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16332,7 +16139,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/DMN2050LQ.pdf"
 			(at 195.58 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -16343,7 +16150,7 @@
 				)
 			)
 		)
-		(property "Description" "N-Channel 30 V 4.1A (Ta) 510mW (Ta), 5W (Tc) Surface Mount TO-236AB"
+		(property "Description" "N-Channel 20 V 5.9A (Ta) 1.4W Surface Mount SOT-23-3"
 			(at 195.58 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -16366,7 +16173,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "1727-2307-1-ND"
+		(property "DPN" "31-DMN2050LQ-7CT-ND"
 			(at 195.58 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -16378,7 +16185,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "Nexperia"
+		(property "MFR" "Diodes Incorporated"
 			(at 195.58 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -16390,7 +16197,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "PMV45EN2R"
+		(property "MPN" "DMN2050LQ-7"
 			(at 195.58 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -16399,7 +16206,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(pin "1"
