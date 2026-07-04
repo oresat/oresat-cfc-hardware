@@ -7108,7 +7108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 45.72 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7130,7 +7130,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 45.72 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7425,7 +7425,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 50.8 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7812,7 +7812,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 66.04 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8742,7 +8742,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 50.8 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8834,7 +8834,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11181,7 +11181,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 66.04 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -14368,7 +14368,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 76.2 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -15583,7 +15583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 60.96 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -15605,7 +15605,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 60.96 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -17062,7 +17062,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 81.28 76.2 0)
 			(hide yes)
 			(show_name no)
