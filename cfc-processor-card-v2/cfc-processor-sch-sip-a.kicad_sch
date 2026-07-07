@@ -167,7 +167,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Small"
+		(symbol "Device:LED_Small_Filled"
 			(pin_numbers
 				(hide yes)
 			)
@@ -191,7 +191,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LED_Small"
+			(property "Value" "LED_Small_Filled"
 				(at -4.445 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -224,7 +224,7 @@
 					)
 				)
 			)
-			(property "Description" "Light emitting diode, small symbol"
+			(property "Description" "Light emitting diode, small symbol, filled shape"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -268,7 +268,7 @@
 					)
 				)
 			)
-			(symbol "LED_Small_0_1"
+			(symbol "LED_Small_Filled_0_1"
 				(polyline
 					(pts
 						(xy -0.762 -1.016) (xy -0.762 1.016)
@@ -314,7 +314,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -330,7 +330,7 @@
 					)
 				)
 			)
-			(symbol "LED_Small_1_1"
+			(symbol "LED_Small_Filled_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -11772,7 +11772,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 234.95 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -11794,7 +11794,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 234.95 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -11805,7 +11805,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 234.95 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -11816,7 +11816,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 234.95 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -11999,7 +11999,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "Device:LED_Small_Filled")
 		(at 222.25 90.17 90)
 		(unit 1)
 		(body_style 1)
@@ -12053,7 +12053,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "Light emitting diode, small symbol, filled shape"
 			(at 222.25 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -12200,7 +12200,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 257.81 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -12222,7 +12222,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 257.81 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -12233,7 +12233,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 257.81 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -12244,7 +12244,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 257.81 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -12866,7 +12866,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X7R 1210 (3225 Metric)"
 			(at 209.55 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -12888,7 +12888,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-GCM32EC71E226KE36KCT-ND"
+		(property "DPN" "587-5949-1-ND"
 			(at 209.55 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -12899,7 +12899,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 209.55 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -12910,7 +12910,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCM32EC71E226KE36K"
+		(property "MPN" "TMK325B7226KMHP"
 			(at 209.55 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13069,7 +13069,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X7R 1210 (3225 Metric)"
 			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13091,7 +13091,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-GCM32EC71E226KE36KCT-ND"
+		(property "DPN" "587-5949-1-ND"
 			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13102,7 +13102,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13113,7 +13113,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCM32EC71E226KE36K"
+		(property "MPN" "TMK325B7226KMHP"
 			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14271,7 +14271,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X7R 1210 (3225 Metric)"
 			(at 86.36 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -14293,7 +14293,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-GCM32EC71E226KE36KCT-ND"
+		(property "DPN" "587-5949-1-ND"
 			(at 86.36 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -14304,7 +14304,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 86.36 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -14315,7 +14315,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCM32EC71E226KE36K"
+		(property "MPN" "TMK325B7226KMHP"
 			(at 86.36 60.96 0)
 			(hide yes)
 			(show_name no)

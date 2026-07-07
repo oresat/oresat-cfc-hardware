@@ -345,7 +345,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Small"
+		(symbol "Device:LED_Small_Filled"
 			(pin_numbers
 				(hide yes)
 			)
@@ -369,7 +369,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LED_Small"
+			(property "Value" "LED_Small_Filled"
 				(at -4.445 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -402,7 +402,7 @@
 					)
 				)
 			)
-			(property "Description" "Light emitting diode, small symbol"
+			(property "Description" "Light emitting diode, small symbol, filled shape"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -446,7 +446,7 @@
 					)
 				)
 			)
-			(symbol "LED_Small_0_1"
+			(symbol "LED_Small_Filled_0_1"
 				(polyline
 					(pts
 						(xy -0.762 -1.016) (xy -0.762 1.016)
@@ -492,7 +492,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -508,7 +508,7 @@
 					)
 				)
 			)
-			(symbol "LED_Small_1_1"
+			(symbol "LED_Small_Filled_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -685,209 +685,6 @@
 					(at 0 -2.54 90)
 					(length 1.016)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LED_Small_3"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -1.27 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LED_Small"
-				(at -4.445 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode light-emitting-diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_Small_3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Small_3_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5192,12 +4989,6 @@
 		(uuid "c9b6b318-4fa6-4767-84f1-7eed5e857d7d")
 	)
 	(junction
-		(at 138.43 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cde9c4eb-ef22-4181-9d57-79a37ef2abf1")
-	)
-	(junction
 		(at 304.8 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5555,7 +5346,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 217.17) (xy 151.13 218.44)
+			(xy 151.13 215.9) (xy 151.13 217.17)
 		)
 		(stroke
 			(width 0)
@@ -6835,16 +6626,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 212.09) (xy 138.43 210.82)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "737d25a2-04b7-4c14-93c7-a87c9ca2bd25")
-	)
-	(wire
-		(pts
 			(xy 72.39 83.82) (xy 72.39 86.36)
 		)
 		(stroke
@@ -7082,16 +6863,6 @@
 			(type default)
 		)
 		(uuid "8709c925-7b85-4986-a2da-6171200d07c5")
-	)
-	(wire
-		(pts
-			(xy 138.43 218.44) (xy 138.43 212.09)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "87354abf-ba7d-4906-a417-50af8350243a")
 	)
 	(wire
 		(pts
@@ -8495,6 +8266,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 210.82) (xy 138.43 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed9caaa2-fe5d-4832-8dc0-ebdb6dad5910")
+	)
+	(wire
+		(pts
 			(xy 87.63 180.34) (xy 81.28 180.34)
 		)
 		(stroke
@@ -8705,7 +8486,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 212.09) (xy 151.13 212.09)
+			(xy 138.43 210.82) (xy 151.13 210.82)
 		)
 		(stroke
 			(width 0)
@@ -9397,7 +9178,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X7R 1210 (3225 Metric)"
 			(at 358.14 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -9419,7 +9200,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-GCM32EC71E226KE36KCT-ND"
+		(property "DPN" "587-5949-1-ND"
 			(at 358.14 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -9430,7 +9211,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 358.14 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -9441,7 +9222,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCM32EC71E226KE36K"
+		(property "MPN" "TMK325B7226KMHP"
 			(at 358.14 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -11006,7 +10787,7 @@
 		(dnp no)
 		(uuid "26cd4df1-0dae-4350-ad67-4a962e4bb89f")
 		(property "Reference" "R13"
-			(at 97.282 88.392 0)
+			(at 96.52 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11016,15 +10797,15 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "1k"
-			(at 96.774 93.218 0)
+		(property "Value" "100"
+			(at 96.266 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right top)
+				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -11038,7 +10819,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 97.79 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11060,7 +10841,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 97.79 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11069,10 +10850,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 97.79 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11081,10 +10861,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 97.79 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11093,10 +10872,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT100R"
 			(at 97.79 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11105,7 +10883,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -11427,7 +11204,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100"
 			(at 64.77 91.9734 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11435,7 +11212,7 @@
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right top)
+				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -11449,7 +11226,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 67.31 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11471,7 +11248,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 67.31 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11480,10 +11257,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 67.31 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11492,10 +11268,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 67.31 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11504,10 +11279,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT100R"
 			(at 67.31 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11516,7 +11290,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -11952,7 +11725,7 @@
 		(dnp no)
 		(uuid "3d0c0460-a015-447d-af03-7f03cd77fbd4")
 		(property "Reference" "R11"
-			(at 92.71 86.868 0)
+			(at 93.218 94.488 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11962,15 +11735,15 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1k"
-			(at 92.456 88.8746 0)
+		(property "Value" "100"
+			(at 92.964 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -11984,7 +11757,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 87.63 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12006,7 +11779,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 87.63 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12015,10 +11788,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 87.63 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12027,10 +11799,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 87.63 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12039,10 +11810,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT100R"
 			(at 87.63 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12051,7 +11821,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
 		(pin "1"
@@ -12206,7 +11975,7 @@
 		(dnp yes)
 		(uuid "429ee906-7899-4421-a2a3-308050cc477a")
 		(property "Reference" "R2"
-			(at 65.532 79.2226 0)
+			(at 62.992 78.232 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12216,7 +11985,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100"
 			(at 64.262 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12224,7 +11993,7 @@
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right top)
+				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -12238,7 +12007,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 67.31 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12260,7 +12029,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 67.31 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12269,10 +12038,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 67.31 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12281,10 +12049,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 67.31 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12293,10 +12060,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT100R"
 			(at 67.31 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12305,7 +12071,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -12336,7 +12101,7 @@
 		(dnp yes)
 		(uuid "47ed278d-9759-4d3e-8f94-94b88b5d9d4a")
 		(property "Reference" "R4"
-			(at 78.486 81.28 0)
+			(at 77.216 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12346,15 +12111,15 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1k"
-			(at 77.724 83.82 0)
+		(property "Value" "100"
+			(at 78.486 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -12368,7 +12133,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 72.39 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12390,7 +12155,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 72.39 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12399,10 +12164,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 72.39 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12411,10 +12175,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 72.39 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12423,10 +12186,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT100R"
 			(at 72.39 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12435,7 +12197,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -13081,7 +12842,7 @@
 		(dnp yes)
 		(uuid "516cc78e-5ccf-4602-802b-7f52fee14620")
 		(property "Reference" "R9"
-			(at 82.042 93.9546 0)
+			(at 80.518 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13091,15 +12852,15 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "1k"
-			(at 81.026 96.52 0)
+		(property "Value" "100"
+			(at 81.788 98.298 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right top)
+				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -13113,7 +12874,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 82.55 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -13135,7 +12896,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 82.55 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -13144,10 +12905,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 82.55 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -13156,10 +12916,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 82.55 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -13168,10 +12927,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT100R"
 			(at 82.55 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -13180,7 +12938,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -13332,7 +13089,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
 			(at 113.03 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -13343,7 +13100,7 @@
 				)
 			)
 		)
-		(property "DIS" "DigiKey"
+		(property "DIS" "Digikey"
 			(at 113.03 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -13354,7 +13111,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3473-1-ND"
+		(property "DPN" "490-10675-2-ND"
 			(at 113.03 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -13365,7 +13122,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 113.03 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -13376,7 +13133,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ105KAHT"
+		(property "MPN" "GCM21BR71H105KA03L"
 			(at 113.03 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -13535,8 +13292,7 @@
 		)
 	)
 	(symbol
-		(lib_name "LED_Small_3")
-		(lib_id "Device:LED_Small")
+		(lib_id "Device:LED_Small_Filled")
 		(at 222.25 86.36 180)
 		(unit 1)
 		(body_style 1)
@@ -13590,7 +13346,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "Light emitting diode, small symbol, filled shape"
 			(at 222.25 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13884,7 +13640,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 152.4 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -14020,7 +13776,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
 			(at 289.56 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -14031,7 +13787,7 @@
 				)
 			)
 		)
-		(property "DIS" "DigiKey"
+		(property "DIS" "Digikey"
 			(at 289.56 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -14042,7 +13798,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3473-1-ND"
+		(property "DPN" "490-10675-2-ND"
 			(at 289.56 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -14053,7 +13809,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 289.56 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -14064,7 +13820,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ105KAHT"
+		(property "MPN" "GCM21BR71H105KA03L"
 			(at 289.56 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -14102,7 +13858,7 @@
 		(dnp yes)
 		(uuid "67d829f5-9e4d-4c16-93b3-52d6fe88bee3")
 		(property "Reference" "R8"
-			(at 82.042 74.6506 0)
+			(at 80.01 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14112,15 +13868,15 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "1k"
-			(at 81.28 76.962 0)
+		(property "Value" "100"
+			(at 81.28 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right top)
+				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -14134,7 +13890,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 82.55 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -14156,7 +13912,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 82.55 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -14165,10 +13921,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 82.55 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -14177,10 +13932,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 82.55 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -14189,10 +13943,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT100R"
 			(at 82.55 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -14201,7 +13954,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -14274,7 +14026,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 236.22 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -14296,7 +14048,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-GRT21BC71E106KE13LCT-ND"
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 236.22 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -14318,7 +14070,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRT21BC71E106KE13L"
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 236.22 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -14356,7 +14108,7 @@
 		(dnp yes)
 		(uuid "6cdd62b6-5f27-47c2-a773-e5c3f68a697e")
 		(property "Reference" "R12"
-			(at 97.282 74.422 0)
+			(at 96.012 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14366,15 +14118,15 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "1k"
-			(at 96.266 76.708 0)
+		(property "Value" "100"
+			(at 96.012 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right top)
+				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -14388,7 +14140,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 97.79 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -14410,7 +14162,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 97.79 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -14419,10 +14171,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 97.79 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -14431,10 +14182,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 97.79 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -14443,10 +14193,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT100R"
 			(at 97.79 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -14455,7 +14204,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -14682,7 +14430,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "Device:LED_Small_Filled")
 		(at 374.65 199.39 90)
 		(unit 1)
 		(body_style 1)
@@ -14736,7 +14484,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "Light emitting diode, small symbol, filled shape"
 			(at 374.65 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -15443,7 +15191,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 217.17 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -15465,7 +15213,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 217.17 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -15476,7 +15224,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 217.17 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -15487,7 +15235,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 217.17 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -15593,7 +15341,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 151.13 214.63 0)
+		(at 151.13 213.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15603,7 +15351,7 @@
 		(dnp no)
 		(uuid "7f73bcde-a6bd-476d-ba45-6c08f10dd924")
 		(property "Reference" "C53"
-			(at 153.67 213.3662 0)
+			(at 153.67 212.0962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15614,7 +15362,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 153.67 215.9062 0)
+			(at 153.67 214.6362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15625,7 +15373,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 151.13 214.63 0)
+			(at 151.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15635,8 +15383,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
-			(at 151.13 214.63 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+			(at 151.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15647,7 +15395,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 151.13 214.63 0)
+			(at 151.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15658,7 +15406,7 @@
 			)
 		)
 		(property "DPN" "399-6856-1-ND"
-			(at 151.13 214.63 0)
+			(at 151.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15669,7 +15417,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 151.13 214.63 0)
+			(at 151.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15680,7 +15428,7 @@
 			)
 		)
 		(property "MPN" "C0603C104K5RACAUTO"
-			(at 151.13 214.63 0)
+			(at 151.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15691,7 +15439,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 151.13 214.63 0)
+			(at 151.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15771,7 +15519,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 276.86 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -15793,7 +15541,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-GRT21BC71E106KE13LCT-ND"
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 276.86 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -15815,7 +15563,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRT21BC71E106KE13L"
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 276.86 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -16557,7 +16305,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "DMP2240UDM"
+		(property "Value" "DMP2110UVTQ-7"
 			(at 100.838 219.964 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16579,7 +16327,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31197.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP2110UVTQ.pdf"
 			(at 92.71 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -16590,7 +16338,7 @@
 				)
 			)
 		)
-		(property "Description" "Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
+		(property "Description" "Mosfet Array 20V 1.8A (Ta) 740mW (Ta) Surface Mount TSOT-26"
 			(at 92.71 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -16612,7 +16360,7 @@
 				)
 			)
 		)
-		(property "DPN" "DMP2240UDMDICT-ND"
+		(property "DPN" "31-DMP2110UVTQ-7CT-ND"
 			(at 92.71 226.06 90)
 			(hide yes)
 			(show_name no)
@@ -16623,7 +16371,7 @@
 				)
 			)
 		)
-		(property "MFR" "Diodes Inc"
+		(property "MFR" "Diodes Incorporated"
 			(at 92.71 226.06 90)
 			(hide yes)
 			(show_name no)
@@ -16635,7 +16383,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "DMP2240UDM"
+		(property "MPN" "DMP2110UVTQ-7"
 			(at 92.71 226.06 90)
 			(hide yes)
 			(show_name no)
@@ -17422,7 +17170,7 @@
 		(dnp yes)
 		(uuid "a1d70f0f-8076-4ad7-b1de-836a2d851471")
 		(property "Reference" "R16"
-			(at 108.712 77.216 0)
+			(at 110.49 78.232 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17432,15 +17180,15 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1k"
-			(at 107.188 79.502 0)
+		(property "Value" "100"
+			(at 110.49 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -17454,7 +17202,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 102.87 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -17476,7 +17224,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 102.87 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -17485,10 +17233,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 102.87 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -17497,10 +17244,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 102.87 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -17509,10 +17255,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT100R"
 			(at 102.87 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -17521,7 +17266,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -18158,15 +17902,15 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1k"
-			(at 107.95 93.218 0)
+		(property "Value" "100"
+			(at 109.728 93.218 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -18180,7 +17924,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 102.87 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -18202,7 +17946,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 102.87 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -18211,10 +17955,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 102.87 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -18223,10 +17966,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 102.87 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -18235,10 +17977,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT100R"
 			(at 102.87 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -18247,7 +17988,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -18878,7 +18618,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 218.44 0)
+		(at 151.13 217.17 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -18889,7 +18629,7 @@
 		(dnp no)
 		(uuid "b9fbbe8a-07fd-46df-bd32-79a48aa9881a")
 		(property "Reference" "#PWR018"
-			(at 151.13 224.79 0)
+			(at 151.13 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18900,7 +18640,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 222.25 0)
+			(at 151.13 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18910,7 +18650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 218.44 0)
+			(at 151.13 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18921,7 +18661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 218.44 0)
+			(at 151.13 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18932,7 +18672,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 218.44 0)
+			(at 151.13 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19685,7 +19425,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 135.89 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -19707,7 +19447,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 135.89 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -19718,7 +19458,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 135.89 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -19729,7 +19469,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 135.89 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -19822,7 +19562,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 180.34 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -19834,7 +19574,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT1K00CT-ND"
 			(at 180.34 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -19846,7 +19586,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 180.34 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -19858,7 +19598,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT1K00"
 			(at 180.34 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -20422,7 +20162,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "Device:LED_Small_Filled")
 		(at 398.78 58.42 90)
 		(unit 1)
 		(body_style 1)
@@ -20476,7 +20216,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "Light emitting diode, small symbol, filled shape"
 			(at 398.78 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -21076,7 +20816,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole Electronics"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 377.19 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -21204,7 +20944,7 @@
 		(dnp yes)
 		(uuid "e5ec4486-3c5a-466c-b026-12e14df500a4")
 		(property "Reference" "R10"
-			(at 92.964 76.454 0)
+			(at 93.98 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21214,15 +20954,15 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1k"
-			(at 91.44 78.486 0)
+		(property "Value" "100"
+			(at 93.726 78.232 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -21236,7 +20976,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 87.63 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -21258,7 +20998,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 87.63 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -21267,10 +21007,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 87.63 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -21279,10 +21018,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 87.63 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -21291,10 +21029,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT100R"
 			(at 87.63 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -21303,7 +21040,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -21376,7 +21112,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
 			(at 259.08 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -21387,7 +21123,7 @@
 				)
 			)
 		)
-		(property "DIS" "DigiKey"
+		(property "DIS" "Digikey"
 			(at 259.08 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -21398,7 +21134,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3473-1-ND"
+		(property "DPN" "490-10675-2-ND"
 			(at 259.08 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -21409,7 +21145,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 259.08 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -21420,7 +21156,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ105KAHT"
+		(property "MPN" "GCM21BR71H105KA03L"
 			(at 259.08 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -21469,7 +21205,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "DMP2240UDM"
+		(property "Value" "DMP2110UVTQ-7"
 			(at 100.584 176.276 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21491,7 +21227,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31197.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP2110UVTQ.pdf"
 			(at 92.71 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -21502,7 +21238,7 @@
 				)
 			)
 		)
-		(property "Description" "Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
+		(property "Description" "Mosfet Array 20V 1.8A (Ta) 740mW (Ta) Surface Mount TSOT-26"
 			(at 92.71 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -21522,10 +21258,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "DPN" "DMP2240UDMDICT-ND"
+		(property "DPN" "31-DMP2110UVTQ-7CT-ND"
+			(at 92.71 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Diodes Incorporated"
 			(at 92.71 182.88 90)
 			(hide yes)
 			(show_name no)
@@ -21537,7 +21283,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "Diodes Inc"
+		(property "MPN" "DMP2110UVTQ-7"
 			(at 92.71 182.88 90)
 			(hide yes)
 			(show_name no)
@@ -21546,17 +21292,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MPN" "DMP2240UDM"
-			(at 92.71 182.88 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -22005,7 +21741,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
 			(at 269.24 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -22016,19 +21752,7 @@
 				)
 			)
 		)
-		(property "DIS" "DigiKey"
-			(at 269.24 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "DPN" "587-3473-1-ND"
+		(property "DIS" "Digikey"
 			(at 269.24 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -22040,7 +21764,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "DPN" "490-10675-2-ND"
 			(at 269.24 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -22052,7 +21776,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "TMK107BJ105KAHT"
+		(property "MFR" "Murata Electronics"
+			(at 269.24 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GCM21BR71H105KA03L"
 			(at 269.24 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -22092,7 +21828,7 @@
 		(dnp yes)
 		(uuid "ed6af048-3c69-4481-87f4-6243cac83d84")
 		(property "Reference" "R5"
-			(at 78.994 90.932 0)
+			(at 77.216 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22102,15 +21838,15 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1k"
-			(at 77.724 93.472 0)
+		(property "Value" "100"
+			(at 78.486 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -22124,7 +21860,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 72.39 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -22146,7 +21882,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 72.39 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -22155,10 +21891,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 72.39 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -22167,10 +21902,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 72.39 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -22179,10 +21913,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT100R"
 			(at 72.39 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -22191,7 +21924,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -22717,7 +22449,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
 			(at 113.03 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -22728,7 +22460,7 @@
 				)
 			)
 		)
-		(property "DIS" "DigiKey"
+		(property "DIS" "Digikey"
 			(at 113.03 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -22739,7 +22471,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3473-1-ND"
+		(property "DPN" "490-10675-2-ND"
 			(at 113.03 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -22750,7 +22482,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 113.03 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -22761,7 +22493,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ105KAHT"
+		(property "MPN" "GCM21BR71H105KA03L"
 			(at 113.03 228.6 0)
 			(hide yes)
 			(show_name no)

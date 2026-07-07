@@ -3366,7 +3366,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C100F5GACAUTO"
+		(property "Datasheet" ""
 			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3377,7 +3377,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.01uF 10% 25VDC Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 X7R AEC-Q200"
 			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3388,19 +3388,7 @@
 				)
 			)
 		)
-		(property "DIS" "DigiKey"
-			(at 177.8 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "DPN" "399-C0402C100F5GACAUTOCT-ND"
+		(property "DIS" "Mouser"
 			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3412,7 +3400,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "KEMET"
+		(property "DPN" "81-GXT155R71E103KE1D"
 			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3424,7 +3412,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C0402C100F5GACAUTO"
+		(property "MFR" "Murata Electronics"
+			(at 177.8 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155R71E103KE01D"
 			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3980,7 +3980,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1000 pF ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 177.8 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4229,7 +4229,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C100F5GACAUTO"
+		(property "Datasheet" ""
 			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4240,7 +4240,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.01uF 10% 25VDC Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 X7R AEC-Q200"
 			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4251,19 +4251,7 @@
 				)
 			)
 		)
-		(property "DIS" "DigiKey"
-			(at 231.14 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "DPN" "399-C0402C100F5GACAUTOCT-ND"
+		(property "DIS" "Mouser"
 			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4275,7 +4263,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "KEMET"
+		(property "DPN" "81-GXT155R71E103KE1D"
 			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4287,7 +4275,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C0402C100F5GACAUTO"
+		(property "MFR" "Murata Electronics"
+			(at 231.14 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155R71E103KE01D"
 			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4658,7 +4658,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "8.8 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 231.14 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4788,7 +4788,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1000 pF ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 193.04 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4907,7 +4907,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C100F5GACAUTO"
+		(property "Datasheet" ""
 			(at 185.42 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4918,7 +4918,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.01uF 10% 25VDC Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 X7R AEC-Q200"
 			(at 185.42 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4929,19 +4929,7 @@
 				)
 			)
 		)
-		(property "DIS" "DigiKey"
-			(at 185.42 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "DPN" "399-C0402C100F5GACAUTOCT-ND"
+		(property "DIS" "Mouser"
 			(at 185.42 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4953,7 +4941,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "KEMET"
+		(property "DPN" "81-GXT155R71E103KE1D"
 			(at 185.42 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4965,7 +4953,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C0402C100F5GACAUTO"
+		(property "MFR" "Murata Electronics"
+			(at 185.42 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155R71E103KE01D"
 			(at 185.42 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5116,7 +5116,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C100F5GACAUTO"
+		(property "Datasheet" ""
 			(at 170.18 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5127,7 +5127,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.01uF 10% 25VDC Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 X7R AEC-Q200"
 			(at 170.18 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5138,19 +5138,7 @@
 				)
 			)
 		)
-		(property "DIS" "DigiKey"
-			(at 170.18 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "DPN" "399-C0402C100F5GACAUTOCT-ND"
+		(property "DIS" "Mouser"
 			(at 170.18 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5162,7 +5150,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "KEMET"
+		(property "DPN" "81-GXT155R71E103KE1D"
 			(at 170.18 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5174,7 +5162,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C0402C100F5GACAUTO"
+		(property "MFR" "Murata Electronics"
+			(at 170.18 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155R71E103KE01D"
 			(at 170.18 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5257,7 +5257,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1000 pF ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 185.42 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5455,7 +5455,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C100F5GACAUTO"
+		(property "Datasheet" ""
 			(at 223.52 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5466,7 +5466,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.01uF 10% 25VDC Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 X7R AEC-Q200"
 			(at 223.52 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5477,19 +5477,7 @@
 				)
 			)
 		)
-		(property "DIS" "DigiKey"
-			(at 223.52 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "DPN" "399-C0402C100F5GACAUTOCT-ND"
+		(property "DIS" "Mouser"
 			(at 223.52 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5501,7 +5489,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "KEMET"
+		(property "DPN" "81-GXT155R71E103KE1D"
 			(at 223.52 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5513,7 +5501,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C0402C100F5GACAUTO"
+		(property "MFR" "Murata Electronics"
+			(at 223.52 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155R71E103KE01D"
 			(at 223.52 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5754,7 +5754,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1000 pF ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 215.9 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6042,7 +6042,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "8.8 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 170.18 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6172,7 +6172,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 205.74 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6195,7 +6195,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "490-GRT21BC71E106KE13LCT-ND"
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 205.74 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6219,7 +6219,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "GRT21BC71E106KE13L"
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 205.74 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6291,7 +6291,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C100F5GACAUTO"
+		(property "Datasheet" ""
 			(at 238.76 127 0)
 			(hide yes)
 			(show_name no)
@@ -6302,7 +6302,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.01uF 10% 25VDC Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 X7R AEC-Q200"
 			(at 238.76 127 0)
 			(hide yes)
 			(show_name no)
@@ -6313,19 +6313,7 @@
 				)
 			)
 		)
-		(property "DIS" "DigiKey"
-			(at 238.76 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "DPN" "399-C0402C100F5GACAUTOCT-ND"
+		(property "DIS" "Mouser"
 			(at 238.76 127 0)
 			(hide yes)
 			(show_name no)
@@ -6337,7 +6325,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "KEMET"
+		(property "DPN" "81-GXT155R71E103KE1D"
 			(at 238.76 127 0)
 			(hide yes)
 			(show_name no)
@@ -6349,7 +6337,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C0402C100F5GACAUTO"
+		(property "MFR" "Murata Electronics"
+			(at 238.76 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155R71E103KE01D"
 			(at 238.76 127 0)
 			(hide yes)
 			(show_name no)
@@ -6511,7 +6511,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "8.8 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 238.76 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6720,7 +6720,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "8.8 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 246.38 127 0)
 			(hide yes)
 			(show_name no)
@@ -7087,7 +7087,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1000 pF ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 231.14 127 0)
 			(hide yes)
 			(show_name no)
@@ -7296,7 +7296,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "8.8 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 177.8 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7556,7 +7556,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1000 pF ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 223.52 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7686,7 +7686,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "8.8 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 162.56 125.73 0)
 			(hide yes)
 			(show_name no)

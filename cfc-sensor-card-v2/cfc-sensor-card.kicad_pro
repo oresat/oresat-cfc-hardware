@@ -223,6 +223,10 @@
           ""
         ],
         [
+          "lib_footprint_issues|205796199|170282087|cecd5f8a-8f90-4f66-8e0b-042b507b9808|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "silk_edge_clearance|183632500|84734000|ec7facf0-3f02-4f6e-a5dc-7ff01c70714c|a7b731a8-ec78-4963-8bb2-789ad1de0342",
           ""
         ],
@@ -299,35 +303,35 @@
           ""
         ],
         [
-          "silk_overlap|258265000|169408500|5d4135f3-9d58-4386-8473-824b20721a1c|f7db877f-82f0-4b1b-828f-7709c45400b7",
+          "silk_overlap|258265000|170551000|97573df7-d013-4a4f-95c0-5d920d1bc673|cd60ecc1-0414-4529-9c0e-d497437e92f3",
           ""
         ],
         [
-          "silk_overlap|258265000|171693500|5d4135f3-9d58-4386-8473-824b20721a1c|c032732f-2cb6-444b-9034-00d688269a1a",
+          "silk_overlap|258265000|171693500|97573df7-d013-4a4f-95c0-5d920d1bc673|e065c626-69d9-4126-8e1a-4f61614b6e93",
           ""
         ],
         [
-          "silk_overlap|258270000|171693500|c032732f-2cb6-444b-9034-00d688269a1a|e065c626-69d9-4126-8e1a-4f61614b6e93",
+          "silk_overlap|258265000|171693500|c032732f-2cb6-444b-9034-00d688269a1a|cd60ecc1-0414-4529-9c0e-d497437e92f3",
           ""
         ],
         [
-          "silk_overlap|258275000|171693500|e065c626-69d9-4126-8e1a-4f61614b6e93|f7db877f-82f0-4b1b-828f-7709c45400b7",
+          "silk_overlap|258265000|171693500|c032732f-2cb6-444b-9034-00d688269a1a|e065c626-69d9-4126-8e1a-4f61614b6e93",
           ""
         ],
         [
-          "silk_overlap|259725000|169413500|10c12999-3f5d-4889-9d4b-89baa3712d57|cd60ecc1-0414-4529-9c0e-d497437e92f3",
+          "silk_overlap|259725000|169413500|10c12999-3f5d-4889-9d4b-89baa3712d57|f7db877f-82f0-4b1b-828f-7709c45400b7",
           ""
         ],
         [
-          "silk_overlap|259725000|171693500|10c12999-3f5d-4889-9d4b-89baa3712d57|e065c626-69d9-4126-8e1a-4f61614b6e93",
+          "silk_overlap|259725000|171693500|10c12999-3f5d-4889-9d4b-89baa3712d57|c032732f-2cb6-444b-9034-00d688269a1a",
           ""
         ],
         [
-          "silk_overlap|259725000|171698500|3749a448-e839-45d5-a3a4-21a9eb5ae9b6|e065c626-69d9-4126-8e1a-4f61614b6e93",
+          "silk_overlap|259725000|171698500|3749a448-e839-45d5-a3a4-21a9eb5ae9b6|c032732f-2cb6-444b-9034-00d688269a1a",
           ""
         ],
         [
-          "silk_overlap|259735000|171698500|3749a448-e839-45d5-a3a4-21a9eb5ae9b6|cd60ecc1-0414-4529-9c0e-d497437e92f3",
+          "silk_overlap|259735000|171698500|3749a448-e839-45d5-a3a4-21a9eb5ae9b6|f7db877f-82f0-4b1b-828f-7709c45400b7",
           ""
         ],
         [
@@ -1164,6 +1168,18 @@
         },
         {
           "group_by": false,
+          "label": "DIS",
+          "name": "DIS",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DPN",
+          "name": "DPN",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": true
@@ -1175,7 +1191,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
@@ -1185,18 +1201,6 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DIS",
-          "name": "DIS",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "DPN",
-          "name": "DPN",
-          "show": true
         },
         {
           "group_by": false,
@@ -1217,12 +1221,12 @@
           "show": false
         }
       ],
-      "filter_string": "r7",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${QUANTITY}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,

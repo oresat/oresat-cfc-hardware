@@ -10728,7 +10728,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 125.73 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -10750,7 +10750,7 @@
 				)
 			)
 		)
-		(property "DPN" "399-6840-1-ND"
+		(property "DPN" "399-16015-1-ND"
 			(at 125.73 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -10772,7 +10772,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C100J5GACAUTO"
+		(property "MPN" "C0603C100J1GACAUTO"
 			(at 125.73 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -11134,7 +11134,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 139.7 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -11156,7 +11156,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 139.7 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -11167,7 +11167,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 139.7 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -11178,7 +11178,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 139.7 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -11259,7 +11259,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "18 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 133.35 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11281,7 +11281,7 @@
 				)
 			)
 		)
-		(property "DPN" "399-C0603C180F5GACAUTOCT-ND"
+		(property "DPN" "399-15781-1-ND"
 			(at 133.35 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -11303,7 +11303,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C180F5GACAUTO"
+		(property "MPN" "C0603C180J1GACAUTO"
 			(at 133.35 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -11827,7 +11827,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "18 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 133.35 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11849,7 +11849,7 @@
 				)
 			)
 		)
-		(property "DPN" "399-C0603C180F5GACAUTOCT-ND"
+		(property "DPN" "399-15781-1-ND"
 			(at 133.35 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -11871,7 +11871,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C180F5GACAUTO"
+		(property "MPN" "C0603C180J1GACAUTO"
 			(at 133.35 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -11952,7 +11952,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 247.65 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11974,7 +11974,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 247.65 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11985,7 +11985,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 247.65 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11996,7 +11996,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 247.65 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -12498,7 +12498,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 125.73 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -12520,7 +12520,7 @@
 				)
 			)
 		)
-		(property "DPN" "399-6840-1-ND"
+		(property "DPN" "399-16015-1-ND"
 			(at 125.73 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -12542,7 +12542,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C100J5GACAUTO"
+		(property "MPN" "C0603C100J1GACAUTO"
 			(at 125.73 72.39 90)
 			(hide yes)
 			(show_name no)

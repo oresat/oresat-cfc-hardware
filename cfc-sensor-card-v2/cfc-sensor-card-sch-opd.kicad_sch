@@ -7087,7 +7087,7 @@
 		(dnp yes)
 		(uuid "108fec57-21a6-4acd-b6a8-6d99fdb44d39")
 		(property "Reference" "R3"
-			(at 43.18 78.74 90)
+			(at 41.402 75.692 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7098,7 +7098,7 @@
 			)
 		)
 		(property "Value" "NP"
-			(at 43.18 74.93 90)
+			(at 41.402 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7382,7 +7382,7 @@
 		(dnp yes)
 		(uuid "17070e1b-2a4a-4538-9e37-38c0a1734b73")
 		(property "Reference" "R5"
-			(at 53.34 78.74 90)
+			(at 52.578 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7393,7 +7393,7 @@
 			)
 		)
 		(property "Value" "NP"
-			(at 53.34 74.93 90)
+			(at 52.578 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7403,7 +7403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 50.8 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7474,7 +7474,7 @@
 		(dnp no)
 		(uuid "1751c6ad-365f-4d54-bc84-9ffb38acf1c4")
 		(property "Reference" "R11"
-			(at 62.23 43.18 90)
+			(at 67.564 41.148 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7485,7 +7485,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 67.31 43.18 90)
+			(at 67.564 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7620,7 +7620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 320.04 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7769,28 +7769,28 @@
 		(dnp yes)
 		(uuid "23ccf0ea-deb5-43e2-9b10-4e60958a348a")
 		(property "Reference" "R13"
-			(at 68.58 88.9 90)
+			(at 71.374 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "NP"
-			(at 68.58 85.09 90)
+			(at 70.231 87.503 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 66.04 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7986,25 +7986,25 @@
 		(dnp no)
 		(uuid "2b4e4e7c-f7d6-4174-ad0f-d7c4be019c5b")
 		(property "Reference" "R15"
-			(at 68.58 219.71 90)
+			(at 64.643 217.805 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "330K"
-			(at 68.58 214.63 90)
+			(at 64.77 219.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -8699,28 +8699,28 @@
 		(dnp yes)
 		(uuid "3b148efb-fb79-44eb-96de-28b70dcb1a92")
 		(property "Reference" "R6"
-			(at 53.34 88.9 90)
+			(at 55.118 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "NP"
-			(at 53.34 85.09 90)
+			(at 55.118 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 50.8 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8791,28 +8791,28 @@
 		(dnp yes)
 		(uuid "3c9ff61c-0c05-40ab-a963-e5cb259b540a")
 		(property "Reference" "R16"
-			(at 73.66 78.74 90)
+			(at 74.93 71.628 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "NP"
-			(at 73.66 74.93 90)
+			(at 73.914 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9130,7 +9130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 307.34 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9212,7 +9212,7 @@
 				)
 			)
 		)
-		(property "Value" "DMP2240UDM"
+		(property "Value" "DMP2110UVTQ-7"
 			(at 53.34 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9234,7 +9234,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31197.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP2110UVTQ.pdf"
 			(at 53.34 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -9245,7 +9245,7 @@
 				)
 			)
 		)
-		(property "Description" "Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
+		(property "Description" "Mosfet Array 20V 1.8A (Ta) 740mW (Ta) Surface Mount TSOT-26"
 			(at 53.34 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -9265,10 +9265,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "DPN" "DMP2240UDMDICT-ND"
+		(property "DPN" "31-DMP2110UVTQ-7CT-ND"
+			(at 53.34 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Diodes Incorporated"
 			(at 53.34 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -9280,7 +9290,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "Diodes Inc"
+		(property "MPN" "DMP2110UVTQ-7"
 			(at 53.34 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -9289,17 +9299,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MPN" "DMP2240UDM"
-			(at 53.34 177.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -9779,25 +9779,25 @@
 		(dnp no)
 		(uuid "4db69ea1-81c8-41cb-9434-3e425eb5e219")
 		(property "Reference" "R37"
-			(at 353.06 73.66 90)
+			(at 350.012 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10K"
-			(at 353.06 68.58 90)
+			(at 350.012 73.914 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -11138,28 +11138,28 @@
 		(dnp yes)
 		(uuid "6d3f717e-9436-49fb-a6e9-707eca779907")
 		(property "Reference" "R12"
-			(at 68.58 78.74 90)
+			(at 71.628 75.692 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "NP"
-			(at 68.58 74.93 90)
+			(at 70.612 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 66.04 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11308,7 +11308,7 @@
 		(dnp no)
 		(uuid "73bc6187-eb0c-4259-9b89-c88e91fd573e")
 		(property "Reference" "R2"
-			(at 36.83 220.98 90)
+			(at 38.608 218.948 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11319,7 +11319,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 41.91 220.98 90)
+			(at 39.624 220.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11511,25 +11511,25 @@
 		(dnp no)
 		(uuid "769d931b-9aad-4673-80e8-380c21d6839f")
 		(property "Reference" "R18"
-			(at 76.2 171.45 90)
+			(at 73.787 169.291 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1M"
-			(at 76.2 166.37 90)
+			(at 73.914 171.196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -11636,7 +11636,7 @@
 		(dnp no)
 		(uuid "76d8791c-da8f-4b89-929d-35d21e458392")
 		(property "Reference" "R9"
-			(at 62.23 198.12 90)
+			(at 58.928 191.262 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11647,7 +11647,7 @@
 			)
 		)
 		(property "Value" "665K"
-			(at 57.15 198.12 90)
+			(at 58.928 193.294 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11995,7 +11995,7 @@
 		(dnp no)
 		(uuid "86940a4a-73b9-44e4-982d-658f2501cc34")
 		(property "Reference" "TP5"
-			(at 294.64 77.47 0)
+			(at 296.164 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12162,7 +12162,7 @@
 		(dnp no)
 		(uuid "8cc499f4-90fb-4166-949a-e30f92a4536c")
 		(property "Reference" "R19"
-			(at 76.2 219.71 90)
+			(at 77.216 217.932 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12173,7 +12173,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 76.2 214.63 90)
+			(at 76.2 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12287,25 +12287,25 @@
 		(dnp no)
 		(uuid "8eee576b-e1cb-4c68-bd15-5ceb31dbd26d")
 		(property "Reference" "R14"
-			(at 68.58 171.45 90)
+			(at 65.278 169.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "330K"
-			(at 68.58 166.37 90)
+			(at 65.278 171.196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -12491,7 +12491,7 @@
 		(dnp no)
 		(uuid "9064d974-da5e-4a02-b989-3cabb26dbce0")
 		(property "Reference" "R4"
-			(at 43.18 88.9 90)
+			(at 40.894 84.328 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12502,7 +12502,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 42.926 81.28 90)
+			(at 42.926 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13867,7 +13867,7 @@
 		(dnp no)
 		(uuid "b4745500-1609-4c55-96b9-ad60de825d98")
 		(property "Reference" "R21"
-			(at 83.82 90.17 90)
+			(at 83.312 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13878,7 +13878,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 83.82 81.788 90)
+			(at 85.344 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14325,7 +14325,7 @@
 		(dnp yes)
 		(uuid "c579e953-5bc5-43b9-a8ac-eed19a2e60f3")
 		(property "Reference" "R17"
-			(at 73.66 88.9 90)
+			(at 71.12 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14336,7 +14336,7 @@
 			)
 		)
 		(property "Value" "NP"
-			(at 73.66 85.09 90)
+			(at 71.12 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14346,7 +14346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 76.2 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -14417,7 +14417,7 @@
 		(dnp no)
 		(uuid "c6a6ac68-b12b-4e04-ac73-1b2c275a5a1f")
 		(property "Reference" "R8"
-			(at 58.42 88.9 90)
+			(at 55.626 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14428,7 +14428,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 58.166 81.788 90)
+			(at 57.404 87.122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14670,7 +14670,7 @@
 		(dnp no)
 		(uuid "c95d94f5-48b9-4290-acf3-17ce0ef00f9b")
 		(property "Reference" "R30"
-			(at 300.99 60.96 90)
+			(at 300.482 65.278 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14680,15 +14680,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
-			(at 304.8 60.96 90)
+		(property "Value" "100"
+			(at 298.45 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -14702,7 +14701,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 302.26 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14713,7 +14712,7 @@
 				)
 			)
 		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 302.26 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14733,9 +14732,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603ZT0R00CT-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 302.26 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -14744,6 +14744,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
@@ -14755,9 +14756,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603ZT0R00"
+		(property "MPN" "RMCF0603FT100R"
 			(at 302.26 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -14766,6 +14768,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -14795,25 +14798,25 @@
 		(dnp no)
 		(uuid "cffc105c-9cb1-4d92-97bb-593d0a8adada")
 		(property "Reference" "R29"
-			(at 294.64 92.71 90)
+			(at 291.211 90.043 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10K"
-			(at 294.64 87.63 90)
+			(at 291.084 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -15562,7 +15565,7 @@
 		(dnp yes)
 		(uuid "df52efce-87bf-48f0-86ab-3aa35646888b")
 		(property "Reference" "R7"
-			(at 58.42 78.74 90)
+			(at 56.896 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15573,7 +15576,7 @@
 			)
 		)
 		(property "Value" "NP"
-			(at 58.42 74.93 90)
+			(at 56.896 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16520,7 +16523,7 @@
 		(dnp no)
 		(uuid "eed7d4f6-0bb1-434b-843e-9bff7f3237af")
 		(property "Reference" "R31"
-			(at 303.53 53.34 90)
+			(at 309.88 51.054 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16530,7 +16533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "100"
 			(at 307.34 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16538,7 +16541,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -16552,7 +16554,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 304.8 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -16563,7 +16565,7 @@
 				)
 			)
 		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 304.8 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -16583,9 +16585,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603ZT0R00CT-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 304.8 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -16594,6 +16597,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
@@ -16605,9 +16609,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603ZT0R00"
+		(property "MPN" "RMCF0603FT100R"
 			(at 304.8 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -16616,6 +16621,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -16644,7 +16650,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ef7673d6-1e32-4e90-bf97-714ae6ba1170")
 		(property "Reference" "Q1"
 			(at 53.34 217.17 90)
@@ -16656,8 +16661,8 @@
 				)
 			)
 		)
-		(property "Value" "DMP2240UDM"
-			(at 53.34 219.71 90)
+		(property "Value" "DMP2110UVTQ-7"
+			(at 60.198 219.964 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16678,7 +16683,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31197.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP2110UVTQ.pdf"
 			(at 53.34 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -16689,7 +16694,7 @@
 				)
 			)
 		)
-		(property "Description" "Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
+		(property "Description" "Mosfet Array 20V 1.8A (Ta) 740mW (Ta) Surface Mount TSOT-26"
 			(at 53.34 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -16709,10 +16714,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "DPN" "DMP2240UDMDICT-ND"
+		(property "DPN" "31-DMP2110UVTQ-7CT-ND"
+			(at 53.34 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Diodes Incorporated"
 			(at 53.34 226.06 90)
 			(hide yes)
 			(show_name no)
@@ -16724,7 +16739,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "Diodes Inc"
+		(property "MPN" "DMP2110UVTQ-7"
 			(at 53.34 226.06 90)
 			(hide yes)
 			(show_name no)
@@ -16733,17 +16748,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MPN" "DMP2240UDM"
-			(at 53.34 226.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -17019,28 +17024,28 @@
 		(dnp yes)
 		(uuid "ff691e2b-2c4b-4a23-a363-9e6d8fbff5e5")
 		(property "Reference" "R20"
-			(at 83.82 78.74 90)
+			(at 87.122 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "NP"
-			(at 83.82 74.93 90)
+			(at 86.106 75.692 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 81.28 76.2 0)
 			(hide yes)
 			(show_name no)

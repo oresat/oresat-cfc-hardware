@@ -167,7 +167,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Small"
+		(symbol "Device:LED_Small_Filled"
 			(pin_numbers
 				(hide yes)
 			)
@@ -191,7 +191,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LED_Small"
+			(property "Value" "LED_Small_Filled"
 				(at -4.445 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -224,7 +224,7 @@
 					)
 				)
 			)
-			(property "Description" "Light emitting diode, small symbol"
+			(property "Description" "Light emitting diode, small symbol, filled shape"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -268,7 +268,7 @@
 					)
 				)
 			)
-			(symbol "LED_Small_0_1"
+			(symbol "LED_Small_Filled_0_1"
 				(polyline
 					(pts
 						(xy -0.762 -1.016) (xy -0.762 1.016)
@@ -314,7 +314,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -330,7 +330,7 @@
 					)
 				)
 			)
-			(symbol "LED_Small_1_1"
+			(symbol "LED_Small_Filled_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -5209,7 +5209,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1875/TMK107BJ474KAHT_SS.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 222.25 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5220,7 +5220,7 @@
 				)
 			)
 		)
-		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 222.25 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5242,7 +5242,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3476-1-ND"
+		(property "DPN" "399-C0603C474K3RACAUTOCT-ND"
 			(at 222.25 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5253,7 +5253,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 222.25 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5264,7 +5264,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ474KAHT"
+		(property "MPN" "C0603C474K3RACAUTO"
 			(at 222.25 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5539,7 +5539,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1875/TMK107BJ474KAHT_SS.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 222.25 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -5550,7 +5550,7 @@
 				)
 			)
 		)
-		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 222.25 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -5572,7 +5572,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3476-1-ND"
+		(property "DPN" "399-C0603C474K3RACAUTOCT-ND"
 			(at 222.25 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -5583,7 +5583,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 222.25 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -5594,7 +5594,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ474KAHT"
+		(property "MPN" "C0603C474K3RACAUTO"
 			(at 222.25 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -10191,7 +10191,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "85fb5823-43e2-4bc2-8570-749837d4d39b")
 		(property "Reference" "R49"
 			(at 140.97 147.32 90)
@@ -10203,14 +10202,15 @@
 				)
 			)
 		)
-		(property "Value" "4.7K"
-			(at 140.97 149.86 90)
+		(property "Value" "10K"
+			(at 138.938 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -10235,7 +10235,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 140.97 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -10257,7 +10257,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT4K70CT-ND"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 140.97 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -10279,7 +10279,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT4K70"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 140.97 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -11184,7 +11184,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9790fcff-9555-4811-b49d-4da8a6b93840")
 		(property "Reference" "#GND027"
 			(at 71.12 158.75 0)
@@ -11198,7 +11197,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 153.6699 0)
+			(at 69.088 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12551,7 +12550,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1875/TMK107BJ474KAHT_SS.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 222.25 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -12562,7 +12561,7 @@
 				)
 			)
 		)
-		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 222.25 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -12584,7 +12583,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3476-1-ND"
+		(property "DPN" "399-C0603C474K3RACAUTOCT-ND"
 			(at 222.25 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -12595,7 +12594,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 222.25 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -12606,7 +12605,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ474KAHT"
+		(property "MPN" "C0603C474K3RACAUTO"
 			(at 222.25 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -13009,7 +13008,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "Device:LED_Small_Filled")
 		(at 147.32 153.67 180)
 		(unit 1)
 		(body_style 1)
@@ -13018,10 +13017,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b14ff344-f97f-46ce-806b-336d560c0ec7")
 		(property "Reference" "D3"
-			(at 147.2565 147.32 0)
+			(at 149.098 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13031,7 +13029,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 147.2565 149.86 0)
+			(at 149.098 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13062,7 +13060,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "Light emitting diode, small symbol, filled shape"
 			(at 147.32 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -13403,7 +13401,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1875/TMK107BJ474KAHT_SS.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 222.25 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -13414,7 +13412,7 @@
 				)
 			)
 		)
-		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 222.25 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -13436,7 +13434,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3476-1-ND"
+		(property "DPN" "399-C0603C474K3RACAUTOCT-ND"
 			(at 222.25 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -13447,7 +13445,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 222.25 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -13458,7 +13456,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ474KAHT"
+		(property "MPN" "C0603C474K3RACAUTO"
 			(at 222.25 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -14082,10 +14080,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ce51df7a-4585-4a43-a2f1-8b55ee3fd891")
 		(property "Reference" "C18"
-			(at 195.58 135.8899 0)
+			(at 194.564 136.652 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14096,7 +14093,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 195.58 138.4299 0)
+			(at 194.564 139.192 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15254,7 +15251,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1875/TMK107BJ474KAHT_SS.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 222.25 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -15265,7 +15262,7 @@
 				)
 			)
 		)
-		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 222.25 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -15287,7 +15284,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3476-1-ND"
+		(property "DPN" "399-C0603C474K3RACAUTOCT-ND"
 			(at 222.25 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -15298,7 +15295,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 222.25 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -15309,7 +15306,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ474KAHT"
+		(property "MPN" "C0603C474K3RACAUTO"
 			(at 222.25 107.95 0)
 			(hide yes)
 			(show_name no)
