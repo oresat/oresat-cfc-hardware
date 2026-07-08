@@ -9062,7 +9062,7 @@
 	)
 	(text "ESD Protection for USB lines"
 		(exclude_from_sim no)
-		(at 113.03 188.468 0)
+		(at 133.858 194.564 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -9207,12 +9207,6 @@
 		(uuid "9193c7b7-8815-41be-b31e-a81216fa5fdf")
 	)
 	(junction
-		(at 90.17 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92a5519e-6727-490d-8366-c939e51540ee")
-	)
-	(junction
 		(at 127 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9235,6 +9229,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1db0f3a-a9f0-4082-9d36-01f30a5f661a")
+	)
+	(junction
+		(at 127 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf137b1b-52d2-45e6-9d4c-ba6c157d1e2d")
 	)
 	(junction
 		(at 153.67 87.63)
@@ -9596,6 +9596,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 170.18) (xy 127 196.85)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3929a5da-a3ae-4693-b2b2-4ca530b87061")
+	)
+	(wire
+		(pts
 			(xy 143.51 161.29) (xy 184.15 161.29)
 		)
 		(stroke
@@ -9836,16 +9846,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 170.18) (xy 90.17 170.18)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "84035488-3805-4c3b-9f30-141501efd6c2")
-	)
-	(wire
-		(pts
 			(xy 130.81 72.39) (xy 138.43 72.39)
 		)
 		(stroke
@@ -10036,16 +10036,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 212.09) (xy 90.17 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b54470c1-662e-4494-99f0-c714b544fa1f")
-	)
-	(wire
-		(pts
 			(xy 153.67 87.63) (xy 184.15 87.63)
 		)
 		(stroke
@@ -10146,16 +10136,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 196.85) (xy 127 194.31)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c237dda7-2d2b-4017-b1de-31fa6f5d8ec8")
-	)
-	(wire
-		(pts
 			(xy 128.27 102.87) (xy 130.81 102.87)
 		)
 		(stroke
@@ -10166,7 +10146,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 170.18) (xy 86.36 170.18)
+			(xy 86.36 170.18) (xy 127 170.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -10525,6 +10505,17 @@
 			(justify right)
 		)
 		(uuid "2ffef83f-15d5-49fa-b208-e21509682d7e")
+	)
+	(hierarchical_label "nRESET_CLAMP"
+		(shape input)
+		(at 90.17 212.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78739dcf-2228-4493-b652-6dd4e037e8db")
 	)
 	(hierarchical_label "VIN_USB"
 		(shape output)
@@ -11401,84 +11392,6 @@
 			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cfc-card-eagle-import:3.3V")
-		(at 127 191.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "888d2457-797d-46e9-adaf-bbb5aa024bf4")
-		(property "Reference" "#3V-014"
-			(at 127 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 124.46 190.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 127 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8a13f0bd-c656-49ba-97d9-ee072f73de3d")
-		)
-		(instances
-			(project "cfc-processor"
-				(path "/07ac832f-8d98-4777-b655-1877592dfd88/fb0d8cda-da67-4375-9bc6-6081ff32bfc0"
-					(reference "#3V-014")
 					(unit 1)
 				)
 			)

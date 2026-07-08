@@ -4826,6 +4826,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 228.6) (xy 240.03 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ac25ef-44e5-42ee-9a2c-d4174902d002")
+	)
+	(wire
+		(pts
 			(xy 392.43 142.24) (xy 388.62 142.24)
 		)
 		(stroke
@@ -4913,6 +4923,16 @@
 			(type default)
 		)
 		(uuid "b482fe65-ee0b-4857-bcf9-7965538df330")
+	)
+	(wire
+		(pts
+			(xy 228.6 228.6) (xy 240.03 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7393b3b-7400-433b-80e3-22ab58839edb")
 	)
 	(wire
 		(pts
@@ -5363,6 +5383,16 @@
 			(type solid)
 		)
 		(uuid "fc0ca0dc-2381-48eb-acaa-903ed37b4484")
+	)
+	(wire
+		(pts
+			(xy 240.03 210.82) (xy 228.6 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe47052b-c60a-43f0-8a70-3d0f48c93753")
 	)
 	(wire
 		(pts
@@ -7099,6 +7129,16 @@
 				(justify left)
 			)
 		)
+		(pin "nRESET_CLAMP" output
+			(at 228.6 228.6 0)
+			(uuid "8fb8b08c-3a9c-485c-9a1a-0002443faa72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "cfc-processor"
 				(path "/07ac832f-8d98-4777-b655-1877592dfd88"
@@ -7752,6 +7792,16 @@
 		(pin "VIN_USB" output
 			(at 228.6 213.36 0)
 			(uuid "36cb0644-1067-4c12-9c23-825414a4cd26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRESET_CLAMP" input
+			(at 228.6 210.82 0)
+			(uuid "360d9601-15b8-45c0-b3f9-41db1a196450")
 			(effects
 				(font
 					(size 1.27 1.27)

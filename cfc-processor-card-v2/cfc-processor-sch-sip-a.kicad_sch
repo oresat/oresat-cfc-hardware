@@ -8479,6 +8479,12 @@
 		(uuid "2c109e91-1528-486f-84d5-8568537ebf28")
 	)
 	(junction
+		(at 259.08 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2dace94b-41f5-4a31-8e1b-c4351d5ba4d5")
+	)
+	(junction
 		(at 109.22 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8965,6 +8971,16 @@
 			(type solid)
 		)
 		(uuid "24827ffe-9d18-40fe-a258-c3c599d5ad0a")
+	)
+	(wire
+		(pts
+			(xy 259.08 218.44) (xy 259.08 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "268d514c-0abf-4085-9dfb-4fc02b93da3a")
 	)
 	(wire
 		(pts
@@ -9828,7 +9844,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 218.44) (xy 245.11 218.44)
+			(xy 234.95 218.44) (xy 259.08 218.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -10308,6 +10324,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 218.44) (xy 262.89 218.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e5efab79-64af-4c63-a2e2-b547846654e6")
+	)
+	(wire
+		(pts
 			(xy 187.96 208.28) (xy 187.96 205.74)
 		)
 		(stroke
@@ -10446,6 +10472,17 @@
 		)
 		(uuid "32af1162-c051-4146-8a3a-55534d914211")
 	)
+	(hierarchical_label "nRESET_CLAMP"
+		(shape output)
+		(at 259.08 229.87 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30c9e323-015d-4776-b0d2-b6c3d915f58c")
+	)
 	(hierarchical_label "I2C_SDA"
 		(shape bidirectional)
 		(at 76.2 198.12 180)
@@ -10470,7 +10507,7 @@
 	)
 	(hierarchical_label "NRESET"
 		(shape input)
-		(at 245.11 218.44 0)
+		(at 262.89 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
