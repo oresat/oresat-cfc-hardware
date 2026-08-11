@@ -2459,7 +2459,7 @@
 		)
 		(uuid "d395abbe-8c3c-403a-b2b2-936dd4df4e93")
 	)
-	(text "Max 2a output\nV=2*.025±1%\n=.0495-.0505v\n.0505v*2a =.101watts "
+	(text "Max 2a output\nV=2*.025±1%\n=.0495-.0505v\n.0505v*2a =.191watts "
 		(exclude_from_sim no)
 		(at 332.486 186.436 0)
 		(effects
